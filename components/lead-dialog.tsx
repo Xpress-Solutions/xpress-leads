@@ -11,7 +11,7 @@ import {
   X,
 } from "lucide-react";
 import type { Lead } from "@/lib/types";
-import { categoryLabel } from "@/data/leads";
+import { categoryLabel, neighborhoodLabel } from "@/data/leads";
 import { instagramUrl, mapsUrl, telUrl, whatsappUrl } from "@/lib/format";
 import { Badge } from "@/components/ui/badge";
 
@@ -64,6 +64,7 @@ export function LeadDialog({ lead, onClose }: LeadDialogProps) {
               >
                 {lead.priority === "alta" ? "Prioridade alta" : "Prioridade média"}
               </Badge>
+              <Badge variant="outline">{neighborhoodLabel[lead.neighborhood]}</Badge>
               <Badge variant="outline">{categoryLabel[lead.category]}</Badge>
               <span className="text-xs text-muted-foreground">Score {lead.score}</span>
             </div>

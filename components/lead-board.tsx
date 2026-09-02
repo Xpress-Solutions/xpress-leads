@@ -8,12 +8,14 @@ import {
   Sparkles,
   Star,
 } from "lucide-react";
-import type { Category, Lead, Priority } from "@/lib/types";
+import type { Category, Lead, Neighborhood, Priority } from "@/lib/types";
 import {
   categoryLabel,
   excluded,
   leads,
   methodology,
+  neighborhoodLabel,
+  neighborhoodOrder,
   RESEARCH_DATE,
 } from "@/data/leads";
 import { Badge } from "@/components/ui/badge";
@@ -40,6 +42,7 @@ const categories: Array<Category | "todas"> = [
 export function LeadBoard() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<Category | "todas">("todas");
+  const [neighborhood, setNeighborhood] = useState<Neighborhood | "todas">("todas");
   const [priority, setPriority] = useState<Priority | "todas">("todas");
   const [selected, setSelected] = useState<Lead | null>(null);
 
@@ -47,18 +50,28 @@ export function LeadBoard() {
     const q = query.trim().toLowerCase();
     return leads
       .filter((lead) => (category === "todas" ? true : lead.category === category))
+      .filter((lead) =>
+        neighborhood === "todas" ? true : lead.neighborhood === neighborhood
+      )
       .filter((lead) => (priority === "todas" ? true : lead.priority === priority))
       .filter((lead) => {
         if (!q) return true;
-        return [lead.name, lead.address, lead.identity, categoryLabel[lead.category]]
+        return [
+          lead.name,
+          lead.address,
+          lead.identity,
+          categoryLabel[lead.category],
+          neighborhoodLabel[lead.neighborhood],
+        ]
           .join(" ")
           .toLowerCase()
           .includes(q);
       })
       .sort((a, b) => b.score - a.score);
-  }, [category, priority, query]);
+  }, [category, neighborhood, priority, query]);
 
   const highCount = leads.filter((lead) => lead.priority === "alta").length;
+  const neighborhoodCount = new Set(leads.map((lead) => lead.neighborhood)).size;
 
   return (
     <div className="flex flex-1 flex-col">
@@ -71,7 +84,7 @@ export function LeadBoard() {
               Mapa de conversão · {RESEARCH_DATE}
             </p>
             <p className="text-xs text-[oklch(0.9_0.03_95_/_0.75)]">
-              Jardim Botânico · Porto Alegre
+              Jardim Botânico e entorno · Porto Alegre
             </p>
           </div>
           <div className="max-w-3xl space-y-4">
@@ -79,16 +92,16 @@ export function LeadBoard() {
               Negócios ativos, com identidade — e sem site.
             </h1>
             <p className="max-w-2xl text-base leading-relaxed text-[oklch(0.93_0.02_95_/_0.86)] sm:text-lg">
-              Doze casas do Jardim Botânico que já têm nome, ponto e movimento.
-              Nenhuma controla o próprio endereço na web. É nesse vão que um
-              site deixa de ser vitrine e vira conversão.
+              Casas do Jardim Botânico e dos bairros colados — Partenon, Jardim
+              do Salso, Rio Branco e Santana. Nome, ponto e movimento. Nenhuma
+              controla o próprio endereço na web. Sem repetir negócio.
             </p>
           </div>
           <dl className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             <Stat value={String(leads.length)} label="Leads qualificados" />
             <Stat value={String(highCount)} label="Prioridade alta" />
             <Stat value="0" label="Com site oficial" />
-            <Stat value="6" label="Ruas mapeadas" />
+            <Stat value={String(neighborhoodCount)} label="Bairros" />
           </dl>
         </div>
       </header>
@@ -134,6 +147,41 @@ export function LeadBoard() {
           </div>
 
           <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
+            <button
+              type="button"
+              onClick={() => setNeighborhood("todas")}
+              className={cn(
+                "h-8 shrink-0 rounded-lg border px-3 text-sm font-medium",
+                neighborhood === "todas"
+                  ? "border-transparent bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
+                  : "border-border bg-card hover:bg-muted"
+              )}
+            >
+              Todos os bairros
+            </button>
+            {neighborhoodOrder.map((item) => {
+              const active = neighborhood === item;
+              const count = leads.filter((lead) => lead.neighborhood === item).length;
+              return (
+                <button
+                  key={item}
+                  type="button"
+                  onClick={() => setNeighborhood(item)}
+                  className={cn(
+                    "h-8 shrink-0 rounded-lg border px-3 text-sm font-medium",
+                    active
+                      ? "border-transparent bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
+                      : "border-border bg-card hover:bg-muted"
+                  )}
+                >
+                  {neighborhoodLabel[item]}
+                  <span className="ml-1.5 text-xs opacity-70">{count}</span>
+                </button>
+              );
+            })}
+          </div>
+
+          <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
             {categories.map((item) => {
               const active = category === item;
               return (
@@ -163,6 +211,7 @@ export function LeadBoard() {
           <EmptyState onReset={() => {
             setQuery("");
             setCategory("todas");
+            setNeighborhood("todas");
             setPriority("todas");
           }} />
         ) : (
@@ -224,7 +273,7 @@ export function LeadBoard() {
             Dados públicos cruzados em {RESEARCH_DATE}. Confirme no balcão antes
             de fechar proposta.
           </p>
-          <p>Jardim Botânico · Porto Alegre</p>
+          <p>Jardim Botânico e entorno · Porto Alegre</p>
         </div>
       </footer>
 
@@ -267,6 +316,7 @@ function LeadCard({
               >
                 {lead.priority === "alta" ? "Alta" : "Média"}
               </Badge>
+              <Badge variant="outline">{neighborhoodLabel[lead.neighborhood]}</Badge>
               <Badge variant="outline">{categoryLabel[lead.category]}</Badge>
             </div>
             <CardTitle className="font-heading text-2xl tracking-tight">

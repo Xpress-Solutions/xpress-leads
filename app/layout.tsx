@@ -14,9 +14,9 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Leads sem site · Jardim Botânico",
+  title: "Leads sem site · Jardim Botânico e entorno",
   description:
-    "Negócios ativos no Jardim Botânico, Porto Alegre, com identidade sólida e sem site oficial — prontos para conversão.",
+    "Negócios ativos no Jardim Botânico e bairros vizinhos de Porto Alegre, com identidade sólida e sem site oficial — prontos para conversão.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

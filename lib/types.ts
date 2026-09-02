@@ -5,6 +5,13 @@ export type Category =
   | "comercio"
   | "casa-obra";
 
+export type Neighborhood =
+  | "jardim-botanico"
+  | "partenon"
+  | "jardim-do-salso"
+  | "rio-branco"
+  | "santana";
+
 export type Priority = "alta" | "media";
 
 export type Source = {
@@ -16,6 +23,7 @@ export type Lead = {
   id: string;
   name: string;
   category: Category;
+  neighborhood: Neighborhood;
   priority: Priority;
   score: number;
   address: string;

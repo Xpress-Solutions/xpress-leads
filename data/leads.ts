@@ -1,7 +1,6 @@
 import type { ExcludedBusiness, Lead } from "@/lib/types";
 
 export const RESEARCH_DATE = "2 de setembro de 2026";
-export const NEIGHBORHOOD = "Jardim Botânico";
 export const CITY = "Porto Alegre / RS";
 
 export const leads: Lead[] = [
@@ -9,6 +8,7 @@ export const leads: Lead[] = [
     id: "boteco-vitoria",
     name: "Boteco Vitória",
     category: "gastronomia",
+    neighborhood: "jardim-botanico",
     priority: "alta",
     score: 96,
     address: "Rua Felizardo, 445 — Jardim Botânico",
@@ -48,6 +48,7 @@ export const leads: Lead[] = [
     id: "barao-1240",
     name: "Barão 1240",
     category: "gastronomia",
+    neighborhood: "jardim-botanico",
     priority: "alta",
     score: 93,
     address: "Rua Barão do Amazonas, 1240 — Jardim Botânico",
@@ -78,6 +79,7 @@ export const leads: Lead[] = [
     id: "armazem-anita",
     name: "Armazém Anita",
     category: "gastronomia",
+    neighborhood: "jardim-botanico",
     priority: "alta",
     score: 91,
     address: "Rua Buenos Aires, 373 — Jardim Botânico",
@@ -109,6 +111,7 @@ export const leads: Lead[] = [
     id: "niramaki-sushi",
     name: "Niramaki Sushi",
     category: "gastronomia",
+    neighborhood: "jardim-botanico",
     priority: "alta",
     score: 89,
     address: "Rua Barão do Amazonas, 1145 — Jardim Botânico",
@@ -139,6 +142,7 @@ export const leads: Lead[] = [
     id: "mania-do-gaucho",
     name: "Mania do Gaúcho II",
     category: "comercio",
+    neighborhood: "jardim-botanico",
     priority: "alta",
     score: 88,
     address: "Rua Felizardo, 465 — Jardim Botânico",
@@ -171,6 +175,7 @@ export const leads: Lead[] = [
     id: "barbearia-jardim-botanico",
     name: "Barbearia Jardim Botânico",
     category: "beleza",
+    neighborhood: "jardim-botanico",
     priority: "alta",
     score: 86,
     address: "Rua Felizardo, 579, sala 02 — Jardim Botânico",
@@ -204,6 +209,7 @@ export const leads: Lead[] = [
     id: "o-barbeiro",
     name: "O Barbeiro",
     category: "beleza",
+    neighborhood: "jardim-botanico",
     priority: "alta",
     score: 84,
     address: "Rua Felizardo, 336 — Jardim Botânico",
@@ -235,6 +241,7 @@ export const leads: Lead[] = [
     id: "roda-de-carreta",
     name: "Churrascaria Roda de Carreta",
     category: "gastronomia",
+    neighborhood: "jardim-botanico",
     priority: "alta",
     score: 83,
     address: "Avenida Ipiranga, 5300 — Jardim Botânico (35 CTG)",
@@ -272,6 +279,7 @@ export const leads: Lead[] = [
     id: "estetica-do-jardim",
     name: "Estética do Jardim",
     category: "beleza",
+    neighborhood: "jardim-botanico",
     priority: "media",
     score: 78,
     address: "Rua La Plata, 699 — Jardim Botânico",
@@ -300,6 +308,7 @@ export const leads: Lead[] = [
     id: "mecanica-guime",
     name: "Oficina Mecânica Guime",
     category: "automotivo",
+    neighborhood: "jardim-botanico",
     priority: "media",
     score: 76,
     address: "Rua Oito de Julho, 155 — Jardim Botânico",
@@ -328,6 +337,7 @@ export const leads: Lead[] = [
     id: "art-em-volantes",
     name: "Art em Volantes",
     category: "automotivo",
+    neighborhood: "jardim-botanico",
     priority: "media",
     score: 75,
     address: "Rua Barão do Amazonas, 1475 — Jardim Botânico",
@@ -355,6 +365,7 @@ export const leads: Lead[] = [
     id: "cappellari-radin",
     name: "Marmoraria Cappellari & Radin",
     category: "casa-obra",
+    neighborhood: "jardim-botanico",
     priority: "media",
     score: 73,
     address: "Avenida Ipiranga, 8621 — Jardim Botânico",
@@ -377,6 +388,223 @@ export const leads: Lead[] = [
         url: "https://20027-br.all.biz/",
       },
     ],
+  },
+  {
+    id: "nosso-bar",
+    name: "Nosso Bar",
+    category: "gastronomia",
+    neighborhood: "partenon",
+    priority: "alta",
+    score: 94,
+    address: "Avenida Bento Gonçalves, 1979 — Partenon",
+    mapsQuery: "Nosso Bar Avenida Bento Gonçalves 1979 Porto Alegre",
+    identity:
+      "Boteco de avenida no Partenon, participante do Comida di Buteco 2026 (pastel de vento). Casa noturna de verdade: segunda a sábado até 4h, domingo até 2h. Já esteve no circuito em 2022. Identidade de boteco raiz, fora da Cidade Baixa.",
+    digitalGap:
+      "Sem site oficial. A temporada do concurso manda o clique para a página do Comida di Buteco e para guias. A casa não captura reserva, cardápio nem a história do petisco.",
+    conversionWhy:
+      "Concurso nacional + horário de madrugada + corredor da Bento Gonçalves. Site com o petisco da edição, cardápio e WhatsApp converte o fluxo do concurso e o cliente que sai da PUCRS/Ipiranga.",
+    approach:
+      "Chegue pelo Comida di Buteco 2026. Mostre que o pastel de vento está em site de terceiro e que o Nosso Bar não fica com o clique.",
+    pitch:
+      "O Nosso Bar está no Comida di Buteco 2026 e quem pesquisa o pastel cai no site do concurso. Um site curto — o petisco, o cardápio da madrugada e o WhatsApp — deixa o clique na casa, não no guia.",
+    hours: "Seg–sáb até 4h · dom até 2h",
+    sources: [
+      {
+        label: "Comida di Buteco",
+        url: "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/",
+      },
+      {
+        label: "Sabores do Sul 2026",
+        url: "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/",
+      },
+    ],
+  },
+  {
+    id: "el-farol",
+    name: "El Farol",
+    category: "gastronomia",
+    neighborhood: "rio-branco",
+    priority: "alta",
+    score: 93,
+    address: "Rua Mariante, 855 — Rio Branco",
+    mapsQuery: "El Farol Rua Mariante 855 Porto Alegre",
+    founded: "2009 (15+ anos)",
+    identity:
+      "Restaurante argentino na Mariante desde 2009, do uruguaio-argentino Alfredo Navarro. Empanadas, milanesas, entrecot, fernet e milonga de tango às quintas. Ponto da comunidade platina em Porto Alegre. Participante do Comida di Buteco 2026 (iscas de entrecôte com gorgonzola).",
+    digitalGap:
+      "Sem site oficial no ar. A história de 15 anos, o tango e o petisco do concurso vivem em matéria de jornal e Instagram de terceiro.",
+    conversionWhy:
+      "Identidade cultural rara + 15 anos + concurso 2026. Site com cardápio argentino, agenda da milonga e reserva fecha o cliente que hoje só acha a casa no Google Maps.",
+    approach:
+      "Fale da milonga de quinta e do concurso. O site é a casa argentina oficial de Porto Alegre — não mais um boteco.",
+    pitch:
+      "Quinze anos de El Farol e o tango de quinta ainda não têm uma página sua. O Comida di Buteco 2026 está mandando gente para guia. Um site com o cardápio, a milonga e a reserva coloca a casa no controle do clique.",
+    hours: "Ter–dom 18h30–0h",
+    sources: [
+      {
+        label: "Comida di Buteco 2026",
+        url: "https://comidadibuteco.com.br/butecos/porto-alegre/",
+      },
+      {
+        label: "Jornal do Comércio",
+        url: "https://www.jornaldocomercio.com/ge2/noticias/2024/07/1161572-ha-15-anos-restaurante-e-referencia-em-gastronomia-argentina-em-porto-alegre.html",
+      },
+    ],
+  },
+  {
+    id: "terra-do-churrasco",
+    name: "Terra do Churrasco",
+    category: "gastronomia",
+    neighborhood: "jardim-do-salso",
+    priority: "alta",
+    score: 92,
+    address: "Rua Professor Cristiano Fischer, 1440 — Jardim do Salso",
+    mapsQuery: "Terra do Churrasco Cristiano Fischer 1440 Porto Alegre",
+    phone: "(51) 99630-1149",
+    whatsapp: "5551996301149",
+    googleReviews: 942,
+    founded: "2024",
+    identity:
+      "Casa de carnes no lugar do antigo Pátio Bar, na Cristiano Fischer. Capacidade de centenas de lugares, espaço kids e reserva para grupo grande. Discurso gaúcho explícito — 'traga teu cusco e teu chimarrão'. 942 avaliações no Google em pouco tempo de casa. Operação ativa, horário noturno de semana e almoço de fim de semana.",
+    digitalGap:
+      "Sem site oficial. WhatsApp e fichas em guia. Uma operação desse tamanho — eventos, kids, cardápio de cortes — não tem um endereço próprio para reserva.",
+    conversionWhy:
+      "Ticket alto, eventos e família. Site com cortes, espaço kids, reserva de grupo e WhatsApp converte o vizinho do Salso e quem vem da Ipiranga sem passar no Instagram.",
+    approach:
+      "Fale de reserva para 50 pessoas e do espaço kids. O site é a recepção de evento, não um feed.",
+    pitch:
+      "A Terra do Churrasco já tem quase mil avaliações e ainda não tem uma página para reservar mesa de aniversário. Um site com os cortes, o espaço kids e o WhatsApp de reserva segura o grupo que hoje só liga ou desiste.",
+    hours: "Ter–sex 18h30–23h · sáb 11h30–23h · dom 11h30–22h · seg fechado",
+    sources: [
+      {
+        label: "Guia local",
+        url: "https://guiaportoalegrers.com.br/jardim-do-salso/terra-do-churrasco",
+      },
+      {
+        label: "Jornal do Comércio",
+        url: "https://www.jornaldocomercio.com/ge2/noticias/2024/08/1165369-com-capacidade-para-500-pessoas-nova-churrascaria-de-porto-alegre-aposta-em-variedade-de-cortes-e-espaco-kids.html",
+      },
+    ],
+  },
+  {
+    id: "pito-bar",
+    name: "Pito Bar",
+    category: "gastronomia",
+    neighborhood: "rio-branco",
+    priority: "alta",
+    score: 91,
+    address: "Rua Mariante, 587 — Rio Branco",
+    mapsQuery: "Pito Bar Rua Mariante 587 Porto Alegre",
+    identity:
+      "Boteco da Mariante no circuito Comida di Buteco 2026 (tábua campeira). Casa de rua no Rio Branco, bairro de alta renda colado no Petrópolis. Funciona todos os dias. Identidade de boteco de esquina com petisco de concurso — o tipo de casa que o Google já entrega e o site ainda não existe.",
+    digitalGap:
+      "Sem domínio próprio. A tábua campeira e o horário vivem na ficha do concurso.",
+    conversionWhy:
+      "Mariante é corredor de bar com público que pesquisa antes de sair. Site com petisco, horário e WhatsApp captura o clique do concurso e o happy hour do bairro.",
+    approach:
+      "Mostre a página do Comida di Buteco no celular. O gancho é o mesmo do Vitória: o concurso fala pela casa.",
+    pitch:
+      "A tábua campeira do Pito está no Comida di Buteco 2026 e o clique não cai na casa. Um site com o petisco, o horário da Mariante e o WhatsApp resolve isso nesta semana.",
+    hours: "Todos os dias, horários variados — confirmar no local",
+    sources: [
+      {
+        label: "Comida di Buteco",
+        url: "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/",
+      },
+    ],
+    notes:
+      "Confirmar no balcão se a casa segue aberta após a temporada de abril–maio de 2026.",
+  },
+  {
+    id: "mato-bar",
+    name: "Mato Bar",
+    category: "gastronomia",
+    neighborhood: "rio-branco",
+    priority: "alta",
+    score: 90,
+    address: "Rua Francisco Ferrer, 192 — Rio Branco",
+    mapsQuery: "Mato Bar Rua Francisco Ferrer 192 Porto Alegre",
+    instagram: "_matobar",
+    founded: "2024",
+    identity:
+      "Bar da cervejaria Primor da Terra no Rio Branco: cardápio 100% vegetal, chope autoral e drinks. Sócios com prêmio em Blumenau (2022). Nicho claro — vegano + cerveja experimental — e participante do Comida di Buteco 2026. Casa aberta de terça/quarta a sábado à noite.",
+    digitalGap:
+      "Instagram @_matobar, sem site. A cervejaria e o bar compartilham a marca e não têm um hub com cardápio, torneiras e o petisco do concurso.",
+    conversionWhy:
+      "Nicho + concurso + público que pesquisa 'bar vegano Porto Alegre'. Site com cardápio, cervejas da casa e o petisco do circuito converte busca estadual, não só a da Ferrer.",
+    approach:
+      "Não fale em 'presença digital'. Fale em cardápio de plantas e lista de torneiras que o Instagram enterra.",
+    pitch:
+      "Quem busca bar vegano com chope próprio em Porto Alegre não acha o cardápio do Mato. Um site com as torneiras, os lanches e o petisco do Comida di Buteco tira a casa do Instagram e coloca na busca.",
+    hours: "Qua/qui–sáb 18h–0h (confirmar o dia de abertura da semana)",
+    sources: [
+      {
+        label: "Comida di Buteco",
+        url: "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/",
+      },
+      {
+        label: "Jornal do Comércio",
+        url: "https://www.jornaldocomercio.com/ge2/noticias/2024/03/1145923-com-cardapio-baseado-em-plantas-cervejaria-abre-bar-no-bairro-rio-branco.html",
+      },
+    ],
+  },
+  {
+    id: "jacinto-pane",
+    name: "Jacinto Pane & Cucina",
+    category: "gastronomia",
+    neighborhood: "santana",
+    priority: "alta",
+    score: 89,
+    address: "Rua Jacinto Gomes, 209 — Santana",
+    mapsQuery: "Jacinto Pane Cucina Rua Jacinto Gomes 209 Porto Alegre",
+    googleRating: 4.9,
+    identity:
+      "Padaria de fermentação natural em Santana, colada em Santa Cecília e a poucos minutos do Jardim Botânico. Focaccia citada como a melhor da cidade. Avaliação 4.9 no Google. Ofício claro, nome de rua, produto de busca recorrente. Casa pequena com identidade de bairro e qualidade de destinação.",
+    digitalGap:
+      "Cardápio e pedido passam por jacinto.goomer.app (terceiro). Sem domínio próprio. Quem pesquisa 'focaccia Porto Alegre' não cai numa página da casa.",
+    conversionWhy:
+      "Produto de culto + nota altíssima + pedido já digitalizado em plataforma de comissão. Site próprio com o forno do dia e encomenda de focaccia recupera margem e a busca de nome.",
+    approach:
+      "Mostre o goomer.app. Eles já sentiram a necessidade de cardápio digital — falta o endereço ser deles.",
+    pitch:
+      "A focaccia do Jacinto já é destino e o pedido ainda passa por um app de terceiro. Um site com o pão do dia, a encomenda e o endereço da Jacinto Gomes tira a casa do goomer e coloca no Google.",
+    hours: "Ter–sex 11h30–19h · sáb e dom fechado (confirmar)",
+    sources: [
+      {
+        label: "Restaurant Guru",
+        url: "https://restaurantguru.com.br/Jacinto-PaneandCucina-Porto-Alegre",
+      },
+    ],
+  },
+  {
+    id: "piko-bar",
+    name: "Piko Bar e Cozinha",
+    category: "gastronomia",
+    neighborhood: "partenon",
+    priority: "alta",
+    score: 88,
+    address: "Rua Pedro Boticário, 560 — Partenon / Glória",
+    mapsQuery: "Piko Bar e Cozinha Rua Pedro Boticário 560 Porto Alegre",
+    identity:
+      "Bar e cozinha na Pedro Boticário, listado no Comida di Buteco 2026 pelo Partenon (a rua toca a Glória). Petisco Popeyeroll. Casa de noite, terça a sábado. Identidade de cozinha de boteco com prato autoral — não é bar genérico de avenida.",
+    digitalGap:
+      "Sem site. O Popeyeroll e o horário estão só no circuito do concurso e em Instagram.",
+    conversionWhy:
+      "Petisco de concurso + casa de bairro fora do circuito óbvio. Site com o prato, o cardápio da noite e o mapa da Pedro Boticário converte quem vem pelo Comida di Buteco e se perde entre Partenon e Glória.",
+    approach:
+      "Leve o nome do petisco. O site é a página do Popeyeroll com endereço certo — o concurso às vezes lista Partenon, guias listam Glória.",
+    pitch:
+      "O Piko está no Comida di Buteco 2026 e o Popeyeroll não tem uma página da casa. Um site com o petisco, o horário e o ponto na Pedro Boticário evita que o cliente do concurso vá para o bar errado.",
+    hours: "Ter–sáb 18h–23h30",
+    sources: [
+      {
+        label: "Comida di Buteco",
+        url: "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/",
+      },
+    ],
+    notes:
+      "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
 ];
 
@@ -422,6 +650,31 @@ export const excluded: ExcludedBusiness[] = [
     reason: "Já posicionada",
     detail: "Clínica de shopping com presença digital própria.",
   },
+  {
+    name: "Al Nur",
+    reason: "Já tem site",
+    detail: "alnur.com.br — Protásio Alves, Santa Cecília.",
+  },
+  {
+    name: "Parrilla Del Sur",
+    reason: "Já tem site",
+    detail: "parrilladelsur.com.br — Nilópolis, Petrópolis.",
+  },
+  {
+    name: "La Mafia Barbearia",
+    reason: "Já tem site",
+    detail: "lamafiabarbearia.com.br — rede com unidade no Petrópolis.",
+  },
+  {
+    name: "Tio Max Barbearia",
+    reason: "Já tem site",
+    detail: "tiomaxbarbearia.com.br — Protásio Alves, Petrópolis.",
+  },
+  {
+    name: "Thompson & Hill",
+    reason: "Já tem site",
+    detail: "thompsonandhill.com.br — Ramiro Barcelos, Santana.",
+  },
 ];
 
 export const categoryLabel: Record<Lead["category"], string> = {
@@ -432,16 +685,33 @@ export const categoryLabel: Record<Lead["category"], string> = {
   "casa-obra": "Casa e obra",
 };
 
+export const neighborhoodLabel: Record<Lead["neighborhood"], string> = {
+  "jardim-botanico": "Jardim Botânico",
+  partenon: "Partenon",
+  "jardim-do-salso": "Jardim do Salso",
+  "rio-branco": "Rio Branco",
+  santana: "Santana",
+};
+
+export const neighborhoodOrder: Array<Lead["neighborhood"]> = [
+  "jardim-botanico",
+  "partenon",
+  "jardim-do-salso",
+  "rio-branco",
+  "santana",
+];
+
 export const methodology = {
-  place: "Jardim Botânico, Porto Alegre/RS",
+  place: "Jardim Botânico e bairros vizinhos, Porto Alegre/RS",
   date: RESEARCH_DATE,
   criteria: [
-    "Ponto físico no bairro ou na borda imediata (Barão do Amazonas, Felizardo, Ipiranga, La Plata, Buenos Aires, Oito de Julho).",
-    "Sinal de operação recente: horário atualizado, concurso 2026, avaliações, CNPJ ativo ou listagem com expediente.",
+    "Ponto no Jardim Botânico ou no entorno imediato: Partenon, Jardim do Salso, Rio Branco e Santana.",
+    "Sinal de operação recente: Comida di Buteco 2026, horário atualizado, matéria recente ou avaliações ativas.",
     "Identidade própria — nome, ofício, prêmio ou tempo de casa. Sem rede e sem negócio genérico.",
-    "Sem site oficial no ar. Instagram, iFood ou domínio morto não contam como site.",
-    "Perfil que ganha com site: cardápio, agenda, orçamento, portfólio ou encomenda.",
+    "Sem site oficial no ar. Instagram, iFood, Goomer ou domínio morto não contam como site.",
+    "Alta conversão: cardápio, reserva, concurso, encomenda ou ticket alto. Sem negócio repetido entre bairros.",
+    "Petrópolis e Santa Cecília foram varridos: as casas com identidade forte já têm site (Parrilla, Al Nur, La Mafia, Tio Max).",
   ],
   streets:
-    "Ruas prioritárias do comércio de bairro: Barão do Amazonas, Felizardo, Buenos Aires, La Plata, Salvador França e o corredor da Avenida Ipiranga.",
+    "Corredores: Felizardo e Barão do Amazonas (Jardim Botânico), Bento Gonçalves (Partenon), Cristiano Fischer (Jardim do Salso), Mariante e Francisco Ferrer (Rio Branco), Jacinto Gomes (Santana).",
 };
