@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3d2c"/>
+      <stop offset="45%" stop-color="#163428"/>
+      <stop offset="100%" stop-color="#0d1f18"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9a24a" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1e4d38" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="shaft" cx="38%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#e8d48a" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#2f6a4a" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0d1f18" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#shaft)"/>
+  <!-- palmeiras / dossel -->
+  <g fill="#0f2a1f" opacity="0.95">
+    <ellipse cx="180" cy="-20" rx="340" ry="220"/>
+    <ellipse cx="520" cy="-40" rx="280" ry="200"/>
+    <ellipse cx="880" cy="-10" rx="360" ry="230"/>
+    <ellipse cx="1280" cy="-30" rx="320" ry="210"/>
+    <ellipse cx="1540" cy="40" rx="220" ry="180"/>
+  </g>
+  <g fill="#1e4d38">
+    <ellipse cx="260" cy="80" rx="200" ry="130"/>
+    <ellipse cx="700" cy="60" rx="240" ry="140"/>
+    <ellipse cx="1100" cy="90" rx="210" ry="120"/>
+    <ellipse cx="1480" cy="110" rx="180" ry="110"/>
+  </g>
+  <g fill="#245c3d" opacity="0.85">
+    <path d="M0 220 C120 140 220 260 340 180 C460 100 520 240 680 170 C840 100 900 250 1080 190 C1260 130 1320 260 1600 200 L1600 0 L0 0 Z"/>
+  </g>
+  <!-- folhas longas tipo palmeira -->
+  <g fill="#2f6a4a" opacity="0.7">
+    <path d="M120 40 C200 180 80 320 40 420 C90 300 220 200 260 80 Z"/>
+    <path d="M480 20 C520 200 400 340 360 460 C470 320 620 180 640 40 Z"/>
+    <path d="M980 30 C1020 190 900 360 860 500 C980 340 1140 180 1160 50 Z"/>
+    <path d="M1380 50 C1420 210 1320 360 1280 500 C1400 340 1540 200 1560 70 Z"/>
+  </g>
+  <!-- ipê-rosa  flores pontuais -->
+  <g fill="#b84a6a">
+    <circle cx="410" cy="210" r="7" opacity="0.85"/>
+    <circle cx="438" cy="198" r="5" opacity="0.7"/>
+    <circle cx="396" cy="188" r="4" opacity="0.6"/>
+    <circle cx="1024" cy="240" r="8" opacity="0.8"/>
+    <circle cx="1052" cy="228" r="5" opacity="0.65"/>
+    <circle cx="1006" cy="222" r="4" opacity="0.55"/>
+    <circle cx="1460" cy="260" r="6" opacity="0.75"/>
+    <circle cx="1482" cy="248" r="4" opacity="0.55"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#gold)"/>
+  <rect y="520" width="1600" height="380" fill="url(#sky)" opacity="0.35"/>
+</svg>
