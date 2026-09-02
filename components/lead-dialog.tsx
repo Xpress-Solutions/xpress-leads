@@ -1,8 +1,8 @@
 "use client";
 
 import {
+  AtSign,
   ExternalLink,
-  Instagram,
   MapPin,
   MessageCircle,
   Phone,
@@ -108,7 +108,7 @@ function LeadBrief({ lead }: { lead: Lead }) {
               />
             }
           >
-            <Instagram />
+            <AtSign />
             @{lead.instagram}
           </Button>
         ) : null}
