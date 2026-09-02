@@ -1,0 +1,73 @@
+{
+  "leadId": "barao-1240",
+  "name": "Barão 1240",
+  "positioning": "Cafeteria-restaurante de rua no Jardim Botânico: café das 7h ao almoço de verdade, no 1240 da Barão do Amazonas.",
+  "mood": "premium-casual",
+  "voice": [
+    "de rua",
+    "direto",
+    "de bairro",
+    "sem frescura",
+    "mesa do dia",
+    "atendimento quente"
+  ],
+  "avoid": [
+    "luxo",
+    "third-wave pretensioso",
+    "roxo tech",
+    "creme terracotta genérico",
+    "dashboard",
+    "experiência imersiva",
+    "boteco noturno"
+  ],
+  "colors": {
+    "background": "#E8D4A3",
+    "foreground": "#1A120C",
+    "brand": "#C8102E",
+    "accent": "#E3B10F",
+    "surface": "#FFF6E4",
+    "muted": "#6E4A2C"
+  },
+  "typography": {
+    "display": "Oswald — condensada pesada, no peso do 1240 do selo",
+    "body": "Source Sans 3 — grotesk de placa, não Inter/Roboto",
+    "rationale": "O letreiro circular da casa trata BARÃO e 1240 em sans geométrica pesada; as placas de calçada usam o mesmo espírito condensado. Corpo limpo para horário, WhatsApp e o que tem hoje."
+  },
+  "imagery": {
+    "heroSubject": "Milanesa e fritas no prato branco sobre mesa de madeira — post oficial da casa, com o selo circular e o mascote do carton vermelho",
+    "atmosphere": [
+      "prato feito / à la minuta na mesa de madeira",
+      "selos circulares pretos CAFETERIA · BARÃO 1240 · RESTAURANTE",
+      "placas A-frame na calçada: banner vermelho, título amarelo, fundo latte",
+      "interior com prateleira de madeira, vitrine de vidro e mosaico geométrico preto-e-branco",
+      "luz de manhã até o fim da tarde — abre às 7h"
+    ],
+    "references": [
+      {
+        "label": "Instagram @barao1240",
+        "url": "https://www.instagram.com/barao1240/"
+      },
+      {
+        "label": "Restaurant Guru — fotos e post oficial (milanesa/fritas + selo)",
+        "url": "https://restaurantguru.com.br/Cafeteria-Restaurante-Barao-1240-Porto-Alegre"
+      },
+      {
+        "label": "Restaurant Guru — cardápio impresso / placas de calçada",
+        "url": "https://restaurantguru.com.br/Cafeteria-Restaurante-Barao-1240-Porto-Alegre/menu"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Post oficial republicado no Restaurant Guru (r000-…-fries.jpg): milanesa + fritas no prato branco sobre madeira; selo circular branco/preto CAFETERIA · BARÃO 1240 · RESTAURANTE; mascote de smoking com carton vermelho de fritas — vermelho de ketchup/carton vira --brand; dourado das fritas vira --accent.",
+    "Placa A-frame do cardápio impresso (menu02.restaurantguru.com): fundo tan/latte com padrão de palavras coffee/latte, faixas-cabeçalho vermelhas, títulos em amarelo vivo e texto branco. Isso define --background latte, --brand vermelho de banner e --accent amarelo de placa — não é terracotta genérico nem verde de armazém.",
+    "Arte de expediente da casa (advertisement 2023-01-11): caixa marrom terrosa (#785942) com tipo branco e o mesmo selo circular preto; ao fundo, interior real com prateleira de madeira, balcão de vidro e mosaico geométrico preto-e-branco na parede.",
+    "Copy público: à la minuta, à la minuta à parmegiana, macarronada, queijadas, café, prato feito; abre 7h–18h30 seg–sáb; ticket Google R$ 20–40. Casa diurna de bairro, não boteco noturno (Vitória) nem armazém de brasa (Anita)."
+  ],
+  "confidence": 0.82,
+  "researchedAt": "2026-09-02"
+}
