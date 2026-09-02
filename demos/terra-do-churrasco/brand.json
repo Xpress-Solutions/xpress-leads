@@ -1,0 +1,82 @@
+{
+  "leadId": "terra-do-churrasco",
+  "name": "Terra do Churrasco",
+  "positioning": "Casa de carnes gaúcha no lugar do antigo Pátio: cortes do campo, pátio sob as árvores e mesa para a família inteira — inclusive o cusco.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "gaúcho de mesa",
+    "família e grupo grande",
+    "cusco e chimarrão",
+    "celebração sem pose",
+    "cortes do campo"
+  ],
+  "avoid": [
+    "roxo tech",
+    "neon de playground na paleta",
+    "creme terracotta de template",
+    "rodízio clichê de folder",
+    "Inter ou Roboto no nome"
+  ],
+  "colors": {
+    "background": "#100E0C",
+    "foreground": "#F3E6D0",
+    "brand": "#D8C07A",
+    "accent": "#E24A12",
+    "surface": "#1C1712",
+    "muted": "#8A7358"
+  },
+  "typography": {
+    "display": "Oswald — sans condensada industrial em caixa alta",
+    "body": "Source Sans 3 — grotesk humanista para cardápio e horário",
+    "rationale": "O letreiro da fachada é caixa-alta industrial sobre placa escura; Oswald carrega esse letreiro. Corpo limpo para cortes e reserva. Sem Inter/Roboto no display."
+  },
+  "imagery": {
+    "heroSubject": "Fachada noturna na Cristiano Fischer 1440: letreiro TERRA DO CHURRASCO, vidro e metal, escada de concreto, silhueta de boi e luz âmbar no pátio arborizado",
+    "atmosphere": [
+      "pátio sob pinheiros e palmeiras",
+      "lâmpadas Edison / festoon",
+      "parrilla com brasero de ferro",
+      "salão de madeira escura e lenha empilhada",
+      "espaço kids ao fundo",
+      "noite de semana e almoço de fim de semana"
+    ],
+    "references": [
+      {
+        "label": "Instagram @terradochurrascors",
+        "url": "https://www.instagram.com/terradochurrascors/"
+      },
+      {
+        "label": "Destino POA — fachada e copy oficial",
+        "url": "https://destinopoa.com.br/lugar/terra-do-churrasco/"
+      },
+      {
+        "label": "Jornal do Comércio — inauguração (Nathan Lemos)",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2024/08/1165369-com-capacidade-para-500-pessoas-nova-churrascaria-de-porto-alegre-aposta-em-variedade-de-cortes-e-espaco-kids.html"
+      },
+      {
+        "label": "Jornal do Comércio — Dia do Churrasco (repro IG)",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2025/04/1199870-lista-10-churrascarias-de-porto-alegre-para-celebrar-o-dia-do-churrasco.html"
+      },
+      {
+        "label": "Guia Porto Alegre — terraço",
+        "url": "https://guiaportoalegrers.com.br/jardim-do-salso/terra-do-churrasco"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Letreiro da fachada: TERRA DO CHURRASCO em caixa alta, sans industrial, letras claras sobre placa escura — foto noturna no Destino POA.",
+    "Arquitetura: vidro + metal escuro, escada de concreto, silhueta de boi na mureta, palmeiras e pátio com luz âmbar (Destino POA + Guia).",
+    "Parrilla com brasero vertical de ferro e chama laranja-vermelha — Nathan Lemos / JC, 30 jul 2024. O accent do CTA é fogo do brasero, não terracotta de template.",
+    "Salão interno: madeira escura, cadeiras X-back, vigas pretas, lenha empilhada, pendentes âmbar, piso de concreto (Nathan Lemos / JC).",
+    "Terraço sob pinheiros com mesas de madeira, cadeiras pretas e festoon lights — foto JC e Guia. Paisagismo 'exuberante' citado pelo dono Fernando Martins.",
+    "Copy oficial recorrente: 'traga teu cusco e teu chimarrão' / 'cortes do campo para a mesa' (Destino POA, PMIRS Summit).",
+    "Espaço kids ao fundo (divulgação JC): estrutura laranja e grama — o neon UV do trampolim existe no galpão, mas fica fora da paleta do site."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-02"
+}
