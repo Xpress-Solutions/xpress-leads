@@ -124,12 +124,16 @@ button {
 }
 
 .reveal {
+  opacity: 1;
+}
+
+html.js-ready .reveal {
   opacity: 0;
   transform: translateY(22px);
   transition: opacity 0.7s ease, transform 0.7s ease;
 }
 
-.reveal.is-visible {
+html.js-ready .reveal.is-visible {
   opacity: 1;
   transform: none;
 }
@@ -332,12 +336,26 @@ button {
 .hero-road {
   position: absolute;
   inset: auto 0 0;
-  height: 72px;
+  height: 48px;
   background:
-    linear-gradient(90deg, transparent 0 8%, var(--brand) 8% 14%, transparent 14% 22%, var(--brand) 22% 28%, transparent 28% 36%, var(--brand) 36% 42%, transparent 42% 50%, var(--brand) 50% 56%, transparent 56% 64%, var(--brand) 64% 70%, transparent 70% 78%, var(--brand) 78% 84%, transparent 84% 92%, var(--brand) 92% 98%, transparent 98%),
-    #141820;
-  opacity: 0.85;
-  mask-image: linear-gradient(180deg, transparent, #000 40%);
+    linear-gradient(90deg, #0b0e13 0, #0b0e13 100%),
+    var(--background);
+  opacity: 0.95;
+}
+
+.hero-road::after {
+  content: "";
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  top: 50%;
+  height: 5px;
+  transform: translateY(-50%);
+  background: repeating-linear-gradient(
+    90deg,
+    var(--brand) 0 36px,
+    transparent 36px 68px
+  );
 }
 
 .hero-content {
