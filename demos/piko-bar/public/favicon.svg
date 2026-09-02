@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#0C0C0C"/>
+  <circle cx="32" cy="28" r="16" fill="none" stroke="#EDE9E1" stroke-width="2"/>
+  <path d="M20 34 L32 16 L44 34" fill="none" stroke="#EDE9E1" stroke-width="2" stroke-linejoin="miter"/>
+  <path d="M26 34 L32 24 L38 34" fill="none" stroke="#EDE9E1" stroke-width="2"/>
+  <text x="32" y="56" text-anchor="middle" fill="#EDE9E1" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">PIKO</text>
+</svg>
