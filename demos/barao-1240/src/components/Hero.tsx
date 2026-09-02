@@ -5,8 +5,8 @@ export function Hero() {
     <section className="hero" id="inicio">
       <div className="hero-bg" aria-hidden="true">
         <img
-          src="/fotos/hero.jpg"
-          alt=""
+          src="/fotos/hero-prato.jpg"
+          alt="Milanesa, fritas e o selo circular do Barão 1240"
         />
       </div>
       <div className="wrap hero-content">

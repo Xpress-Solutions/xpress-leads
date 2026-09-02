@@ -7,7 +7,7 @@ export function FinalCta() {
   return (
     <section className="section final">
       <div className="final-bg" aria-hidden="true">
-        <img src="/fotos/hero.jpg" alt="" />
+        <img src="/fotos/hero-prato.jpg" alt="" />
       </div>
       <div className="wrap reveal" ref={ref}>
         <p className="section-kicker">Vem</p>
