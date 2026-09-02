@@ -1,0 +1,80 @@
+{
+  "leadId": "masah-sports",
+  "name": "Masah! Sports Bar",
+  "positioning": "Sports bar-gastrobar na Farroupilha, em Canoas: jogo na TV, entrecôte na ciabatta e o sweet chilli da casa — não boteco anônimo de esquina.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "direto",
+    "de jogo",
+    "exclamação",
+    "avenida",
+    "gastrobar sem pose"
+  ],
+  "avoid": [
+    "boteco de esquina rústico",
+    "roxo tech",
+    "creme terracotta genérico",
+    "SaaS",
+    "minimalismo frio",
+    "Inter/Roboto no display"
+  ],
+  "colors": {
+    "background": "#0B0C09",
+    "foreground": "#F4F1E8",
+    "brand": "#F24B1C",
+    "accent": "#C6E04B",
+    "surface": "#161910",
+    "muted": "#8C8676"
+  },
+  "typography": {
+    "display": "Anton (condensada de placar)",
+    "body": "Source Sans 3",
+    "rationale": "O nome MASAH! pede condensed de scoreboard, não serif de boteco nem script de café. Corpo humanista para cardápio e horário. Anton/Source Sans — nunca Inter ou Roboto no display."
+  },
+  "imagery": {
+    "heroSubject": "Petisco real da casa (O Laçador / Farroupilha) em close — prato branco, páprica e crispy verde — sobre atmosfera noturna de sports bar",
+    "atmosphere": [
+      "TVs para jogo",
+      "noite na Farroupilha / loja 03 do Cosmopolitan Urban Mall",
+      "grelha e entrecôte",
+      "sweet chilli e páprica",
+      "ambiente moderno de gastrobar, não boteco de madeira"
+    ],
+    "references": [
+      {
+        "label": "Comida di Buteco — ficha oficial",
+        "url": "https://comidadibuteco.com.br/buteco/masah-sports-bar/"
+      },
+      {
+        "label": "G1 / Israh Ramos — petisco O Laçador (2024)",
+        "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/04/13/comida-di-buteco-conheca-as-receitas-participantes-do-concurso-em-porto-alegre.ghtml"
+      },
+      {
+        "label": "Restaurant Guru / Google — TVs, ambiente, nota",
+        "url": "https://restaurantguru.com.br/Masah-Sports-Bar-Canoas"
+      },
+      {
+        "label": "Feiras & Cia — Farroupilha e horários",
+        "url": "https://www.feirasecia.com.br/det_buteco.php?codfor=37987"
+      },
+      {
+        "label": "Prêmio Sabores do Sul 2023 — Melhor Gastrobar Canoas",
+        "url": "https://premiosaboresdosul.com.br/2023/lista-dos-vencedores/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial do petisco O Laçador (Israh Ramos / Comida di Buteco, G1 2024): páprica vermelho-alaranjada no empanado, crispy verde-escuro de couve, glaze âmbar e prato branco — daí o brand chilli #F24B1C e o accent lima de linha de campo #C6E04B, não o ouro+vermelho do Vitória.",
+    "Ficha do concurso e o próprio nome do molho: 'sweet chilli Masah' no Farroupilha (ciabatta, entrecôte, queijo, crispy de alho-poró). O laranja-chilli é da casa, não paleta SaaS.",
+    "Reviews no Restaurant Guru/Facebook: 'ótimo pra assistir os jogos', 'ambiente moderno com diversas TVs', 'chopp gelado', bifes e cebolada. Horário noturno (ter–sáb 18h). Fundo carvão #0B0C09 de sports bar, não cream diurno do Anita.",
+    "Prêmio Revista Sabores do Sul 2023: Melhor Gastrobar de Canoas. Loja 03 no Cosmopolitan Urban Mall (Av. Farroupilha, 3833). UI reta (radius sharp), condensada de placar — gastrobar de avenida, não boteco-raiz nem armazém familiar.",
+    "Logo oficial não aparece em fontes públicas (Restaurant Guru marca no_ar_photos; IG sem handle confirmado). Confiança alta no ofício e no prato fotografado; paleta não inventa roxo nem cream+terracotta."
+  ],
+  "confidence": 0.71,
+  "researchedAt": "2026-09-02"
+}
