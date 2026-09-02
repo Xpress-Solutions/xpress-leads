@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Barão 1240  Cafeteria Restaurante">
+  <circle cx="100" cy="100" r="98" fill="#1A120C"/>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#FFF6E4" stroke-width="2"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#FFF6E4" stroke-width="0.6" opacity="0.45"/>
+  <defs>
+    <path id="arcTop" d="M38,100 A62,62 0 0,1 162,100"/>
+    <path id="arcBot" d="M162,100 A62,62 0 0,1 38,100"/>
+  </defs>
+  <text fill="#FFF6E4" font-family="Oswald, Arial Narrow, sans-serif" font-size="13" font-weight="600" letter-spacing="4">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">CAFETERIA</textPath>
+  </text>
+  <text fill="#FFF6E4" font-family="Oswald, Arial Narrow, sans-serif" font-size="12" font-weight="600" letter-spacing="3.2">
+    <textPath href="#arcBot" startOffset="50%" text-anchor="middle">RESTAURANTE</textPath>
+  </text>
+  <text x="100" y="88" text-anchor="middle" fill="#FFF6E4" font-family="Oswald, Arial Narrow, sans-serif" font-size="18" font-weight="600" letter-spacing="6">BARÃO</text>
+  <text x="100" y="128" text-anchor="middle" fill="#FFF6E4" font-family="Oswald, Arial Narrow, sans-serif" font-size="42" font-weight="700" letter-spacing="1">1240</text>
+</svg>
