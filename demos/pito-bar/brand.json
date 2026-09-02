@@ -1,0 +1,90 @@
+{
+  "leadId": "pito-bar",
+  "name": "Pito Bar",
+  "positioning": "Esquina da Mariante com a Liberdade: calçada cheia, pagode e a tábua campeira do Comida di Buteco 2026 — bar de rua do Rio Branco, não boteco de troféu.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "de esquina",
+    "pagode",
+    "gente boa",
+    "cantinho",
+    "calçada",
+    "direto"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "serif de boteco premiado",
+    "dashboard",
+    "gold trophy"
+  ],
+  "colors": {
+    "background": "#111111",
+    "foreground": "#F4F0E8",
+    "brand": "#D4202A",
+    "accent": "#E8333C",
+    "surface": "#1C1A19",
+    "muted": "#8A8278"
+  },
+  "typography": {
+    "display": "Syne ExtraBold — grotesk geométrica em caixa-baixa, como o letreiro pito",
+    "body": "Figtree para horário, endereço e leitura no celular",
+    "rationale": "O logo da casa é 'pito' minúsculo, geométrico e arredondado, branco no vermelho do lintel. Display precisa repetir esse letreiro de esquina, não uma serifada de boteco campeão nem Inter/Roboto de produto. Corpo limpo para o clique do concurso."
+  },
+  "imagery": {
+    "heroSubject": "Fachada noturna na Mariante 587: letreiro branco 'pito' no painel vermelho, portas de aço abertas e mesa na calçada",
+    "atmosphere": [
+      "calçada da Mariante × Liberdade",
+      "estrutura metálica vermelho-óxido",
+      "concreto e viga aparente",
+      "pagode e DJ no salão",
+      "tábua campeira do concurso",
+      "luz âmbar vazando pra rua"
+    ],
+    "references": [
+      {
+        "label": "Instagram @pito.bar",
+        "url": "https://www.instagram.com/pito.bar/"
+      },
+      {
+        "label": "Linktree oficial",
+        "url": "https://linktr.ee/Pito.bar"
+      },
+      {
+        "label": "GZH — reabertura na mesma esquina (Guilherme Gonçalves / Agência RBS)",
+        "url": "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2025/08/com-gestao-reforcada-novo-cardapio-e-horario-estendido-bar-pito-reabre-no-mesmo-endereco-em-porto-alegre-cmenhwu4r02gr011ibij8f98d.html"
+      },
+      {
+        "label": "GZH — última festa e fachada (Kizzy Abreu / Agência RBS)",
+        "url": "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2025/07/bar-pito-encerra-atividades-com-ultima-festa-e-clima-de-saudade-em-porto-alegre-cmdmfuvkj002f01epmb3evwxm.html"
+      },
+      {
+        "label": "Jornal do Comércio — mesma identidade visual, pagode",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2025/08/1215156-apos-encerramento-bar-do-rio-branco-anuncia-que-retomara-as-atividades.html"
+      },
+      {
+        "label": "Sabores do Sul — Tábua Campeira (foto Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Comida di Buteco — ficha Porto Alegre",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fotos da GZH (reabertura ago/2025 e despedida jul/2025) mostram o letreiro minúsculo 'pito' em branco sobre painel vermelho-vivo no lintel, e a grade metálica da fachada pintada de vermelho-óxido — o vermelho é a marca, não um accent de boteco.",
+    "No salão, a mesma vermelhidão volta nas esquadrias, na parede de fundo e na palavra 'pito' em vermelho sobre azulejo branco; o resto é concreto, aço e luz âmbar. Atmosfera de galpão noturno, não cream+terracotta nem SaaS roxo.",
+    "O Jornal do Comércio registra que a casa reabriu com o mesmo nome, endereço e identidade visual, e a própria publicação no Instagram prometeu 'o mesmo cantinho de sempre, com muito pagode, gente boa'. Voz de esquina, não de restaurante.",
+    "A Tábua Campeira do Comida di Buteco 2026 (foto Israh Ramos / Sabores do Sul) é o petisco público do circuito: pão tostado, linguiça, queijo e erva sobre juta — o gancho do site, não um cardápio inventado.",
+    "QuintoAndar e GZH descrevem mesas na calçada da Mariante, portas de enrolar abertas e movimento depois das 23h. Fundo do site é asfalto/noite (#111), não papel claro de armazém."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-02"
+}
