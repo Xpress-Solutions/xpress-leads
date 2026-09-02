@@ -1,5 +1,4 @@
-# Leads sem site — Jardim Botânico e entorno
-
+# Leads sem site 
 Mapa de negócios **ativos** no Jardim Botânico e nos bairros colados (Partenon, Jardim do Salso, Rio Branco e Santana), em Porto Alegre, que têm identidade própria e **não têm site oficial**. O recorte existe para priorizar conversão: casas que já têm nome, ponto e movimento, e ainda entregam o clique para Instagram, iFood ou diretório de terceiro. Sem negócio repetido entre bairros.
 
 Pesquisa feita em **2 de setembro de 2026**, com fontes públicas (Google/guias, Comida di Buteco, listagens de rua e checagem de domínio).
