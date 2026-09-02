@@ -1,0 +1,71 @@
+{
+  "leadId": "bah-brasa-canoas",
+  "name": "Bah Brasa",
+  "positioning": "Buteco de esquina em São Luís, Canoas: o ‘bah’ gaúcho e a brasa no nome, o Bolinho do Brasa no prato — noite de quarta a sábado, sem pretensão de restaurante.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "gaúcho de esquina",
+    "direto",
+    "noturno",
+    "orgulhoso do bolinho",
+    "sem pose"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "experiência gastronômica",
+    "dashboard",
+    "confundir com Brasa e Beer na Sezefredo"
+  ],
+  "colors": {
+    "background": "#160D09",
+    "foreground": "#F3E2C8",
+    "brand": "#E3A45A",
+    "accent": "#AE3011",
+    "surface": "#241610",
+    "muted": "#8A6848"
+  },
+  "typography": {
+    "display": "Anton",
+    "body": "Karla",
+    "rationale": "Anton no nome soa letreiro de ferro na esquina de Canoas — condensado, sem ser Bebas (Vitória/Anita) nem Inter/Roboto. Karla lê horário e endereço à noite. Cores saem da foto oficial do Bolinho do Brasa (prato preto, crosta frita cobre, tomate-brasa), não de um tema cream+terracotta."
+  },
+  "imagery": {
+    "heroSubject": "Bolinho do Brasa no prato preto fosco — crosta dourada aberta, ramekin de molho, tomate-cereja e manjericão sobre juta, foto Israh Ramos / Sabores do Sul",
+    "atmosphere": [
+      "noite de quarta a sábado",
+      "prato preto de buteco",
+      "crosta frita cobre",
+      "tomate e manjericão do petisco 2026",
+      "juta rústica da foto oficial",
+      "esquina em São Luís, Berto Círio"
+    ],
+    "references": [
+      {
+        "label": "Revista Sabores do Sul — Bolinho do Brasa (Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Foto oficial do petisco",
+        "url": "https://revistasaboresdosul.com.br/wp-content/uploads/2026/04/bahbrasa.jpg"
+      },
+      {
+        "label": "Circuito Comida di Buteco — Porto Alegre / Canoas",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial do Bolinho do Brasa (Israh Ramos, abr/2026): prato preto fosco #160D09, crosta frita cobre #BB8358–#E0A070, tomate-cereja #AE3011, juta #B68259, manjericão oliva #5D632C. Palette do site lê o prato, não um tema de IA.",
+    "Nome ‘Bah’ + ‘Brasa’ + expediente só noturno (qua–sáb 18h30–23h30) pede fundo de fuligem e accent de brasa — o oposto do Anita claro/diurno e diferente do ouro-champanhe + vermelho-tapete do Vitória.",
+    "Sabores do Sul confirma Rua Berto Círio, 329 — São Luís, Canoas, e o petisco da edição. Sem Instagram/logo/fachada públicos; o hero é o bolinho real, não stock. A listagem do circuito às vezes aponta Sezefredo 2240 (Brasa e Beer) — a demo segue o endereço do lead e da matéria, sem misturar as casas."
+  ],
+  "confidence": 0.7,
+  "researchedAt": "2026-09-02"
+}
