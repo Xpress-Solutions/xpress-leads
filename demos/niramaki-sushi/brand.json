@@ -1,0 +1,77 @@
+{
+  "leadId": "niramaki-sushi",
+  "name": "Niramaki Sushi",
+  "positioning": "Japonês de bairro no Jardim Botânico: peças grandes, salmão generoso e drinks até 2h — a casa que o iFood já conhece, agora com porta própria.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "generoso",
+    "direto",
+    "noturno",
+    "de bairro",
+    "orgulhoso sem pose"
+  ],
+  "avoid": [
+    "omakase frio",
+    "luxo tokyo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "dashboard",
+    "Inter/Roboto de display"
+  ],
+  "colors": {
+    "background": "#100C0C",
+    "foreground": "#F4EDE6",
+    "brand": "#C41E26",
+    "accent": "#FF4747",
+    "surface": "#1C1414",
+    "muted": "#8A7F78"
+  },
+  "typography": {
+    "display": "Yuji Syuku — pincel japonês com suporte latino, eco do letreiro brush do logo",
+    "body": "Zen Kaku Gothic New — grotesk japonesa de leitura, sem Inter/Roboto",
+    "rationale": "O logo oficial pinta 'Niramaki' com brush preto e 'Sushi' em vermelho hinomaru. Display de pincel carrega o letreiro; corpo grotesk japonês lê cardápio e horário. Evitar Inter/Roboto e serifada europeia de revista."
+  },
+  "imagery": {
+    "heroSubject": "Barco preto da casa lotado de salmão — sashimi, uramaki e hot — sobre superfície escura",
+    "atmosphere": [
+      "barco de sushi preto",
+      "salmão em fatia generosa",
+      "cream cheese e cebolinha",
+      "hot roll e palha dourada",
+      "luz de noite até 2h",
+      "círculo hinomaru e torii do logo"
+    ],
+    "references": [
+      {
+        "label": "Cardápio digital oficial (ola.click)",
+        "url": "https://niramaki.ola.click/"
+      },
+      {
+        "label": "Logo oficial",
+        "url": "https://assets.olaclick.app/companies/logos/80844bbe-aca1-4d10-ade8-ea5a5df58af6.jpeg"
+      },
+      {
+        "label": "Instagram @niramaki.sushi",
+        "url": "https://www.instagram.com/niramaki.sushi/"
+      },
+      {
+        "label": "Avaliações locais",
+        "url": "https://www.locaisdobrasil.com.br/encontre/restaurante-japones/porto-alegre-rs/niramaki-sushi/67a0e2544c0fe6115e4355f1"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial no ola.click: círculo hinomaru vermelho com torii branco, 'Niramaki' em brush preto e 'Sushi' no mesmo vermelho — não é paleta de SaaS nem cream+terracotta.",
+    "A casa configurou o próprio cardápio digital com fundo #121212, botões #FF4747 e desconto #FF8D08: noite de lacquer + vermelho de CTA, alinhado ao hinomaru do logo.",
+    "Fotos oficiais do cardápio mostram barco preto, salmão grosso, cream cheese e cebolinha — sushi brasileiro de bairro, generoso, não omakase branco.",
+    "Reviews em Locais do Brasil (5.0 / 6): 'peças grandes com muito salmão', 'melhor sushi de Porto Alegre', 'drinks maravilhosos', 'preço justo', pedido recorrente no iFood.",
+    "Horário público 18h–2h todos os dias + Instagram oficial @niramaki.sushi no rodapé do ola.click: operação noturna de esquina, não landing diurna de armazém."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-02"
+}
