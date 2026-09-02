@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Barril Pub">
+  <rect width="160" height="160" rx="80" fill="#12160F"/>
+  <ellipse cx="80" cy="80" rx="48" ry="58" fill="#3A2A18" stroke="#D8E0C8" stroke-width="3"/>
+  <ellipse cx="80" cy="80" rx="38" ry="48" fill="none" stroke="#8A9178" stroke-width="2"/>
+  <path d="M34 58h92M34 102h92" stroke="#C9964A" stroke-width="5"/>
+  <text x="80" y="78" text-anchor="middle" fill="#F3EBDA" font-family="Alfa Slab One, serif" font-size="18">BARRIL</text>
+  <text x="80" y="98" text-anchor="middle" fill="#F3EBDA" font-family="Alfa Slab One, serif" font-size="12">PUB</text>
+</svg>
