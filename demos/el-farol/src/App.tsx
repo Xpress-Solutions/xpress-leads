@@ -13,11 +13,12 @@ function LanternMark() {
   return (
     <svg className="nav-mark" viewBox="0 0 36 36" aria-hidden="true">
       <rect width="36" height="36" rx="4" fill="#173328" />
-      <path
-        d="M18 6c-3.6 0-6.4 2.5-6.4 6 0 2.4 1.3 4.2 2.9 5.8L18 30l3.5-12.2c1.6-1.6 2.9-3.4 2.9-5.8C24.4 8.5 21.6 6 18 6z"
-        fill="#E6B84A"
-      />
-      <circle cx="18" cy="11.6" r="2.3" fill="#0A110E" />
+      <path d="M16.2 6h3.6v2.2h-3.6z" fill="#E6B84A" />
+      <path d="M12.4 9.4h11.2l1.2 3.2H11.2z" fill="#E6B84A" />
+      <path d="M12.2 13.2h11.6v10.2c0 1.4-2.6 2.4-5.8 2.4s-5.8-1-5.8-2.4z" fill="#E6B84A" />
+      <path d="M14.4 14.6h2.2v7.2h-2.2zm5 0h2.2v7.2H19.4z" fill="#0A110E" opacity="0.35" />
+      <path d="M17.2 26.2h1.6V30h-1.6z" fill="#E6B84A" />
+      <ellipse cx="18" cy="31.2" rx="3.4" ry="1.1" fill="#E6B84A" />
     </svg>
   );
 }
