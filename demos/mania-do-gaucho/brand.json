@@ -1,0 +1,82 @@
+{
+  "leadId": "mania-do-gaucho",
+  "name": "Mania do Gaúcho II",
+  "positioning": "Casa de carnes de bairro na Felizardo desde 1978: corte no ponto, tele-entrega para o churrasco de domingo e açougueiro que ensina — não boutique de dry-aged.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "de balcão",
+    "gaúcho sem fantasia",
+    "didático no corte",
+    "encomenda de domingo",
+    "casa de família"
+  ],
+  "avoid": [
+    "steakhouse de shopping",
+    "dry-aged boutique",
+    "roxo tech",
+    "creme terracotta genérico",
+    "e-commerce de marketplace",
+    "Inter/Roboto de display"
+  ],
+  "colors": {
+    "background": "#0C1A10",
+    "foreground": "#F3EFE0",
+    "brand": "#2F9D4A",
+    "accent": "#C8102E",
+    "surface": "#152A1C",
+    "muted": "#C9A227"
+  },
+  "typography": {
+    "display": "Oswald — condensada de letreiro de açougue, itálico no nome como nos banners oficiais",
+    "body": "Source Sans 3 — grotesk humanista para horário, corte e WhatsApp",
+    "rationale": "A marca pinta o nome em sans pesada/itálica branca sobre faixa verde-caçador; 'Casa de Carnes' e 'Temperos' aparecem em script. Oswald carrega o letreiro da Felizardo sem cair em Inter/Roboto. O corpo precisa ler gramatura e horário no celular."
+  },
+  "imagery": {
+    "heroSubject": "Os dois açougueiros de jaleco branco no balcão de inox, segurando um corte inteiro — foto de capa do Facebook da casa",
+    "atmosphere": [
+      "letreiro verde-floresta na fachada de tijolo",
+      "jaleco branco bordado com gaúcho e faixas da bandeira do RS",
+      "costela crua na grelha",
+      "bandeira do Rio Grande do Sul",
+      "balcão de inox e carne do dia"
+    ],
+    "references": [
+      {
+        "label": "Facebook oficial — Casa de Carnes Mania do Gaúcho 2",
+        "url": "https://www.facebook.com/casadecarnesmaniadogaucho2/"
+      },
+      {
+        "label": "Capa do Facebook (açougueiros no balcão)",
+        "url": "https://www.facebook.com/photo/?fbid=625354596257813&set=a.625354522924487"
+      },
+      {
+        "label": "Listagem da Rua Felizardo",
+        "url": "https://www.locaisdobrasil.com.br/endereco/rua-felizardo/porto-alegre-rs"
+      },
+      {
+        "label": "BBC — carne fresca e fazendas de Bagé / Pantano Grande",
+        "url": "https://www.bbc.com/portuguese/brasil-39323426"
+      },
+      {
+        "label": "CNPJ Adilio da Silva — Mania do Gaúcho II",
+        "url": "https://consultas.plus/lista-de-empresas/rio-grande-do-sul/porto-alegre/89544217000176-adilio-da-silva/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Letreiro da fachada na Felizardo 465: retângulo verde-floresta saturado, nome em branco sans-serif, logo com contorno do RS + cabeça de touro e três pinceladas vermelho/amarelo/verde da bandeira gaúcha. Banner vertical verde: 'Faça seu evento conosco'. Tijolo escuro na viga — o verde é marca, o tijolo é muro.",
+    "Capa oficial do Facebook: dois homens de jaleco branco no inox, segurando um corte inteiro. Logo bordado no peito: 'Casa de Carnes Mania do Gaúcho' com arco verde-vermelho-amarelo. A casa se mostra pelo balcão, não por stock de churrascaria.",
+    "Banners e reels da página (incluindo 'Já pediu sua tele hoje?' e Dia dos Pais): fundo em degradê lima→floresta, faixa hunter, 'Desde 1978' em amarelo bandeira, nome branco itálico pesado, silhueta de gaúcho a cavalo sobre faixas RS. Post de enchente usa a bandeira do Estado inteira.",
+    "Polo e jaleco oficiais: branco + três listras verde/vermelho/amarelo + gaúcho a cavalo bordado. Identidade de uniforme, não de landing SaaS.",
+    "Álbum da página: costela crua na grelha (produto) e prateleira de temperos com faixa verde + 'Temperos' em script amarelo — o sítio vende o churrasco completo, não só peça.",
+    "Facebook About: Rua Felizardo 465, celular (51) 3332-9849, maicon7012@hotmail.com, 92% recomendam (30 reviews), tele-entrega. Bio: gado, ovelha, porco, frango, peixe. Letreiro da loja ainda cita (51) 3333-6646 e (51) 3012-6646.",
+    "BBC (2017): Maicon Souza da Silva, negócio de família desde 1978, carne abatida direto de fazendas em Bagé e Pantano Grande, 90% fresca / 10% embalada, ~500 kg/dia, sábado típico com ~400 pessoas na véspera do churrasco de domingo."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-02"
+}
