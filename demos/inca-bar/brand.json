@@ -1,0 +1,78 @@
+{
+  "leadId": "inca-bar",
+  "name": "Inca Bar de Cervejas",
+  "positioning": "Casarão da Boa Vista com ~20 torneiras e tapas andinas — cerveja de sommelier, não boteco genérico.",
+  "mood": "artesanal",
+  "voice": [
+    "cervejeiro",
+    "de casa",
+    "andino sem pastiche",
+    "acolhedor",
+    "sem pedantismo"
+  ],
+  "avoid": [
+    "luxo",
+    "llama de souvenir",
+    "roxo tech",
+    "creme terracotta genérico",
+    "boteco genérico",
+    "dashboard",
+    "Inter como display"
+  ],
+  "colors": {
+    "background": "#101618",
+    "foreground": "#F2E6C8",
+    "brand": "#D4A017",
+    "accent": "#1A8F86",
+    "surface": "#1A2428",
+    "muted": "#8A7A5C"
+  },
+  "typography": {
+    "display": "Cinzel — serifada lapidada, peso de inscrição em pedra",
+    "body": "Source Sans 3 — grotesk humanista, próxima do texto na parede da sala",
+    "rationale": "O logo INCA é uma grelha geométrica 2×2; Cinzel carrega o Inti e o casarão sem virar Bebas de boteco. O corpo precisa ler tap list e horário no celular. Inter/Roboto ficam de fora do display."
+  },
+  "imagery": {
+    "heroSubject": "Pint âmbar no balcão com o logo geométrico INCA, parede de torneiras e lousa de tap list",
+    "atmosphere": [
+      "casarão residencial de 300m² na Boa Vista",
+      "salão, varanda e pátio com churrasqueira",
+      "parede petróleo com quote do Inti e pompons andinos",
+      "mesa de barris e sofás de sala",
+      "Croqueta Andina no prato cerâmico turquesa",
+      "Cusco, o cachorro da casa"
+    ],
+    "references": [
+      {
+        "label": "Instagram @inca_cervejas",
+        "url": "https://www.instagram.com/inca_cervejas/"
+      },
+      {
+        "label": "Viajante Cervejeiro — fotos do Facebook da casa",
+        "url": "https://viajantecervejeiro.com.br/7-bares-que-voce-precisa-conhecer-em-porto-alegre/"
+      },
+      {
+        "label": "Revista Sabores do Sul — Croqueta Andina (Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Comida di Buteco 2026",
+        "url": "https://comidadibuteco.com.br/buteco/inca-bar-de-cervejas/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto da casa (Viajante Cervejeiro / Facebook do bar): copo com logo INCA em grelha 2×2 e gregas andinas, chope âmbar, lousa preta e torneiras cromadas — fundo petróleo/lousa, marca ouro-cerveja.",
+    "Sala do casarão na mesma matéria: parede azul-petróleo, pompons de lã andinos (rosa, laranja, amarelo, lima, turquesa) e frase do Inti pintada no muro — o teal entra como accent, não como ‘eco tech’.",
+    "Foto oficial da Croqueta Andina (Israh Ramos / Sabores do Sul): prato cerâmico turquesa com renda branca, croquetes dourados, tigelinhas de barro e juta — teal + ouro + terra, nunca cream+terracotta de template.",
+    "Nome fantasia no CNPJ: Inca Cervejas Y Tapas. Matérias e reviews: tema peruano, ~19–22 torneiras + 1 espumante, petiscos andinos (milho, mandioca com molho verde), mascote Cusco, happy hour de pint.",
+    "Comida di Buteco 2026 descreve a Croqueta Andina (milho, alho-poró, provolone e muçarela; maionese de coentro, sweet chilli, mostarda e mel) e publica o WhatsApp 51 99847-4113."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-02"
+}
