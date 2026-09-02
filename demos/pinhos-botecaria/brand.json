@@ -1,0 +1,84 @@
+{
+  "leadId": "pinhos-botecaria",
+  "name": "Pinhos Botecaria Pub",
+  "positioning": "Pub noturno da Victor Barreto, em Canoas: petisco de concurso, chopp, karaokê e banda — casa de avenida, não extensão de Porto Alegre.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "noite de Canoas",
+    "chama a galera",
+    "pub com música",
+    "sem pose de capital",
+    "mesa compartilhada"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "vermelho-ouro de boteco POA",
+    "landing diurna de armazém",
+    "Inter/Roboto no letreiro"
+  ],
+  "colors": {
+    "background": "#0B0A08",
+    "foreground": "#F6EBD0",
+    "brand": "#D4A017",
+    "accent": "#E67A12",
+    "surface": "#1A140E",
+    "muted": "#8B7344"
+  },
+  "typography": {
+    "display": "Pirata One (blackletter do pilar mostarda)",
+    "body": "Figtree — grotesk humanista, não Inter/Roboto",
+    "rationale": "O letreiro interno escreve Pinhos em gótica preta sobre parede mostarda; o selo digital é Pinho's + BOTECARIA. Display blackletter carrega o pilar. Corpo limpo para horário e WhatsApp. Títulos de seção em condensed (Barlow) para não competir com o nome."
+  },
+  "imagery": {
+    "heroSubject": "Pilar mostarda com letreiro gótico Pinhos + estrela, guitarras e pôster Guitar Heaven — o canto mais identificável da casa",
+    "atmosphere": [
+      "parede mostarda e guitarras",
+      "madeira escura no teto e nas mesas",
+      "balcão de courino vermelho capitonê",
+      "palco com retratos P&B e luz de palco",
+      "fachada preta na Victor Barreto",
+      "noite de quarta a sábado"
+    ],
+    "references": [
+      {
+        "label": "Comida di Buteco 2026",
+        "url": "https://comidadibuteco.com.br/buteco/pinhos-botecaria-pub/"
+      },
+      {
+        "label": "Deliciaporo — Sabores do Sul / Israh Ramos",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Restaurant Guru — fachada, interior e fotos da casa",
+        "url": "https://www.restaurantguru.com.br/Pinhos-Butecaria-Canoas"
+      },
+      {
+        "label": "Facebook oficial",
+        "url": "https://www.facebook.com/PinhosButecariaCanoas"
+      },
+      {
+        "label": "Trio Bom 2024 — G1 / Israh Ramos",
+        "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/04/13/comida-di-buteco-conheca-as-receitas-participantes-do-concurso-em-porto-alegre.ghtml"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto de interior (set/2025, Restaurant Guru): pilar mostarda com PINHOS em blackletter preta, estrela de cinco pontas, guitarra SG e violão com selo Pinho's BOTECARIA, pôster Guitar Heaven — mostarda vira brand, não ouro de boteco.",
+    "Balcão à esquerda da mesma foto é courino vermelho capitonê; stories oficiais usam laranja vivo no botão de reserva — accent #E67A12, distinto do vermelho-CTA do Vitória.",
+    "Selo circular digital (stories/RG): Pinho's + BOTECARIA e cinco ícones (talher, garrafa, estrela, taça, caneca). Letreiro de madeira com a mesma gótica sob luz âmbar.",
+    "Fachada na Victor Barreto 3588 (esquina Leopoldino Castro de Matos): faixa preta horizontal, logo circular, janelas escuras, telhado colonial — pub de avenida à noite, não armazém claro.",
+    "Salão: tesoura de madeira, moto no teto, palco com retratos P&B, luz vermelha/ciano, mesas de madeira e cadeiras brancas de boteco. Casa abre só qua–sáb à noite.",
+    "Copy das próprias redes (agregada no Restaurants10): 'Gastropub com boa música, bons petiscos'; 'Tem lugar que a gente chega e já se sente em casa'; karaokê e reserva no WhatsApp 51 99604-4639.",
+    "Petisco 2026 Deliciaporo (Israh Ramos / Sabores do Sul): massa de minipizza, frango e alho-poró no tema verduras do concurso. Edições anteriores: Bomba de sabores e Trio Bom.",
+    "Google 4.6; tags públicas: karaokê, música ao vivo, picada. Dono Carlos Alberto Pinho aparece em matéria de TV no salão (tijolo, parede quente, geladeira de latas)."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-02"
+}
