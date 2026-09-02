@@ -11,6 +11,13 @@ npm install
 npm run dev
 ```
 
+Para a versão estável (recomendada):
+
+```bash
+npm run build
+npm start
+```
+
 O app sobe em [http://127.0.0.1:43127](http://127.0.0.1:43127).
 
 ## O que está dentro
