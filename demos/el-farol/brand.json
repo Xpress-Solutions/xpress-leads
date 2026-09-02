@@ -1,0 +1,87 @@
+{
+  "leadId": "el-farol",
+  "name": "El Farol",
+  "positioning": "Buteco porteño na Mariante desde 2009: empanadas, fernet na garrafa cortada e milonga de tango às quintas — ponto da comunidade platina em Porto Alegre.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "porteño",
+    "comunitário",
+    "tango sem pose",
+    "raiz platina",
+    "mesa compartilhada",
+    "farol aceso"
+  ],
+  "avoid": [
+    "steakhouse de luxo",
+    "roxo tech",
+    "creme terracotta genérico de IA",
+    "gaúcho de almanaque",
+    "neon de boate",
+    "Inter/Roboto no display",
+    "cards no hero"
+  ],
+  "colors": {
+    "background": "#0A110E",
+    "foreground": "#F3E8D2",
+    "brand": "#E6B84A",
+    "accent": "#B51F2A",
+    "surface": "#173328",
+    "muted": "#8A7A52"
+  },
+  "typography": {
+    "display": "Fraunces",
+    "body": "Source Sans 3",
+    "rationale": "O letreiro da fachada e o cardápio impresso usam serifada decorativa de bodegón (EL FAROL / BUTECO PORTEÑO). Fraunces carrega esse calor de farol e fileteado sem virar hotel boutique. Source Sans 3 lê cardápio e horário no celular. Inter/Roboto ficam de fora do display."
+  },
+  "imagery": {
+    "heroSubject": "Fachada noturna na Mariante 855: letreiro EL FAROL PORTEÑO, grade de ferro, mesas com toalha xadrez e faróis acesos",
+    "atmosphere": [
+      "luz baixa de farol / lanternas na mesa",
+      "silhueta de casal de tango na parede",
+      "mural do Caminito / La Boca",
+      "bandeiras e flâmulas argentinas",
+      "paredes verde-floresta e vinho",
+      "toalha xadrez preto e branco",
+      "fernet na garrafa Branca cortada"
+    ],
+    "references": [
+      {
+        "label": "Instagram @elfarol855",
+        "url": "https://www.instagram.com/elfarol855/"
+      },
+      {
+        "label": "Jornal do Comércio — 15 anos / fachada Evandro Oliveira",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2024/07/1161572-ha-15-anos-restaurante-e-referencia-em-gastronomia-argentina-em-porto-alegre.html"
+      },
+      {
+        "label": "Sabores do Sul — interior, tango e cardápio",
+        "url": "https://revistasaboresdosul.com.br/o-porteno-el-farol/"
+      },
+      {
+        "label": "Comida di Buteco — El Farol",
+        "url": "https://comidadibuteco.com.br/buteco/el-farol-2/"
+      },
+      {
+        "label": "JC — Fernet Cola / @elfarol855",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2025/10/1220440-lista-10-bares-e-restaurantes-para-tomar-fernet-cola-em-porto-alegre.html"
+      },
+      {
+        "label": "JC — guia de tango em Porto Alegre",
+        "url": "https://www.jornaldocomercio.com/especiais/reportagem-cultural/2022/09/863900-um-guia-para-dancar-tango-em-porto-alegre.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto de fachada do JC (Evandro Oliveira, 2024): letreiro retangular terracotta com óvalo verde-floresta, EL FAROL em serifada branca, PORTEÑO entre bandeiras celestes da Argentina, grade de ferro preta, toalhas xadrez e lanternas quentes — a casa só abre à noite.",
+    "Cardápio impresso (Sabores do Sul, 2017): fundo vermelho-cardeal, fileteado dourado, selo escuro com EL FAROL BUTECO PORTEÑO — o accent vermelho do CTA e o ouro do farol vêm daí, não de um tema de IA.",
+    "Interior nas fotos de Sabina Fuhr e do JC: paredes verde-musgo e vinho, silhueta de tango, mural colorido do Caminito, flâmulas, bandeiras, lâmpadas de farol e luz âmbar baixa — fundo do site é verde-noite, superfície é a parede da casa.",
+    "Alfredo Navarro (JC 2024) descreve a milonga de quinta como ‘típica do bairro Caminito’; o JC (2022) confirma onze+ anos de tango; o JC (2025) crava @elfarol855 e o fernet na garrafa cortada. Voz e hero falam disso, não de ‘experiência gastronômica’."
+  ],
+  "confidence": 0.82,
+  "researchedAt": "2026-09-02"
+}
