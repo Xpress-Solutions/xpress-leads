@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 88" role="img" aria-label="Beladora">
+  <rect width="280" height="88" rx="44" fill="#1F4A32"/>
+  <text
+    x="140"
+    y="48"
+    text-anchor="middle"
+    fill="#E4C15A"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-size="36"
+    font-weight="700"
+  >Beladora</text>
+  <text
+    x="140"
+    y="70"
+    text-anchor="middle"
+    fill="#F3EDE0"
+    font-family="system-ui, sans-serif"
+    font-size="8"
+    letter-spacing="2.4"
+  >BAR · CAFETERIA · PETISCARIA</text>
+</svg>
