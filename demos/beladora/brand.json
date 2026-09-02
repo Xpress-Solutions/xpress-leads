@@ -1,0 +1,85 @@
+{
+  "leadId": "beladora",
+  "name": "Beladora (Bela Dora)",
+  "positioning": "Bar, cafeteria e petiscaria à beira do Guaíba em Ipanema: espetinho da casa, vista de orla e mesa até 1h — não é bar genérico de avenida.",
+  "mood": "premium-casual",
+  "voice": [
+    "orla",
+    "acolhedor",
+    "arejado",
+    "espetinho sem pose",
+    "pôr do sol",
+    "casa com nome de mulher"
+  ],
+  "avoid": [
+    "luxo frio",
+    "neon",
+    "roxo tech",
+    "creme terracotta genérico",
+    "dashboard",
+    "boteco de esquina sem rio"
+  ],
+  "colors": {
+    "background": "#101610",
+    "foreground": "#F3EDE0",
+    "brand": "#E4C15A",
+    "accent": "#2A6B45",
+    "surface": "#1A221C",
+    "muted": "#8C8060"
+  },
+  "typography": {
+    "display": "Great Vibes no nome (script da logo) + Fraunces nos títulos",
+    "body": "Source Sans 3 / humanista para horário, endereço e cardápio",
+    "rationale": "A logo da fachada é cursiva dourada no toldo verde — o script carrega ‘Beladora’, a serifada de orla segura os títulos. Evitar Inter/Roboto como face principal."
+  },
+  "imagery": {
+    "heroSubject": "Fachada com toldos verde-floresta, barris de madeira e a logo cursiva BelaDora na Av. Guaíba",
+    "atmosphere": [
+      "toldos verde-floresta",
+      "barris e cerca de madeira",
+      "árvores da orla de Ipanema",
+      "pôr do sol no Guaíba",
+      "espetinho empanado no juta",
+      "luz de fim de tarde até 1h"
+    ],
+    "references": [
+      {
+        "label": "Instagram @beladora_restaurante",
+        "url": "https://www.instagram.com/beladora_restaurante/"
+      },
+      {
+        "label": "Facebook Bar e Restaurante Bela Dora",
+        "url": "https://www.facebook.com/Bela-Dora-Restaurante-218264382035758/"
+      },
+      {
+        "label": "Comida di Buteco 2026 — Espetinho Beladora (foto Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Comida di Buteco — listagem Porto Alegre",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/"
+      },
+      {
+        "label": "Fachada histórica Choperia Bela Dora — Av. Guaíba / Ipanema",
+        "url": "http://ensaios-fotos.blogspot.com/2017/11/peambulancias-ii.html"
+      },
+      {
+        "label": "Restaurant Guru",
+        "url": "https://restaurantguru.com.br/Bela-Dora-Porto-Alegre"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto da fachada na Av. Guaíba (Ipanema, 2017): toldos verde-floresta, logo cursiva dourada ‘BelaDora’ em oval, faixa BAR · CAFETERIA · PETISCARIA, letreiro vermelho BELA e fila de barris de madeira — verde e ouro vêm da casa, não de paleta SaaS.",
+    "Espetinho Beladora (Comida di Buteco 2026, foto Israh Ramos / Sabores do Sul): espetos empanados dourados sobre juta, couve e molho verde, pimenta vermelha — accent de brasa/verde de erva, fundo escuro de madeira/juta.",
+    "Ponto de orla: Av. Guaíba, 10748, Ipanema; reviews públicas descrevem ambiente arejado e acolhedor; pôr do sol no calçadão (Evandro, 2017) e rua Ipanema com araucária (Wikimedia 2023) sustentam o clima de crepúsculo no Guaíba, não cream+terracotta de template.",
+    "Nome feminino Beladora / Bela Dora + horário ter–dom até 1h + 584 avaliações no Google: site noturno de orla, script no hero, sem pose de restaurante fino nem boteco de avenida sem rio."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-02"
+}
