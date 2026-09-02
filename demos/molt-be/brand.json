@@ -1,0 +1,83 @@
+{
+  "leadId": "molt-be",
+  "name": "Molt Be",
+  "positioning": "Casa catalã na entrada da Floricultura Winge: tapas, croquetas e jardim — muito bom, em catalão, na Tristeza.",
+  "mood": "premium-casual",
+  "voice": [
+    "catalão sem pedantismo",
+    "jardim da Zona Sul",
+    "acolhedor",
+    "cozinha cuidada",
+    "mesa no verde"
+  ],
+  "avoid": [
+    "boteco genérico",
+    "roxo tech",
+    "creme terracotta de IA",
+    "luxo de hotel",
+    "neon de balada",
+    "dashboard"
+  ],
+  "colors": {
+    "background": "#10261A",
+    "foreground": "#F6F1E4",
+    "brand": "#C62828",
+    "accent": "#F5D000",
+    "surface": "#1B3A2A",
+    "muted": "#8C9E7A"
+  },
+  "typography": {
+    "display": "Fraunces",
+    "body": "Figtree",
+    "rationale": "O letreiro da fachada é serifado branco sobre madeira vermelha — Fraunces carrega esse peso de placa catalã. Figtree lê cardápio e horário sem virar Inter/Roboto de landing."
+  },
+  "imagery": {
+    "heroSubject": "Fachada vermelha de madeira na entrada da Winge, letreiro Molt Be. e taça, oliveira e jardim",
+    "atmosphere": [
+      "fachada vermelha com letreiro branco",
+      "galpão centenário sob a figueira da Winge",
+      "mesas de madeira, rattan e plantas",
+      "bandeira da Catalunha na parede",
+      "parede de garrafas verdes",
+      "luz de jardim de dia, lâmpadas de vime à noite"
+    ],
+    "references": [
+      {
+        "label": "Instagram @moltbezonasul",
+        "url": "https://www.instagram.com/moltbezonasul/"
+      },
+      {
+        "label": "GZH — fachada e interior (Lauro Alves / Agência RBS)",
+        "url": "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2024/02/conheca-o-restaurante-com-pegada-e-inspiracao-catala-que-funciona-em-tradicional-floricultura-de-porto-alegre-cls3fxg8c0026015k5azuu1ik.html"
+      },
+      {
+        "label": "Estância Decor — cardápio e Brandada",
+        "url": "https://estanciadecorrs.com.br/a-gastronomia-catala-do-moltbe-tem-sabor-e-historias-para-contar-e-encantar/"
+      },
+      {
+        "label": "Comida di Buteco 2026 — croqueta de alho puerro",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Destino POA — ficha da casa",
+        "url": "https://destinopoa.com.br/lugar/moltbe-zona-sul/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto GZH da fachada: tábuas vermelhas, janelas verde-floresta, letreiro serifado branco «Molt Be.» + taça, placa «Benvingut Molt Be.» — o vermelho da casa vira brand, não accent de boteco.",
+    "Interior GZH: bandeira da Catalunha (senyera vermelho-amarelo + Estelada) na parede de tijolo; amarelo da senyera vira accent de CTA, distinto do ouro âmbar do Vitória.",
+    "Casa na entrada da Floricultura Winge (33 mil m², desde 1886): galpão centenário, figueira, plantas nas mesas, parede de garrafas verdes — fundo verde-jardim, não o marrom do boteco nem o creme do armazém.",
+    "Sócios (GZH / Jornal do Comércio): «MoltBe significa muito bom, em catalão» e liga Zona Sul à Catalunha; rádio catalã, obras de Thiago Gregório, Leo Costanzo, Zcarlos Tattoo e Stang One.",
+    "Cardápio público (Estância Decor / Destino POA): tapas, croquetas, Mar I Muntanya, arroz nègre, crema catalana, sangria — voz de casa catalã no jardim, não de buteco genérico.",
+    "Comida di Buteco 2026: croqueta de alho puerro (foto Israh Ramos); ficha do concurso cita todos os dias. Horários publicados (Destino POA, jul/2024): qua 12–15h, qui–sáb até 22h, dom 11–18h30.",
+    "WhatsApp/reservas (51) 99492-8290 e IG @moltbezonasul recorrentes em assessoria, Destino POA e Sabores do Sul."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-02"
+}
