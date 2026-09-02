@@ -8,12 +8,15 @@ import {
   Sparkles,
   Star,
 } from "lucide-react";
-import type { Category, Lead, Neighborhood, Priority } from "@/lib/types";
+import type { Category, City, Lead, Neighborhood, Priority } from "@/lib/types";
 import {
   categoryLabel,
+  cityLabel,
+  cityOrder,
   excluded,
   leads,
   methodology,
+  neighborhoodCity,
   neighborhoodLabel,
   neighborhoodOrder,
   RESEARCH_DATE,
@@ -42,14 +45,25 @@ const categories: Array<Category | "todas"> = [
 export function LeadBoard() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<Category | "todas">("todas");
+  const [city, setCity] = useState<City | "todas">("todas");
   const [neighborhood, setNeighborhood] = useState<Neighborhood | "todas">("todas");
   const [priority, setPriority] = useState<Priority | "todas">("todas");
   const [selected, setSelected] = useState<Lead | null>(null);
+
+  const visibleNeighborhoods = useMemo(() => {
+    return neighborhoodOrder.filter((item) => {
+      if (city === "todas") {
+        return leads.some((lead) => lead.neighborhood === item);
+      }
+      return neighborhoodCity[item] === city;
+    });
+  }, [city]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return leads
       .filter((lead) => (category === "todas" ? true : lead.category === category))
+      .filter((lead) => (city === "todas" ? true : lead.city === city))
       .filter((lead) =>
         neighborhood === "todas" ? true : lead.neighborhood === neighborhood
       )
@@ -61,6 +75,7 @@ export function LeadBoard() {
           lead.address,
           lead.identity,
           categoryLabel[lead.category],
+          cityLabel[lead.city],
           neighborhoodLabel[lead.neighborhood],
         ]
           .join(" ")
@@ -68,10 +83,10 @@ export function LeadBoard() {
           .includes(q);
       })
       .sort((a, b) => b.score - a.score);
-  }, [category, neighborhood, priority, query]);
+  }, [category, city, neighborhood, priority, query]);
 
   const highCount = leads.filter((lead) => lead.priority === "alta").length;
-  const neighborhoodCount = new Set(leads.map((lead) => lead.neighborhood)).size;
+  const cityCount = new Set(leads.map((lead) => lead.city)).size;
 
   return (
     <div className="flex flex-1 flex-col">
@@ -84,7 +99,7 @@ export function LeadBoard() {
               Mapa de conversão · {RESEARCH_DATE}
             </p>
             <p className="text-xs text-[oklch(0.9_0.03_95_/_0.75)]">
-              Jardim Botânico e entorno · Porto Alegre
+              Porto Alegre · Canoas · Gravataí · NH · São Leopoldo
             </p>
           </div>
           <div className="max-w-3xl space-y-4">
@@ -92,16 +107,16 @@ export function LeadBoard() {
               Negócios ativos, com identidade — e sem site.
             </h1>
             <p className="max-w-2xl text-base leading-relaxed text-[oklch(0.93_0.02_95_/_0.86)] sm:text-lg">
-              Casas do Jardim Botânico e dos bairros colados — Partenon, Jardim
-              do Salso, Rio Branco e Santana. Nome, ponto e movimento. Nenhuma
-              controla o próprio endereço na web. Sem repetir negócio.
+              Capital e região metropolitana: casas abertas, com nome próprio e
+              sinal recente de operação. Nenhuma controla o próprio endereço na
+              web. Sem repetir negócio.
             </p>
           </div>
           <dl className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             <Stat value={String(leads.length)} label="Leads qualificados" />
             <Stat value={String(highCount)} label="Prioridade alta" />
             <Stat value="0" label="Com site oficial" />
-            <Stat value={String(neighborhoodCount)} label="Bairros" />
+            <Stat value={String(cityCount)} label="Cidades" />
           </dl>
         </div>
       </header>
@@ -114,7 +129,7 @@ export function LeadBoard() {
               <input
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="Buscar por nome, rua ou ofício"
+                placeholder="Buscar por nome, cidade, rua ou ofício"
                 aria-label="Buscar leads"
                 className="h-11 w-full rounded-lg border border-input bg-card pr-3 pl-9 text-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50"
               />
@@ -149,17 +164,58 @@ export function LeadBoard() {
           <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
             <button
               type="button"
+              onClick={() => {
+                setCity("todas");
+                setNeighborhood("todas");
+              }}
+              className={cn(
+                "h-8 shrink-0 rounded-lg border px-3 text-sm font-medium",
+                city === "todas"
+                  ? "border-transparent bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
+                  : "border-border bg-card hover:bg-muted"
+              )}
+            >
+              Todas as cidades
+            </button>
+            {cityOrder.map((item) => {
+              const active = city === item;
+              const count = leads.filter((lead) => lead.city === item).length;
+              return (
+                <button
+                  key={item}
+                  type="button"
+                  onClick={() => {
+                    setCity(item);
+                    setNeighborhood("todas");
+                  }}
+                  className={cn(
+                    "h-8 shrink-0 rounded-lg border px-3 text-sm font-medium",
+                    active
+                      ? "border-transparent bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
+                      : "border-border bg-card hover:bg-muted"
+                  )}
+                >
+                  {cityLabel[item]}
+                  <span className="ml-1.5 text-xs opacity-70">{count}</span>
+                </button>
+              );
+            })}
+          </div>
+
+          <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
+            <button
+              type="button"
               onClick={() => setNeighborhood("todas")}
               className={cn(
                 "h-8 shrink-0 rounded-lg border px-3 text-sm font-medium",
                 neighborhood === "todas"
-                  ? "border-transparent bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
+                  ? "border-transparent bg-[oklch(0.32_0.06_155)] text-[oklch(0.97_0.02_95)]"
                   : "border-border bg-card hover:bg-muted"
               )}
             >
               Todos os bairros
             </button>
-            {neighborhoodOrder.map((item) => {
+            {visibleNeighborhoods.map((item) => {
               const active = neighborhood === item;
               const count = leads.filter((lead) => lead.neighborhood === item).length;
               return (
@@ -170,7 +226,7 @@ export function LeadBoard() {
                   className={cn(
                     "h-8 shrink-0 rounded-lg border px-3 text-sm font-medium",
                     active
-                      ? "border-transparent bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
+                      ? "border-transparent bg-[oklch(0.32_0.06_155)] text-[oklch(0.97_0.02_95)]"
                       : "border-border bg-card hover:bg-muted"
                   )}
                 >
@@ -208,12 +264,15 @@ export function LeadBoard() {
         </p>
 
         {filtered.length === 0 ? (
-          <EmptyState onReset={() => {
-            setQuery("");
-            setCategory("todas");
-            setNeighborhood("todas");
-            setPriority("todas");
-          }} />
+          <EmptyState
+            onReset={() => {
+              setQuery("");
+              setCategory("todas");
+              setCity("todas");
+              setNeighborhood("todas");
+              setPriority("todas");
+            }}
+          />
         ) : (
           <section className="grid gap-4 md:grid-cols-2">
             {filtered.map((lead) => (
@@ -273,7 +332,7 @@ export function LeadBoard() {
             Dados públicos cruzados em {RESEARCH_DATE}. Confirme no balcão antes
             de fechar proposta.
           </p>
-          <p>Jardim Botânico e entorno · Porto Alegre</p>
+          <p>RMPA · Porto Alegre e cidades vizinhas</p>
         </div>
       </footer>
 
@@ -316,6 +375,7 @@ function LeadCard({
               >
                 {lead.priority === "alta" ? "Alta" : "Média"}
               </Badge>
+              <Badge variant="outline">{cityLabel[lead.city]}</Badge>
               <Badge variant="outline">{neighborhoodLabel[lead.neighborhood]}</Badge>
               <Badge variant="outline">{categoryLabel[lead.category]}</Badge>
             </div>
@@ -373,7 +433,7 @@ function EmptyState({ onReset }: { onReset: () => void }) {
       <CardHeader>
         <CardTitle>Nenhum lead nesse recorte</CardTitle>
         <CardDescription>
-          Ajuste a busca ou volte para a lista completa do bairro.
+          Ajuste a busca ou volte para a lista completa da região.
         </CardDescription>
       </CardHeader>
       <CardContent>
