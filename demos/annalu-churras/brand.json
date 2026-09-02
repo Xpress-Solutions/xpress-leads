@@ -1,0 +1,76 @@
+{
+  "leadId": "annalu-churras",
+  "name": "Annalu Churras Pub",
+  "positioning": "Churras pub de nome próprio no Jardim Itu: espeto na brasa, petisco de concurso e noite de bairro residencial — não bar de avenida.",
+  "mood": "boteco-raiz",
+  "voice": [
+    "direto",
+    "de espeto",
+    "noite de bairro",
+    "nome próprio",
+    "sem pose"
+  ],
+  "avoid": [
+    "luxo",
+    "neon de balada",
+    "roxo tech",
+    "creme terracotta genérico",
+    "dashboard",
+    "Inter como display"
+  ],
+  "colors": {
+    "background": "#120C08",
+    "foreground": "#F4E6D4",
+    "brand": "#E35A1F",
+    "accent": "#8FA84E",
+    "surface": "#22180F",
+    "muted": "#A07A52"
+  },
+  "typography": {
+    "display": "Oswald — condensada de letreiro de pub",
+    "body": "Karla — grotesk humanista para horário e cardápio",
+    "rationale": "Annalu pede nome curto e pesado como placa de esquina; Oswald carrega o letreiro sem cair em Inter/Roboto. Karla lê petisco e WhatsApp no celular. O contraste noite/carvão + brasa + verde de poró separa a casa do Vitória (ouro+carmesim) e da Anita (creme+verde de armazém)."
+  },
+  "imagery": {
+    "heroSubject": "Espetinho Poro e Brasa — espeto com molho de tomate rústico, batata dourada e creme de ervas, foto oficial do Comida di Buteco 2026 (Israh Ramos)",
+    "atmosphere": [
+      "carvão e noite (abre às 18h)",
+      "espeto de madeira na brasa",
+      "molho vermelho de tomate e cebola",
+      "creme verde de ervas / alho-poró",
+      "juta e esteira de bambu nas fotos oficiais",
+      "prato branco de petisco compartilhado"
+    ],
+    "references": [
+      {
+        "label": "Comida di Buteco — ficha da casa",
+        "url": "https://comidadibuteco.com.br/buteco/annalu-churras-pub/"
+      },
+      {
+        "label": "Sabores do Sul — Espetinho Poro e Brasa 2026 (Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "G1 — Pão Gaudério de carne 2024 (Israh Ramos)",
+        "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/04/13/comida-di-buteco-conheca-as-receitas-participantes-do-concurso-em-porto-alegre.ghtml"
+      },
+      {
+        "label": "Circuito Porto Alegre 2026",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial do Espetinho Poro e Brasa (Sabores do Sul / Israh Ramos, abr/2026): espeto com molho de tomate rústico, batata dourada, ramekin de creme verde de ervas, esteira de bambu escura e juta — daí o carvão de fundo, a brasa #E35A1F nos títulos e o verde de poró #8FA84E no CTA.",
+    "Foto oficial do Pão Gaudério de carne (G1 2024 / Israh Ramos): pão d’água em círculo, queijo dourado, maionese no centro e salsinha — confirma o ofício de petisco compartilhado e o verde de erva como cor recorrente, não acento aleatório.",
+    "Ficha do Comida di Buteco: Rua Gomes de Freitas, 421, Jardim Itu Sabará; (51) 99585-8258; seg–sáb 18h–23h. Casa noturna de zona norte residencial — fundo fuligem, não landing clara de armazém.",
+    "Nome próprio (Annalu) + ofício (churras + pub + espeto) + dois petiscos de concurso (Pão Gaudério 2024, Poro e Brasa 2026, tema verduras). Sem logo/fachada pública em alta resolução; palette veio do prato e do expediente, não de um tema SaaS."
+  ],
+  "confidence": 0.7,
+  "researchedAt": "2026-09-02"
+}
