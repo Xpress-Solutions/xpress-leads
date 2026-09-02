@@ -1,0 +1,84 @@
+{
+  "leadId": "roda-de-carreta",
+  "name": "Churrascaria Roda de Carreta",
+  "positioning": "Churrascaria de espeto corrido no galpão do 35 CTG: 16 cortes, dança tradicionalista e a roda de carreta no lustre, no buffet e no nome.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "campeiro",
+    "orgulhoso",
+    "tradicional sem cartão-postal",
+    "galpão cheio",
+    "de CTG"
+  ],
+  "avoid": [
+    "luxo de steakhouse global",
+    "roxo tech",
+    "creme terracotta genérico",
+    "boteco de esquina",
+    "minimalismo frio",
+    "dashboard"
+  ],
+  "colors": {
+    "background": "#14100C",
+    "foreground": "#F0E4CC",
+    "brand": "#C9A227",
+    "accent": "#A31D2B",
+    "surface": "#2A1C14",
+    "muted": "#8C7358"
+  },
+  "typography": {
+    "display": "Cinzel",
+    "body": "Source Sans 3",
+    "rationale": "Cinzel carrega a placa da estátua do gaúcho (Cultura e Tradição) e o letreiro de CTG; Source Sans 3 lê cardápio e horário sem virar Inter/Roboto. O ouro de marca vem do latão dos lustres-roda e do banner amarelo do 35 CTG; o accent é o lenço vermelho da invernada, não o vermelho de boteco."
+  },
+  "imagery": {
+    "heroSubject": "Fachada de toras do galpão na Ipiranga 5300 com a estátua do gaúcho no pedestal de pedra",
+    "atmosphere": [
+      "galpão de costaneira / toras escuras",
+      "lustres em forma de roda de carreta",
+      "buffet circular no formato da roda",
+      "palco com bandeira do RS e dança tradicionalista",
+      "espeto corrido na mesa",
+      "lenço vermelho e bombacha"
+    ],
+    "references": [
+      {
+        "label": "Instagram @churrascariarodadecarreta35ctg",
+        "url": "https://www.instagram.com/churrascariarodadecarreta35ctg/"
+      },
+      {
+        "label": "Restaurant Guru — 259 fotos da casa",
+        "url": "https://restaurantguru.com.br/Roda-de-Carreta-Porto-Alegre"
+      },
+      {
+        "label": "Viagens que Sonhamos — fachada, sala, espeto e invernada",
+        "url": "https://viagensquesonhamos.com.br/2015/09/churrascaria-portoalegre.html"
+      },
+      {
+        "label": "Wikimedia — fachada do 35 CTG / galpão",
+        "url": "https://commons.wikimedia.org/wiki/File:CTG_35.jpg"
+      },
+      {
+        "label": "Wikimedia — estátua do gaúcho",
+        "url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1tua_%27Ga%C3%BAcho%27.JPG"
+      },
+      {
+        "label": "Guia Porto Alegre",
+        "url": "https://guiaportoalegrers.com.br/jardim-botanico/churrascaria-roda-de-carreta"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fachada (Wikimedia + blog): galpão de toras horizontais escuras, telhado de zinco oxidado, estátua do gaúcho em pedestal de pedra e banner amarelo/vermelho do 35 CTG — fundo carvão-madeira e ouro de marca.",
+    "Interior documentado: tijolo aparente, vigas escuras, lustres de madeira em forma de roda de carreta e buffet circular de granito preto no formato da roda — o nome da casa está no salão, não só no letreiro.",
+    "Logo circular com a roda no peito do garçom (polo branco) em foto de espeto corrido; dança no palco com lenço vermelho, bombacha azul e bandeira do RS — accent de lenço, não vermelho de boteco.",
+    "Fontes escritas convergentes: fundada em 01/12/1986 no 35 CTG, salão ~500 lugares, 16 cortes em espeto corrido, comida campeira, shows de invernada. IG @churrascariarodadecarreta35ctg."
+  ],
+  "confidence": 0.8,
+  "researchedAt": "2026-09-02"
+}
