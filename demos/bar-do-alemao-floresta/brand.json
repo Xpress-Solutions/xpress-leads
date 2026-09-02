@@ -1,0 +1,81 @@
+{
+  "leadId": "bar-do-alemao-floresta",
+  "name": "Bar do Alemão",
+  "positioning": "Lancheria-boteco da Dr. Timóteo, Floresta: almoço de bairro e petisco de avó — o Alemão da Timóteo, não franquia nem restaurante alemão.",
+  "mood": "boteco-raiz",
+  "voice": [
+    "de almoço",
+    "de vovó",
+    "de esquina",
+    "4º Distrito",
+    "direto",
+    "sem pose"
+  ],
+  "avoid": [
+    "luxo",
+    "kitsch germânico",
+    "boate",
+    "neon",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto no display",
+    "confundir com Bier Stube ou Lanches do Alemão"
+  ],
+  "colors": {
+    "background": "#16140F",
+    "foreground": "#F4EBD8",
+    "brand": "#3A6B32",
+    "accent": "#C9A227",
+    "surface": "#221E16",
+    "muted": "#9A8864"
+  },
+  "typography": {
+    "display": "Oswald — letreiro condensado de lancheria",
+    "body": "Newsreader — serifada de cardápio de casa, não grotesk de app",
+    "rationale": "O nome pede placa pintada na Dr. Timóteo, não script de café. Corpo serifado carrega ‘receita da vovó’ e horário de almoço. Evitar Inter/Roboto e a Bebas+Outfit do Vitória para não virar clone de boteco noturno."
+  },
+  "imagery": {
+    "heroSubject": "Bolinho de Couve da Vovó (Israh Ramos / Comida di Buteco 2026): bolinhos dourados sobre folhas de couve, pimenta-biquinho e juta",
+    "atmosphere": [
+      "juta / tecido de feira",
+      "casca frita dourada",
+      "couve escura da vovó",
+      "pimenta-biquinho vermelha",
+      "travessa branca de lancheria",
+      "almoço de semana na Floresta",
+      "luz quente de petisco, não noite de samba"
+    ],
+    "references": [
+      {
+        "label": "Comida di Buteco — Bar do Alemão (edição 2026)",
+        "url": "https://comidadibuteco.com.br/buteco/bar-do-alemao-3/"
+      },
+      {
+        "label": "Revista Sabores do Sul — Bolinho de Couve da Vovó (Foto: Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "G1 — Puchero à moda da casa, 2024 (Foto: Israh Ramos)",
+        "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/04/13/comida-di-buteco-conheca-as-receitas-participantes-do-concurso-em-porto-alegre.ghtml"
+      },
+      {
+        "label": "G1 — Tirinhas de frango, 2022 (mesmo endereço e horário)",
+        "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2022/04/08/concurso-comida-di-buteco-tem-petiscos-a-r-27-veja-os-participantes-do-rs.ghtml"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial do Bolinho de Couve da Vovó (Israh Ramos / CDB 2026 e Sabores do Sul): juta bege, bolinhos dourados com ervas, cama de couve verde-escura, pimenta-biquinho vermelha, dois potinhos (pasta de alho-poró clara + geleia escura) — paleta extraída daqui, não de template.",
+    "Ficha 2026 do comidadibuteco.com.br: ‘Bolinho de arroz com couve, sem glúten. Acompanhado de pasta de alho-poró.’ Endereço R. Doutor Timóteo, 201 | Floresta. Telefone 5132223148. Seg–sex 11h–22h, sáb 11h–15h.",
+    "Casa de almoço, não de noite: o mesmo horário (abre 11h, sábado só até 15h) está em G1 2022, CDB e Sabores do Sul 2026 — fundo oliva-escuro de balcão, não preto-samba do Vitória nem creme de armazém da Anita.",
+    "Petiscos documentados em edições: Tirinhas de frango (2022), Puchero à moda da casa com açafrão e torrada (2024), Quadradinhos de sabor / mini tortinhas de atum (2025), Bolinho de Couve da Vovó (2026). Recorrência de fritura + receita de casa sustenta o ouro da casca e o verde da couve.",
+    "Lead e guias distinguem homônimos: Bier Stube (Timóteo 81, restaurante alemão) e Lanches do Alemão (Humaitá / Unisinos) não emprestam logo nem fachada. Sem Instagram oficial no lead — visual público é o petisco do concurso, não letreiro alemão."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-02"
+}
