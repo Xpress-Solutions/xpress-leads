@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --background: #e6ede4;
+  --foreground: #1a2b22;
+  --brand: #1e4d38;
+  --accent: #b84a6a;
+  --surface: #f4f8f1;
+  --muted: #6e7f6a;
+  --brand-deep: #0f2a1f;
+  --leaf: #2f6a4a;
+  --ipe: #d46a86;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--brand);
+  --color-accent: var(--accent);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-brand-deep: var(--brand-deep);
+  --color-leaf: var(--leaf);
+  --color-ipe: var(--ipe);
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-source);
+}
+
+.font-display {
+  font-family: var(--font-cormorant), "Palatino Linotype", Palatino, serif;
+}
+
+.font-body {
+  font-family: var(--font-source), "Segoe UI", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-source), "Segoe UI", system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--brand);
+  color: var(--surface);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out forwards;
+}
+
+@keyframes canopy-drift {
+  from {
+    transform: scale(1.04) translateY(0);
+  }
+  to {
+    transform: scale(1.08) translateY(-1.5%);
+  }
+}
+
+.canopy-motion {
+  animation: canopy-drift 22s ease-in-out infinite alternate;
+}

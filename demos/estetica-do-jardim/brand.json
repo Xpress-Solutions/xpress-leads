@@ -1,0 +1,85 @@
+{
+  "leadId": "estetica-do-jardim",
+  "name": "Estética do Jardim",
+  "positioning": "Clínica/salão de estética de bairro no Jardim Botânico: a casa que a vizinhança já chama de ‘a estética Jardim’, sem se misturar com festa infantil.",
+  "mood": "limpo-servico",
+  "voice": [
+    "de bairro",
+    "clara",
+    "acolhedora",
+    "sem pose de spa",
+    "geolocalizada"
+  ],
+  "avoid": [
+    "roxo tech",
+    "creme terracotta genérico",
+    "luxo de shopping",
+    "festa infantil",
+    "dashboard",
+    "mármore de stock"
+  ],
+  "colors": {
+    "background": "#E6EDE4",
+    "foreground": "#1A2B22",
+    "brand": "#1E4D38",
+    "accent": "#B84A6A",
+    "surface": "#F4F8F1",
+    "muted": "#6E7F6A"
+  },
+  "typography": {
+    "display": "Cormorant Garamond",
+    "body": "Source Sans 3",
+    "rationale": "Serifada de letreiro de clínica de rua — o nome ‘Estética do Jardim’ pede caligrafia de placa, não grotesk de app. Corpo humanista para tratamentos e endereço. Evitar Inter/Roboto como display."
+  },
+  "imagery": {
+    "heroSubject": "Dossel do Jardim Botânico de POA (palmeiras, mata nativa, ipê-rosa) sobre o nome da casa — atmosfera do bairro, não stock de spa",
+    "atmosphere": [
+      "dossel de mata nativa e palmeiras do parque que dá nome ao bairro",
+      "luz filtrada verde-ouro",
+      "ipê-rosa como acento floral, não terracota",
+      "ponto de rua em frente ao antigo Gecepel / La Plata",
+      "clínica clara de bairro, sem neon"
+    ],
+    "references": [
+      {
+        "label": "Avaliações (lead)",
+        "url": "https://avaliacoesbrasil.com/salao-de-beleza/porto-alegre/estetica-do-jardim/"
+      },
+      {
+        "label": "Zapia — Buenos Aires 205",
+        "url": "https://www.zapia.digital/porto-alegre-rs/jardim-botanico/saloes-de-beleza-e-cabeleireiros"
+      },
+      {
+        "label": "Logradouro La Plata — Estetica Do Jardim",
+        "url": "https://www.consultarcep.com.br/rs/porto-alegre/jardim-botanico/rua-la-plata/90670040"
+      },
+      {
+        "label": "Foxter — ‘a estética Jardim’ em frente ao Gecepel",
+        "url": "https://www.foxterciaimobiliaria.com.br/empreendimento/406/jardim-la-plata-residencial-porto-alegre-jardim-botanico-condominio-vertical-zona-leste"
+      },
+      {
+        "label": "Jardim Botânico de Porto Alegre (Sema)",
+        "url": "https://sema.rs.gov.br/jardimbotanicors"
+      },
+      {
+        "label": "GZH — palmeiras e jasmin na entrada do parque",
+        "url": "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2020/09/em-imagens-aereas-faca-um-passeio-pelo-jardim-botanico-de-porto-alegre-ckeugh3f1000q014ydj8lplvb.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "soft",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Nome próprio + bairro: Estética do Jardim no Jardim Botânico. O parque estadual (Sema) descreve pórtico branco com letras douradas, 36 ha de arboreto, palmeiras na entrada da Salvador França e coleções de orquídeas, bromélias e cactos nativos — verde de mata, não mint de SaaS.",
+    "GZH documenta a alameda de palmeiras e o Jasmin do Imperador na entrada; o plano diretor do JB cita ipês. O accent rosa (#B84A6A) vem do ipê-rosa da flora do parque, não de terracota genérica.",
+    "Foxter Imobiliária descreve o prédio da La Plata ‘em frente ao Supermercado Gecepel e a estética Jardim’ — a casa é marco de rua, ponto comercial de bairro, não clínica de shopping.",
+    "ConsultarCEP lista ‘Estetica Do Jardim’ no logradouro Rua La Plata, CEP 90670-040. O lead e a Zapia também associam a marca à Rua Buenos Aires, 205 (CEP 90670-130) — dois pontos de calçada no mesmo quarteirão.",
+    "Lead: 94 avaliações no Google e comentários do tipo ‘melhor estética do Jardim Botânico’. Sem site oficial; agenda por telefone/WhatsApp. Busca pelo nome compete com festa infantil — o site precisa parecer clínica, não tema de aniversário.",
+    "Logo e fachada colorida não estão públicos com fidelidade suficiente. Paleta ancorada no nome + parque homônimo + ofício de clínica clara (mood limpo-serviço). Sem chute roxo-tech."
+  ],
+  "confidence": 0.62,
+  "researchedAt": "2026-09-02"
+}
