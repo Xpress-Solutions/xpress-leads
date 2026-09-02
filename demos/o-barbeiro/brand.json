@@ -1,0 +1,68 @@
+{
+  "leadId": "o-barbeiro",
+  "name": "O Barbeiro",
+  "positioning": "Barbearia de família na Felizardo há mais de 50 anos: ofício de bairro, barba e cabelo pensados e arquitetados — a casa do Daniel, não a de Florianópolis.",
+  "mood": "limpo-servico",
+  "voice": ["de ofício", "preciso", "familiar", "sem pose", "de bairro"],
+  "avoid": [
+    "franquia",
+    "hipster floripa",
+    "neon",
+    "roxo tech",
+    "creme terracotta genérico",
+    "barbearia-club",
+    "SaaS"
+  ],
+  "colors": {
+    "background": "#101410",
+    "foreground": "#E7E2D4",
+    "brand": "#C4A35A",
+    "accent": "#A11D2E",
+    "surface": "#1B221C",
+    "muted": "#7A8074"
+  },
+  "typography": {
+    "display": "Cinzel",
+    "body": "Source Sans 3",
+    "rationale": "Cinzel é face inscricional, de letreiro e pedra — casa com 50 anos e discurso de corte ‘arquitetado’. Source Sans 3 lê horário e endereço sem virar Inter/Roboto. Evitar script de barbearia-club e grotesk de SaaS."
+  },
+  "imagery": {
+    "heroSubject": "Interior de salão de ofício ao amanhecer: cadeira, espelhos com aro de latão, poste clássico e luz da Felizardo pela vitrine — não stock de fade, não o site de Florianópolis.",
+    "atmosphere": [
+      "madeira escura e espelhos",
+      "poste vermelho-creme-azul de barbeiro",
+      "latão de navalha e placa",
+      "luz da manhã (abre às 8h)",
+      "rua de bairro, sem neon"
+    ],
+    "references": [
+      {
+        "label": "Listagem Rua Felizardo — Locais do Brasil",
+        "url": "https://www.locaisdobrasil.com.br/endereco/rua-felizardo/porto-alegre-rs"
+      },
+      {
+        "label": "Google Maps — O Barbeiro Felizardo 336",
+        "url": "https://www.google.com/maps/search/?api=1&query=O+Barbeiro+Rua+Felizardo+336+Porto+Alegre"
+      },
+      {
+        "label": "Rua Felizardo (logradouro)",
+        "url": "https://www.locaisdobrasil.com.br/endereco/rua-felizardo/porto-alegre-rs"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Texto público da casa em Locais do Brasil / Google: ‘legado de família tradicional que tem mais de 50 anos’ e o discurso próprio ‘Barba e cabelo pensados e arquitetados’.",
+    "Síntese de 19 avaliações 5★: clientes citam o profissional Daniel pelo nome; preço ‘ótimo’; ambiente ‘agradável e justo’ — salão de bairro, não club.",
+    "Horário diurno de ofício (seg–sex 8h–20h, sáb 9h–18h, domingo fechado) pede luz de manhã e fundo escuro de madeira/espelho, não vibe noturna de boteco.",
+    "Sem Instagram local rastreável e sem telefone público: a marca visual é o nome + o poste clássico de barbeiro + latão de ferramenta, não feed de fade.",
+    "Não confundir com Barbearia O Barbeiro de Florianópolis (obarbeiro.com.br): aquela casa é art/garage; esta é a Felizardo 336, Jardim Botânico, Porto Alegre.",
+    "Paleta: tinta verde-preta de salão antigo + latão de navalha (#C4A35A) + carmim do poste (#A11D2E). Distinta do vermelho/ouro do Vitória e do creme/verde/brasa da Anita. Sem roxo, sem cream+terracotta."
+  ],
+  "confidence": 0.64,
+  "researchedAt": "2026-09-02"
+}
