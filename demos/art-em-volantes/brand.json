@@ -1,0 +1,73 @@
+{
+  "leadId": "art-em-volantes",
+  "name": "Art em Volantes",
+  "positioning": "Ateliê de revestimento de volantes na Barão do Amazonas: couro, costura à mão e linha na cor que o carro pede — ofício de mais de dez anos, sem pose de concessionária.",
+  "mood": "artesanal",
+  "voice": [
+    "ofício",
+    "preciso",
+    "direto",
+    "artesanal",
+    "oficina de bairro"
+  ],
+  "avoid": [
+    "roxo tech",
+    "creme terracotta genérico",
+    "SaaS",
+    "showroom de concessionária",
+    "Inter/Roboto de display",
+    "stock de volante genérico"
+  ],
+  "colors": {
+    "background": "#0A0A0A",
+    "foreground": "#F4F1E4",
+    "brand": "#FFF200",
+    "accent": "#F0C010",
+    "surface": "#161412",
+    "muted": "#8A8170"
+  },
+  "typography": {
+    "display": "Archivo Black — bloco largo e industrial como o wordmark em caixa-baixa",
+    "body": "IBM Plex Sans — grotesk técnica de oficina, não Inter/Roboto",
+    "rationale": "O logo oficial empilha ‘art em volantes’ em geometria extra-larga amarela no preto. Display precisa ter peso de placa de oficina; corpo técnico para orçamento, materiais e endereço. Evitar serifada de restaurante e sans genérica de dashboard."
+  },
+  "imagery": {
+    "heroSubject": "Close do volante revestido em couro perfurado com costura contrastante — a peça pronta, não a fachada de rua",
+    "atmosphere": [
+      "couro preto liso e perfurado",
+      "costura cruzada à mão (vermelha, azul, amarela)",
+      "cabine escura de carro",
+      "amarelo-corrida do letreiro no preto",
+      "chaves cruzadas e engrenagem do selo"
+    ],
+    "references": [
+      {
+        "label": "Site oficial artemvolantes.com.br (Wix)",
+        "url": "https://www.artemvolantes.com.br/"
+      },
+      {
+        "label": "Facebook Art em Volantes (1,1 mil seguidores)",
+        "url": "https://www.facebook.com/artemvolantess/"
+      },
+      {
+        "label": "Lista comercial — Barão do Amazonas 1475",
+        "url": "https://www.empresafone.com.br/empresa/art-em-volantes-porto-alegre-rs-jardim-botanico-1552001"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Wordmark oficial (ba25c5_7dfb…png, 1809×527): ‘art em volantes’ em caixa-baixa extra-larga, amarelo #FFF200 amostrado no pixel, fundo #000 — amarelo-corrida vira cor de marca, não dourado de boteco.",
+    "Selo do site (84770f_9c23…png): duas chaves amarelo-oficina (#FCCF1B / #F0C010) cruzadas sobre engrenagem bronze-escura no preto — accent e superfície vêm da ferramenta, não de terracotta.",
+    "Ícone quadrado (9d534b_0b63…png): volante de três raios preto sobre amarelo #F0D000, o mesmo contraste de placa de oficina/serviço automotivo.",
+    "Foto de trabalho 3264×2448 no site: couro perfurado + liso, fundo preto de cabine, costura cruzada vermelha #B52829 — hero é a peça, atmosfera de ateliê noturno.",
+    "Slideshow oficial (‘Volante revestido’ 1/3): Ford e Mitsubishi com couro liso/perfurado e linha azul-elétrica; copy do próprio site: ‘Costurado à Mão!’ e ‘Diversas Cores de Linhas!’.",
+    "Sobre oficial + Facebook: mais de 10 anos, revestimento e volantes injetados, Automotive Parts Store, telefone (51) 3377-3090, e-mail artemvolantes@hotmail.com, Barão do Amazonas 1475, Jardim Botânico. Sem Instagram ativo encontrado."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-02"
+}
