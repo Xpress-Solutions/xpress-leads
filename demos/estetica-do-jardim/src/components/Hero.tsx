@@ -12,7 +12,7 @@ export function Hero() {
           alt=""
           className="canopy-motion h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-deep via-brand-deep/70 to-brand-deep/25" />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-deep via-brand-deep/55 to-brand-deep/10" />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-6xl px-4 pb-28 pt-32 md:px-6 md:pb-24 md:pt-40">
