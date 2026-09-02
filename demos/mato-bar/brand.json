@@ -1,0 +1,80 @@
+{
+  "leadId": "mato-bar",
+  "name": "Mato Bar",
+  "positioning": "Casa da Primor da Terra no Rio Branco: chope experimental em microlotes e cardápio 100% vegetal num galpão despojado — simples, livre, sem pose de restaurante vegano.",
+  "mood": "artesanal",
+  "voice": [
+    "simples",
+    "livre",
+    "experimental",
+    "de galpão",
+    "planta sem sermão",
+    "lowercase"
+  ],
+  "avoid": [
+    "luxo",
+    "boate",
+    "neon",
+    "roxo tech",
+    "creme terracotta genérico",
+    "eco-green de aplicativo",
+    "Inter",
+    "Roboto",
+    "cards no hero"
+  ],
+  "colors": {
+    "background": "#16110C",
+    "foreground": "#F4EDE0",
+    "brand": "#C9A227",
+    "accent": "#E65C1A",
+    "surface": "#241A14",
+    "muted": "#6E7A52"
+  },
+  "typography": {
+    "display": "Syne — grotesk geométrica em caixa-baixa, no espírito do wordmark mato bar",
+    "body": "Source Sans 3 — leitura de cardápio e torneiras, sem Inter/Roboto",
+    "rationale": "O logo oficial é lowercase geométrico no copo, no papel manteiga e na parede de terra. Syne carrega esse desenho; o corpo precisa ser limpo para IBU, volume e horário. Evitar Bebas/caixa-alta de boteco e serifada de café boutique."
+  },
+  "imagery": {
+    "heroSubject": "Pátio do galpão na Francisco Ferrer: parede de terra com o wordmark branco, plantas grandes, móveis de pinho feitos pelos sócios e lâmpadas quentes",
+    "atmosphere": [
+      "galpão/garagem reformada",
+      "parede mostarda atrás das lousas de chope",
+      "cascalho, tijolo branco e folhagem",
+      "copos com logo mato bar e latas Primor da Terra",
+      "luz âmbar de noite, casa abre às 18h"
+    ],
+    "references": [
+      {
+        "label": "Instagram @_matobar",
+        "url": "https://www.instagram.com/_matobar/"
+      },
+      {
+        "label": "Jornal do Comércio — abertura do bar (fotos Evandro Oliveira)",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2024/03/1145923-com-cardapio-baseado-em-plantas-cervejaria-abre-bar-no-bairro-rio-branco.html"
+      },
+      {
+        "label": "Sabores do Sul — Melhor Cozinha Vegana 2025 (foto Auryn Souza)",
+        "url": "https://revistasaboresdosul.com.br/premio/2025/premiado/mato-bar/"
+      },
+      {
+        "label": "Comida di Buteco 2026 — Bolinhas Crocantes do Mato (foto Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto JC do pátio (Evandro Oliveira, 07/03/2024): parede chocolate/terra com wordmark branco lowercase + ícone de planta, cascalho, pinho cru, sofá com almofada queimada, Alocasia e lâmpadas Edison — fundo da casa é solo noturno, não landing clara.",
+    "Foto JC do balcão: parede mostarda/ocre fosca com seis lousas de chope (Kölsch, Saison, Dry Stout, Sour caju/coco, Vienna Lager) escritas à giz branco e verde; camisetas verde-floresta e carvão dos sócios. Mostarda vira cor de marca.",
+    "Papel manteiga das Bolinhas Crocantes do Mato (Israh Ramos / Sabores do Sul 2026): wordmark mato bar repetido em laranja vivo sobre tigela preta e juta — laranja é o CTA, não terracota de template.",
+    "Copos e latas Primor da Terra (JC): logo preto lowercase no vidro, cerveja turva âmbar, rótulos ilustrados (camaleão, astronauta). Identidade compartilhada bar + cervejaria cigana.",
+    "Copy pública dos sócios: “simples, livre e experimental”; primeiro bar de cervejas do Brasil com cardápio 100% vegetal; móveis feitos pela casa; abre qua–sáb 18h–0h no galpão da Ferrer 192."
+  ],
+  "confidence": 0.8,
+  "researchedAt": "2026-09-02"
+}
