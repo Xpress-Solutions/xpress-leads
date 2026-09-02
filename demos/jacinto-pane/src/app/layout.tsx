@@ -16,6 +16,7 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jacinto-pane.demo.xpress"),
   title: "Jacinto Pane & Cucina — focaccia de fermentação natural em Santana",
   description: SITE.description,
   icons: { icon: "/logo.jpeg" },
