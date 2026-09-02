@@ -1,0 +1,77 @@
+{
+  "leadId": "rota-66",
+  "name": "Rota 66",
+  "positioning": "Lancheria de avenida no Extremo Sul: almoço e lanche na Nilo Wulff, Restinga — agora no Comida di Buteco com o Spin Bacon.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "de avenida",
+    "Extremo Sul",
+    "direto",
+    "lancheria sem pose",
+    "destino do concurso"
+  ],
+  "avoid": [
+    "roxo tech",
+    "cream terracotta genérico",
+    "diner neon de stock",
+    "boteco de revista do Jardim Botânico",
+    "Inter/Roboto no letreiro"
+  ],
+  "colors": {
+    "background": "#0B0E13",
+    "foreground": "#F3EEE4",
+    "brand": "#F5C400",
+    "accent": "#C8102E",
+    "surface": "#171C24",
+    "muted": "#8A8680"
+  },
+  "typography": {
+    "display": "Oswald — condensada de placa de estrada",
+    "body": "Barlow — grotesk industrial para horário e cardápio",
+    "rationale": "O nome é um escudo de rodovia, não uma serifa de boteco. Oswald carrega o letreiro da avenida; Barlow lê alaminuta e WhatsApp sem virar Inter. Amarelo de faixa + vermelho de bacon/tomate do Spin Bacon, fundo de asfalto frio — pele diferente do Vitória (marrom/ouro) e da Anita (creme/verde)."
+  },
+  "imagery": {
+    "heroSubject": "Atmosfera de avenida à noite + o Spin Bacon real (foto Israh Ramos / Sabores do Sul), sem stock de diner",
+    "atmosphere": [
+      "asfalto da Nilo Wulff",
+      "faixa amarela de rodovia",
+      "escudo Rota 66",
+      "bolinho dourado do concurso",
+      "lancheria de Extremo Sul do almoço à meia-noite"
+    ],
+    "references": [
+      {
+        "label": "Revista Sabores do Sul — Spin Bacon (foto Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Comida di Buteco — ficha Porto Alegre",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/page/3/"
+      },
+      {
+        "label": "Restaurant Guru — Rota 66 lanches Restinga",
+        "url": "https://restaurantguru.com.br/Rota-66-lanches-Restinga-Porto-Alegre"
+      },
+      {
+        "label": "Cardápio digital Anota — rota66lanches",
+        "url": "https://app.anota.ai/p/rota66lanches/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Nome fantasia Rota 66 + ponto na Av. Economista Nilo Wulff, 902 (Restinga) — identidade de estrada/avenida, não de boteco de esquina no Jardim Botânico.",
+    "CNAE e fichas públicas (Evkrumenn Lancheria & Restaurante Ltda, 2019) classificam a casa como lancheria; reviews citam alaminuta, lanche, yakisoba e fritas — ticket R$ 20–40.",
+    "Horário oficial do concurso: todos os dias 11h30–0h. Casa de almoço que vira noite na avenida, não happy hour de armazém.",
+    "Petisco 2026: Spin Bacon (foto Israh Ramos). Prato dourado, tomate e erva sobre estúdio do concurso — o vermelho de accent sai do bacon/tomate, não de tapete de boteco.",
+    "Escudo clássico da Route 66 é preto + branco + amarelo de faixa. Amarelo vira brand; asfalto frio (#0B0E13) vira fundo — evite o ouro-marrom do Vitória e o creme-verde da Anita.",
+    "Google ~3,8 / 431 avaliações; mesa ao ar livre; telefone (51) 99216-5666. Cardápio digital em app.anota.ai/p/rota66lanches/ confirma o handle da marca.",
+    "A lona de juta da foto oficial é cenário do fotógrafo do concurso (mesmo fundo nas outras casas da matéria), não a pele da lancheria — por isso o site não herda cream/terracotta."
+  ],
+  "confidence": 0.71,
+  "researchedAt": "2026-09-02"
+}
