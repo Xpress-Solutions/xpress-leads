@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 96" role="img" aria-label="Rota 66">
+  <path fill="#0B0E13" stroke="#F3EEE4" stroke-width="4" d="M8 8h64v52c0 18-16 30-32 34C24 90 8 78 8 60V8z"/>
+  <text x="40" y="30" text-anchor="middle" fill="#F3EEE4" font-family="Oswald, Arial Narrow, sans-serif" font-size="11" font-weight="600" letter-spacing="2">ROTA</text>
+  <text x="40" y="68" text-anchor="middle" fill="#F5C400" font-family="Oswald, Arial Narrow, sans-serif" font-size="36" font-weight="700">66</text>
+</svg>
