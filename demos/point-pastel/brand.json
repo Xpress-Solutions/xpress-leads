@@ -1,0 +1,81 @@
+{
+  "leadId": "point-pastel",
+  "name": "Point do Pastel",
+  "positioning": "Casa de pastel da Zona Norte: massa crocante, petisco de concurso e ponto de rua no Rubem Berta — ofício de pastel, não bar genérico.",
+  "mood": "boteco-raiz",
+  "voice": [
+    "direto",
+    "de esquina",
+    "orgulhoso do pastel",
+    "zona norte",
+    "sem pose"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "boteco sem pastel",
+    "dashboard",
+    "Inter/Roboto no display"
+  ],
+  "colors": {
+    "background": "#10141A",
+    "foreground": "#F4EBD8",
+    "brand": "#F0C040",
+    "accent": "#2F7A3E",
+    "surface": "#1A212C",
+    "muted": "#8B7A58"
+  },
+  "typography": {
+    "display": "Oswald",
+    "body": "Figtree",
+    "rationale": "Oswald no nome é letreiro de pastelaria de rua — condensado, alto, de esquina. Figtree no corpo lê cardápio e horário sem virar Inter/Roboto. O ouro da massa frita + o verde do brócolis/alho-poró saem das fotos oficiais do petisco, não de um tema SaaS."
+  },
+  "imagery": {
+    "heroSubject": "O Magnífico (Comida di Buteco 2026): pastel dourado aberto com carne, brócolis e queijo no prato azul-ardósia, sobre aniagem",
+    "atmosphere": [
+      "massa frita bolhada e ouro de óleo quente",
+      "prato cerâmico azul-ardósia da foto oficial 2026",
+      "brócolis e alecrim do petisco de verduras",
+      "aniagem rústica das fotos Israh Ramos",
+      "noite de pastelaria — abre 18h30"
+    ],
+    "references": [
+      {
+        "label": "Comida di Buteco — Point do Pastel",
+        "url": "https://comidadibuteco.com.br/buteco/point-do-pastel/"
+      },
+      {
+        "label": "Sabores do Sul — O Magnífico 2026 (foto Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "G1 — Sabor Gaudério 2024 (foto Israh Ramos)",
+        "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/04/13/comida-di-buteco-conheca-as-receitas-participantes-do-concurso-em-porto-alegre.ghtml"
+      },
+      {
+        "label": "Facebook @pointdopastelpoa",
+        "url": "https://www.facebook.com/pointdopastelpoa/"
+      },
+      {
+        "label": "Instagram @pointdopastelpoa",
+        "url": "https://www.instagram.com/pointdopastelpoa/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial 2026 (Sabores do Sul / Israh Ramos): O Magnífico é pastel dourado cortado ao meio, recheio de carne + brócolis + queijo, prato cerâmico azul-ardósia sobre aniagem — o fundo do site é essa noite de ardósia, o brand é o ouro da massa, o accent é o verde da verdura do concurso.",
+    "Foto oficial 2024 (G1 / Israh Ramos): Sabor Gaudério — quadrados de massa frita, carne de panela, cream cheese e alho-poró verde sobre aniagem, com tomate e salsa. Confirma ouro de fritura + verde de erva como assinatura visual do petisco, não paleta de café.",
+    "Facebook oficial @pointdopastelpoa (2,6 mil seguidores, pastelaria, 💛 amarelo na comunicação, 98% de recomendação): endereço Maria Augusta Generoso Estrela 1070, telefones (51) 3368-2830 e (51) 98501-6026, delivery pedir.delivery/pointdopastel.",
+    "Página Comida di Buteco: horário noturno ter–dom 18h30–0h — atmosfera de óleo quente e rua à noite, não landing clara diurna.",
+    "Pódio regional 2023: 3º lugar no Comida di Buteco RS (Tuim 1º, Reserva do Mosteiro 2º, Point Pastel 3º) — casa de ofício de pastel com currículo de concurso, voz orgulhosa sem pose de restaurante.",
+    "Nome e ofício: Point do Pastel / Point Pastel no Rubem Berta (Parque Santa Fé), Zona Norte. Identidade de produto (pastel) e de ponto de bairro, calibrada contra Vitória (escuro+vermelho de tapete) e Anita (creme+verde de armazém diurno)."
+  ],
+  "confidence": 0.76,
+  "researchedAt": "2026-09-02"
+}
