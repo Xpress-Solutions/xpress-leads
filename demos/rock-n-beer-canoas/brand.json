@@ -1,0 +1,77 @@
+{
+  "leadId": "rock-n-beer-canoas",
+  "name": "Rock'n Beer Pub",
+  "positioning": "Pub rock na Sezefredo, Canoas: palco ao vivo, pizza, burger e o petisco Belo Horizonte — container industrial, não boteco de esquina.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "direto",
+    "noturno",
+    "rock sem pose",
+    "de Sezefredo",
+    "palco e mesa"
+  ],
+  "avoid": [
+    "luxo",
+    "minimalismo frio",
+    "roxo tech",
+    "creme terracotta genérico",
+    "SaaS",
+    "boteco genérico de ouro e tapete"
+  ],
+  "colors": {
+    "background": "#0A0B0D",
+    "foreground": "#F3EDE4",
+    "brand": "#E31B2A",
+    "accent": "#12C4B8",
+    "surface": "#16181C",
+    "muted": "#9A8B78"
+  },
+  "typography": {
+    "display": "Alfa Slab One — slab pesada do letreiro na guitarra",
+    "body": "Source Sans 3 — grotesk de leitura para cardápio e horários",
+    "rationale": "O logo na guitarra vermelha usa letra slab/distressed em caixa alta; o corpo precisa ler pizza, show e endereço no celular. Evitar Inter/Roboto como display. O teal do accent vem da luz de palco, não de dashboard."
+  },
+  "imagery": {
+    "heroSubject": "Salão noturno com palco ao fundo, logo da guitarra vermelha, pôster do Jim Morrison e mesas de madeira sob pendentes pretos",
+    "atmosphere": [
+      "paredes de container em metal corrugado carvão",
+      "cabine telefônica vermelha britânica",
+      "luz de palco ciano/verde no show",
+      "pendentes pretos e poças de âmbar na mesa",
+      "pôsteres AC/DC, Guns N' Roses, The Doors",
+      "pizza, burger e caneca de cerveja"
+    ],
+    "references": [
+      {
+        "label": "Instagram @rocknbeerpubcanoas",
+        "url": "https://www.instagram.com/rocknbeerpubcanoas/"
+      },
+      {
+        "label": "Restaurant Guru — fotos da casa",
+        "url": "https://restaurantguru.com/ROCK-N-BEER-Canoas"
+      },
+      {
+        "label": "Feiras & Cia / Comida di Buteco",
+        "url": "https://www.feirasecia.com.br/det_buteco.php?codfor=38095"
+      },
+      {
+        "label": "TV Pampa — participantes Canoas",
+        "url": "https://www.tvpampa.com.br/confira-os-bares-participantes-do-concurso-comida-di-buteco-em-porto-alegre-e-canoas/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo recorrente no palco e nos jogos americanos: corpo de guitarra elétrica vermelha, hop no topo, ROCK'N BEER em branco slab — o vermelho vira brand, não o ouro de boteco.",
+    "Interior em fotos do Google/Restaurant Guru (2024): paredes de metal corrugado carvão, mesas de madeira escura, cadeiras de vime, cabine telefônica vermelha, pôsteres de rock clássico.",
+    "Luz de palco ciano/teal e verde nas noites de show — accent de CTA e brilho, distinto do dourado do Vitória e do verde-armazém da Anita.",
+    "Bio do Instagram @rocknbeerpubcanoas: 'O pub dos apaixonados por rock', música ao vivo + delivery de pizza/burger, terça a sábado a partir das 19h.",
+    "Comida di Buteco: petisco Belo Horizonte (3 mini-hambúrgueres). Google 4.6 / ~386 avaliações. Casa na Av. Sezefredo Azambuja Vieira, 266, desde 2018."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-02"
+}
