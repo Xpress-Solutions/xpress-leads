@@ -1,0 +1,89 @@
+{
+  "leadId": "barril-pub",
+  "name": "Barril Pub",
+  "positioning": "Pub de cerveja artesanal da Zona Sul: 14 torneiras, almoço na Wenceslau e mesa de três gerações — um pedaço de Vancouver no Cristal.",
+  "mood": "artesanal",
+  "voice": [
+    "de mesa",
+    "artesanal sem pose",
+    "zona sul",
+    "família no pátio",
+    "cerveja na jarra"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "hipster frio",
+    "boate",
+    "dashboard"
+  ],
+  "colors": {
+    "background": "#12160F",
+    "foreground": "#F3EBDA",
+    "brand": "#D8E0C8",
+    "accent": "#9C3428",
+    "surface": "#1C2218",
+    "muted": "#8A9178"
+  },
+  "typography": {
+    "display": "Alfa Slab One — slab pesada, letra de barril/stencil",
+    "body": "Source Sans 3 — grotesk humanista para cardápio e horário",
+    "rationale": "O logo da casa é 'BARRIL PUB' em slab/stencil sobre um barril de madeira. Display precisa dessa face de placa, não Inter/Roboto. Corpo limpo para almoço, torneiras e endereço."
+  },
+  "imagery": {
+    "heroSubject": "Fachada na Av. Wenceslau Escobar 2997: madeira, logo no barril, deck e luzes Edison",
+    "atmosphere": [
+      "balcão em U de brew pub canadense",
+      "14 torneiras e lousa de cerveja",
+      "fachada de madeira + parede verde-floresta",
+      "deck, jardim e fogo no pátio",
+      "luz âmbar + LED azul sob o balcão",
+      "cadeiras com marca 1824 / âncora"
+    ],
+    "references": [
+      {
+        "label": "Instagram @barrilpub",
+        "url": "https://www.instagram.com/barrilpub/"
+      },
+      {
+        "label": "Linktree oficial",
+        "url": "https://linktr.ee/barrilpub"
+      },
+      {
+        "label": "Jornal do Comércio — fachada, salão e balcão (Tânia Meinerz, 2023)",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2023/08/1119633-desde-2015-bar-da-zona-sul-busca-ser-referencia-em-cerveja.html"
+      },
+      {
+        "label": "Jornal do Comércio — 10 anos / deck e logo no barril",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2025/06/1207314-evento-de-10-horas-celebra-aniversario-de-uma-decada-de-pub-da-zona-sul.html"
+      },
+      {
+        "label": "GZH — 10 anos, bergamota e slogan da casa",
+        "url": "https://gauchazh.clicrbs.com.br/colunistas/juliana-bublitz/noticia/2025/06/com-10-horas-de-festa-burger-risoto-e-ceva-de-bergamota-bar-na-zona-sul-de-porto-alegre-celebra-10-anos-cmc0p5f1h00mq013oxmszz1wh.html"
+      },
+      {
+        "label": "Comida di Buteco — Barril Pub",
+        "url": "https://comidadibuteco.com.br/buteco/barril-pub/"
+      },
+      {
+        "label": "Revista Sabores do Sul — Brócolis na Rede 2026",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fotos JC 2023 (Tânia Meinerz): logo em barril de madeira com 'BARRIL PUB' em slab/stencil branca; salão com balcão em U, lousa de cerveja, madeira escura, pilar de tábuas e LED azul sob o balcão.",
+    "Fachada na Wenceslau: térreo em vermelho-tijolo, pavimento superior em réguas de madeira, letreiro circular preto, deck com guarda-corpo preto e lâmpadas Edison.",
+    "Parede externa verde-floresta + fogo no pátio (foto do dono no jardim). Uniforme navy com stencil branco e crest vermelho da âncora 1824 nas cadeiras e na camisa.",
+    "LinkedIn/GZH: lema 'Boas cervejas. Bons amigos. Boas risadas.' Pub inspirado em Vancouver, 14 torneiras, chope em jarra, almoço na avenida e mesa de três gerações.",
+    "Comida di Buteco 2026 com Brócolis na Rede; especialidade pública de bergamota (burger, risoto, cerveja). Telefone/WhatsApp (51) 3516-2015 no Linktree e na ficha do concurso."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-02"
+}
