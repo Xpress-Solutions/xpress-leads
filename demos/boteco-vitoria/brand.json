@@ -1,0 +1,57 @@
+{
+  "leadId": "boteco-vitoria",
+  "name": "Boteco Vitória",
+  "positioning": "Boteco de bairro premiado: petisco bem feito, atendimento quente e vibe de casa cheia — sem pose de restaurante.",
+  "mood": "boteco-raiz",
+  "voice": ["direto", "orgulhoso", "de esquina", "campeão sem arrogância", "mesa compartilhada"],
+  "avoid": ["luxo", "minimalismo frio", "roxo tech", "creme terracotta genérico", "dashboard"],
+  "colors": {
+    "background": "#1A1210",
+    "foreground": "#F4EDE4",
+    "brand": "#E8C56A",
+    "accent": "#B91C1C",
+    "surface": "#2A1E1A",
+    "muted": "#8B7355"
+  },
+  "typography": {
+    "display": "Instrument Serif ou similar serifada expressiva",
+    "body": "Geist / grotesk limpa para leitura de cardápio",
+    "rationale": "Serifada no nome carrega ‘casa com história’; corpo limpo para petiscos e horário. Evitar Inter/Roboto como face principal."
+  },
+  "imagery": {
+    "heroSubject": "Fachada/esquina na Felizardo ou mesa de petiscos + caldereta de chopp gelado",
+    "atmosphere": [
+      "mesas na calçada",
+      "dois pisos / sacada do samba",
+      "tapete vermelho e trono do aniversariante",
+      "placas e objetos de parede",
+      "luz âmbar de noite"
+    ],
+    "references": [
+      {
+        "label": "Instagram @botecovitoria",
+        "url": "https://www.instagram.com/botecovitoria/"
+      },
+      {
+        "label": "BOABreja",
+        "url": "https://www.boabreja.com.br/estabelecimentos/rs/porto-alegre/boteco-vitoria"
+      },
+      {
+        "label": "Destemperados / feijoada",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/experiencias/porto-alegre/noticia/2023/08/classico-brasileiro-boteco-serve-feijoada-todos-os-sabados-em-porto-alegre-cll1c8doy00e7015t63ndl52c.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "soft",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Reviews descrevem tapete vermelho na entrada/saída e trono para aniversariante — vermelho vira accent de CTA.",
+    "Decoração com placas, objetos e dois pisos: atmosfera escura/âmbar de boteco noturno, não landing clara de SaaS.",
+    "Posicionamento público: campeão Comida di Buteco 2022, comida de boteco sem pretensão — tipografia com caráter, não boutique."
+  ],
+  "confidence": 0.72,
+  "researchedAt": "2026-09-02"
+}
