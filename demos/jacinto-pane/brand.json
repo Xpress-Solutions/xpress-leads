@@ -1,0 +1,76 @@
+{
+  "leadId": "jacinto-pane",
+  "name": "Jacinto Pane & Cucina",
+  "positioning": "Padaria de fermentação natural na Jacinto Gomes: a focaccia que já é destino em Santana — casa pequena, ofício de forno, sem app no meio.",
+  "mood": "artesanal",
+  "voice": [
+    "de esquina",
+    "fermento e forno",
+    "italiano sem pose",
+    "direto",
+    "bairro"
+  ],
+  "avoid": [
+    "roxo tech",
+    "SaaS",
+    "creme terracotta genérico",
+    "padaria industrial",
+    "boutique hipster",
+    "luxo"
+  ],
+  "colors": {
+    "background": "#003364",
+    "foreground": "#F4EDE0",
+    "brand": "#DFCA9E",
+    "accent": "#D4B06A",
+    "surface": "#0A2848",
+    "muted": "#8AA0B5"
+  },
+  "typography": {
+    "display": "Fraunces — serifada quente, um pouco mole de massa",
+    "body": "Source Sans 3 — grotesk humanista para horário e pedido",
+    "rationale": "O logo é um pão poroso carregado por um boneco branco no marinho: o nome pede serifada de forno italiano, não Inter/Roboto nem placa de boteco. Corpo limpo para cardápio e WhatsApp."
+  },
+  "imagery": {
+    "heroSubject": "Campo marinho do logo + pão alveolar / focaccia do Jacinto — o boneco branco carregando o pão, não stock de padaria",
+    "atmosphere": [
+      "marinho do logo (não cream, não roxo Goomer)",
+      "miolo bege do pão alveolar",
+      "focaccia de alcaparras no balcão",
+      "casa pequena na Jacinto Gomes 209",
+      "herança do Bar Salim no mesmo número"
+    ],
+    "references": [
+      {
+        "label": "Logo oficial no Goomer",
+        "url": "https://static.goomer.app/stores/62463/products/mobile_menu/templates/89945/logo_v1639239095.jpeg"
+      },
+      {
+        "label": "Cardápio Goomer (casa)",
+        "url": "https://jacinto.goomer.app"
+      },
+      {
+        "label": "Restaurant Guru / Google",
+        "url": "https://restaurantguru.com.br/Jacinto-PaneandCucina-Porto-Alegre"
+      },
+      {
+        "label": "Jornal do Comércio / GeraçãoE (2021)",
+        "url": "https://www.jornaldocomercio.com/_conteudo/ge2/noticias/2021/12/823638-apesar-da-pandemia-rs-registra-abertura-de-negocios-de-gastronomia.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial (Goomer store 62463, JPEG 600×600): campo sólido #003364, figura branca, pão alveolar #DFCA9E no centro — extraído pixel a pixel (canto #003364, miolo médio #DFCA9E). Essa é a pele da casa.",
+    "A loja declara mm_main_color #132d4e no Goomer (marinho da mesma família). O mm_secondary_color #2B0D61 é roxo de template da plataforma — não entra no site.",
+    "Splash da própria casa: «Experiência culinária para pedir e compartilhar! De terça a sábado, das 11h30 às 19h». Especialidade: Padaria & Conveniência. WhatsApp/PIX 51 98484-8784 (J&G Com Alim ltda).",
+    "Jornal do Comércio (dez/2021): Joana Gabech e Gabriel Durante abriram a Jacinto Pane&Cucina no 209 da Jacinto Gomes, no lugar do Bar Salim (50+ anos, avós dela). Foco: pães de fermentação natural e linha de pratos congelados. Atmosfera de «lugar de gente que trabalha».",
+    "Reviews Google via Restaurant Guru: 4,9. Eduardo Siufi: «a focaccia é a melhor, sem dúvidas». leoksuarez: focaccia com alcaparras + cachorro no balcão, fermentação natural no bairro. Ticket R$20–40. Serviço rápido, atmosfera encantadora."
+  ],
+  "confidence": 0.81,
+  "researchedAt": "2026-09-02"
+}
