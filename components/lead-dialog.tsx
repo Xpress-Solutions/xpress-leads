@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import {
   AtSign,
   ExternalLink,
@@ -7,110 +8,137 @@ import {
   MessageCircle,
   Phone,
   Quote,
+  X,
 } from "lucide-react";
 import type { Lead } from "@/lib/types";
 import { categoryLabel } from "@/data/leads";
 import { instagramUrl, mapsUrl, telUrl, whatsappUrl } from "@/lib/format";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
 
 type LeadDialogProps = {
   lead: Lead | null;
-  onOpenChange: (open: boolean) => void;
+  onClose: () => void;
 };
 
-export function LeadDialog({ lead, onOpenChange }: LeadDialogProps) {
+export function LeadDialog({ lead, onClose }: LeadDialogProps) {
+  useEffect(() => {
+    if (!lead) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = previous;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [lead, onClose]);
+
+  if (!lead) return null;
+
   return (
-    <Dialog open={Boolean(lead)} onOpenChange={onOpenChange}>
-      <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-2xl">
-        {lead ? <LeadBrief lead={lead} /> : null}
-      </DialogContent>
-    </Dialog>
+    <div className="fixed inset-0 z-50 flex items-end justify-center p-0 sm:items-center sm:p-6">
+      <button
+        type="button"
+        aria-label="Fechar briefing"
+        className="absolute inset-0 bg-foreground/35 backdrop-blur-[2px]"
+        onClick={onClose}
+      />
+      <section
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="lead-dialog-title"
+        className="relative z-10 flex max-h-[92vh] w-full max-w-2xl flex-col overflow-hidden rounded-t-2xl bg-card shadow-2xl ring-1 ring-foreground/10 sm:rounded-2xl"
+      >
+        <div className="flex items-start justify-between gap-3 border-b px-5 py-4">
+          <div className="space-y-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge
+                variant={lead.priority === "alta" ? "default" : "secondary"}
+                className={
+                  lead.priority === "alta"
+                    ? "bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
+                    : undefined
+                }
+              >
+                {lead.priority === "alta" ? "Prioridade alta" : "Prioridade média"}
+              </Badge>
+              <Badge variant="outline">{categoryLabel[lead.category]}</Badge>
+              <span className="text-xs text-muted-foreground">Score {lead.score}</span>
+            </div>
+            <h2
+              id="lead-dialog-title"
+              className="font-heading text-3xl tracking-tight"
+            >
+              {lead.name}
+            </h2>
+            <p className="flex items-start gap-2 text-sm text-muted-foreground">
+              <MapPin className="mt-0.5 size-4 shrink-0" />
+              {lead.address}
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            className="rounded-lg p-2 text-muted-foreground hover:bg-muted hover:text-foreground"
+            aria-label="Fechar"
+          >
+            <X className="size-4" />
+          </button>
+        </div>
+
+        <div className="space-y-5 overflow-y-auto px-5 py-5">
+          <LeadBrief lead={lead} />
+        </div>
+      </section>
+    </div>
   );
 }
 
 function LeadBrief({ lead }: { lead: Lead }) {
-  const pitchMessage = lead.pitch;
+  const linkClass =
+    "inline-flex h-9 items-center gap-1.5 rounded-lg border border-border bg-background px-3 text-sm font-medium hover:bg-muted";
 
   return (
     <>
-      <DialogHeader>
-        <div className="flex flex-wrap items-center gap-2">
-          <Badge
-            variant={lead.priority === "alta" ? "default" : "secondary"}
-            className={
-              lead.priority === "alta"
-                ? "bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
-                : undefined
-            }
-          >
-            {lead.priority === "alta" ? "Prioridade alta" : "Prioridade média"}
-          </Badge>
-          <Badge variant="outline">{categoryLabel[lead.category]}</Badge>
-          <span className="text-xs text-muted-foreground">
-            Score {lead.score}
-          </span>
-        </div>
-        <DialogTitle className="font-heading text-3xl tracking-tight">
-          {lead.name}
-        </DialogTitle>
-        <DialogDescription className="flex items-start gap-2 text-left">
-          <MapPin className="mt-0.5 size-4 shrink-0" />
-          {lead.address}
-        </DialogDescription>
-      </DialogHeader>
-
       <div className="flex flex-wrap gap-2">
         {lead.whatsapp ? (
-          <Button
-            render={
-              <a
-                href={whatsappUrl(lead.whatsapp, pitchMessage)}
-                target="_blank"
-                rel="noreferrer"
-              />
-            }
+          <a
+            href={whatsappUrl(lead.whatsapp, lead.pitch)}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex h-9 items-center gap-1.5 rounded-lg bg-[oklch(0.38_0.08_155)] px-3 text-sm font-medium text-[oklch(0.97_0.02_95)] hover:opacity-90"
           >
-            <MessageCircle />
+            <MessageCircle className="size-4" />
             Abrir WhatsApp
-          </Button>
+          </a>
         ) : null}
         {lead.phone ? (
-          <Button variant="outline" render={<a href={telUrl(lead.phone)} />}>
-            <Phone />
+          <a href={telUrl(lead.phone)} className={linkClass}>
+            <Phone className="size-4" />
             {lead.phone}
-          </Button>
+          </a>
         ) : null}
-        <Button
-          variant="outline"
-          render={
-            <a href={mapsUrl(lead.mapsQuery)} target="_blank" rel="noreferrer" />
-          }
+        <a
+          href={mapsUrl(lead.mapsQuery)}
+          target="_blank"
+          rel="noreferrer"
+          className={linkClass}
         >
-          <MapPin />
+          <MapPin className="size-4" />
           Ver no mapa
-        </Button>
+        </a>
         {lead.instagram ? (
-          <Button
-            variant="outline"
-            render={
-              <a
-                href={instagramUrl(lead.instagram)}
-                target="_blank"
-                rel="noreferrer"
-              />
-            }
+          <a
+            href={instagramUrl(lead.instagram)}
+            target="_blank"
+            rel="noreferrer"
+            className={linkClass}
           >
-            <AtSign />
+            <AtSign className="size-4" />
             @{lead.instagram}
-          </Button>
+          </a>
         ) : null}
       </div>
 

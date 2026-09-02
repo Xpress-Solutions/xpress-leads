@@ -17,7 +17,6 @@ import {
   RESEARCH_DATE,
 } from "@/data/leads";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -26,9 +25,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { LeadDialog } from "@/components/lead-dialog";
+import { cn } from "@/lib/utils";
 
 const categories: Array<Category | "todas"> = [
   "todas",
@@ -100,49 +98,66 @@ export function LeadBoard() {
           <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
             <div className="relative flex-1">
               <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" />
-              <Input
+              <input
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
                 placeholder="Buscar por nome, rua ou ofício"
-                className="h-11 bg-card pl-9"
                 aria-label="Buscar leads"
+                className="h-11 w-full rounded-lg border border-input bg-card pr-3 pl-9 text-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50"
               />
             </div>
-            <Tabs
-              value={priority}
-              onValueChange={(value) =>
-                setPriority(value as Priority | "todas")
-              }
-            >
-              <TabsList className="w-full lg:w-auto">
-                <TabsTrigger value="todas">Todas</TabsTrigger>
-                <TabsTrigger value="alta">Alta</TabsTrigger>
-                <TabsTrigger value="media">Média</TabsTrigger>
-              </TabsList>
-            </Tabs>
+            <div className="flex rounded-lg bg-muted p-1" role="tablist" aria-label="Prioridade">
+              {(
+                [
+                  ["todas", "Todas"],
+                  ["alta", "Alta"],
+                  ["media", "Média"],
+                ] as const
+              ).map(([value, label]) => (
+                <button
+                  key={value}
+                  type="button"
+                  role="tab"
+                  aria-selected={priority === value}
+                  onClick={() => setPriority(value)}
+                  className={cn(
+                    "h-8 flex-1 rounded-md px-3 text-sm font-medium lg:flex-none",
+                    priority === value
+                      ? "bg-card text-foreground shadow-sm"
+                      : "text-muted-foreground hover:text-foreground"
+                  )}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
           </div>
 
           <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
             {categories.map((item) => {
               const active = category === item;
               return (
-                <Button
+                <button
                   key={item}
-                  size="sm"
-                  variant={active ? "default" : "outline"}
-                  className={
-                    active
-                      ? "bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
-                      : "bg-card"
-                  }
+                  type="button"
                   onClick={() => setCategory(item)}
+                  className={cn(
+                    "h-8 shrink-0 rounded-lg border px-3 text-sm font-medium",
+                    active
+                      ? "border-transparent bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
+                      : "border-border bg-card hover:bg-muted"
+                  )}
                 >
                   {item === "todas" ? "Todos os ofícios" : categoryLabel[item]}
-                </Button>
+                </button>
               );
             })}
           </div>
         </section>
+
+        <p className="text-sm text-muted-foreground">
+          Mostrando {filtered.length} de {leads.length} casas
+        </p>
 
         {filtered.length === 0 ? (
           <EmptyState onReset={() => {
@@ -213,7 +228,7 @@ export function LeadBoard() {
         </div>
       </footer>
 
-      <LeadDialog lead={selected} onOpenChange={(open) => !open && setSelected(null)} />
+      <LeadDialog lead={selected} onClose={() => setSelected(null)} />
     </div>
   );
 }
@@ -237,7 +252,7 @@ function LeadCard({
   onOpen: (lead: Lead) => void;
 }) {
   return (
-    <Card className="bg-card transition-shadow hover:shadow-md">
+    <Card data-lead-card={lead.id} className="bg-card transition-shadow hover:shadow-md">
       <CardHeader>
         <div className="flex items-start justify-between gap-3">
           <div className="space-y-2">
@@ -290,13 +305,13 @@ function LeadCard({
         <p className="line-clamp-2 text-xs text-muted-foreground">
           {lead.digitalGap}
         </p>
-        <Button
-          size="sm"
-          className="shrink-0 bg-[oklch(0.38_0.08_155)] text-[oklch(0.97_0.02_95)]"
+        <button
+          type="button"
+          className="h-8 shrink-0 rounded-lg bg-[oklch(0.38_0.08_155)] px-3 text-sm font-medium text-[oklch(0.97_0.02_95)] hover:opacity-90"
           onClick={() => onOpen(lead)}
         >
           Abrir briefing
-        </Button>
+        </button>
       </CardFooter>
     </Card>
   );
@@ -312,9 +327,13 @@ function EmptyState({ onReset }: { onReset: () => void }) {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <Button variant="outline" onClick={onReset}>
+        <button
+          type="button"
+          onClick={onReset}
+          className="h-8 rounded-lg border border-border bg-card px-3 text-sm font-medium hover:bg-muted"
+        >
           Limpar filtros
-        </Button>
+        </button>
       </CardContent>
     </Card>
   );
