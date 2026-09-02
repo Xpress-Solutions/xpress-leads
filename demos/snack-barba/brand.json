@@ -1,0 +1,79 @@
+{
+  "leadId": "snack-barba",
+  "name": "Snack Bar do Barba",
+  "positioning": "Snack de dono no Jardim do Salso: petisco de feijoada em formato de boteco, nome pessoal na Ângelo Crivellaro — não bar de avenida.",
+  "mood": "boteco-raiz",
+  "voice": [
+    "de dono",
+    "direto",
+    "de esquina",
+    "snack de bairro",
+    "orgulhoso do petisco sem pose"
+  ],
+  "avoid": [
+    "luxo",
+    "neon",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto de display",
+    "dashboard",
+    "boate"
+  ],
+  "colors": {
+    "background": "#100D0A",
+    "foreground": "#F6E8C8",
+    "brand": "#E8B84A",
+    "accent": "#C12A22",
+    "surface": "#1E1812",
+    "muted": "#8F7A55"
+  },
+  "typography": {
+    "display": "Alfa Slab One — letreiro de lanchonete/placa de esquina",
+    "body": "Source Sans 3 — grotesk humanista para horário e endereço",
+    "rationale": "O nome é apelido de dono, não marca de avenida. Slab no display carrega placa de snack; o corpo precisa ler horário e WhatsApp no celular. Evitar Inter/Roboto e a Bebas do Vitória — esta casa é lanchonete noturna, não boteco de tapete vermelho."
+  },
+  "imagery": {
+    "heroSubject": "Atmosfera noturna de snack: balcão, luz âmbar e a Feijoca Crocante (casca dourada, feijão escuro)",
+    "atmosphere": [
+      "noite a partir das 18h",
+      "balcão de snack de bairro",
+      "petisco frito com casca dourada",
+      "feijão preto da feijoca",
+      "geleia de abacaxi com pimenta",
+      "esquina no Jardim do Salso"
+    ],
+    "references": [
+      {
+        "label": "Comida di Buteco — ficha oficial",
+        "url": "https://comidadibuteco.com.br/buteco/snack-bar-do-barba/"
+      },
+      {
+        "label": "Revista Sabores do Sul — Feijoca Crocante 2026 (foto Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "TV Pampa / O Sul — Deixa falar, 2025",
+        "url": "https://www.tvpampa.com.br/confira-os-bares-participantes-do-concurso-comida-di-buteco-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "G1 — Moda do Sul, 2024 (foto Israh Ramos)",
+        "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/04/13/comida-di-buteco-conheca-as-receitas-participantes-do-concurso-em-porto-alegre.ghtml"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Ficha oficial do Comida di Buteco lista Snack Bar do Barba na Rua Ângelo Crivellaro, 540, Jardim do Salso, telefone 51982053540 e funcionamento noturno (ter–qui e dom 18h–00h; sex–sáb 18h–01h) — o fundo escuro é noite de snack, não landing diurna.",
+    "Sabores do Sul 2026 registra o petisco da edição: Feijoca Crocante, foto de Israh Ramos. Feijão preto + casca frita sustentam background #100D0A e brand #E8B84A (dourado de fritura, não o ouro de tapete do Vitória).",
+    "A mesma ficha oficial descreve o petisco Deixa falar (2025): bolinhos de língua desfiada com parmesão e geleia caseira de abacaxi com pimenta — o amarelo-abacaxi no foreground/brand e o vermelho-pimenta #C12A22 no accent vêm desse acompanhamento, não de um tema SaaS.",
+    "G1 2024 documenta a Moda do Sul: coração na chapa com catupiry, cheddar e muçarela, batata rústica e anel de cebola — comida de chapa de snack, densidade compacta e cantos vivos (radius sharp), sem ar de boutique.",
+    "O nome é apelido de dono (Barba), não marca inventada. Sem logo/fachada pública estável no IG no momento da pesquisa: o letreiro tipográfico assume o papel da marca. Instagram @snackbardobarba e variações não entregaram grade visual utilizável (login wall).",
+    "Calibragem: Vitória é boteco noturno vermelho/ouro de tapete; Anita é armazém diurno verde/brasa. O Barba fica no eixo noturno do Vitória, mas a pele é feijão + casca + pimenta de geleia — snack de esquina no Salso, não o mesmo boteco."
+  ],
+  "confidence": 0.64,
+  "researchedAt": "2026-09-02"
+}
