@@ -1,0 +1,84 @@
+{
+  "leadId": "nosso-bar",
+  "name": "Nosso Bar",
+  "positioning": "Bar e lanches da Bento Gonçalves: porção generosa, invenção de cozinha e madrugada no Partenon — sem pose de Cidade Baixa.",
+  "mood": "boteco-raiz",
+  "voice": [
+    "direto",
+    "de avenida",
+    "generoso",
+    "familiar sem pose",
+    "tudo muito"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Cidade Baixa chic",
+    "minimalismo frio",
+    "dashboard"
+  ],
+  "colors": {
+    "background": "#1A0C0A",
+    "foreground": "#F6EDE0",
+    "brand": "#C9A227",
+    "accent": "#E24A12",
+    "surface": "#2E1410",
+    "muted": "#A07A52"
+  },
+  "typography": {
+    "display": "Cormorant Garamond",
+    "body": "Barlow",
+    "rationale": "O medalhão da casa escreve NOSSO / BAR em serifada dourada clássica — Cormorant carrega esse letreiro. Barlow no corpo ecoa o cartaz condensado ‘SEU LANCHE É AQUI’ nas paredes laranja, sem cair em Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Xis à parmegiana na mesa de madeira escura — o lanche que viralizou — ou o pastel de vento do Comida di Buteco 2026",
+    "atmosphere": [
+      "paredes laranja saturado do salão",
+      "medalhão dourado com serifa no logo e no uniforme",
+      "cartazes SEU LANCHE É AQUI",
+      "xis e pastel dourados, molho de tomate, madeira escura",
+      "luz de avenida / madrugada até 4h"
+    ],
+    "references": [
+      {
+        "label": "Instagram @nossobarlanches",
+        "url": "https://www.instagram.com/nossobarlanches/"
+      },
+      {
+        "label": "Facebook /nossobarlanches",
+        "url": "https://www.facebook.com/nossobarlanches/"
+      },
+      {
+        "label": "Jornal do Comércio — fachada interna, logo e xis",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2026/07/1256770-bar-que-movimenta-a-avenida-bento-goncalves-ha-9-anos-dobra-faturamento-com-a-internet.html"
+      },
+      {
+        "label": "GZH — xis à parmegiana (Bruno Todeschini)",
+        "url": "https://gauchazh.clicrbs.com.br/colunistas/juliana-bublitz/noticia/2026/08/xis-a-parmegiana-torre-de-lasanha-e-mais-bar-de-porto-alegre-viraliza-com-iguarias-diferentonas-no-cardapio-cmtbwfqa301mv015ghou40pxc.html"
+      },
+      {
+        "label": "Sabores do Sul — Pastel de Vento (Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Comida di Buteco — ficha oficial",
+        "url": "https://comidadibuteco.com.br/buteco/nosso-bar-2/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto JC (Manuela Cassano, jul/2026) da dona Andresa no balcão: paredes laranja saturado, cartazes ‘SEU LANCHE É AQUI’ e medalhão circular com borda dourada ondulada, fundo bordô e serifa dourada NOSSO/BAR — laranja vira accent de CTA; ouro do medalhão vira brand; o interior do logo dita o fundo escuro bordô.",
+    "O mesmo medalhão aparece no uniforme preto — a marca é ouro-sobre-bordô, não cream+terracotta de template.",
+    "Foto de divulgação do xis à parmegiana (JC) e foto GZH (Bruno Todeschini): madeira escura, molho de tomate vermelho, crosta dourada e molho branco — reforça noite de lanche, não landing clara.",
+    "Pastel de Vento (Israh Ramos / Sabores do Sul 2026): pastel frito âmbar, cesto de vime, vinagrete e caldo amarelo — ouro de fritura, não dourado de boutique.",
+    "Casa noturna na Bento: CDB e JC confirmam 17h–2h (dom–qui) e 17h–4h (sex–sáb); 9 anos de avenida, 500 pessoas no fim de semana, frase da dona ‘aqui é tudo muito e com tudo’."
+  ],
+  "confidence": 0.8,
+  "researchedAt": "2026-09-02"
+}
