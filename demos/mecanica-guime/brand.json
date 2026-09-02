@@ -1,0 +1,78 @@
+{
+  "leadId": "mecanica-guime",
+  "name": "Oficina Mecânica Guime",
+  "positioning": "Oficina de rua da família Guime desde 1973: mecânica, elétrica, lanternagem, alinhamento e peças na Oito de Julho — confiança de meio século, não anúncio.",
+  "mood": "limpo-servico",
+  "voice": [
+    "direto",
+    "de oficina",
+    "familiar",
+    "confiança sem marketing",
+    "ofício antigo"
+  ],
+  "avoid": [
+    "inovação digital",
+    "soluções automotivas",
+    "roxo tech",
+    "creme terracotta genérico",
+    "concessionária LED",
+    "dashboard",
+    "Inter/Roboto display"
+  ],
+  "colors": {
+    "background": "#12110D",
+    "foreground": "#EDE6D4",
+    "brand": "#D9B12A",
+    "accent": "#2A6F86",
+    "surface": "#1C1A15",
+    "muted": "#8A8170"
+  },
+  "typography": {
+    "display": "Big Shoulders Display — condensada industrial, letreiro de fachada",
+    "body": "IBM Plex Sans — grotesk de ordem de serviço, não Inter/Roboto",
+    "rationale": "O nome Guime pede placa pintada na parede, não script de café nem sans de SaaS. Display larga e baixa como letreiro de oficina; corpo de formulário/orçamento."
+  },
+  "imagery": {
+    "heroSubject": "Interior da oficina de rua com portão aberto para a Oito de Julho: piso de concreto, faixa de sinalização, luz do dia no asfalto — sem stock de mecânico sorrindo",
+    "atmosphere": [
+      "piso de concreto manchado de óleo",
+      "faixa amarela de oficina",
+      "portão de enrolar aberto",
+      "luz de rua entrando no box",
+      "aço, macaco, lanternagem",
+      "casa de família no mesmo número"
+    ],
+    "references": [
+      {
+        "label": "Cadastro da oficina",
+        "url": "https://oficinasautomotivas.com/e/oficina-mecanica-guime-ltda-bmvkkl/"
+      },
+      {
+        "label": "CNPJ / CNAEs e sócio",
+        "url": "https://indicecnpj.com.br/empresa/oficina-mecanica-guime-ltda-92689876000105"
+      },
+      {
+        "label": "Apontador — Mecanica Guime + família no 155",
+        "url": "https://www.apontador.com.br/guia_de_ruas/rs/porto_alegre/rua_oito_de_julho.html"
+      },
+      {
+        "label": "Logradouro 90690-240 — oficina na rua",
+        "url": "https://www.consultarcep.com.br/rs/porto-alegre/jardim-botanico/rua-oito-de-julho/90690240"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "CNPJ 92.689.876/0001-05 aberto em 25/01/1973: 53 anos no mesmo ofício. Sem Instagram, sem logo público, sem site — a marca é o sobrenome Guime na porta.",
+    "CNAEs públicos: mecânica, lanternagem/funilaria e pintura, elétrica, alinhamento/balanceamento e varejo de peças. Paleta de piso de oficina (amarelo de sinalização + concreto/óleo) e accent azul de macacão/ferramenta — não de concessionária nem de landing cream-terracotta.",
+    "Rua Oito de Julho, 155, Jardim Botânico (CEP 90690-240). O mesmo número lista Therezinha da Rosa Brigoni; o sócio-administrador desde 2011 é Eduardo Brigoni. Casa e oficina no mesmo lote — clima de rua, não de polo automotivo.",
+    "A quadra mudou: Own Connected Home no 165 e Link-studio no 195. A Guime é o ponto antigo no meio dos condomínios. Site escuro, denso, cantos vivos — o contrário do vidro novo da rua.",
+    "Telefones ainda em diretório: (51) 3336-9688 e (51) 3339-3635. Cliente de oficina antiga compra confiança e orçamento no zap, não funil de SaaS."
+  ],
+  "confidence": 0.64,
+  "researchedAt": "2026-09-02"
+}
