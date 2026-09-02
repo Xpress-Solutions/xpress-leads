@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Feijoca Crocante  casca dourada sobre prato de snack">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241910"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3cf72"/>
+      <stop offset="50%" stop-color="#d49a2e"/>
+      <stop offset="100%" stop-color="#7a3d12"/>
+    </linearGradient>
+    <radialGradient id="bean" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3a2416"/>
+      <stop offset="100%" stop-color="#140e0a"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="430" rx="280" ry="48" fill="#0a0806" opacity="0.5"/>
+  <ellipse cx="400" cy="390" rx="260" ry="36" fill="#2c2118"/>
+  <ellipse cx="400" cy="372" rx="238" ry="28" fill="#e6d3b0"/>
+  <g>
+    <circle cx="300" cy="300" r="78" fill="url(#gold)"/>
+    <circle cx="300" cy="300" r="28" fill="url(#bean)"/>
+    <circle cx="430" cy="268" r="86" fill="url(#gold)"/>
+    <circle cx="430" cy="268" r="30" fill="url(#bean)"/>
+    <circle cx="530" cy="330" r="70" fill="url(#gold)"/>
+    <circle cx="530" cy="330" r="24" fill="url(#bean)"/>
+    <circle cx="370" cy="360" r="64" fill="url(#gold)"/>
+    <circle cx="370" cy="360" r="22" fill="url(#bean)"/>
+    <circle cx="250" cy="370" r="52" fill="url(#gold)"/>
+    <circle cx="250" cy="370" r="18" fill="url(#bean)"/>
+  </g>
+  <g transform="translate(590,250)">
+    <ellipse cx="40" cy="70" rx="54" ry="22" fill="#8a1c16"/>
+    <ellipse cx="40" cy="58" rx="48" ry="28" fill="#c12a22"/>
+    <ellipse cx="40" cy="48" rx="36" ry="14" fill="#e8b84a" opacity="0.45"/>
+  </g>
+  <text x="48" y="72" fill="#e8b84a" font-family="Georgia, serif" font-size="28">2026</text>
+  <text x="48" y="118" fill="#f6e8c8" font-family="Georgia, serif" font-size="42">Feijoca Crocante</text>
+</svg>

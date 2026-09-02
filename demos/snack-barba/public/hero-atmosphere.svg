@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Atmosfera noturna do snack: balcão, luz âmbar e Feijoca Crocante">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="55%" stop-color="#120e0b"/>
+      <stop offset="100%" stop-color="#0a0806"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f2d27a" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#e8b84a" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#100d0a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="chili" cx="80%" cy="12%" r="40%">
+      <stop offset="0%" stop-color="#c12a22" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#100d0a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2a1a"/>
+      <stop offset="100%" stop-color="#1a120c"/>
+    </linearGradient>
+    <linearGradient id="crust" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0c86a"/>
+      <stop offset="55%" stop-color="#c8892a"/>
+      <stop offset="100%" stop-color="#7a3e12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#night)"/>
+  <rect width="1600" height="900" fill="url(#chili)"/>
+  <circle cx="280" cy="210" r="220" fill="url(#lamp)"/>
+  <circle cx="780" cy="160" r="200" fill="url(#lamp)"/>
+  <circle cx="1180" cy="230" r="180" fill="url(#lamp)"/>
+  <rect x="0" y="0" width="1600" height="140" fill="#0d0a08"/>
+  <g stroke="#2a2118" stroke-width="6">
+    <line x1="280" y1="0" x2="280" y2="170"/>
+    <line x1="780" y1="0" x2="780" y2="130"/>
+    <line x1="1180" y1="0" x2="1180" y2="180"/>
+  </g>
+  <g>
+    <ellipse cx="280" cy="176" rx="28" ry="10" fill="#e8b84a" opacity="0.9"/>
+    <ellipse cx="780" cy="136" rx="24" ry="9" fill="#f2d27a" opacity="0.9"/>
+    <ellipse cx="1180" cy="186" rx="26" ry="10" fill="#e8b84a" opacity="0.85"/>
+  </g>
+  <rect x="0" y="620" width="1600" height="280" fill="url(#wood)"/>
+  <rect x="0" y="610" width="1600" height="18" fill="#4a3420"/>
+  <rect x="0" y="628" width="1600" height="6" fill="#e8b84a" opacity="0.35"/>
+  <g transform="translate(980,520)">
+    <ellipse cx="160" cy="150" rx="210" ry="38" fill="#0a0806" opacity="0.55"/>
+    <ellipse cx="160" cy="128" rx="190" ry="22" fill="#2b2118"/>
+    <ellipse cx="160" cy="118" rx="176" ry="18" fill="#d8c4a0"/>
+    <circle cx="70" cy="96" r="34" fill="url(#crust)"/>
+    <circle cx="128" cy="82" r="38" fill="url(#crust)"/>
+    <circle cx="188" cy="90" r="36" fill="url(#crust)"/>
+    <circle cx="242" cy="102" r="32" fill="url(#crust)"/>
+    <circle cx="98" cy="108" r="28" fill="url(#crust)"/>
+    <circle cx="168" cy="112" r="30" fill="url(#crust)"/>
+    <circle cx="70" cy="96" r="12" fill="#2a1a10"/>
+    <circle cx="128" cy="82" r="13" fill="#24160e"/>
+    <circle cx="188" cy="90" r="12" fill="#2a1a10"/>
+    <circle cx="242" cy="102" r="10" fill="#1c120c"/>
+    <ellipse cx="300" cy="108" rx="28" ry="16" fill="#c12a22"/>
+    <ellipse cx="300" cy="104" rx="22" ry="10" fill="#e8b84a" opacity="0.55"/>
+  </g>
+  <g fill="#e8b84a" opacity="0.12" font-family="Georgia, serif" font-size="180">
+    <text x="70" y="560">BARBA</text>
+  </g>
+</svg>
