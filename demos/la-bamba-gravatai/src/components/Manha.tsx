@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { SITE } from "@/data/site";
 
 export function Manha() {
@@ -40,11 +41,15 @@ export function Manha() {
         </div>
 
         <figure className="overflow-hidden rounded-[28px] bg-[color:var(--brand)] shadow-[var(--shadow)]">
-          <img
-            src="/cover.png"
-            alt="Letreiro La Bamba com suco, pastéis e prato feito — banner oficial da casa"
-            className="aspect-[4/3] w-full object-cover"
-          />
+          <div className="relative aspect-[4/3] w-full">
+            <Image
+              src="/cover.png"
+              alt="Letreiro La Bamba com suco, pastéis e prato feito — banner oficial da casa"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 45vw"
+            />
+          </div>
           <figcaption className="px-5 py-4 text-sm text-[#fff8f0]/85">
             O letreiro oficial: suco, pastel e o PF com ovo. Casa de avenida,
             não de vitrine.

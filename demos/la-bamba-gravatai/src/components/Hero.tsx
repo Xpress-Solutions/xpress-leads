@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { SITE } from "@/data/site";
 
 export function Hero() {
@@ -7,10 +8,13 @@ export function Hero() {
       className="relative flex min-h-[100svh] items-end overflow-hidden pb-16 pt-[calc(var(--nav-h)+32px)] md:items-center md:pb-24"
     >
       <div className="absolute inset-0" aria-hidden="true">
-        <img
+        <Image
           src="/cover.png"
           alt=""
-          className="h-full w-full object-cover object-center"
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
         />
         <div
           className="absolute inset-0"

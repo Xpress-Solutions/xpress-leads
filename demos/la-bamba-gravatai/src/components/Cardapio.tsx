@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { GALLERY, MENU } from "@/data/site";
 
 export function Cardapio() {
@@ -36,11 +37,15 @@ export function Cardapio() {
               key={shot.src}
               className="overflow-hidden rounded-2xl bg-[color:var(--ink)]/6"
             >
-              <img
-                src={shot.src}
-                alt={shot.alt}
-                className="aspect-square w-full object-cover"
-              />
+              <div className="relative aspect-square w-full">
+                <Image
+                  src={shot.src}
+                  alt={shot.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 50vw, 20vw"
+                />
+              </div>
             </figure>
           ))}
         </div>
