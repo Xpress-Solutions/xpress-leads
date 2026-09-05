@@ -40,7 +40,9 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <Button href={business.phoneLink}>Ligar {business.phone}</Button>
+            <Button href={business.phoneLink} variant="secondary">
+              Ligar {business.phone}
+            </Button>
             <Button href={business.mapsUrl} variant="outline" external>
               Como chegar
             </Button>

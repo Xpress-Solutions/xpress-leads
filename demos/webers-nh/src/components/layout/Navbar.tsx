@@ -65,7 +65,7 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button href={business.phoneLink} className="!px-5 !py-2 !text-xs">
+            <Button href={business.phoneLink} variant="secondary" className="!px-5 !py-2 !text-xs">
               Ligar
             </Button>
           </nav>

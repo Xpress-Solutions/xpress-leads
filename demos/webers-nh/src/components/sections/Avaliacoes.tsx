@@ -64,7 +64,7 @@ export function Avaliacoes() {
         </div>
 
         <div className="mt-10 text-center">
-          <Button href={business.googleReviewsUrl} variant="outline" external>
+          <Button href={business.googleReviewsUrl} variant="secondary" external>
             Ver no Google
           </Button>
         </div>
