@@ -1,0 +1,78 @@
+{
+  "leadId": "los-pepes-nh",
+  "name": "Los Pepes Barbearia",
+  "positioning": "Barbearia informal no Centro de Novo Hamburgo: corte, barba e sobrancelha com nome próprio — Los Pepes, não mais um ‘do Fulano’.",
+  "mood": "limpo-servico",
+  "voice": [
+    "informal",
+    "de casa",
+    "masculino sem pose",
+    "direto",
+    "latino sem pastiche"
+  ],
+  "avoid": [
+    "roxo-tech / violet de dashboard",
+    "stock de barbeiro americano",
+    "Inter ou Roboto no display",
+    "neon de club",
+    "app Booksy como marca",
+    "boteco / cerveja",
+    "cream+terracotta genérico de IA"
+  ],
+  "colors": {
+    "background": "#F2ECDE",
+    "foreground": "#1C1018",
+    "brand": "#400848",
+    "accent": "#8E3A22",
+    "surface": "#FFF8EF",
+    "muted": "#8A6A58"
+  },
+  "typography": {
+    "display": "Rye",
+    "body": "Figtree",
+    "rationale": "O letreiro oficial ‘LOS PEPES’ é slab vintage com entalhe no meio da haste — Rye carrega esse cartaz de circo/oeste latino sem virar script de barbearia-club. Figtree lê preço e endereço com calor de casa, sem Inter/Roboto. O roxo do site é o fill amostrado da letra do logo (#400848), não Tailwind violet."
+  },
+  "imagery": {
+    "heroSubject": "Logo oficial (granada + LOS PEPES em ameixa no círculo creme) sobre a sala real: OSB, azulejo branco, cadeira preta e polo preto com vivo cobre.",
+    "atmosphere": [
+      "círculo creme do logo",
+      "granada em traço sépia",
+      "polo preto da equipe",
+      "parede de madeira / OSB",
+      "luz de LED industrial, salão claro",
+      "poste clássico de barbeiro na foto da equipe"
+    ],
+    "references": [
+      {
+        "label": "Logo oficial no Booksy",
+        "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/br/95621/logo/4c0a4bc6098a48209a090234e509d4-Los-Pepes-Barbearia-logo-4bda62a693744ababf6f7cd3290f6c-booksy.jpeg"
+      },
+      {
+        "label": "Capa / cover Booksy",
+        "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/br/95621/cover/86f4e2ff456f47f3995e73791e80fb-Los-Pepes-Barbearia-5f76f2698e6f4df5bdea7333823257-booksy.jpeg"
+      },
+      {
+        "label": "Perfil Booksy — bio, serviços, equipe, horários",
+        "url": "https://booksy.com/pt-br/95621_los-pepes-barbearia_barbearias_802050_novo-hamburgo"
+      },
+      {
+        "label": "Instagram oficial @lospepesbarberia",
+        "url": "https://www.instagram.com/lospepesbarberia"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial Booksy amostrado em pixel: campo do selo #F2ECDE; fill das letras LOS PEPES #400848 / #460B43 (ameixa profunda, não violet de SaaS); granada em sépia #E3C89B–#EBCB92; traço/sombra ferrugem #903820. Círculo creme sobre fundo carvão.",
+    "Texto oficial da casa no schema Booksy: ‘Somos uma barbearia informal. Aqui plantamos a amizade, o respeito e a qualidade. Gosta de sentir-se em casa? Vem pra Los Pepes 💣💈’ — granada do logo + bomba da bio, tom de casa, não de club.",
+    "Fotos da equipe no Booksy (Ricardo, Nando, Rafael Garcia): polo preto, vivo cobre/mostarda no colarinho, logo circular no peito, parede de tábuas e poste clássico. Interior de cliente: OSB, azulejo branco, cadeira preta, LED industrial — salão claro de ofício, não lounge noturno.",
+    "Horário diurno no Booksy (seg 10h–19h, ter–sex 10h–20h, sáb 9h–13h) + comodidades (estacionamento, cartão, pet, Wi-Fi) confirmam mood limpo-serviço, não urbano-noturno.",
+    "Instagram oficial sameAs do schema: @lospepesbarberia. Sem telefone/WhatsApp público no Booksy — agenda é o canal. Equipe nomeada: Rafael Garcia (‘10 anos de profissão’), Meni (mais citado nas reviews), Ricardo, Nando. 5,0 / 207 avaliações."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-05"
+}
