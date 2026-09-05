@@ -234,12 +234,13 @@ button {
 
   .nav-drawer {
     display: grid;
+    align-content: start;
     gap: 16px;
     position: fixed;
-    inset: var(--nav-h) 0 auto;
+    inset: var(--nav-h) 0 0;
     background: #1a120e;
     color: #fff4e4;
-    padding: 24px;
+    padding: 24px 24px 96px;
     z-index: 39;
   }
 
