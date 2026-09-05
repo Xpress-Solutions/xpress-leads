@@ -1,0 +1,86 @@
+{
+  "leadId": "webers-nh",
+  "name": "Restaurante Weber's",
+  "positioning": "Casa de almoço familiar do Vale: buffet caseiro na semana e mesa alemã no fim de semana — eisbein e chucrute desde 1998, não restaurante de vitrine.",
+  "mood": "armazem-familiar",
+  "voice": [
+    "orgulhoso",
+    "familiar",
+    "tradição colonial do Vale",
+    "almoço de casa",
+    "comida alemã sem fantasia"
+  ],
+  "avoid": [
+    "startup",
+    "redesign",
+    "roxo tech",
+    "Inter/Roboto display",
+    "experiência gastronômica inovadora",
+    "creme terracotta genérico de IA",
+    "oktoberfest de fantasia"
+  ],
+  "colors": {
+    "background": "#F3E4CC",
+    "foreground": "#2A1618",
+    "brand": "#6B1C24",
+    "accent": "#C4A36A",
+    "surface": "#FFF7EA",
+    "muted": "#9A7D62"
+  },
+  "typography": {
+    "display": "Cormorant Garamond — serifada colonial, peso de placa de casa alemã",
+    "body": "Source Sans 3 — humanista para horários, endereço e cardápio de buffet",
+    "rationale": "O letreiro oficial é script bege sobre vinho; o site ecoa isso com serifada de tradição no nome das seções e script só no wordmark Weber's. Corpo sem Inter/Roboto. Fundo linho de almoço, não paleta SaaS."
+  },
+  "imagery": {
+    "heroSubject": "Wordmark Weber's no vinho do logo oficial + mesa de eisbein/chucrute de domingo",
+    "atmosphere": [
+      "logo vinho com chef mascote e garfo",
+      "buffet de almoço familiar",
+      "estacionamento cheio no Rincão",
+      "mesas na parte externa",
+      "sobremesa e café de cortesia",
+      "luz diurna de casa colonial do Vale"
+    ],
+    "references": [
+      {
+        "label": "Facebook oficial — capa/logo",
+        "url": "https://www.facebook.com/restaurantewebersnh"
+      },
+      {
+        "label": "Instagram @restaurantewebers",
+        "url": "https://www.instagram.com/restaurantewebers/"
+      },
+      {
+        "label": "Hagah",
+        "url": "https://www.hagah.com.br/restaurante-webers-vinte-e-quatro-de-maio-222"
+      },
+      {
+        "label": "QuintoAndar — guia NH",
+        "url": "https://www.quintoandar.com.br/guias/cidades/melhores-restaurantes-em-novo-hamburgo/"
+      },
+      {
+        "label": "Destemperados / GZH",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/experiencias/noticia/2015/09/no-weber-s-tem-comida-alema-das-boas-ckbqr4xpb001e6xslzgjnz7jn.html"
+      },
+      {
+        "label": "Câmara de Novo Hamburgo — 25 anos",
+        "url": "https://portal.camaranh.rs.gov.br/pm3/informacao_e_conhecimento/noticias/restaurante-weber2019s-completa-25-anos-e-recebe-homenagem-da-camara"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Capa e perfil do Facebook oficial (Restaurante Webers / Webers NH): fundo vinho sólido, wordmark Weber's em script bege com sublinhado, RESTAURANTE em caixa alta branca, mascote chef loiro de avental e garfo — paleta brand #6B1C24 + accent bege #C4A36A.",
+    "Bio do Facebook: 'Buffet e marmitas com sabor de comida caseira / Típica alemã / O melhor da comida brasileira' — voz de casa, não de marca-conceito.",
+    "Hagah e QuintoAndar descrevem buffet caseiro + típica alemã, ambiente amplo e acolhedor no Rincão; Destemperados confirma estacionamento lotado e mesas na parte externa.",
+    "Câmara Municipal de NH: inauguração em 10/07/1998, 25 anos com caráter familiar mantido; cardápio caseiro semanal e temperos naturais.",
+    "Reviews Google (4.6 / 1.100+) e Restaurant Guru citam eisbein, bolinho de batata, chucrute, sobremesas e clima familiar simples — atmosfera diurna de almoço, fundo linho, não boteco noturno."
+  ],
+  "confidence": 0.8,
+  "researchedAt": "2026-09-05"
+}

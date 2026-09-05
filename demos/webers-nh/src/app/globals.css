@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f3e4cc;
+  --foreground: #2a1618;
+  --brand: #6b1c24;
+  --brand-deep: #4a1016;
+  --accent: #c4a36a;
+  --accent-deep: #a8864c;
+  --surface: #fff7ea;
+  --muted: #9a7d62;
+  --linen: #f8eedc;
+}
+
+@theme inline {
+  --color-weber-linen: var(--background);
+  --color-weber-ink: var(--foreground);
+  --color-weber-brand: var(--brand);
+  --color-weber-brand-deep: var(--brand-deep);
+  --color-weber-accent: var(--accent);
+  --color-weber-accent-deep: var(--accent-deep);
+  --color-weber-surface: var(--surface);
+  --color-weber-muted: var(--muted);
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-source);
+  --font-script: var(--font-script);
+  --font-family-display: var(--font-cormorant), "Times New Roman", serif;
+  --font-family-body: var(--font-source), Georgia, sans-serif;
+  --font-family-script: var(--font-script), "Palatino Linotype", cursive;
+}
+
+.font-display {
+  font-family: var(--font-cormorant), "Times New Roman", serif;
+}
+
+.font-body {
+  font-family: var(--font-source), Georgia, sans-serif;
+}
+
+.font-script {
+  font-family: var(--font-script), "Palatino Linotype", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-source), Georgia, sans-serif;
+}
+
+::selection {
+  background: var(--brand);
+  color: var(--surface);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out forwards;
+}
+
+.hero-grain {
+  background-image:
+    radial-gradient(ellipse at 20% 10%, rgba(196, 163, 106, 0.16), transparent 50%),
+    radial-gradient(ellipse at 80% 90%, rgba(0, 0, 0, 0.22), transparent 45%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(243, 228, 204, 0.03) 2px,
+      rgba(243, 228, 204, 0.03) 3px
+    );
+}
+
+.rule-gold {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--accent) 15%,
+    #e8d5a8 50%,
+    var(--accent) 85%,
+    transparent
+  );
+}
