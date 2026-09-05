@@ -1,0 +1,83 @@
+{
+  "leadId": "espetinho-martins",
+  "name": "Espetinho Bar do Martins",
+  "positioning": "Espetinho de esquina na Vila Jardim: nome do dono, ofício de espeto e o Kachurrasco do Comida di Buteco 2026 — abre à noite na Circular.",
+  "mood": "boteco-raiz",
+  "voice": [
+    "de esquina",
+    "dono presente",
+    "espeto no fogo",
+    "direto",
+    "sem pose",
+    "noite de bairro"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "dashboard",
+    "Inter/Roboto display",
+    "balada neon",
+    "stock de kebab"
+  ],
+  "colors": {
+    "background": "#110C08",
+    "foreground": "#F3E6D0",
+    "brand": "#D9A441",
+    "accent": "#C73A12",
+    "surface": "#1C140E",
+    "muted": "#A07A4A"
+  },
+  "typography": {
+    "display": "Anton — letreiro grosso de esquina, como placa pintada na parede",
+    "body": "Barlow — grotesk condensável para horário, endereço e cardápio de espeto",
+    "rationale": "Martins é nome de dono + ofício, não marca de rede. Anton carrega o letreiro sem cair em Inter/Roboto nem no Oswald da Annalu. Barlow lê espeto e WhatsApp no celular. Ouro de gergelim + pimenta-chili vêm do Kachurrasco oficial, não de paleta SaaS."
+  },
+  "imagery": {
+    "heroSubject": "Kachurrasco — pão alongado com gergelim, carne de espeto, molho verde da casa, pimentas e agrião sobre juta. Foto oficial do Comida di Buteco 2026 (Israh Ramos / Sabores do Sul).",
+    "atmosphere": [
+      "juta rústica das fotos oficiais do concurso",
+      "pão tostado com gergelim",
+      "carne de espeto fatiada no sanduíche",
+      "molho verde de erva / maionese da casa",
+      "pimenta chili laranja-vermelha e verde",
+      "prato branco oval de petisco",
+      "luz quente de noite (abre às 18h)"
+    ],
+    "references": [
+      {
+        "label": "Sabores do Sul — Kachurrasco 2026 (Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Foto oficial do petisco",
+        "url": "https://revistasaboresdosul.com.br/wp-content/uploads/2026/04/espetinhobardomartins.jpg"
+      },
+      {
+        "label": "Comida di Buteco — listagem Porto Alegre",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/"
+      },
+      {
+        "label": "Feira & Cia — telefone e endereço",
+        "url": "https://www.feirasecia.com.br/det_bar.php?codfor=39755"
+      },
+      {
+        "label": "Instagram @espetinhobardomartins",
+        "url": "https://www.instagram.com/espetinhobardomartins/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial do Kachurrasco (Sabores do Sul / Israh Ramos, abr/2026): pão alongado com gergelim, carne de espeto, molho verde pálido, alface, tomate, pimentas chili e agrião sobre juta — daí o fundo carvão de noite, o ouro de gergelim/casca #D9A441 nos títulos e o chili #C73A12 no CTA.",
+    "Ficha pública do concurso: Av. Circular, 593, Vila Jardim; segunda a sábado, 18h à meia-noite. Casa noturna de esquina na zona leste — fundo fuligem, não landing clara.",
+    "Nome do dono (Martins) + ofício (espetinho) + um petisco de concurso (Kachurrasco, tema verduras 2026). Sem fachada em alta resolução; Instagram @espetinhobardomartins existe mas sem posts públicos. Palette veio do prato e do expediente.",
+    "Feira & Cia lista a casa como bar de faixa $ na Circular 593, telefone (51) 99426-1019. CNPJ ESPETINHO BAR DO MARTINS LTDA (55.901.196/0001-87) confirma Vila Jardim e CNAE de bar sem entretenimento."
+  ],
+  "confidence": 0.7,
+  "researchedAt": "2026-09-05"
+}
