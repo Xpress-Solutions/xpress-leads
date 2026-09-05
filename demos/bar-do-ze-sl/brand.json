@@ -1,0 +1,74 @@
+{
+  "leadId": "bar-do-ze-sl",
+  "name": "Bar do Zé",
+  "positioning": "Boteco de praça em São Leopoldo: mesa na calçada, xis caprichado, cerveja gelada e o Zé no atendimento — preço justo, nome do dono.",
+  "mood": "boteco-raiz",
+  "voice": [
+    "de praça",
+    "direto",
+    "dono na mesa",
+    "preço justo",
+    "cidade, não capital"
+  ],
+  "avoid": [
+    "boutique",
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto como display",
+    "cards no hero",
+    "stock de restaurante"
+  ],
+  "colors": {
+    "background": "#0B130F",
+    "foreground": "#F3EEDC",
+    "brand": "#E8C24A",
+    "accent": "#B8D96A",
+    "surface": "#16241B",
+    "muted": "#8A9A78"
+  },
+  "typography": {
+    "display": "Anton",
+    "body": "Figtree",
+    "rationale": "Anton no nome tem peso de letreiro de quiosque/praça, não de boutique. Figtree lê horário e endereço sem virar Inter/Roboto. Caveat só no ‘do Zé’, como assinatura do dono."
+  },
+  "imagery": {
+    "heroSubject": "Mesa na praça ao entardecer, sob copa de árvores, com xis e cerveja gelada — sem stock de restaurante",
+    "atmosphere": [
+      "sombra das árvores da praça",
+      "mesa na calçada ao anoitecer",
+      "luz âmbar de quiosque",
+      "xis gaúcho caprichado",
+      "garrafa de cerveja trincando",
+      "atendimento pessoal do Zé"
+    ],
+    "references": [
+      {
+        "label": "Restaurant Guru — Bar do Zé SL",
+        "url": "https://www.restaurantguru.com.br/Bar-Do-Ze-Sao-Leopoldo"
+      },
+      {
+        "label": "Locais do Brasil — Roosevelt 323",
+        "url": "https://www.locaisdobrasil.com.br/encontre/bares/sao-leopoldo-rs/bar-do-ze/660f0909ba83378a89399b14"
+      },
+      {
+        "label": "Praça dos Correios na Roosevelt (contexto urbano)",
+        "url": "https://www.abcmais.com/brasil/rio-grande-do-sul/vale-do-rio-dos-sinos/sao-leopoldo/transito-na-rua-presidente-roosevelt-ficara-bloqueado-para-obras-ate-a-proxima-semana/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Reviews no Google via Restaurant Guru descrevem o ritual com as mesmas palavras: mesa na praça, sombra das árvores, pássaros, cerveja gelada e xis feito no capricho. Evandro Rosa Lopes: ‘o bar que existia anteriormente no quiosque da praça’.",
+    "Maria Catharina: ‘Cerveja sempre gelada, xis maravilhoso, tudo com preço justíssimo’. Eduardo Turcatto: ‘Atendimento do Zé sempre muito simpático. Praça muito tranquilo para colocar a mesa.’ Ouro da casa é o dono + a praça, não um salão.",
+    "Abre às 18h (Restaurant Guru: 18h–0h). A atmosfera é praça ao anoitecer — verde-preto de copa e ouro de cerveja/xis — não cream+terracotta diurno nem vermelho de boteco campeão.",
+    "Sem Instagram oficial nem logo fotografado. Paleta lida da cena descrita (árvore + gelada + xis + 18h), não amostrada de um letreiro. Por isso confidence fica em 0.64, acima do piso 0.55.",
+    "Faixa de preço R$ 20–40 e nota 4.9. Casa barata de cidade, não pub boutique. Telefone público (51) 99313-8239 nas duas listagens."
+  ],
+  "confidence": 0.64,
+  "researchedAt": "2026-09-05"
+}
