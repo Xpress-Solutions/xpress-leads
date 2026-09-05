@@ -1,0 +1,87 @@
+{
+  "leadId": "resenha-gourmet",
+  "name": "Resenha Gourmet",
+  "positioning": "Boteco elevado de avenida na Vila Ipiranga: resenha (encontro) + gourmet, almoço às 11h e mesa até meia-noite — o Bolinho Resenha é a cara da casa.",
+  "mood": "premium-casual",
+  "voice": [
+    "encontro na avenida",
+    "elevado sem pose",
+    "almoço que vira noite",
+    "campeão sem arrogância",
+    "mesa compartilhada"
+  ],
+  "avoid": [
+    "roxo tech",
+    "Inter/Roboto display",
+    "creme terracotta genérico de IA",
+    "luxo frio",
+    "neon de balada",
+    "dashboard",
+    "stock de restaurante genérico"
+  ],
+  "colors": {
+    "background": "#1C120C",
+    "foreground": "#F6E6D4",
+    "brand": "#E0A05A",
+    "accent": "#C21B1B",
+    "surface": "#2A1A12",
+    "muted": "#A67C58"
+  },
+  "typography": {
+    "display": "Fraunces (serif editorial quente)",
+    "body": "Figtree (humanista, leitura de cardápio)",
+    "rationale": "O nome ‘Gourmet’ pede serifada com peso de carta de vinho, não placa de boteco raiz nem Inter. Figtree no corpo segura almoço/noite no celular. Paleta sai do prato oficial: juta, madeira, crosta dourada, pimenta-biquinho e erva — não de um tema SaaS."
+  },
+  "imagery": {
+    "heroSubject": "Bolinho Resenha na tábua de madeira — croquetes dourados, pimenta-biquinho, chimichurri e ramekins da casa (foto Israh Ramos / Sabores do Sul)",
+    "atmosphere": [
+      "tábua de madeira clara",
+      "juta / aniagem bege de mesa",
+      "crosta frita dourada",
+      "pimenta-biquinho vermelha",
+      "ervas e chimichurri",
+      "luz quente de almoço na avenida",
+      "mesa até meia-noite"
+    ],
+    "references": [
+      {
+        "label": "Revista Sabores do Sul — Bolinho Resenha (Foto: Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Foto do petisco no concurso",
+        "url": "https://revistasaboresdosul.com.br/wp-content/uploads/2026/04/resenhagourmet.jpg"
+      },
+      {
+        "label": "Instagram @resenhagourmett",
+        "url": "https://www.instagram.com/resenhagourmett/"
+      },
+      {
+        "label": "Restaurant Guru — fotos, 4,8 Google, interior e batata frita",
+        "url": "https://restaurantguru.com.br/Resenha-Gourmet-Porto-Alegre"
+      },
+      {
+        "label": "Feiras & Cia — ficha Comida di Buteco 2026",
+        "url": "http://www.feirasecia.com.br/det_buteco_2026.php?codfor=39749"
+      },
+      {
+        "label": "G1 — campeão regional na fase nacional",
+        "url": "https://g1.globo.com/guia/guia-sp/noticia/2026/07/01/campeoes-regionais-do-comida-di-buteco-disputam-titulo-nacional-resultado-sai-dia-8-de-julho.ghtml"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial do Bolinho Resenha (Israh Ramos / Sabores do Sul, abr/2026): tábua de madeira, papel manteiga, juta bege, croquetes dourados, pimenta-biquinho vermelha, erva/chimichurri e ramekins brancos — paleta extraída do prato, não de template.",
+    "Receita pública: bolinho de verduras com bacon e queijo, maionese da casa e chimichurri (Feiras & Cia / Sabores do Sul). Verde de erva e vermelho de pimenta viram accent; dourado da crosta vira brand.",
+    "Tema 2026 do Comida di Buteco é verduras; a casa venceu o circuito de Porto Alegre e foi à fase nacional (G1, jul/2026).",
+    "Abre às 11h na Av. do Forte — casa de almoço e noite, não boteco só noturno (Vitória) nem armazém diurno (Anita). Fundo madeira-escuro no hero, superfície de juta/linho no cardápio de almoço.",
+    "Reviews Google 4,8: atmosfera caseira, pratos elaborados e acessíveis, cerveja gelada, mesas ao ar livre. Nome ‘resenha’ = encontro; ‘gourmet’ = execução elevada sem luxo frio."
+  ],
+  "confidence": 0.74,
+  "researchedAt": "2026-09-05"
+}
