@@ -1,0 +1,79 @@
+{
+  "leadId": "bar-e-bar-gravatai",
+  "name": "Bar e Bar Restaurante e Churrascaria",
+  "positioning": "Churrascaria-restaurante de Gravataí: o nome duplicado vira marca. Churrasco e almoço de casa de cidade na Elmo Lenz — sem pose de rodízio de shopping.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "casa de cidade",
+    "ofício de churrasco",
+    "almoço",
+    "nome próprio",
+    "simples e farto",
+    "mesa reservada"
+  ],
+  "avoid": [
+    "luxo de steakhouse",
+    "neon de balada",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto display",
+    "stock de picanha de banco de imagem",
+    "noite de pub"
+  ],
+  "colors": {
+    "background": "#1A120E",
+    "foreground": "#F6E8D0",
+    "brand": "#E8D4A0",
+    "accent": "#B33A1C",
+    "surface": "#2B1D16",
+    "muted": "#9A7E5E"
+  },
+  "typography": {
+    "display": "Alfa Slab One — placa esmaltada de bar, o BAR e BAR empilhado",
+    "body": "Source Serif 4 — cardápio e horário de casa de almoço",
+    "rationale": "O nome duplicado pede letreiro de chapa, não script de café nem Oswald de pub noturno. Slab no BAR/BAR é placa de fachada. Serifada no corpo é mesa de almoço, não landing de app. Carvão + creme de esmalte + brasa-tijolo separam a casa da Anita (creme+verde) e do Vitória (ouro+carmesim)."
+  },
+  "imagery": {
+    "heroSubject": "Letreiro BAR e BAR como placa de churrascaria — atmosfera de brasa e carvão, sem foto stock",
+    "atmosphere": [
+      "carvão da churrasqueira",
+      "brasa de almoço (abre às 11h)",
+      "placa esmaltada do nome duplicado",
+      "sala simples de casa de cidade",
+      "buffet e carne passando na mesa",
+      "supermesa de saladas"
+    ],
+    "references": [
+      {
+        "label": "Restaurant Guru — ficha, 4.7 Google, abre 11h, R$20–40",
+        "url": "https://www.restaurantguru.com.br/Bar-e-Bar-Gravatai-2"
+      },
+      {
+        "label": "Restaurant Guru — telefone (51) 3423-5920 e endereço Elmo Lenz",
+        "url": "https://restaurantguru.com/Bar-e-Bar-Gravatai-2/menu"
+      },
+      {
+        "label": "Cardapio.menu — reviews de buffet, tiazinha da carne, supermesa",
+        "url": "https://cardapio.menu/restaurants/gravatai/bar-e-bar-restaurante-e-churrascaria"
+      },
+      {
+        "label": "Guia Fácil — CNAE restaurante, RS-020 / Gravataí, mesmo telefone",
+        "url": "https://guiafacil.com/site/bar-e-bar-restaurante-e-churrascaria/gravatai/rs/92694013"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Restaurant Guru (ficha pública): churrasco como prato-estrela, 4.7 no Google, #26 de 562 pubs & bares em Gravataí, atmosfera acolhedora, equipe simpática, intervalo R$20–40, ‘Encerrado — abre às 11:00’, R. Elmo Lenz 1480, CEP 94090-600. Sem site oficial.",
+    "Mesma ficha em inglês lista +55 51 3423-5920. Guia Fácil e Cardapio.menu repetem o telefone e amarram a casa à RS-020 / Vera Cruz — Elmo Lenz é rua do Vera Cruz (CEP 94090-600).",
+    "Reviews no Cardapio.menu (out/2023, página desta casa): buffet + ‘tiazinha passa com carne quentinha o tempo todo’; ‘supermesa é bonito, mas tudo é bem simples’; ‘várias carnes e churrasqueira diretamente para o prato’; ‘carne de primeira’. Ofício = almoço farto e simples, não steakhouse.",
+    "CircuitoBR lista a casa entre pontos de convívio de Gravataí. Nenhum Instagram oficial encontrado — a marca visível é o nome duplicado, não um logo vetorizado. Paleta veio do ofício (carvão/brasa) e do letreiro (creme de placa), não de tema SaaS.",
+    "Lead em data/metro-leads.ts: identidade de churrascaria-restaurante, nome duplicado vira marca, ofício de churrasco e almoço, casa de cidade. Horário oficial incompleto — site confirma no balcão e só afirma o 11h evidenciado."
+  ],
+  "confidence": 0.64,
+  "researchedAt": "2026-09-05"
+}

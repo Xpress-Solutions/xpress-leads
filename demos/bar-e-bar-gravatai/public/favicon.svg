@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bar e Bar">
+  <rect width="64" height="64" fill="#1A120E"/>
+  <rect x="6" y="6" width="52" height="52" fill="none" stroke="#E8D4A0" stroke-width="2"/>
+  <text x="32" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#E8D4A0">BAR</text>
+  <text x="32" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#B33A1C">e</text>
+  <text x="32" y="54" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#E8D4A0">BAR</text>
+</svg>
