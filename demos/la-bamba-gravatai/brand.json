@@ -1,0 +1,76 @@
+{
+  "leadId": "la-bamba-gravatai",
+  "name": "La Bamba",
+  "positioning": "Café-bar e lancheria na avenida principal de Gravataí: café da manhã às 5h45, salgado, lanche e prato feito — ponto de rotina do Centro, não happy hour.",
+  "mood": "armazem-familiar",
+  "voice": [
+    "de avenida",
+    "rotina da cidade",
+    "café da manhã cedo",
+    "caseiro sem pose",
+    "direto"
+  ],
+  "avoid": [
+    "roxo tech",
+    "Inter/Roboto display",
+    "creme terracotta genérico de IA",
+    "mexicano de fantasia",
+    "boteco noturno",
+    "specialty coffee hipster",
+    "stock genérico"
+  ],
+  "colors": {
+    "background": "#F6EEE0",
+    "foreground": "#1A1210",
+    "brand": "#C80000",
+    "accent": "#D00000",
+    "surface": "#FFF9F2",
+    "muted": "#8B6B58"
+  },
+  "typography": {
+    "display": "Oswald — condensed bold, o letreiro LA BAMBA do logo",
+    "body": "Source Sans 3 — humanista para horário, endereço e cardápio",
+    "rationale": "O logo oficial (Facebook) é LA BAMBA branco condensado no vermelho, com colher e garfo. Display precisa ecoar o letreiro da lancheria, não Inter/Roboto nem script de café boutique. Fundo linho diurno: a casa abre 5h45 e fecha 19h."
+  },
+  "imagery": {
+    "heroSubject": "Banner oficial do Facebook: suco de laranja, pastéis, prato feito com ovo e o letreiro LA BAMBA no vermelho — não stock de café",
+    "atmosphere": [
+      "vermelho vivo do logo (#C80000–#D00000)",
+      "estufa de salgados no balcão",
+      "pastéis na bandeja de inox",
+      "lanche no prato de vidro âmbar",
+      "pães doces e bolo de cenoura",
+      "luz de manhã na Dorival, não neon de noite"
+    ],
+    "references": [
+      {
+        "label": "Facebook oficial — Restaurante e Lancheria La Bamba",
+        "url": "https://www.facebook.com/RestauranteeLancheriaLaBamba/"
+      },
+      {
+        "label": "Restaurant Guru / Google 4.6",
+        "url": "https://restaurantguru.com.br/Labamba-Gravatai"
+      },
+      {
+        "label": "CNPJ / Bar e Lancheria La Bamba (1996)",
+        "url": "https://guiapj.com.br/consulta-cnpj/01315162000181"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Capa oficial do Facebook (PNG 820×312, fbid 523137616480433): campo vermelho sólido amostrado #D00000–#D80000 nos cantos #A50000; letreiro branco ‘Restaurante e Lancheria LA BAMBA’ + ícone de colher e garfo; à esquerda suco de laranja e pastéis; à direita prato feito (arroz, feijão, bife, ovo, batata, salada).",
+    "Foto de perfil oficial: círculo vermelho #C80000 em campo preto, mesmo letreiro e talheres — esta é a marca, não um tema SaaS.",
+    "Álbum da casa: estufa de salgados, pastéis na bandeja de inox, misto no prato âmbar de lancheria, pães doces no balcão, bolo de cenoura com cobertura de chocolate. Comida de rotina, não editorial.",
+    "Bio do Facebook: ‘restaurante de comida caseira… prato feito, à la minuta, lanches diversos. No local e tele-entrega.’ Categoria Diner. Outdoor seating. Telefone (51) 3488-5082, WhatsApp (51) 9430-3063.",
+    "Restaurant Guru / Google: 4.6 com 215 avaliações; #64 de ~200 cafés em Gravataí; café da manhã e brunch marcados; Seg–sáb 05:45–19:00, domingo fechado. Reviews: ‘salgados de qualidade com um bom preço’ (g c); ‘ambiente amistoso… preço acessível’ (Vera Regina).",
+    "CNPJ 01.315.162/0001-81 — V. L. de Quadros & Cia Ltda, nome fantasia BAR E LANCHERIA LA BAMBA, abertura 18/07/1996, CNAE 5611-2/03 lanchonetes. Casa de avenida com 30 anos, não bar de noite.",
+    "Sem Instagram oficial encontrado. Calibragem: pele clara/diurna como Anita (abre de manhã), vermelho de letreiro no lugar do verde de armazém — nunca o âmbar noturno do Boteco Vitória."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-05"
+}
