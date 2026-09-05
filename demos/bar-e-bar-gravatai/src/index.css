@@ -307,7 +307,7 @@ button {
   position: relative;
   display: grid;
   align-items: end;
-  padding: calc(var(--nav-h) + 28px) 0 48px;
+  padding: calc(var(--nav-h) + 28px) 0 96px;
   overflow: hidden;
 }
 
@@ -409,9 +409,11 @@ button {
 }
 
 .hero-rating {
-  margin: 22px 0 0;
+  margin: 22px auto 0;
+  max-width: min(26rem, calc(100% - 16px));
   color: rgba(246, 232, 208, 0.7);
   font-size: 0.95rem;
+  line-height: 1.45;
 }
 
 .hero-rating span {
