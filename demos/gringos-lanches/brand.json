@@ -1,0 +1,67 @@
+{
+  "leadId": "gringos-lanches",
+  "name": "Gringo’s Lanches",
+  "positioning": "Lanchonete de avenida no São João: xis na chapa, alaminuta rápida e o Tesouro de Molho do Comida di Buteco 2026 — marca pessoal de lanche, não boteco noturno.",
+  "mood": "limpo-servico",
+  "voice": ["direto", "de avenida", "pessoal", "sem firula", "pedido rápido", "casa do Gringo"],
+  "avoid": ["pub escuro", "luxo", "café hipster", "roxo tech", "Inter/Roboto display", "cream terracotta genérico", "dashboard"],
+  "colors": {
+    "background": "#FFF4E4",
+    "foreground": "#1A120E",
+    "brand": "#C41F0E",
+    "accent": "#E39A0C",
+    "surface": "#FFFFFF",
+    "muted": "#8A6542"
+  },
+  "typography": {
+    "display": "Lilita One — letreiro gordo de lanchonete, nome pessoal na fachada",
+    "body": "Source Sans 3 — grotesk de cardápio e comanda, leitura no celular",
+    "rationale": "O letreiro na Av. Ceará escreve Gringo’s em branco e Lanches em laranja/vermelho sobre faixa preta. Display precisa de peso de placa, não serif de boteco nem Inter. Corpo limpo para xis, alaminuta e horário de fluxo."
+  },
+  "imagery": {
+    "heroSubject": "Tesouro de Molho (foto Israh Ramos / Sabores do Sul): cubos de lanche tostado no prato branco, molho de tomate grosso e salsinha sobre juta",
+    "atmosphere": [
+      "luz de lanchonete / prato branco",
+      "mesas de madeira com caminho listrado verde-areia",
+      "xis prensado na chapa",
+      "alaminuta com ovo, arroz, frita e feijão",
+      "calçada da Ceará com mesas e guarda-sol Fruki",
+      "letreiro preto Gringo’s + Lanches"
+    ],
+    "references": [
+      {
+        "label": "Tesouro de Molho — Revista Sabores do Sul / Israh Ramos",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Foto oficial do petisco",
+        "url": "https://revistasaboresdosul.com.br/wp-content/uploads/2026/04/gringoslanche.jpg"
+      },
+      {
+        "label": "Instagram @gringos_lanches_",
+        "url": "https://www.instagram.com/gringos_lanches_/"
+      },
+      {
+        "label": "Google / Restaurant Guru — fachada, interior e pratos",
+        "url": "https://restaurantguru.com.br/Marcos-Lanches-Porto-Alegre"
+      },
+      {
+        "label": "Comida di Buteco 2026 — lista oficial",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial do Tesouro de Molho (Israh Ramos, abr/2026): molho de tomate #C41F0E / #8C1C00 sobre prato cerâmico branco e juta #B48C64 — o vermelho do site é o molho, não um vermelho de boteco genérico.",
+    "Fachada na Av. Ceará: faixa preta com Gringo’s em branco e Lanches em laranja/vermelho; mesas na calçada e guarda-sol verde Fruki. Interior claro, mesas de madeira, caminho de mesa listrado verde–areia–branco, luz de lanchonete — não pub âmbar.",
+    "Fotos de clientes no Google (via Restaurant Guru): xis prensado com ovo e milho, alaminuta (arroz, frita, ovo, carne, feijão, salada), pastel e bacon na chapa. Reviews citam xis, alaminuta, mostarda forte e Fruki de garrafa.",
+    "CNPJ 36.992.191/0001-62 (Marcelo da Silva Lanches / Gringo’s Lanches), CNAE de lanchonete, Av. Ceará 823 conj. 02. Nota 4,8 no Google. Horário público seg–sex 11h–22h30, sáb 11h–14h30."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-05"
+}
