@@ -1,0 +1,68 @@
+import { HOURS_NOTE, SITE, WEEKLY_HOURS, type Weekday } from "../data/site";
+import { useHours } from "../hooks/useHours";
+import { useReveal } from "../hooks/useReveal";
+
+const DAYS: Weekday[] = [1, 2, 3, 4, 5, 6, 0];
+
+export function Location() {
+  const ref = useReveal();
+  const hours = useHours();
+
+  return (
+    <section className="section location" id="localizacao">
+      <div className="wrap reveal" ref={ref}>
+        <p className="kicker">Onde acender</p>
+        <h2 className="title">Circular, 593.</h2>
+        <p className="lead">
+          {SITE.address}
+          <br />
+          {SITE.hoursLabel}
+        </p>
+
+        <div className="loc-grid">
+          <div className="loc-map">
+            <iframe
+              title="Mapa do Espetinho Bar do Martins na Vila Jardim"
+              src={SITE.mapsEmbed}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+
+          <aside className="hours">
+            <div className="hours-now">
+              <div>
+                <span className="kicker">Hoje · {hours.label}</span>
+                <strong>{hours.headline}</strong>
+                <span className="hours-detail">{hours.detail}</span>
+              </div>
+              <span className={`pill ${hours.open ? "pill-on" : "pill-off"}`}>
+                {hours.open ? "Aberto" : "Fechado"}
+              </span>
+            </div>
+            <ul className="hours-list">
+              {DAYS.map((day) => {
+                const item = WEEKLY_HOURS[day];
+                return (
+                  <li key={day} className={hours.weekday === day ? "is-today" : undefined}>
+                    <span>{item.label}</span>
+                    <span>{item.slots?.map((s) => s.label).join(" · ") ?? "Fechado"}</span>
+                  </li>
+                );
+              })}
+            </ul>
+            <p className="board-note">{HOURS_NOTE}</p>
+            <div className="loc-actions">
+              <a className="btn btn-accent" href={SITE.maps} target="_blank" rel="noreferrer">
+                Abrir no Maps
+              </a>
+              <a className="btn btn-ghost" href={`tel:${SITE.phoneTel}`}>
+                Ligar
+              </a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  );
+}
