@@ -18,7 +18,11 @@ export function useReveal<T extends HTMLElement = HTMLDivElement>() {
     );
 
     observer.observe(el);
-    return () => observer.disconnect();
+    const fallback = window.setTimeout(() => el.classList.add("is-visible"), 1800);
+    return () => {
+      observer.disconnect();
+      window.clearTimeout(fallback);
+    };
   }, []);
 
   return ref;
