@@ -1,0 +1,80 @@
+{
+  "leadId": "bar-alemao-unipark",
+  "name": "Bar do Alemão — Unipark",
+  "positioning": "Ponto universitário do acesso 2 da Unisinos: litrão, sinuca, buffet e espaço para banda — o Alemão do Unipark, não o da Floresta.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "de campus",
+    "direto",
+    "raiz",
+    "happy hour",
+    "sem pose",
+    "leopoldense"
+  ],
+  "avoid": [
+    "luxo",
+    "cozinha alemã de postcard",
+    "Bar do Alemão da Floresta",
+    "Bar do Alemão de Itu",
+    "roxo tech",
+    "creme terracotta genérico",
+    "SaaS",
+    "Inter/Roboto display"
+  ],
+  "colors": {
+    "background": "#14110E",
+    "foreground": "#F3E6D0",
+    "brand": "#C4161C",
+    "accent": "#E6A31A",
+    "surface": "#1E1A16",
+    "muted": "#8B7A62"
+  },
+  "typography": {
+    "display": "Anton",
+    "body": "Figtree",
+    "rationale": "Anton reconstitui o letreiro em letras vermelhas garrafais documentado na matéria da Beta Redação. Figtree lê cardápio e mapa no celular sem cair em Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Letreiro vermelho Bar do Alemão à noite no terreno amplo junto ao Unipark / acesso 2 da Unisinos, com mesa de plástico, litrão e pista de asfalto do antigo estacionamento",
+    "atmosphere": [
+      "letreiro vermelho garrafal",
+      "três mesas de sinuca",
+      "litrão na mesa de plástico",
+      "área externa ampla ao lado do estacionamento/lava-rápido",
+      "noite de campus depois da aula",
+      "espaço aberto para banda",
+      "buffet de almoço no mesmo teto"
+    ],
+    "references": [
+      {
+        "label": "Restaurant Guru",
+        "url": "https://restaurantguru.com.br/Bar-do-Alemao-Unipark-Sao-Leopoldo-2"
+      },
+      {
+        "label": "Instagram @bardoalemao.bda",
+        "url": "https://www.instagram.com/bardoalemao.bda/"
+      },
+      {
+        "label": "Facebook Bar do Alemão Unipark",
+        "url": "https://www.facebook.com/bardoalemaounipark/"
+      },
+      {
+        "label": "Beta Redação — história do Alemão",
+        "url": "https://www.betaredacao.com.br/a-fe-que-virou-brinde-como-um-aspirante-a-padre-tornou-se-dono-de-bar/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Matéria da Beta Redação (nov/2025, fotos de Gustavo Bays): o apelido Alemão estampa o letreiro em letras vermelhas garrafais; três mesas de sinuca a R$ 1 a partida; o bar nasce de um estacionamento em terreno vazio em frente à Unisinos no fim de 1999; hoje também é restaurante com buffet de almoço; abre de manhã e só fecha depois da meia-noite nos dias de semana; à noite enche de universitários.",
+    "Reviews no Google via Restaurant Guru: litrão bem gelado, sinuca, buffet, ambiente amplo com espaço para banda, mesas ao ar livre, preço por pessoa na faixa de R$ 20–60. John Murowaniecki: ‘recanto universitário raiz’. Alexandre Olsson descreve o caminho a partir do acesso 2 da Unisinos (Av. Unisinos → Rua Padre Luís Gonzaga Jaeger, perto do Work + Hotel e do Rapach Lanches).",
+    "Listagens públicas (Restaurant Guru, Locais do Brasil, TripTap) batem endereço R. Padre Luís Gonzaga Jaeger, 80, Cristo Rei, São Leopoldo, 93022-250; telefone (51) 3590-4905; Seg–sex 9h–0h, sáb 9h–16h, dom fechado; Instagram oficial @bardoalemao.bda; Facebook /bardoalemaounipark. NÃO é o Bar do Alemão da Floresta (Rua Doutor Timóteo, Porto Alegre) nem o de Itu.",
+    "Sluurpy/Google: cerveja barata (aceita vale), grelhados e porções, mesa de jogos ao ar livre, open bar de vez em quando, quentão citado como termo recorrente — ecoa a origem do bar vendendo quentão no frio."
+  ],
+  "confidence": 0.76,
+  "researchedAt": "2026-09-05"
+}
