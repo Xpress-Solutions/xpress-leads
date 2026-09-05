@@ -1,0 +1,78 @@
+{
+  "leadId": "bah-burger-nh",
+  "name": "BAH! BURGER",
+  "positioning": "Hamburgueria gaúcha de Novo Hamburgo: burger na brasa, nomes de casa e exclamação — loco de especial, não rede.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "exclamação",
+    "gaúcho de verdade",
+    "direto",
+    "de brasa",
+    "casa, não franquia"
+  ],
+  "avoid": [
+    "rede",
+    "smash genérico",
+    "roxo tech",
+    "cream terracotta de IA",
+    "boteco de chope",
+    "luxo frio",
+    "Inter/Roboto de display"
+  ],
+  "colors": {
+    "background": "#100E0A",
+    "foreground": "#F6EFD8",
+    "brand": "#FFBA00",
+    "accent": "#C8102E",
+    "surface": "#1C1710",
+    "muted": "#9A8458"
+  },
+  "typography": {
+    "display": "Anton — condensed shout em caixa alta, o grito do BAH!",
+    "body": "Source Sans 3 — grotesk industrial, leitura de cardápio e horário",
+    "rationale": "O logo oficial usa sem serifa alta e condensada no BAH! amarelo e no BURGER branco. Anton carrega a exclamação sem copiar Bebas do Boteco Vitória. Corpo limpo de cidade industrial, não script de café."
+  },
+  "imagery": {
+    "heroSubject": "Burger alto da casa no escuro da China 14 — pão dourado, queijo derretido, bandeja industrial — com o BAH! amarelo por cima",
+    "atmosphere": [
+      "logo circular amarelo com gaúcho de lenço vermelho e laço",
+      "placa preta rebitada no salão",
+      "parede de madeira escura e mural do mascote",
+      "bandeja chapada de diamante e cesto de arame preto",
+      "luz quente no lanche, fundo de noite"
+    ],
+    "references": [
+      {
+        "label": "Cardápio Web oficial",
+        "url": "https://app.cardapioweb.com/bah_burger"
+      },
+      {
+        "label": "Instagram @bah_burgerev",
+        "url": "https://www.instagram.com/bah_burgerev/"
+      },
+      {
+        "label": "Restaurant Guru",
+        "url": "https://restaurantguru.com.br/BAH-BURGER-Novo-Hamburgo"
+      },
+      {
+        "label": "Locais do Brasil — texto da equipe",
+        "url": "https://www.locaisdobrasil.com.br/encontre/hamburgueria/novo-hamburgo-rs/bah-burger/66d8732170d3ea745b3bd705"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Cardápio Web oficial (slug bah_burger, company 59933) declara --primary:#ffba00 e --header:#ffba00 — amarelo-escola do logo, não ouro de boteco.",
+    "Logo oficial: círculo amarelo saturado, mascote gaúcho de lenço vermelho, bigode e laço; BAH! condensado amarelo com contorno preto; BURGER branco; faixa LOCO DE ESPECIAL.",
+    "Banner e fotos do próprio cardápio: salão escuro, placa preta rebitada, madeira, bandeja industrial, cestos de arame, burgers altos no escuro — noite de brasa, não landing clara.",
+    "Nomes do cardápio são gíria gaúcha com exclamação: Laçador!, Tá Loco!, Bem TRI!, Bah!Tchê, Barbaridade, Ronca e Fuça, Combo Piá!, Combo Sozinho (mas feliz).",
+    "Equipe, em ficha pública: “Hambúrguer artesanal feito na brasa!!” — carinho, embalagem e entrega. Reviews no Google (4.9 / 119): “melhor hambúrguer de NH”, “ambiente simples onde o hambúrguer que é a estrela”, mesa ao ar livre, Laçador com provolone crispy.",
+    "Horário só de noite (qua–sáb 18h30–23h, dom 18h–22h) e endereço R. China, 14 confirmados no cardápio, Restaurant Guru e lead."
+  ],
+  "confidence": 0.88,
+  "researchedAt": "2026-09-05"
+}
