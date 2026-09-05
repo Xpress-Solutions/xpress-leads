@@ -1,0 +1,64 @@
+{
+  "leadId": "barbearia-107",
+  "name": "Barbearia 107",
+  "positioning": "Barbearia de bairro no Barro Vermelho: nome numérico próprio, corte preciso e a cadeira do Fabricio Brasil — a marca é 107, não do app.",
+  "mood": "urbano-noturno",
+  "voice": ["direto", "de esquina", "orgulhoso do corte", "sem pose de luxury", "número na frente"],
+  "avoid": ["roxo tech", "Inter/Roboto display", "creme terracotta genérico", "stock de modelo", "barbershop boutique frio"],
+  "colors": {
+    "background": "#0B0B0B",
+    "foreground": "#F4EFE2",
+    "brand": "#FCC624",
+    "accent": "#FCC624",
+    "surface": "#1A1A1A",
+    "muted": "#8B8474"
+  },
+  "typography": {
+    "display": "Anton — condensada pesada para o 107",
+    "body": "Barlow — grotesk industrial, leitura de combo e horário",
+    "rationale": "O letreiro oficial usa bloco grosso com 107 dominante; Anton carrega o número. Barlow segura serviço e preço sem cair em Inter/Roboto. O amarelo da capa (faixa de asfalto) é a cor de marca, não o ouro de boteco."
+  },
+  "imagery": {
+    "heroSubject": "Degrade/fade real da casa (Booksy) com 107 tipográfico por cima — não stock",
+    "atmosphere": [
+      "gorila gentleman do logo (chapéu, monóculo, cachimbo)",
+      "capa amarela-preta com tesoura, navalha e faixa de estrada",
+      "tijolo aparente + eletroduto amarelo no salão",
+      "desenhos no degrade (linhas, estrela, X)",
+      "cadeira preta, madeira do balcão, capa de barbeiro"
+    ],
+    "references": [
+      {
+        "label": "Booksy — perfil, logo, fotos e agenda",
+        "url": "https://booksy.com/pt-br/214693_barbearia-107_barbearias_799807_gravatai"
+      },
+      {
+        "label": "Instagram @bar_bearia107",
+        "url": "https://www.instagram.com/bar_bearia107/"
+      },
+      {
+        "label": "Logo oficial Booksy (gorila gentleman)",
+        "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/br/214693/logo/ab822eefa95f4e96841194806dcf40-barbearia-107-logo-e33334fbca6240b4b121eb90f59366-booksy.jpeg"
+      },
+      {
+        "label": "Capa Booksy (amarelo asfalto + tesoura)",
+        "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/br/214693/biz_photo/281920d695c14587ad412eb382e27d-barbearia-107-biz-photo-a34000b7bdfe40f5adb7e928cabc53-booksy.jpeg"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial Booksy: círculo preto com gorila de chapéu-coco, monóculo e cachimbo; BARBER SHOP em branco; BARBEARIA 107 em bloco com degradê ouro→branco e hachura. Fundo do site = o círculo do emblema.",
+    "Capa/biz photo Booksy: amarelo âmbar sólido (~#FCC624) + faixas pretas de estrada, tesoura cruzada, navalha e bigode. O amarelo vira brand/accent — não o vermelho de boteco.",
+    "Fotos reais do salão no Booksy: tijolo aparente, eletroduto amarelo, cadeira preta, madeira do posto, fades com desenho. Atmosfera industrial de rua, não landing clara.",
+    "Instagram oficial no schema Booksy: @bar_bearia107 — mesmo handle impresso na capa amarela.",
+    "Nome numérico 107 é o sinal visual da casa (letreiro + reviews citam Fabricio Brasil em todos os serviços).",
+    "Horários e combos públicos no Booksy (ter–sáb manhã/tarde; combo degrade+barba+sobrancelha R$60)."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-05"
+}
