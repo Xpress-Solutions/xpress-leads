@@ -921,6 +921,16 @@ button {
   margin-top: 18px;
 }
 
+.final-box .btn-primary {
+  background: #111;
+  color: var(--brand);
+  box-shadow: none;
+}
+
+.final-box .btn-primary:hover {
+  background: #1c1c1c;
+}
+
 .final-box .btn-ghost {
   border-color: #111;
   color: #111;
