@@ -1,0 +1,82 @@
+{
+  "leadId": "pinacoteca-cafe",
+  "name": "Pinacoteca Café",
+  "positioning": "Café-bar cultural na Rua da República: casarão vermelho, mesas de mosaico, paredes de galeria e o Croqueflor do Comida di Buteco — bar, arte e cultura, sem pose de museu.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "cultural",
+    "boêmio da República",
+    "galeria sem formalidade",
+    "casa de 20 anos",
+    "mesa compartilhada"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "café hipster de coworking",
+    "dashboard",
+    "minimalismo frio"
+  ],
+  "colors": {
+    "background": "#14080C",
+    "foreground": "#F4EDE4",
+    "brand": "#C41E32",
+    "accent": "#D4A017",
+    "surface": "#231014",
+    "muted": "#9A7F6E"
+  },
+  "typography": {
+    "display": "Libre Bodoni",
+    "body": "Source Sans 3",
+    "rationale": "Bodoni carrega pinacoteca e letreiro de casarão; o logo público empilha PINACOTECA em blocos artísticos, não em grotesk de SaaS. Corpo Source Sans 3 lê cardápio e horário sem Inter/Roboto de display."
+  },
+  "imagery": {
+    "heroSubject": "Mesas de mosaico e paredes de exposição no casarão da República, ou a fachada vermelho-oxblood com friso branco",
+    "atmosphere": [
+      "casarão de dois andares vermelho-cereja com moldura branca",
+      "teto e fachada pintados, street art no térreo",
+      "mesas de mosaico mostarda-ocre-navy",
+      "paredes brancas de galeria com quadros rotativos",
+      "vigas escuras e luz âmbar de noite",
+      "calçada sob os jacarandás da República"
+    ],
+    "references": [
+      {
+        "label": "Instagram @pinacotecabar",
+        "url": "https://www.instagram.com/pinacotecabar/"
+      },
+      {
+        "label": "Facebook Pinacoteca Bar",
+        "url": "https://www.facebook.com/Pinacotecabar"
+      },
+      {
+        "label": "Restaurant Guru — fotos da casa",
+        "url": "https://www.restaurantguru.com.br/Pinacoteca-Porto-Alegre"
+      },
+      {
+        "label": "Croqueflor / Comida di Buteco 2026 (Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Destemperados — arte e cerveja",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/experiencias/noticia/2015/09/pinacoteca-alia-arte-e-boa-cerveja-para-reunir-os-amigos-ckbqs573g003x6xslxx0ciatf.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fotos do Restaurant Guru e Google mostram casarão de dois andares em vermelho-oxblood/cereja com frisos, janelas e balaustrada brancos — a fachada é a cor de marca, não um terracotta genérico.",
+    "Logo público (guardanapo do Croqueflor + placa no salão): PINACOTECA em blocos pretos com quadradinhos mostarda, verde e magenta e a linha 'bar • arte • cultura'. Mostarda vira accent de CTA; magenta fica no logo, não vira tema roxo-SaaS.",
+    "Mesas de mosaico em ocre, mostarda, marinho e off-white (fotos de 2022 e stories da casa) e piso geométrico — textura de galeria/boteco, não landing cream.",
+    "Reviews e guias (Apontador, Locais do Brasil, Encontra POA): teto com pintura 3D, fachada colorida de artista gaúcho, paredes com exposição rotativa, lounge e mesas na calçada sob os jacarandás.",
+    "Interior noturno: paredes brancas de galeria, vigas escuras, madeira, luz de trilho âmbar — casa que abre às 17h, clima urbano-noturno da Cidade Baixa, não cafeteria diurna.",
+    "Croqueflor fotografado por Israh Ramos na Sabores do Sul (Comida di Buteco 2026): croquete panko, creme de couve-flor e muçarela, vinagrete e aioli de tomate seco, papel com o wordmark da casa."
+  ],
+  "confidence": 0.8,
+  "researchedAt": "2026-09-02"
+}
