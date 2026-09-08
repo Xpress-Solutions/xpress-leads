@@ -1,0 +1,67 @@
+{
+  "leadId": "andboy-barber",
+  "name": "Andboy Barber Shop",
+  "positioning": "Casa de um barbeiro: o Andboy, a navalha e a cadeira na Cruz Jobim — desde 2014, sem cara de rede.",
+  "mood": "artesanal",
+  "voice": ["direto", "de um homem", "orgulhoso sem pose", "ritual", "nome próprio"],
+  "avoid": [
+    "franquia",
+    "luxo boutique",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto de display",
+    "stock de barbearia que não é esta casa"
+  ],
+  "colors": {
+    "background": "#141414",
+    "foreground": "#F3F3F3",
+    "brand": "#F7F7F7",
+    "accent": "#C8102E",
+    "surface": "#222222",
+    "muted": "#8A8682"
+  },
+  "typography": {
+    "display": "Oswald condensed no BARBER SHOP / títulos; Outfit Light no nome Andboy",
+    "body": "Outfit grotesk limpa para serviços, horários e reviews",
+    "rationale": "O logo oficial empilha Andboy fino + BARBER SHOP bloco + navalhas cruzadas. Display condensado carrega o letreiro da porta; corpo limpo lê preço e ritual. Evitar Inter/Roboto e script de café."
+  },
+  "imagery": {
+    "heroSubject": "Andboy de avental preto fazendo barba na navalha, parede de tijolo e placa branca Andboy BARBER SHOP ao fundo",
+    "atmosphere": [
+      "logo charcoal com poste vermelho-branco-azul e navalhas cruzadas",
+      "tijolo aparente e porta preta com letreiro branco",
+      "avental de couro preto e camisa xadrez",
+      "piso xadrez preto e branco e cadeira de couro",
+      "toalha quente, espuma e navalhete",
+      "luz quente de salão, não estúdio"
+    ],
+    "references": [
+      {
+        "label": "Booksy — logo, fotos e agenda",
+        "url": "https://booksy.com/pt-br/202979_andboy-barber-shop_barbearias_804125_porto-alegre"
+      },
+      {
+        "label": "Instagram @andboybarber",
+        "url": "https://www.instagram.com/andboybarber/"
+      },
+      {
+        "label": "Lista Amarela — telefone",
+        "url": "https://listaamarela.com.br/rs-porto-alegre/barbearias/andboy-barber"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial no Booksy: fundo charcoal, Andboy em sans leve, BARBER SHOP em bloco, poste clássico (vermelho/branco/azul), navalhas cruzadas e Since 2014 — paleta preto/branco + vermelho de poste como accent.",
+    "Foto de negócio: Andboy de avental preto e luva, navalha na barba do cliente, parede de tijolo vermelho e porta escura com placa Andboy BARBER SHOP — o hero é o barbeiro, não um stock.",
+    "Fotos do salão (reviews/inspiration): piso xadrez, cadeira de couro, parede cinza, prateleira de madeira e reflexo do tijolo no espelho — casa de um homem, não clínica branca.",
+    "Serviço-assinatura no Booksy: Barba Navalha com ritual exclusivo Espuma Quente, Relax Massageador Facial e Despertar Ice — o copy precisa soar ritual, não catálogo de franquia.",
+    "JSON-LD do Booksy: ter–sex 9h–20h, sáb 9h–19h, 5.0 (4,99) em 176 avaliações, Instagram @andboybarber, Cruz Jobim 623 CEP 91380-360."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}

@@ -246,6 +246,50 @@ export const leads: Lead[] = [
       "Não confundir com Barbearia O Barbeiro de Florianópolis (obarbeiro.com.br).",
   },
   {
+    id: "andboy-barber",
+    name: "Andboy Barber Shop",
+    category: "beleza",
+    neighborhood: "jardim-itu",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 87,
+    address: "Rua Cruz Jobim, 623 — Jardim Itu",
+    mapsQuery: "Andboy Barber Shop Rua Cruz Jobim 623 Porto Alegre",
+    phone: "(51) 98442-4111",
+    whatsapp: "5551984424111",
+    instagram: "andboybarber",
+    googleRating: 5,
+    googleReviews: 176,
+    founded: "2014",
+    identity:
+      "Casa de um barbeiro — o Andboy — com nome próprio, navalha e ritual. Logo oficial em charcoal com poste clássico, navalhas cruzadas e Since 2014. Salão de tijolo aparente, cadeira de couro e piso xadrez. Booksy 5.0 com 176 avaliações; clientes citam o profissional pelo nome.",
+    digitalGap:
+      "Agenda e reputação vivem no Booksy. Instagram @andboybarber existe, sem site próprio. Quem pesquisa Andboy cai em agregador, não na casa.",
+    conversionWhy:
+      "Um homem, cadeira recorrente, ticket previsível (corte, navalha, combo). Uma página com o Andboy, o ritual de toalha quente e o botão de Booksy captura a busca do nome antes do cliente perder o horário.",
+    approach:
+      "Mostre a nota 5.0 e o logo. A conversa é 'a casa já tem cara — falta o endereço digital'. Não fale de franquia nem de software de barbearia.",
+    pitch:
+      "O Andboy já é 5.0 no Booksy e o salão tem cara de casa, não de rede. Montei uma página com o logo, o barbeiro, o ritual da navalha e o agendamento — para quem pesquisa o nome cair aqui, não numa lista.",
+    hours: "Ter–sex 9h–20h · sáb 9h–19h · seg e dom fechado",
+    sources: [
+      {
+        label: "Booksy",
+        url: "https://booksy.com/pt-br/202979_andboy-barber-shop_barbearias_804125_porto-alegre",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/andboybarber/",
+      },
+      {
+        label: "Lista Amarela",
+        url: "https://listaamarela.com.br/rs-porto-alegre/barbearias/andboy-barber",
+      },
+    ],
+    notes:
+      "CEP 91380-360 é Jardim Itu. Brief comercial às vezes cita Higienópolis (bairro vizinho). Não confundir com outras Barber Shop da cidade.",
+  },
+  {
     id: "roda-de-carreta",
     name: "Churrascaria Roda de Carreta",
     category: "gastronomia",
