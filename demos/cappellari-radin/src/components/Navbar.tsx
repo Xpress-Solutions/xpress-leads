@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { InstagramLink } from "./InstagramLink.tsx";
 import { NAV, SITE } from "../data/site.ts";
 
 export function Navbar() {
@@ -25,6 +26,7 @@ export function Navbar() {
               {item.label}
             </a>
           ))}
+          <InstagramLink className="ig-link nav-ig" label="Instagram" onClick={() => setOpen(false)} />
           <a className="btn btn-primary nav-cta" href={SITE.whatsapp} target="_blank" rel="noreferrer">
             Orçamento
           </a>

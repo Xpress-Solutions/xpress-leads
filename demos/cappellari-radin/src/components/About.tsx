@@ -21,21 +21,23 @@ export function About() {
           </p>
         </div>
         <div className="facts">
-          <div className="fact">
-            <b>{SITE.founded}</b>
-            <span>Abertura da ART PEDRAS RADIN LTDA</span>
-          </div>
-          <div className="fact">
-            <b>22+ anos</b>
-            <span>Mesmo ponto, mesmo ofício de pedra</span>
-          </div>
-          <div className="fact">
-            <b>8621</b>
-            <span>Avenida Ipiranga, térreo · CEP 91530-001</span>
-          </div>
-          <div className="fact">
-            <b>B2B + casa</b>
-            <span>Obra, reforma e escolha com arquiteto</span>
+          <div className="facts-grid">
+            <div className="fact">
+              <b>{SITE.founded}</b>
+              <span>Abertura da ART PEDRAS RADIN LTDA</span>
+            </div>
+            <div className="fact">
+              <b>22+ anos</b>
+              <span>Mesmo ponto, mesmo ofício de pedra</span>
+            </div>
+            <div className="fact">
+              <b>8621</b>
+              <span>Avenida Ipiranga, térreo · CEP 91530-001</span>
+            </div>
+            <div className="fact">
+              <b>B2B + casa</b>
+              <span>Obra, reforma e escolha com arquiteto</span>
+            </div>
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import { InstagramLink } from "./InstagramLink.tsx";
 import { SITE } from "../data/site.ts";
 
 export function FinalCta() {
@@ -17,6 +18,7 @@ export function FinalCta() {
           <a className="btn btn-ghost" href={`tel:${SITE.phoneTel}`}>
             Ligar {SITE.phoneDisplay}
           </a>
+          <InstagramLink className="btn btn-ghost" label={`Instagram ${SITE.instagramHandle}`} />
         </div>
       </div>
     </section>
