@@ -6,7 +6,7 @@ export function FinalCta() {
       <div className="wrap">
         <div className="final-box">
           <p className="kicker">Mesa na calçada</p>
-          <h2>Reserva n’A Virgem.</h2>
+          <h2>Reserva na Virgem.</h2>
           <p className="lead" style={{ color: "rgba(242,240,232,0.82)" }}>
             {SITE.hoursLine}. WhatsApp ou ligação — o Linktree não ranqueia no Google.
           </p>
