@@ -11,6 +11,7 @@ export function Hero() {
         />
       </div>
       <div className="wrap hero-content">
+        <img className="hero-mark" src="/logo.svg" alt="" width={88} height={88} />
         <p className="hero-kicker">Boa Vista · Porto Alegre</p>
         <h1>{SITE.headline}</h1>
         <p className="hero-line">{SITE.subheadline}</p>
@@ -24,6 +25,7 @@ export function Hero() {
           </a>
         </div>
       </div>
+      <div className="brand-bar" aria-hidden="true" />
     </section>
   );
 }

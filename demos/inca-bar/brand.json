@@ -17,25 +17,27 @@
     "creme terracotta genérico",
     "boteco genérico",
     "dashboard",
-    "Inter como display"
+    "Inter como display",
+    "Cinzel / ouro de template no lugar da grelha oficial"
   ],
   "colors": {
-    "background": "#101618",
-    "foreground": "#F2E6C8",
-    "brand": "#D4A017",
-    "accent": "#1A8F86",
-    "surface": "#1A2428",
-    "muted": "#8A7A5C"
+    "background": "#101820",
+    "foreground": "#F4EFE6",
+    "brand": "#D58844",
+    "accent": "#009488",
+    "surface": "#1A2A36",
+    "muted": "#9A8B78"
   },
   "typography": {
-    "display": "Cinzel — serifada lapidada, peso de inscrição em pedra",
-    "body": "Source Sans 3 — grotesk humanista, próxima do texto na parede da sala",
-    "rationale": "O logo INCA é uma grelha geométrica 2×2; Cinzel carrega o Inti e o casarão sem virar Bebas de boteco. O corpo precisa ler tap list e horário no celular. Inter/Roboto ficam de fora do display."
+    "display": "Outfit ExtraBold — grotesk geométrica, peso do letreiro e dos posts oficiais",
+    "body": "Outfit — mesma família do IG, legível em tap list e horário",
+    "rationale": "O avatar e os carrosséis de @inca_cervejas usam grotesk pesada (reserva?, Vem saber como), não serifada lapidada. Cinzel/Inter saem do display. Outfit carrega o INCA da grelha e o sticker dos stories sem virar Bebas de boteco."
   },
   "imagery": {
     "heroSubject": "Pint âmbar no balcão com o logo geométrico INCA, parede de torneiras e lousa de tap list",
     "atmosphere": [
       "casarão residencial de 300m² na Boa Vista",
+      "escada da entrada pintada nas quatro cores da marca",
       "salão, varanda e pátio com churrasqueira",
       "parede petróleo com quote do Inti e pompons andinos",
       "mesa de barris e sofás de sala",
@@ -44,7 +46,7 @@
     ],
     "references": [
       {
-        "label": "Instagram @inca_cervejas",
+        "label": "Instagram oficial @inca_cervejas — avatar e feed",
         "url": "https://www.instagram.com/inca_cervejas/"
       },
       {
@@ -67,12 +69,12 @@
     "heroStyle": "full-bleed"
   },
   "evidence": [
-    "Foto da casa (Viajante Cervejeiro / Facebook do bar): copo com logo INCA em grelha 2×2 e gregas andinas, chope âmbar, lousa preta e torneiras cromadas — fundo petróleo/lousa, marca ouro-cerveja.",
-    "Sala do casarão na mesma matéria: parede azul-petróleo, pompons de lã andinos (rosa, laranja, amarelo, lima, turquesa) e frase do Inti pintada no muro — o teal entra como accent, não como ‘eco tech’.",
-    "Foto oficial da Croqueta Andina (Israh Ramos / Sabores do Sul): prato cerâmico turquesa com renda branca, croquetes dourados, tigelinhas de barro e juta — teal + ouro + terra, nunca cream+terracotta de template.",
-    "Nome fantasia no CNPJ: Inca Cervejas Y Tapas. Matérias e reviews: tema peruano, ~19–22 torneiras + 1 espumante, petiscos andinos (milho, mandioca com molho verde), mascote Cusco, happy hour de pint.",
-    "Comida di Buteco 2026 descreve a Croqueta Andina (milho, alho-poró, provolone e muçarela; maionese de coentro, sweet chilli, mostarda e mel) e publica o WhatsApp 51 99847-4113."
+    "Avatar oficial de @inca_cervejas (foto de perfil 30085785_844347999085312): grelha 2×2 com I / N / C / Δ, letras brancas geométricas e grecas andinas. Pixels amostrados: vinho #8B3341, teal #009488, ocre #D58844, navy #2C4E6A — esta é a paleta da marca, não o ouro #D4A017 de template.",
+    "Posts oficiais (ex.: carrossel da reserva e da batata compartilhada, set/2026): a mesma grelha colorida como carimbo; headline grotesk extra-bold com ‘reserva?’ em teal; CTA preto arredondado; escada da entrada com espelhos vinho / amarelo / teal / navy — as quatro cores do logo no tijolo.",
+    "Copo da casa (hero / Viajante Cervejeiro): versão monocromática da mesma grelha (I N C Δ + grecas) em preto sobre o pint âmbar, lousa e torneiras — fundo petróleo, marca geométrica, não Cinzel dourada.",
+    "Sala do casarão: parede azul-petróleo, pompons andinos e frase do Inti em grotesk branca. Croqueta Andina (Israh Ramos): prato turquesa + ocre da fritura + terra da juta. Teal e ocre do logo reaparecem na casa e no prato.",
+    "Nome fantasia no CNPJ: Inca Cervejas Y Tapas. Dados comerciais (endereço, WhatsApp, horário da ficha) mantidos. Bio do IG confirma @inca_cervejas e o casarão pet-friendly."
   ],
-  "confidence": 0.78,
-  "researchedAt": "2026-09-02"
+  "confidence": 0.93,
+  "researchedAt": "2026-09-08"
 }
