@@ -1,0 +1,76 @@
+{
+  "leadId": "nostro-galeto",
+  "name": "Galeteria Nostro Galeto",
+  "positioning": "Galeteria clássica do São Geraldo: galeto ao primo canto, rodízio de massas e mesa farta — tradição italiana de bairro, não trattoria de revista.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "de família",
+    "farto",
+    "sem pressa",
+    "de bairro",
+    "orgulhoso da tradição"
+  ],
+  "avoid": [
+    "luxo italiano",
+    "trattoria hipster",
+    "roxo tech",
+    "creme terracotta de IA",
+    "Inter/Roboto display",
+    "cards no hero"
+  ],
+  "colors": {
+    "background": "#1A120C",
+    "foreground": "#FFF4C8",
+    "brand": "#F4C400",
+    "accent": "#C8102E",
+    "surface": "#2A1C12",
+    "muted": "#2F5D2A"
+  },
+  "typography": {
+    "display": "Oswald italic/condensada — o letreiro ‘NOSTRO GALETO’ do logo",
+    "body": "Source Serif 4 para cardápio e história de almoço de família",
+    "rationale": "O logo usa sans itálica pesada no nome e verde ‘GALETERIA’ no topo. Display condensado itálico carrega o letreiro; corpo serifado lembra cardápio impresso de cantina, não landing de SaaS. Evitar Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Mesa da casa com toalha xadrez vermelha, costela/galeto, massa e radiche — foto do Instagram @nostrogaleto",
+    "atmosphere": [
+      "toalha xadrez vermelha e branca",
+      "galeto dourado com pele assada",
+      "polenta frita em tijolo",
+      "sopa de agnoline na sopeira de inox",
+      "cadeiras de madeira do salão",
+      "logo amarelo com galos vermelhos"
+    ],
+    "references": [
+      {
+        "label": "Instagram @nostrogaleto (via Destino POA)",
+        "url": "https://www.instagram.com/nostrogaleto/"
+      },
+      {
+        "label": "Logo no iFood",
+        "url": "https://www.ifood.com.br/delivery/porto-alegre-rs/galeteria-nostro-galeto-sao-geraldo/ac8cc7a0-ee95-40ce-8e5d-acd214fc087d"
+      },
+      {
+        "label": "Destino POA",
+        "url": "https://destinopoa.com.br/lugar/nostro-galeto/"
+      },
+      {
+        "label": "Restaurant Guru / Google",
+        "url": "https://restaurantguru.com.br/Nostro-Galeto-Porto-Alegre"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial no iFood (2020–2026): círculo amarelo vivo, faixa azul com ‘NOSTRO GALETO’ em branco itálico, ‘GALETERIA’ em verde-floresta e dois galos vermelhos — amarelo vira brand, vermelho vira CTA, verde vira muted.",
+    "Fotos do Instagram @nostrogaleto republicadas no Destino POA (fev/2026): toalha xadrez vermelha e branca, prato branco com galeto assado + polenta frita + massa, radiche em bowl de inox — a mesa da casa, não stock.",
+    "Foto pública do salão (Wanderlog/Google): sopa de cappelletti/agnoline em sopeira de inox, pão e cadeiras de madeira — abertura clássica do rodízio e atmosfera de cantina de bairro.",
+    "Matérias (Destemperados, Destino POA, Jornal do Comércio): rodízio de galeto e massas, família Battisti, DNA de galeteria da Serra no São Geraldo — voz farta e familiar, sem pose de restaurante italiano genérico."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}

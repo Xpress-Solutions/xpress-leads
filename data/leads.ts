@@ -626,6 +626,48 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "nostro-galeto",
+    name: "Galeteria Nostro Galeto",
+    category: "gastronomia",
+    neighborhood: "sao-geraldo",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 90,
+    address: "Av. Bahia, 581 — São Geraldo",
+    mapsQuery: "Galeteria Nostro Galeto Av Bahia 581 Porto Alegre",
+    phone: "(51) 3343-0073",
+    whatsapp: "555133430073",
+    instagram: "nostrogaleto",
+    googleRating: 4.7,
+    googleReviews: 4548,
+    identity:
+      "Galeteria clássica de bairro no São Geraldo. Galeto assado ao primo canto, rodízio de massas, polenta frita, sopa de agnoline e prato executivo. Tradição italiana da família Battisti — DNA de galeteria da Serra, mesa farta, sem pose de trattoria.",
+    digitalGap:
+      "Instagram @nostrogaleto e iFood 4.9, sem site oficial. Quem busca a casa cai em Destino POA, Restaurant Guru e no delivery — a narrativa do rodízio e do almoço de família não é da casa.",
+    conversionWhy:
+      "4,7 no Google com milhares de avaliações e 4,9 no iFood. Ticket de almoço/jantar de família (R$ 60–100). Site com o prato, o rodízio, horários e WhatsApp captura quem pesquisa ‘galeto São Geraldo’ e hoje fecha no marketplace.",
+    approach:
+      "Chegue pelo galeto e pela mesa do São Geraldo, não por ‘vocês precisam de um site’. Mostre que o clique do Google e do iFood não conta a história da casa.",
+    pitch:
+      "A Nostro já é a galeteria do São Geraldo — 4,9 no iFood e fila de almoço na Bahia. Montei uma página com o galeto, o rodízio, os horários e o telefone para o clique cair na casa, não no Restaurant Guru.",
+    hours:
+      "Seg fechado · ter–sex 11h30–14h30 e 18h30–22h30 · sáb 11h30–15h e 18h30–22h30 · dom 11h30–15h30",
+    sources: [
+      {
+        label: "iFood",
+        url: "https://www.ifood.com.br/delivery/porto-alegre-rs/galeteria-nostro-galeto-sao-geraldo/ac8cc7a0-ee95-40ce-8e5d-acd214fc087d",
+      },
+      {
+        label: "Destino POA",
+        url: "https://destinopoa.com.br/lugar/nostro-galeto/",
+      },
+      {
+        label: "Destemperados",
+        url: "https://gauchazh.clicrbs.com.br/destemperados/experiencias/noticia/2020/10/7-galeterias-para-descobrir-em-porto-alegre-ckgl6p0h2001t015xd0xc12bq.html",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
@@ -753,6 +795,7 @@ export const neighborhoodLabel: Record<Neighborhood, string> = {
   restinga: "Restinga",
   "vila-jardim": "Vila Jardim",
   "sao-joao": "São João",
+  "sao-geraldo": "São Geraldo",
   "vila-ipiranga": "Vila Ipiranga",
   "vila-joao-pessoa": "Vila João Pessoa",
   "santa-rosa-de-lima": "Santa Rosa de Lima",
@@ -787,6 +830,7 @@ export const neighborhoodOrder: Neighborhood[] = [
   "restinga",
   "vila-jardim",
   "sao-joao",
+  "sao-geraldo",
   "vila-ipiranga",
   "vila-joao-pessoa",
   "santa-rosa-de-lima",
@@ -821,6 +865,7 @@ export const neighborhoodCity: Record<Neighborhood, City> = {
   restinga: "porto-alegre",
   "vila-jardim": "porto-alegre",
   "sao-joao": "porto-alegre",
+  "sao-geraldo": "porto-alegre",
   "vila-ipiranga": "porto-alegre",
   "vila-joao-pessoa": "porto-alegre",
   "santa-rosa-de-lima": "porto-alegre",
