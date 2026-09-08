@@ -346,12 +346,18 @@ button {
   inset: 0;
 }
 
+.hero-bg picture {
+  display: block;
+  position: absolute;
+  inset: 0;
+}
+
 .hero-bg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 40%;
-  transform: scale(1.04);
+  object-position: 68% 42%;
+  filter: contrast(1.08) saturate(1.06);
 }
 
 .hero-bg::after {
@@ -360,12 +366,19 @@ button {
   inset: 0;
   background:
     linear-gradient(
-      180deg,
-      rgba(16, 12, 12, 0.35) 0%,
-      rgba(16, 12, 12, 0.18) 32%,
-      rgba(16, 12, 12, 0.92) 100%
+      105deg,
+      rgba(16, 12, 12, 0.78) 0%,
+      rgba(16, 12, 12, 0.38) 38%,
+      rgba(16, 12, 12, 0.12) 68%,
+      rgba(16, 12, 12, 0.28) 100%
     ),
-    radial-gradient(circle at 82% 12%, rgba(196, 30, 38, 0.38), transparent 32%);
+    linear-gradient(
+      180deg,
+      rgba(16, 12, 12, 0.28) 0%,
+      rgba(16, 12, 12, 0.08) 36%,
+      rgba(16, 12, 12, 0.9) 100%
+    ),
+    radial-gradient(circle at 82% 12%, rgba(196, 30, 38, 0.32), transparent 32%);
 }
 
 .hero-content {
@@ -801,6 +814,12 @@ button {
 .fab svg {
   width: 28px;
   height: 28px;
+}
+
+@media (max-width: 767px) {
+  .hero-bg img {
+    object-position: 74% 34%;
+  }
 }
 
 @media (min-width: 768px) {

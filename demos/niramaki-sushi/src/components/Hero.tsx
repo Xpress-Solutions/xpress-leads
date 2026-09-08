@@ -4,10 +4,16 @@ export function Hero() {
   return (
     <section className="hero" id="inicio">
       <div className="hero-bg" aria-hidden="true">
-        <img
-          src="/fotos/prato-4.jpeg"
-          alt=""
-        />
+        <picture>
+          <source srcSet="/fotos/hero.webp" type="image/webp" />
+          <img
+            src="/fotos/hero.jpg"
+            alt=""
+            width={2400}
+            height={1350}
+            fetchPriority="high"
+          />
+        </picture>
       </div>
       <div className="wrap hero-content">
         <p className="hero-kicker">{SITE.tagline}</p>
