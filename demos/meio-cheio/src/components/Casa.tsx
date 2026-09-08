@@ -1,18 +1,21 @@
-import { GlassMark } from "./GlassMark";
+import { CandleMark, DoorMark, GlassMark } from "./Marks";
 import { useReveal } from "../hooks/useReveal";
 
 const CARDS = [
   {
     title: "Copo baixo de bojo",
     text: "Nino: não precisa ser complicado. Por isso a casa serve no copo, não na taça com haste.",
+    Mark: GlassMark,
   },
   {
     title: "Vela na mesa",
     text: "Velas Índigo em cada mesa. Perfume da casa com nota de oliveira e folha de tomate.",
+    Mark: CandleMark,
   },
   {
     title: "Traço local",
     text: "Fachada do Athos. Banheiro da Lara Fuke. Produto gaúcho do pequeno ao copo.",
+    Mark: DoorMark,
   },
 ];
 
@@ -31,8 +34,8 @@ export function Casa() {
         <div className="casa-grid">
           {CARDS.map((card) => (
             <article className="casa-card" key={card.title}>
-              <div className="casa-illus" style={{ color: "#F3EDE3" }}>
-                <GlassMark />
+              <div className="casa-illus">
+                <card.Mark />
               </div>
               <h3>{card.title}</h3>
               <p>{card.text}</p>

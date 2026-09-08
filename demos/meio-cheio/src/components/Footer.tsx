@@ -5,7 +5,10 @@ export function Footer() {
     <footer className="footer">
       <div className="wrap foot-grid">
         <div className="foot-brand">
-          <div className="mark">{SITE.wordmark}</div>
+          <div className="foot-mark">
+            <img src="/fotos/logo-oficial.jpg" alt="" width={56} height={56} />
+            <div className="mark">{SITE.wordmark}</div>
+          </div>
           <p>
             {SITE.address.street}
             <br />

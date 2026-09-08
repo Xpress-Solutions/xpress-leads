@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { NAV_LINKS, SITE } from "../data/site";
-import { GlassMark } from "./GlassMark";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +24,7 @@ export function Navbar() {
       <header className={`nav ${scrolled || open ? "is-scrolled" : ""}`}>
         <div className="nav-inner">
           <a className="nav-logo" href="#inicio" aria-label={SITE.name}>
-            <GlassMark />
+            <img src="/fotos/logo-oficial.jpg" alt="" width={40} height={40} />
             <span className="nav-brand">{SITE.wordmark}</span>
           </a>
 

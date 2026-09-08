@@ -1,4 +1,3 @@
-import { GlassMark } from "./GlassMark";
 import { useReveal } from "../hooks/useReveal";
 
 export function Sobre() {
@@ -29,10 +28,17 @@ export function Sobre() {
             <span>Greice Chini · sócia</span>
           </blockquote>
         </div>
-        <div className="wall" aria-hidden="true">
-          <GlassMark />
-          <p className="wall-caption">Parede bipartida da casa: creme em cima, vermelho-tijolo embaixo.</p>
-        </div>
+        <figure className="wall">
+          <img
+            src="/fotos/interior.jpg"
+            alt="Interior do Meio Cheio: parede bipartida creme e vermelho-tijolo, toalha vermelha e sofá no recuo"
+            width={1264}
+            height={800}
+          />
+          <figcaption className="wall-caption">
+            Parede bipartida da casa: creme em cima, vermelho-tijolo embaixo.
+          </figcaption>
+        </figure>
       </div>
     </section>
   );
