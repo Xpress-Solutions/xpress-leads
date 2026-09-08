@@ -33,7 +33,7 @@ const SHOTS = [
 
 export function Gallery() {
   return (
-    <section className="section" id="galeria">
+    <section className="section galeria" id="galeria">
       <div className="wrap">
         <p className="kicker">A atmosfera</p>
         <h2 className="section-title">A casa, não um stock.</h2>
