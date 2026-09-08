@@ -18,7 +18,6 @@ export default function App() {
         Ir para o conteúdo
       </a>
       <Navbar />
-      <div className="flag-bar" aria-hidden="true" />
       <div id="conteudo">
         <Hero />
         <div className="checker" aria-hidden="true" />

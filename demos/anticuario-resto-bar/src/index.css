@@ -7,7 +7,6 @@
   --muted: #8a6f4a;
   --ink: #0b0806;
   --paper: #e8d5a8;
-  --flag-blue: #1e4d8c;
   --line: rgba(201, 162, 74, 0.28);
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
   --nav-h: 72px;
@@ -178,19 +177,6 @@ button {
   background-size: 12px 12px;
 }
 
-.flag-bar {
-  height: 6px;
-  background: linear-gradient(
-    90deg,
-    var(--flag-blue) 0 18%,
-    #f4f6f8 18% 28%,
-    var(--flag-blue) 28% 46%,
-    #f4f6f8 46% 56%,
-    var(--flag-blue) 56% 74%,
-    #e8c547 74% 100%
-  );
-}
-
 /* NAV */
 .nav {
   position: fixed;
@@ -199,14 +185,12 @@ button {
   height: var(--nav-h);
   display: flex;
   align-items: center;
-  transition: background 0.3s ease, border-color 0.3s ease;
-  border-bottom: 1px solid transparent;
+  transition: background 0.3s ease;
 }
 
 .nav.is-scrolled {
   background: rgba(18, 13, 9, 0.9);
   backdrop-filter: blur(16px);
-  border-bottom-color: var(--line);
 }
 
 .nav-inner {
