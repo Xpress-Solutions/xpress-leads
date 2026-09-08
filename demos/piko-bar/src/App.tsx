@@ -234,7 +234,7 @@ export default function App() {
               <p className="score">{SITE.rating}</p>
               <p className="lead">
                 {SITE.reviewsCount} avaliações públicas. Casa calma, comida de bar, preço na faixa{" "}
-                {SITE.priceRange}.
+                <span className="nowrap">{SITE.priceRange}</span>.
               </p>
             </div>
             <div className="rev-grid">
