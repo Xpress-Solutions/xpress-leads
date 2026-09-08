@@ -555,19 +555,97 @@ button {
   background: var(--surface);
   padding: 22px;
   border: 1px solid color-mix(in srgb, var(--brand) 12%, transparent);
+  container-type: inline-size;
+  container-name: hours;
+}
+
+.hours-now {
+  display: grid;
+  gap: 6px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand) 14%, transparent);
+}
+
+.hours-now-kicker {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  color: var(--brand);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.hours-now-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-width: 0;
 }
 
 .hours-now strong {
   display: block;
+  min-width: 0;
   font-family: var(--display);
-  font-size: 2rem;
+  font-weight: 600;
+  font-size: clamp(1.45rem, 8.4cqi, 2rem);
+  line-height: 1;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  white-space: nowrap;
+  font-synthesis: none;
+}
+
+.hours-now .pill {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 26px;
+  padding: 2px 10px 0;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+@container hours (max-width: 320px) {
+  .hours-now-kicker {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+  }
+
+  .hours-now strong {
+    font-size: clamp(1.38rem, 10.4cqi, 1.65rem);
+  }
+
+  .hours-now .pill {
+    min-height: 24px;
+    padding: 0 8px;
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
+  }
+}
+
+@container hours (min-width: 360px) {
+  .hours-now-kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+  }
+
+  .hours-now strong {
+    font-size: clamp(1.7rem, 7.2cqi, 2rem);
+  }
 }
 
 .hours-list {
   list-style: none;
-  margin: 16px 0 12px;
+  margin: 0 0 12px;
   padding: 0;
   display: grid;
   gap: 8px;

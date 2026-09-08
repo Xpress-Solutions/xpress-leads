@@ -32,12 +32,14 @@ export function Location() {
           </div>
 
           <aside className="hours">
-            <div>
-              <span className="section-kicker">Hoje · {hours.label}</span>
-              <strong>{hours.open ? "Aberto" : "Fechado"}</strong>
-              <span className={hours.open ? "pill pill-on" : "pill pill-off"}>
-                {hours.hours}
-              </span>
+            <div className="hours-now">
+              <span className="hours-now-kicker">Hoje · {hours.label}</span>
+              <div className="hours-now-row">
+                <strong>{hours.open ? "Aberto" : "Fechado"}</strong>
+                <span className={hours.open ? "pill pill-on" : "pill pill-off"}>
+                  {hours.hours}
+                </span>
+              </div>
             </div>
             <ul className="hours-list">
               {DAYS.map((day) => {
