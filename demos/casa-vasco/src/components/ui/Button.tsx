@@ -31,10 +31,9 @@ export function Button({
   );
 
   if (href) {
+    const isHttp = href.startsWith("http");
     const extra: AnchorHTMLAttributes<HTMLAnchorElement> =
-      external || href.startsWith("http") || href.startsWith("tel:")
-        ? { target: "_blank", rel: "noopener noreferrer" }
-        : {};
+      external || isHttp ? { target: "_blank", rel: "noopener noreferrer" } : {};
     return (
       <a href={href} className={classes} {...extra}>
         {children}
