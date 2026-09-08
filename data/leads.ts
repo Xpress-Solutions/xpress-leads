@@ -626,6 +626,47 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "clamar-churrascaria",
+    name: "Clamar Churrascaria",
+    category: "gastronomia",
+    neighborhood: "azenha",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 81,
+    address: "Av. da Azenha, 1044 — Azenha, Porto Alegre",
+    mapsQuery: "Clamar Churrascaria Avenida da Azenha 1044 Porto Alegre",
+    phone: "(51) 3019-6688",
+    whatsapp: "555130196688",
+    founded: "2001 (25 anos)",
+    identity:
+      "Churrascaria de avenida na Azenha. O nome Clamar vem de Claudemar Fernandes, sócio-administrador da Clamar Churrascaria Ltda (CNPJ 04.555.457/0001-13), aberta em 10/07/2001 no 1044. Fantasia Confraria do Churrasco — mesma porta. Sem evidência pública de rodízio: operação de almoço e jantar à la carte / prato da casa, no corredor comercial da Avenida da Azenha (óticas, colchões, móveis), não salão de CTG.",
+    digitalGap:
+      "Sem site oficial, sem Instagram rastreável e sem fotos próprias nos guias. Quem busca o nome cai em lista telefônica. A casa não controla horário, cardápio nem a própria fachada digital.",
+    conversionWhy:
+      "Ponto fixo de avenida + 25 anos de razão social + telefone único. Um one-page com o 1044, os dois turnos e o WhatsApp/ligar captura o clique que hoje morre no diretório.",
+    approach:
+      "Chegue pela Azenha e pelo nome do Claudemar, não por 'tradição gaúcha'. Mostre que a busca do próprio nome ainda não tem página da casa.",
+    pitch:
+      "A Clamar está no 1044 da Azenha desde 2001 e ainda não tem um endereço digital seu. Montei uma página curta — almoço, jantar, o ponto e o telefone — para quem pesquisa Clamar cair na casa, não na lista amarela.",
+    hours: "Seg–sáb 12h–15h e 19h–23h · domingo fechado",
+    sources: [
+      {
+        label: "Lista Amarela",
+        url: "https://listaamarela.com.br/rs-porto-alegre/churrascarias/clamar-churrascaria",
+      },
+      {
+        label: "Horários (listagem pública)",
+        url: "https://www.horarioslojas.com.br/clamar-churrascaria/porto-alegre/c-57cd2ef622ba71c5d1de6a6b",
+      },
+      {
+        label: "Receita / CNPJ 04.555.457/0001-13",
+        url: "https://casadosdados.com.br/solucao/cnpj/clamar-churrascaria-ltda-04555457000113",
+      },
+    ],
+    notes:
+      "Não inventar rodízio: não há cardápio público. Não misturar com Espeto na Brasa / Espetão Azenha (outros nomes no mesmo corredor). Fantasia Confraria do Churrasco é da mesma empresa, não outro lead.",
+  },
   ...metroLeads,
 ];
 

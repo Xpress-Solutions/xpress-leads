@@ -1,0 +1,85 @@
+{
+  "leadId": "clamar-churrascaria",
+  "name": "Clamar Churrascaria",
+  "positioning": "Churrascaria de avenida na Azenha: almoço e jantar no 1044, nome do Claudemar — não salão de CTG nem rodízio de hotel.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "de avenida",
+    "direto",
+    "casa de almoço",
+    "sem folclore",
+    "porta do Claudemar"
+  ],
+  "avoid": [
+    "bombacha",
+    "CTG",
+    "chimarrão forçado",
+    "pampa clichê",
+    "rodízio de hotel",
+    "Fogo de Chão",
+    "roxo tech",
+    "creme terracotta genérico de landing",
+    "Inter/Roboto como display"
+  ],
+  "colors": {
+    "background": "#16110E",
+    "foreground": "#F3E6D0",
+    "brand": "#C4784A",
+    "accent": "#8B2E1F",
+    "surface": "#2A211A",
+    "muted": "#8A7360"
+  },
+  "typography": {
+    "display": "Oswald / condensed de letreiro de avenida",
+    "body": "Source Serif 4 — corpo de cardápio de casa antiga",
+    "rationale": "O nome CLAMAR aparece em caixa-alta nos diretórios e no CNPJ; a display condensed imita o letreiro-caixa da fachada comercial da Azenha. Corpo serifado diferencia de boteco (Vitória/sans) e de armazém (Anita/Bebas). Evitar Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Fachada ocre no 1044 da Avenida da Azenha ao entardecer, letreiro-caixa CLAMAR CHURRASCARIA, fios e ônibus da avenida",
+    "atmosphere": [
+      "prédio baixo de comércio de rua",
+      "fachada ocre/salmão de avenida antiga",
+      "letreiro cream sobre caixa escura",
+      "salão com toalha creme e cadeira de madeira",
+      "prato de picanha e costela sem styling de blog",
+      "almoço de comércio / jantar de bairro"
+    ],
+    "references": [
+      {
+        "label": "Lista Amarela — telefone e Av. da Azenha 1044",
+        "url": "https://listaamarela.com.br/rs-porto-alegre/churrascarias/clamar-churrascaria"
+      },
+      {
+        "label": "Horários públicos (almoço 12–15 / jantar 19–23, domingo fechado)",
+        "url": "https://www.horarioslojas.com.br/clamar-churrascaria/porto-alegre/c-57cd2ef622ba71c5d1de6a6b"
+      },
+      {
+        "label": "Receita — Clamar Churrascaria Ltda, fantasia Confraria do Churrasco, sócio Claudemar Fernandes, abertura 10/07/2001",
+        "url": "https://casadosdados.com.br/solucao/cnpj/clamar-churrascaria-ltda-04555457000113"
+      },
+      {
+        "label": "Infoisinfo — sem rede social e sem fotos oficiais",
+        "url": "https://porto-alegre.infoisinfo-br.com/ficha/clamar-churrascaria/185476"
+      },
+      {
+        "label": "GZH — Azenha como avenida comercial antiga, prédios baixos, fios, comércio de rua",
+        "url": "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2026/01/de-shopping-a-ceu-aberto-ao-abandono-do-olimpico-como-esta-a-azenha-uma-das-avenidas-mais-antigas-de-porto-alegre-cmkn133q000ob013ghzkfxa4y.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "CNPJ 04.555.457/0001-13: razão CLAMAR CHURRASCARIA LTDA, fantasia CONFRARIA DO CHURRASCO, sócio-administrador CLAUDEMAR FERNANDES desde 10/07/2001 no 1044 da Azenha — o nome da casa é o dono, não um tema gaúcho.",
+    "Listagens (Lista Amarela, Mais no Bairro, MisterWhat) repetem o telefone (51) 3019-6688 e Av. da Azenha, 1044, CEP 90160-006. Infoisinfo declara zero fotos e zero redes — a lacuna digital é evidência, não chute.",
+    "Horarioslojas lista dois turnos de segunda a sábado (12h–15h e 19h–23h) e domingo fechado: casa de almoço de avenida + jantar, não rodízio de domingo de CTG. Não há cardápio público que confirme rodízio; o site trata à la carte / prato do dia.",
+    "CNAE 5611-2/01 restaurantes + 5611-2/03 lanchonetes: salão e serviço rápido de avenida, não boutique.",
+    "GZH 2026 descreve a Azenha como avenida comercial antiga: prédios baixos, fios, óticas/móveis/colchões no entorno do 1044. Paleta: ocre de fachada + cream de letreiro + asfalto/salão escuro. Terracotta aqui é a parede da casa, não um tema de café IA — o fundo do site é o interior/avenida à noite.",
+    "Não há Instagram oficial nem logo vetorizado público. Display condensed imita letreiro-caixa de comércio da Azenha. Fotos da demo reconstroem fachada/salão/prato a partir desse briefing; não usar stock de pampa."
+  ],
+  "confidence": 0.66,
+  "researchedAt": "2026-09-08"
+}
