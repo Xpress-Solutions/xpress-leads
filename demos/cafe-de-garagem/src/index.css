@@ -317,8 +317,8 @@ button {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(26, 20, 16, 0.28) 0%, rgba(26, 20, 16, 0.22) 42%, rgba(26, 20, 16, 0.9) 100%),
-    url("/fotos/hero-calcada.jpg") center 38% / cover no-repeat,
+    linear-gradient(180deg, rgba(26, 20, 16, 0.42) 0%, rgba(26, 20, 16, 0.18) 32%, rgba(26, 20, 16, 0.28) 52%, rgba(26, 20, 16, 0.9) 100%),
+    url("/fotos/hero-calcada.jpg") center 46% / cover no-repeat,
     #2a221c;
 }
 
@@ -778,8 +778,8 @@ button {
 
 .final-box {
   background:
-    linear-gradient(180deg, rgba(26, 20, 16, 0.35) 0%, rgba(26, 20, 16, 0.88) 72%),
-    url("/fotos/cta-mesa.jpg") center 60% / cover no-repeat,
+    linear-gradient(180deg, rgba(26, 20, 16, 0.22) 0%, rgba(26, 20, 16, 0.78) 70%),
+    url("/fotos/cta-mesa.jpg") center 55% / cover no-repeat,
     var(--brand);
   color: var(--surface);
   min-height: 380px;
