@@ -1,0 +1,77 @@
+{
+  "leadId": "meio-cheio",
+  "name": "Meio Cheio",
+  "positioning": "Bar de vinho sem frescura na Venâncio: copo baixo, rótulos gaúchos e reserva no DM — não wine bar de ritual.",
+  "mood": "premium-casual",
+  "voice": [
+    "sem frescura",
+    "direto",
+    "de calçada",
+    "copo, não ritual",
+    "Venâncio"
+  ],
+  "avoid": [
+    "luxo",
+    "sommelier pedante",
+    "taça de cristal",
+    "roxo tech",
+    "boteco de chope",
+    "creme terracotta genérico de IA"
+  ],
+  "colors": {
+    "background": "#F3EDE3",
+    "foreground": "#1B1210",
+    "brand": "#7C1C1C",
+    "accent": "#B4292C",
+    "surface": "#FFF8F1",
+    "muted": "#8A7068"
+  },
+  "typography": {
+    "display": "Fraunces — serifada macia de rótulo, sem crystal-luxury",
+    "body": "Figtree — grotesk humanista para horário, carta e endereço",
+    "rationale": "A fachada do Athos escreve ‘meio cheio’ em minúsculas manuscritas vermelhas; o site usa Caveat só no wordmark e Fraunces nos títulos. Corpo limpo para a carta de taça. Evitar Inter/Roboto e script de champagne."
+  },
+  "imagery": {
+    "heroSubject": "Portas de enrolar vermelho-tijolo com o copo desenhado, o 871 no pilar e o nome em minúsculas — a fachada da Venâncio, não uma taça stock",
+    "atmosphere": [
+      "duas portas vermelhas de aço com traço branco do Athos",
+      "copo baixo de bojo meio cheio de merlot",
+      "parede bipartida: vermelho embaixo, creme em cima",
+      "toalha vermelha e vela Índigo na mesa",
+      "calçada com recuo em frente ao Bar do Beto",
+      "uniforme tijolo e logo bordado do boneco com copo"
+    ],
+    "references": [
+      {
+        "label": "Instagram @meio.cheio.poa",
+        "url": "https://www.instagram.com/meio.cheio.poa/"
+      },
+      {
+        "label": "GZH / Juliana Bublitz",
+        "url": "https://gauchazh.clicrbs.com.br/colunistas/juliana-bublitz/noticia/2025/05/porto-alegre-ganha-bar-para-quem-quer-beber-vinho-sem-complicacao-cma5fo34g01i4014ohbkjrghh.html"
+      },
+      {
+        "label": "Jornal do Comércio / GeraçãoE (fotos Tânia Meinerz)",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2025/04/1200263-com-a-proposta-de-democratizar-o-vinho-bar-e-novidade-no-entorno-da-redencao.html"
+      },
+      {
+        "label": "Destino POA",
+        "url": "https://destinopoa.com.br/lugar/meio-cheio/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fachada fotografada pelo JC (Tânia Meinerz, abr/2025): duas portas de enrolar vermelho-tijolo (#641414–#8c2828) em parede creme, com o nome ‘meio’ / ‘cheio’ em minúsculas manuscritas vermelhas e o 871 no pilar central. Ilustração do Athos (@athoszilla): copo de vinho de traço branco grosso à esquerda e figura bebendo à direita.",
+    "Interior nas mesmas fotos: parede bipartida (vermelho #882b22 embaixo, creme #cfc4b6 em cima), toalhas #ac312f, cadeiras de madeira clara com pé preto, arandela preta, tapete persa, sofá curvo e vela artesanal branca da Velas Índigo sobre mesa vermelha.",
+    "Uniforme dos sócios Greice e Nino: camisa tijolo com logo bordado branco — boneco andando com copo. Banheiro: line-art vinho/roxo da Lara Fuke com figuras e taça.",
+    "GZH e JC: a ‘taça’ da casa é copo baixo de bojo (Nino: ‘não precisa ser complicado’); merlot de pequeno produtor da Serra a R$ 15, o mesmo preço da cerveja. Bio do IG: ‘de Vinhos y otras cositas más’ e reservas pela DM.",
+    "Amostragem das fotos JC: portas/letra no eixo #7C1C1C, toalha/CTA #B4292C, fundo de parede creme — o vermelho-tijolo da porta é a marca, não um terracotta de template."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-08"
+}

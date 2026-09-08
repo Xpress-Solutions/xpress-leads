@@ -626,6 +626,41 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "meio-cheio",
+    name: "Meio Cheio",
+    category: "gastronomia",
+    neighborhood: "cidade-baixa",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 88,
+    address: "Av. Venâncio Aires, 871 — Cidade Baixa (em frente ao Bar do Beto)",
+    mapsQuery: "Meio Cheio Av. Venâncio Aires 871 Porto Alegre",
+    instagram: "meio.cheio.poa",
+    googleRating: 4.6,
+    founded: "2025",
+    identity:
+      "Bar de vinho sem frescura na Venâncio: copo baixo de bojo, rótulos gaúchos e reserva no DM. Sócios Greice Chini e Nino Backes. Fachada do Athos, ~11 mil seguidores no Instagram desde 2025.",
+    digitalGap:
+      "Instagram ativo (@meio.cheio.poa), sem site próprio. Reserva, horário e carta vivem só na bio e em matérias (GZH, JC).",
+    conversionWhy:
+      "Wine bar novo com identidade visual forte e ponto na Venâncio. Um site com a carta, o copo da casa e o DM de reserva captura quem pesquisa ‘bar de vinho Cidade Baixa’ e hoje cai em guia.",
+    approach:
+      "Chegue pelo copo, não pelo ‘você precisa de um site’. Mostre a fachada do 871 e que a reserva ainda depende de achar o Instagram.",
+    pitch:
+      "O Meio Cheio já tem o copo, a Venâncio e o Instagram. Montei uma página com a carta, o horário e o DM de reserva — para quem pesquisa vinho na Cidade Baixa cair na casa, não no guia.",
+    hours: "Qua–sáb 18h–23h · dom 17h–22h",
+    sources: [
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/meio.cheio.poa/",
+      },
+      {
+        label: "GZH / Juliana Bublitz",
+        url: "https://gauchazh.clicrbs.com.br/colunistas/juliana-bublitz/noticia/2025/05/porto-alegre-ganha-bar-para-quem-quer-beber-vinho-sem-complicacao-cma5fo34g01i4014ohbkjrghh.html",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
