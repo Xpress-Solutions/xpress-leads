@@ -1,3 +1,4 @@
+import { PHOTOS } from "../data/photos";
 import { SITE } from "../data/site";
 import { useReveal } from "../hooks/useReveal";
 
@@ -16,8 +17,11 @@ export function Coxinha() {
         </p>
 
         <div className="coxinha-grid">
-          <div className="coxinha-art" aria-hidden="true">
-            <img src="/coxinha.svg" alt="" />
+          <div className="coxinha-art">
+            <img
+              src={PHOTOS.coxinha}
+              alt="Coxinha de Buteco do Café de Garagem — prato oficial do Comida di Buteco 2026, foto Israh Ramos"
+            />
           </div>
           <div className="coxinha-copy">
             <h3>Coxinha de Buteco</h3>

@@ -3,7 +3,6 @@ import { SITE } from "../data/site";
 export function Hero() {
   return (
     <section className="hero" id="inicio">
-      <div className="hero-slats" aria-hidden="true" />
       <div className="hero-scene" aria-hidden="true" />
       <div className="wrap hero-content">
         <p className="hero-kicker">Santa Rosa de Lima · Porto Alegre</p>
