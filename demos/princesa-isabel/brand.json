@@ -1,0 +1,77 @@
+{
+  "leadId": "princesa-isabel",
+  "name": "Churrascaria Princesa Isabel",
+  "positioning": "Espeto corrido de esquina em Santana, desde 1985: fila no almoço, maionese famosa, só dinheiro e PIX — a Princesinha, não rodízio de shopping.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "direto",
+    "de esquina",
+    "sem frescura",
+    "orgulhoso da fila",
+    "casa de almoço"
+  ],
+  "avoid": [
+    "luxo",
+    "rodízio premium",
+    "neon",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto de display"
+  ],
+  "colors": {
+    "background": "#14261C",
+    "foreground": "#F6EBD6",
+    "brand": "#C8102E",
+    "accent": "#E6B422",
+    "surface": "#1E3528",
+    "muted": "#8FA88A"
+  },
+  "typography": {
+    "display": "Playfair Display — serifada clássica do letreiro vermelho na fachada",
+    "body": "Source Sans 3 — grotesk limpa para horário, preço e aviso de pagamento",
+    "rationale": "O letreiro da esquina é serifado vermelho sobre creme. O piso térreo é azulejo verde-floresta com faixa amarela. Display serifado carrega ‘Princesinha’; corpo sem serifa segura a fila, o PIX e o cardápio. Evitar Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Fachada de esquina na Rua São Luís 410: azulejo verde, faixa amarela, letreiro vermelho — ou espeto na brasa da casa",
+    "atmosphere": [
+      "azulejo verde-escuro com faixa amarela",
+      "letreiro serifado vermelho",
+      "espeto corrido na churrasqueira",
+      "pratos de inox (polenta, maionese, cebola)",
+      "papel vegetal na mesa",
+      "fila na calçada no almoço"
+    ],
+    "references": [
+      {
+        "label": "Destino POA — fachada Eduardo Fattore e fotos oficiais",
+        "url": "https://destinopoa.com.br/lugar/churrascaria-princesa-isabel/"
+      },
+      {
+        "label": "Instagram @churrascaria_princesinha",
+        "url": "https://www.instagram.com/churrascaria_princesinha/"
+      },
+      {
+        "label": "Destemperados — clássico desde 1985",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/noticia/2026/04/6-lugares-para-comer-churrasco-em-porto-alegre-cmoak5z00013w015b81exd1w4.html"
+      },
+      {
+        "label": "Locais do Brasil — cardápio e reviews (PIX/dinheiro)",
+        "url": "https://www.locaisdobrasil.com.br/encontre/churrascarias/porto-alegre-rs/churrascaria-princesa-isabel/6748d574a8f25b9f7e5fcf2b"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto de divulgação (Eduardo Fattore / Destino POA): fachada de esquina com azulejo verde-floresta, faixa e frisos amarelos, piso superior creme, persiana marrom e letreiro vermelho serifado ‘CHURRASCARIA PRINCESA ISABEL’ — daí background verde, brand vermelho, accent amarelo e surface de azulejo.",
+    "Galeria oficial no Destino POA: espetos na grelha (picanha, costela, coração, galeto, linguiça) e acompanhamentos em inox — polenta dourada, maionese da casa, cebola em conserva. Hero e galeria usam essas fotos, não stock.",
+    "Cards oficiais do Instagram (feriado 07/09/2026 e Dia dos Pais): ‘PAGAMENTOS Dinheiro Pix’, rodízio com picanha R$110 / sem R$85, sem reserva, ordem de chegada. O aviso de pagamento vira faixa permanente, não rodapé.",
+    "Reviews públicas repetem casa simples, papel vegetal na mesa, fila no almoço e só dinheiro/PIX. UI densa, canto vivo, sem ar de steakhouse de hotel.",
+    "Destemperados (abr/2026): clássico desde 1985, ambiente simples, maionese caseira como marca — voz de esquina, não de cardápio gourmet."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}
