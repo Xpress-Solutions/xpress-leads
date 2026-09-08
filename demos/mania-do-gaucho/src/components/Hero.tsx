@@ -13,6 +13,7 @@ export function Hero() {
         />
       </div>
       <div className="wrap hero-content">
+        <img className="hero-mark" src="/logo.png" alt="" width={88} height={88} />
         <p className="hero-kicker">
           <span className="script">{SITE.kicker}</span>
           <span className="gold">{SITE.since}</span>

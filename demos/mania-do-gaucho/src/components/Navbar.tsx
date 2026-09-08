@@ -24,7 +24,7 @@ export function Navbar() {
     <header className={`nav ${scrolled || open ? "is-scrolled" : ""}`}>
       <div className="nav-inner">
         <a href="#inicio" className="nav-logo" aria-label={SITE.name}>
-          <img src="/logo.svg" alt="" />
+          <img src="/logo.png" alt="" width={52} height={52} />
           <span>
             <em>Casa de Carnes</em>
             {SITE.shortName}
