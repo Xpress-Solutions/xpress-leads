@@ -1,0 +1,85 @@
+{
+  "leadId": "poeta-bar",
+  "name": "Poeta Bar",
+  "positioning": "Bar de Centro na Rua da Praia: chope, xis e vanguarda num casarão da Andradas — boteco literário sem pose de bistrô.",
+  "mood": "boteco-raiz",
+  "voice": [
+    "literário sem pose",
+    "de Centro",
+    "mesa na calçada",
+    "xis e chope",
+    "vanguarda",
+    "o Poeta te espera"
+  ],
+  "avoid": [
+    "luxo",
+    "neon de boate",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Bebas Neue de avenida",
+    "Inter/Roboto como display",
+    "preto-ouro clone de outro boteco"
+  ],
+  "colors": {
+    "background": "#141810",
+    "foreground": "#F3EBD8",
+    "brand": "#C9A227",
+    "accent": "#8E1D22",
+    "surface": "#22271A",
+    "muted": "#8C8460"
+  },
+  "typography": {
+    "display": "Fraunces (serifada literária, aspas e letreiro)",
+    "body": "Source Sans 3 (grotesk corporativa para cardápio e horário)",
+    "rationale": "O logo oficial escreve Poeta em serifada branca com aspas — o display precisa parecer placa de casarão, não faixa de avenida. Corpo limpo para xis, chope e o Cocó Crispy. Evitar Inter/Roboto e Bebas Neue (já usados em outras casas)."
+  },
+  "imagery": {
+    "heroSubject": "Fachada do casarão na Rua dos Andradas / Rua da Praia: toldo oliva-tijolo, letreiro serifado POETA com aspas, mesas na calçada",
+    "atmosphere": [
+      "casarão de Centro Histórico",
+      "calçada da Andradas ao entardecer",
+      "Cocó Crispy (panko + alho-poró)",
+      "xis e caneca de chope",
+      "salão oliva com balcão de madeira",
+      "luz âmbar de lanternas"
+    ],
+    "references": [
+      {
+        "label": "Instagram @poetabarbr",
+        "url": "https://www.instagram.com/poetabarbr/"
+      },
+      {
+        "label": "Comida di Buteco — Poeta Bar / Cocó Crispy",
+        "url": "https://comidadibuteco.com.br/buteco/poeta-bar/"
+      },
+      {
+        "label": "Revista Sabores do Sul — circuito 2026",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "GZH — oásis na Andradas / bar Poeta de xis e petiscos",
+        "url": "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2025/06/um-oasis-no-centro-com-gastronomia-variada-e-sensacao-de-seguranca-trecho-da-andradas-atrai-publico-e-investidores-cmbk33oe400ep014fkxuwygah.html"
+      },
+      {
+        "label": "Restaurant Guru / Google",
+        "url": "https://restaurantguru.com.br/poeta-cafe-Porto-Alegre"
+      },
+      {
+        "label": "Linktree — CHOPE | XIS | VANGUARDA",
+        "url": "https://linktr.ee/poetabar"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial do Instagram @poetabarbr: três faixas onduladas (oliva-floresta, vermelho-tijolo, ocre mostarda), wordmark serifada branca «Poeta» com aspas e caneca com recorte de balão de fala — conversa + chope, não marca de avenida.",
+    "Highlight Ambiente do IG: fundo verde-floresta, line art creme de balcão/banquetas e serifada alta. A casa se apresenta em oliva + creme, não em preto-ouro genérico.",
+    "Bio e Linktree fixam o slogan CHOPE | XIS | VANGUARDA, Andradas 783 e expediente diurno-noturno (11h). GZH descreve o bar Poeta de xis e petiscos no trecho do casarão da Andradas. Comida di Buteco 2026 lista Cocó Crispy (frango panko, crispy de alho-poró, molhos da casa) na Rua dos Andradas, 777 — loja 783, todos os dias 11h–22h30."
+  ],
+  "confidence": 0.8,
+  "researchedAt": "2026-09-08"
+}
