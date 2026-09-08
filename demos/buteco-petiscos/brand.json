@@ -1,0 +1,82 @@
+{
+  "leadId": "buteco-petiscos",
+  "name": "Buteco Petiscos",
+  "positioning": "Boteco de almoço no Centro Histórico: prato feito, chopp gelado e bacalhau de concurso — casa de rua, não bar de noite.",
+  "mood": "boteco-raiz",
+  "voice": [
+    "de Centro",
+    "almoço sem pose",
+    "campeão sem arrogância",
+    "mesa de rua",
+    "dono presente"
+  ],
+  "avoid": [
+    "boate",
+    "neon",
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "noite de Cidade Baixa",
+    "Inter/Roboto de display"
+  ],
+  "colors": {
+    "background": "#16110C",
+    "foreground": "#F3EDE3",
+    "brand": "#C9C2B0",
+    "accent": "#2F6B38",
+    "surface": "#241C14",
+    "muted": "#9A8460"
+  },
+  "typography": {
+    "display": "Cormorant Garamond — serifa de alto contraste, letreiro de placa",
+    "body": "Source Sans 3 — grotesk humana para horário e cardápio",
+    "rationale": "O letreiro antigo (BAR DOS PETISCOS) é serifa prateada metálica em fundo preto. Display serifado carrega a placa do Centro; corpo limpo para almoço e horário. Verde-espinafre no CTA vem da lata SPINACH do petisco 2026 e da cestinha verde do Atrevido (campeão 2019) — não é verde de armazém."
+  },
+  "imagery": {
+    "heroSubject": "Bacalhau do Popeye: lata de espinafre prateada + tigela náutica preta com chips de batata-doce, sobre juta",
+    "atmosphere": [
+      "lata de espinafre com rótulo verde SPINACH",
+      "tigela preta com âncora e leme",
+      "chips dourados de batata-doce",
+      "juta / aniagem clara do ensaio do concurso",
+      "letreiro prata sobre preto",
+      "almoço de rua no Centro Histórico"
+    ],
+    "references": [
+      {
+        "label": "Instagram @barchopppetiscos",
+        "url": "https://www.instagram.com/barchopppetiscos/"
+      },
+      {
+        "label": "Comida di Buteco 2026 — Buteco Petiscos",
+        "url": "https://comidadibuteco.com.br/buteco/buteco-petiscos/"
+      },
+      {
+        "label": "Sabores do Sul — foto do Bacalhau do Popeye (Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "G1 — campeão regional 2019 (Atrevido)",
+        "url": "https://g1.globo.com/comida-di-buteco/2019/noticia/2019/07/17/comida-di-buteco-2019-conheca-os-campeoes-regionais-do-concurso.ghtml"
+      },
+      {
+        "label": "Letreiro antigo BAR DOS PETISCOS (Blogspot — não é site)",
+        "url": "http://bardospetiscos.blogspot.com/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial do petisco 2026 (Israh Ramos / Sabores do Sul): lata prateada com rótulo verde SPINACH, creme de bacalhau e espinafre, tigela náutica preta com âncora/leme e chips dourados sobre juta — paleta prata + verde-folha + madeira/juta, não vermelho-ouro de boteco noturno.",
+    "Letreiro digital antigo (logoletra.png do Blogspot 2014): 'BAR DOS PETISCOS' em serifa de alto contraste com degradê prata/metal sobre preto. Tipografia de placa, brand prateado.",
+    "Atrevido (campeão Comida di Buteco POA 2019): bacalhau na cestinha verde crocante tingida com espinafre — o verde de folha já era assinatura da casa anos antes do Popeye.",
+    "Ofício público: abre 11h, fecha 21h (18h no sábado), almoço de Centro + petisco + chopp. Casa diurna de rua, não landing de happy hour noturno. Razão social Bar Chopp Petiscos Ltda, CNPJ ativo desde 1996.",
+    "Reviews públicas: dono presente (Paulo Roberto), chopp bem tirado, bolinho de bacalhau do Centro, preço de almoço — voz de mesa de rua, sem luxo."
+  ],
+  "confidence": 0.8,
+  "researchedAt": "2026-09-08"
+}
