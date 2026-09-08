@@ -42,7 +42,7 @@ export function Reviews() {
             </article>
           ))}
         </div>
-        <div style={{ marginTop: 28 }}>
+        <div className="menu-foot" style={{ marginTop: 28, display: "flex", justifyContent: "center" }}>
           <a className="btn btn-ghost" href={SITE.booksy} target="_blank" rel="noreferrer">
             Ler no Booksy
           </a>
