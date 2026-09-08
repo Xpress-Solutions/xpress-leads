@@ -1,0 +1,84 @@
+{
+  "leadId": "sotaque-bar",
+  "name": "Sotaque Bar",
+  "positioning": "Bar plural na esquina da Protásio: pé-direito alto, janelões abertos na calçada e comida de boteco feita por chef — o bolinho Abel Ferreira à frente.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "plural",
+    "de esquina",
+    "sem firula",
+    "brasilidade",
+    "conversa na calçada",
+    "chef sem pose"
+  ],
+  "avoid": [
+    "luxo",
+    "boate",
+    "neon",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto como display",
+    "boteco vermelho-ouro de template"
+  ],
+  "colors": {
+    "background": "#131811",
+    "foreground": "#F3EEE4",
+    "brand": "#D2E046",
+    "accent": "#D2E046",
+    "surface": "#1E2A1E",
+    "muted": "#8B9274"
+  },
+  "typography": {
+    "display": "Syne ExtraBold — geométrica e um pouco larga, como o letreiro SOTAQUE no canto da Protásio",
+    "body": "Source Serif 4 — calor de mesa e de chef, leitura de cardápio sem cara de dashboard",
+    "rationale": "O letreiro da casa é um sans geométrico preto no branco, montado na curva da esquina. Syne carrega esse bloco sem cair em Bebas/Inter. O corpo serifado segura a voz de boteco com cozinha — não de landing SaaS."
+  },
+  "imagery": {
+    "heroSubject": "Fachada de esquina ao entardecer: térreo verde-musgo, janelões abertos, letreiro branco SOTAQUE e mesas pretas na calçada da Protásio Alves",
+    "atmosphere": [
+      "pé-direito alto",
+      "janelões de ferro preto até o chão",
+      "fachada verde-musgo com marquise lima",
+      "tijolo aparente e concreto cru",
+      "grade de vidro canelado da cozinha",
+      "luz âmbar dos arandelas na calçada",
+      "mesas dobráveis pretas na pedra irregular"
+    ],
+    "references": [
+      {
+        "label": "Instagram @sotaquebar",
+        "url": "https://www.instagram.com/sotaquebar/"
+      },
+      {
+        "label": "Butiá Arquitetura — Sotaque Bar (fotos Roberta Gewehr)",
+        "url": "https://www.butia.arq.br/sotaque-bar"
+      },
+      {
+        "label": "ArchDaily — Sotaque Bar / Butiá Arquitetura",
+        "url": "https://www.archdaily.com.br/br/1010866/sotaque-bar-butia-arquitetura"
+      },
+      {
+        "label": "Destemperados — brasilidade nos drinks e petiscos",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/noticia/2025/08/bar-na-protasio-alves-valoriza-brasilidade-com-drinks-e-petiscos-cmeu1vn6s01230167nczk0r4e.html"
+      },
+      {
+        "label": "Jornal do Comércio — esquina Protásio / João Guimarães",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2022/12/877497-boteco-comandado-por-amigos-sera-novidade-em-tradicional-esquina-da-protasio-alves.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fotos de Roberta Gewehr no site da Butiá e no ArchDaily: térreo pintado de verde-musgo profundo, pilares entre janelões de ferro preto, marquise/caixilhos superiores em lima-chartreuse e letreiro retangular branco com SOTAQUE geométrico preto na curva da esquina.",
+    "Ao entardecer a casa vaza luz âmbar pelos janelões e pelos arandelas pretos — o site herda fundo verde-noite (#131811) e o lima da marquise (#D2E046) como cor de marca/CTA, não o dourado-vermelho de boteco genérico.",
+    "Interior: concreto cru, tijolo aparente, bancada de madeira escura e grade preta com vidro canelado da cozinha do chef — UI com cantos vivos, grelha de janelão e densidade arejada (pé-direito alto).",
+    "Bio do @sotaquebar (16,4 mil): 'Um bar plural' + horários de terça a domingo. Destemperados e Happn confirmam bolinho Abel Ferreira, buraco quente, paulista + garibaldense e mesas que parecem estar na rua.",
+    "Jornal do Comércio: sócios escolheram a esquina porque o prédio 'fede a boteco'; reconstruíram o casarão. O hero precisa ser essa esquina, não um card de produto."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-08"
+}
