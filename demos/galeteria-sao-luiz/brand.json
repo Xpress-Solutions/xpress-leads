@@ -1,0 +1,79 @@
+{
+  "leadId": "galeteria-sao-luiz",
+  "name": "Galeteria São Luiz",
+  "positioning": "Galeteria e churrascaria de Santana desde 1988: almoço de família, galeto no espeto e buffet do meio-dia — casa de bairro, não fast-casual.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "caseira",
+    "de família",
+    "décadas de casa",
+    "almoço de Santana",
+    "sem pressa",
+    "custo-benefício"
+  ],
+  "avoid": [
+    "fast-casual",
+    "neon",
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico de IA",
+    "noite de bar",
+    "Inter/Roboto como display"
+  ],
+  "colors": {
+    "background": "#F6EFE3",
+    "foreground": "#1A120E",
+    "brand": "#B10606",
+    "accent": "#E8B423",
+    "surface": "#FFF9F0",
+    "muted": "#8A6A4A"
+  },
+  "typography": {
+    "display": "Oswald — sans condensada de letreiro, como o GALETERIA SÃO LUIZ da fachada",
+    "body": "Source Sans 3 — grotesk humanista para cardápio, horários e endereço",
+    "rationale": "A fachada usa caixa-alta vermelha condensada no branco e o telefone no amarelo. Oswald carrega o letreiro; o corpo precisa ler o buffet sem virar Inter/Roboto de SaaS. O logo oficial (espeto + chama) pede peso de placa, não script de café."
+  },
+  "imagery": {
+    "heroSubject": "Fachada na Rua São Luís 844: letreiro vermelho GALETERIA SÃO LUIZ, faixa amarela do 3223-6757, tijolo e grade — ou galeto no espeto da grelha de tijolo",
+    "atmosphere": [
+      "letreiro vermelho + amarelo da fachada",
+      "tijolo aparente e grade preta",
+      "salão de almoço com mesa de granito",
+      "buffet de aço com arroz, feijão e milanesa",
+      "galeto e carnes no espeto sobre brasa",
+      "luz de meio-dia, não de noite"
+    ],
+    "references": [
+      {
+        "label": "Instagram @galeteriasaoluiz_poa",
+        "url": "https://www.instagram.com/galeteriasaoluiz_poa/"
+      },
+      {
+        "label": "Cardápio Web oficial (logo, fundo e cor #b10606)",
+        "url": "https://app.cardapioweb.com/churrascaria_e_galeteria_sao_luis"
+      },
+      {
+        "label": "Restaurant Guru — fotos da casa, horários e Google 4.0",
+        "url": "https://restaurantguru.com.br/Galeteria-Sao-Luis-Porto-Alegre"
+      },
+      {
+        "label": "Hagah — buffet, cortes e fundação 1988",
+        "url": "https://www.hagah.com.br/galeteria-sao-luiz-sao-luis-844"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Cardápio Web oficial declara --primary/#header #b10606 e usa o logo do espeto com chama; o nome SÃO LUIZ no logo é rust-red, não laranja de delivery.",
+    "Fachada no Restaurant Guru: letreiro branco com GALETERIA SÃO LUIZ em vermelho vivo, telefone 3223-6757 em faixa amarela, selo BUFFET MEIO DIA, tijolo e 'churrasco p/ levar' + telentrega.",
+    "Fotos da casa: salão claro de almoço (mesa de granito, cadeira preta, piso claro), grelha de tijolo com Banricompras, galeto no espeto, buffet de aço (arroz, feijão, milanesa, massas, salada de maionese).",
+    "Bio do Instagram: 'Comida caseira de verdade / Galetos e carnes / Ambiente acolhedor e família'. Copy oficial do cardápio fala em tradição e pratos quentinhos — voz de casa, não de dark kitchen.",
+    "Hagah: aberta desde 1988; seg–sex bufê com churrasco; sáb à la minuta; cortes costela, maminha, picanha, vazio, coração, salsichão, xixo e galeto. Restaurant Guru: 10h30–14h30 todos os dias, Google 4.0, ticket R$ 20–40."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}
