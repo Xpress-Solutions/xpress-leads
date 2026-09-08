@@ -2,10 +2,10 @@ import { SITE } from "../data/site";
 
 function Mustache() {
   return (
-    <svg className="mustache" viewBox="0 0 120 28" aria-hidden="true">
+    <svg className="mustache" viewBox="0 0 160 36" aria-hidden="true">
       <path
         fill="currentColor"
-        d="M8 16c8-12 22-14 32-8 4 2 8 6 20 6s16-4 20-6c10-6 24-4 32 8-10-2-20 2-28 8-6 4-14 6-24 2-10 4-18 2-24-2-8-6-18-10-28-8Z"
+        d="M8 20c14-16 34-18 50-8 6 4 12 8 22 8s16-4 22-8c16-10 36-8 50 8-14-2-26 6-36 14-10 8-20 10-36 2-16 8-26 6-36-2C34 26 22 18 8 20Z"
       />
     </svg>
   );
@@ -26,7 +26,7 @@ export function Hero() {
           <span>Confraria</span>
           Barber
           <Mustache />
-          Club
+          <span>Club</span>
         </h1>
         <p>{SITE.subheadline}</p>
         <div className="hero-actions">

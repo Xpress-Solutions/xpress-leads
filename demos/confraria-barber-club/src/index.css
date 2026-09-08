@@ -230,9 +230,10 @@ button {
 }
 
 .mustache {
-  width: 72px;
-  height: 18px;
+  width: min(200px, 46vw);
+  height: auto;
   display: block;
+  margin: 10px 0 8px;
 }
 
 .nav {
