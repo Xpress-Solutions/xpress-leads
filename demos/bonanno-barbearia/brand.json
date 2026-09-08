@@ -1,0 +1,59 @@
+{
+  "leadId": "bonanno-barbearia",
+  "name": "Bonanno Barbearia & Confraria",
+  "positioning": "Barbearia-confraria do Jardim Itu: cadeira de casa, combo corte+barba e o fedora no vidro — não franquia, não template de navalha dourada.",
+  "mood": "premium-casual",
+  "voice": ["confraria", "direto", "de cadeira", "bairro", "sem pose"],
+  "avoid": ["preto e dourado de template", "luxo spa", "gentleman's club de stock", "roxo tech", "Inter/Roboto de display"],
+  "colors": {
+    "background": "#121417",
+    "foreground": "#F4EFE6",
+    "brand": "#E8DFD2",
+    "accent": "#C13A34",
+    "surface": "#1E2329",
+    "muted": "#7E7A72"
+  },
+  "typography": {
+    "display": "Oswald — condensed, o mesmo peso do BONANNO no vidro da loja",
+    "body": "Manrope — grotesk humanista para serviços, horário e WhatsApp",
+    "rationale": "O letreiro da fachada é sans condensada branca no vidro preto. Confraria pede uma itálica de clube (Cormorant) só no subtítulo — não script de barbearia genérica. Corpo limpo para preço e agenda."
+  },
+  "imagery": {
+    "heroSubject": "Equipe na cadeira de couro, camisa jeans e copo na mão — interior de cimento queimado e madeira, não stock de navalha",
+    "atmosphere": [
+      "logo fedora + charuto no vidro preto",
+      "parede de cimento queimado cinza",
+      "estação de madeira e cadeira de couro",
+      "uniforme jeans com emblema no peito",
+      "placas vintage, poste de barbeiro, lâmpada filamento",
+      "cape listrada preta e branca no corte"
+    ],
+    "references": [
+      {
+        "label": "Booksy — fotos, logo, equipe e serviços",
+        "url": "https://booksy.com/pt-br/21076_bonanno-barbearia-confraria_barbearias_804125_porto-alegre"
+      },
+      {
+        "label": "Instagram @bonannobarbearia",
+        "url": "https://www.instagram.com/bonannobarbearia"
+      },
+      {
+        "label": "Cadastro — Bruno Galante Rodrigues, desde 2018",
+        "url": "https://barbeariaspertodemim.com/e/bonanno-barbearia-e-confraria-bnekle/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial no Booksy e no vidro da loja: silhueta branca de fedora + charuto em círculo, fundo preto — identidade noir/confraria, não monograma dourado.",
+    "Foto de negócio da casa: parede de cimento queimado, bancada de madeira, cadeira de couro, camisas jeans da equipe, flanela vermelha, placas (Jack Daniel's, Mustang, Iron Man) e poste vermelho-branco — paleta ardósia + madeira + denim + tijolo, não ouro.",
+    "Fotos de corte no Booksy repetem cape listrada, fade na tesoura/navalha e luz fria de bancada; a lâmpada de filamento e a placa Heineken no retrato do Igor sustentam o tom de confraria, não de clínica.",
+    "Nome Bonanno + Confraria + dono Bruno Galante Rodrigues (CNPJ 31.274.987/0001-66, abertura 20/08/2018) — site precisa soar casa e irmandade de bairro, não rede."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}
