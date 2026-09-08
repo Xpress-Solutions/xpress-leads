@@ -626,6 +626,46 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "princesa-isabel",
+    name: "Churrascaria Princesa Isabel (Princesinha)",
+    category: "gastronomia",
+    neighborhood: "santana",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 90,
+    address: "Rua São Luís, 410 — Santana",
+    mapsQuery: "Churrascaria Princesa Isabel Rua São Luís 410 Porto Alegre",
+    phone: "(51) 3223-3012",
+    whatsapp: "5551999665641",
+    instagram: "churrascaria_princesinha",
+    googleRating: 4.6,
+    googleReviews: 3100,
+    founded: "1985",
+    identity:
+      "Espeto corrido de esquina em Santana, conhecida como Princesinha. Fila no almoço, só dinheiro e PIX, azulejo verde e letreiro vermelho na esquina da Avenida Princesa Isabel com a Rua São Luís. Clássico desde 1985; a maionese da casa é marca registrada.",
+    digitalGap:
+      "Sem site oficial. Aparece em Destino POA, Destemperados, Restaurant Guru e Instagram. Quem busca 'princesinha santana' ou 'espeto corrido POA' cai em guia de terceiro.",
+    conversionWhy:
+      "Casa com fila, nota 4.6 e regra de pagamento que o visitante erra. Um site com horário, aviso de PIX/dinheiro, preços do espeto e o mapa da esquina transforma busca em visita — e evita o 'cheguei sem dinheiro'.",
+    approach:
+      "Chegue pela fila e pelo PIX, não pelo 'você precisa de um site'. Mostre que os guias já falam pela casa e que o aviso de pagamento some no Google.",
+    pitch:
+      "A Princesinha já tem fila e o Google falando pela casa. Montei uma página curta — espeto, maionese, horário e o aviso de dinheiro/PIX — para quem pesquisa a esquina cair aqui e chegar preparado.",
+    hours: "Seg–ter almoço · qua–sáb almoço e jantar · dom almoço",
+    sources: [
+      {
+        label: "Destino POA",
+        url: "https://destinopoa.com.br/lugar/churrascaria-princesa-isabel/",
+      },
+      {
+        label: "Destemperados",
+        url: "https://gauchazh.clicrbs.com.br/destemperados/noticia/2026/04/6-lugares-para-comer-churrasco-em-porto-alegre-cmoak5z00013w015b81exd1w4.html",
+      },
+    ],
+    notes:
+      "Instagram e algumas listagens do Google marcam terça fechada. Confirmar no dia. WhatsApp oficial do Instagram: 51 99966-5641.",
+  },
   ...metroLeads,
 ];
 
