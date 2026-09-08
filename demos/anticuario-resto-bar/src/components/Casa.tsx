@@ -13,8 +13,8 @@ export function Casa() {
           <p>
             O Anticuário abriu em abril de 2002, na Lima e Silva, pelo casal uruguaio{" "}
             {SITE.owners}. O nome não é pose: o salão é um anticuário de verdade —
-            telefone de disco, rolhas, vinil, plaquinhas em espanhol e mesas que já foram
-            máquina de costura.
+            telefone de disco, rolhas, vinil, plaquinhas em espanhol, mosaico amarelo e
+            preto (Peñarol) com o script da casa e mesas que já foram máquina de costura.
           </p>
           <p>
             Guia da Semana descreve peças argentinas, uruguaias e americanas. Quem senta

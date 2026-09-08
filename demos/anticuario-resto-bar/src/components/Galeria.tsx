@@ -10,6 +10,7 @@ const PHOTOS = [
   { src: "/fotos/colecao.jpg", alt: "Peças de coleção, telefone de disco e bandeira uruguaia" },
   { src: "/fotos/pizza.jpg", alt: "Pizza uruguaia corte xadrez em mesa de máquina de costura" },
   { src: "/fotos/renda.jpg", alt: "Mesa com renda e prato de porcelana vintage" },
+  { src: "/fotos/prateleira.jpg", alt: "Mosaico Peñarol com o nome Anticuário em cursiva, Gardel e peças na prateleira" },
 ] as const;
 
 export function Galeria() {
