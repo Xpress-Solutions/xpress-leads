@@ -182,7 +182,7 @@ button {
   font-synthesis: none;
   font-size: var(--fs-title);
   letter-spacing: 0.02em;
-  line-height: 0.98;
+  line-height: 1.36;
   text-transform: uppercase;
   overflow-wrap: anywhere;
   margin: 0;
@@ -812,6 +812,7 @@ button {
 }
 
 .rev-meta .card-title {
+  display: inline;
   margin: 0;
   color: var(--foreground);
 }
