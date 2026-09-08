@@ -103,8 +103,8 @@ export default function App() {
           <div className="wrap hero-copy">
             <p className="hero-kicker">{SITE.address.neighborhood} · Porto Alegre</p>
             <h1>
-              {SITE.wordmark}
-              <span>{SITE.tagline}</span>
+              <span className="hero-word">{SITE.wordmark}</span>
+              <span className="hero-tag">{SITE.tagline}</span>
             </h1>
             <p className="hero-line">{SITE.line}</p>
             <div className="hero-actions">
@@ -230,11 +230,13 @@ export default function App() {
         <section className="section reviews" id="avaliacoes">
           <div className="wrap">
             <p className="kicker">Google</p>
-            <p className="score">{SITE.rating}</p>
-            <p className="lead">
-              {SITE.reviewsCount} avaliações públicas. Casa calma, comida de bar, preço na faixa{" "}
-              {SITE.priceRange}.
-            </p>
+            <div className="reviews-head">
+              <p className="score">{SITE.rating}</p>
+              <p className="lead">
+                {SITE.reviewsCount} avaliações públicas. Casa calma, comida de bar, preço na faixa{" "}
+                {SITE.priceRange}.
+              </p>
+            </div>
             <div className="rev-grid">
               {REVIEWS.map((review) => (
                 <figure className="rev" key={review.name}>
@@ -266,9 +268,7 @@ export default function App() {
               </div>
               <div className="hours">
                 <p className="kicker">Horário</p>
-                <strong className="display" style={{ fontSize: "2rem" }}>
-                  {SITE.hoursLead}
-                </strong>
+                <strong className="hours-lead">{SITE.hoursLead}</strong>
                 <ul>
                   {HOURS.map((row) => (
                     <li key={row.day} className={row.night ? "is-night" : undefined}>
