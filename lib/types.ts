@@ -24,6 +24,7 @@ export type Neighborhood =
   | "cristal"
   | "ipanema"
   | "centro-historico"
+  | "auxiliadora"
   | "jardim-itu"
   | "tristeza"
   | "boa-vista"
