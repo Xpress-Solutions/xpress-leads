@@ -99,6 +99,44 @@ export const metroLeads: Lead[] = [
     ],
   },
   {
+    id: "olivos-657",
+    name: "Olivos 657",
+    category: "gastronomia",
+    city: "porto-alegre",
+    neighborhood: "cidade-baixa",
+    priority: "alta",
+    score: 90,
+    address: "Rua da República, 657 — Cidade Baixa, Porto Alegre",
+    mapsQuery: "Olivos 657 Rua da República 657 Porto Alegre",
+    phone: "(51) 3372-6256",
+    whatsapp: "555133726256",
+    instagram: "olivos657",
+    googleRating: 4.6,
+    googleReviews: 792,
+    founded: "2012 (14 anos em 2026)",
+    identity:
+      "Gastrobar intimista na Rua da República, 657. Um dos pioneiros da coquetelaria em Porto Alegre: luz baixa, porta discreta, inspiração nos bares de Buenos Aires. Coquetelaria de Frederico Muller, cozinha da chef Marina Tosin, carta de vinhos de bodegas pequenas do RS. Negroni da casa, azeite da região. Vencedor Bar e Boteco no Prêmio Bom Gourmet RS 2025.",
+    digitalGap:
+      "Cardápio no Goomer (olivos-657.goomer.app) e Instagram @olivos657. Sem site oficial. A narrativa — 14 anos, porta que não avisa, vinhos de pequena bodega — vive em guias (Bom Gourmet, Mixology, BOABreja, VEJA).",
+    conversionWhy:
+      "Identidade rara na Cidade Baixa (contraponto ao bar de rua) + prêmio 2025 + 14 anos. Site com carta de drinks, a história da porta 657 e WhatsApp de reserva captura quem hoje cai no Goomer ou no guia.",
+    approach:
+      "Não trate como boteco da República. Mostre a porta discreta, o Negroni e o prêmio. O site é a casa intimista — não mais uma landing de happy hour.",
+    pitch:
+      "O Olivos completa 14 anos e ganhou Bar e Boteco no Bom Gourmet 2025, mas quem pesquisa ainda cai no Goomer ou no guia. Um site curto — a carta, a porta 657 e o WhatsApp — deixa o clique na casa, com a luz baixa que é dela.",
+    hours: "Qua–dom a partir das 18h30 (qua/qui/dom até 0h · sex/sáb até 1h)",
+    sources: [
+      {
+        label: "Bom Gourmet",
+        url: "https://bomgourmet.com/premiobomgourmet/restaurantes/Variado/olivos-657/",
+      },
+      {
+        label: "BOABreja",
+        url: "https://www.boabreja.com.br/estabelecimentos/rs/porto-alegre/olivos-657",
+      },
+    ],
+  },
+  {
     id: "barril-pub",
     name: "Barril Pub",
     category: "gastronomia",
