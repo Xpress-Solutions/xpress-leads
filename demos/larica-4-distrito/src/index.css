@@ -176,20 +176,18 @@ button {
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
-.nav-logo img {
-  width: 64px;
-  height: 32px;
-  object-fit: cover;
-  border: 1px solid rgba(197, 106, 56, 0.5);
-}
-
-.nav-word {
+.nav-plate {
+  display: inline-block;
+  background: linear-gradient(135deg, #8a3e22, #c56a38 46%, #6e3018);
+  color: #141210;
   font-family: var(--display);
-  letter-spacing: 0.14em;
+  font-weight: 700;
+  letter-spacing: 0.16em;
   font-size: 1.15rem;
+  padding: 7px 11px 5px;
+  border: 1px solid #2a1810;
 }
 
 .nav-links {
@@ -326,6 +324,7 @@ button {
   font-size: clamp(2.8rem, 12vw, 6.4rem);
   line-height: 0.82;
   letter-spacing: 0.08em;
+  color: #141210;
 }
 
 .hero-plate span {
@@ -334,6 +333,7 @@ button {
   letter-spacing: 0.28em;
   font-size: 0.78rem;
   margin-top: 4px;
+  color: #1a120e;
 }
 
 .hero h1 {
@@ -728,12 +728,9 @@ button {
   gap: 22px;
 }
 
-.foot-brand img {
-  width: 96px;
-  height: 48px;
-  object-fit: cover;
-  margin-bottom: 10px;
-  border: 1px solid rgba(197, 106, 56, 0.4);
+.foot-brand .nav-plate {
+  display: inline-block;
+  margin-bottom: 12px;
 }
 
 .foot-links {

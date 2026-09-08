@@ -25,8 +25,7 @@ export function Navbar() {
       <header className={`nav ${scrolled || open ? "is-on" : ""}`}>
         <div className="nav-inner">
           <a className="nav-logo" href="#inicio" aria-label={SITE.name}>
-            <img src="/logo.svg" alt="" />
-            <span className="nav-word">LARICA</span>
+            <span className="nav-plate">LARICA</span>
           </a>
           <nav className="nav-links" aria-label="Principal">
             {NAV.map((link) => (

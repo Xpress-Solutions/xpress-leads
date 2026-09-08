@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="footer">
       <div className="wrap foot-grid">
         <div className="foot-brand">
-          <img src="/logo.svg" alt={SITE.name} />
+          <span className="nav-plate">LARICA</span>
           <strong>{SITE.name}</strong>
           <p>
             {SITE.address.street}
