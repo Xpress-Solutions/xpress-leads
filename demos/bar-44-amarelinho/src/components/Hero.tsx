@@ -20,8 +20,9 @@ export function Hero() {
           </a>
         </div>
         <div className="hero-proof">
-          ★ {SITE.rating} no Google
-          <span>{SITE.reviewsCount} avaliações · {SITE.priceRange}</span>
+          <span>★ {SITE.rating} no Google</span>
+          <span>{SITE.reviewsCount} avaliações</span>
+          <span>{SITE.priceRange}</span>
         </div>
       </div>
     </section>

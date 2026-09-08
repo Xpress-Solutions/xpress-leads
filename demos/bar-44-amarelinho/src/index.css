@@ -354,7 +354,7 @@ button {
 .hero-content {
   position: relative;
   z-index: 1;
-  padding-bottom: 36px;
+  padding-bottom: 96px;
 }
 
 .hero-kicker {
@@ -408,13 +408,13 @@ button {
 .hero-proof {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 16px;
+  gap: 8px 14px;
   align-items: center;
   color: var(--brand);
   font-weight: 800;
 }
 
-.hero-proof span {
+.hero-proof span + span {
   font-weight: 600;
   color: var(--muted);
 }
@@ -960,6 +960,10 @@ button {
 }
 
 @media (min-width: 768px) {
+  .hero-content {
+    padding-bottom: 36px;
+  }
+
   .wrap {
     width: min(1120px, calc(100% - 48px));
   }
