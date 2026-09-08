@@ -18,7 +18,7 @@ export function Highlights() {
         <div className="hi-grid">
           {items.map((item) => (
             <article className="hi-card" key={item.id}>
-              <img src={item.image ?? "/fotos/petiscos.jpg"} alt={item.name} />
+              <img src={item.image ?? "/fotos/ambiente.jpg"} alt={item.name} />
               <div>
                 <h3>{item.name}</h3>
                 <p>
