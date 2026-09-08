@@ -5,6 +5,7 @@ export function Footer() {
     <footer className="footer">
       <div className="wrap foot-grid">
         <div className="foot-brand">
+          <img className="foot-logo" src="/logo.svg" alt="" width={56} height={56} />
           <span>Espetinho Bar</span>
           <b>{SITE.shortName}</b>
           <p>
