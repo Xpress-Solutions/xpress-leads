@@ -305,6 +305,19 @@ button {
   width: 18px;
   height: 2px;
   background: var(--foreground);
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.nav-burger.is-open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.nav-burger.is-open span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-burger.is-open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 .nav-drawer {
