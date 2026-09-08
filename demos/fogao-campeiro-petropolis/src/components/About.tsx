@@ -4,7 +4,7 @@ export function About() {
   const ref = useReveal();
 
   return (
-    <section className="section" id="sobre">
+    <section className="section about" id="sobre">
       <div className="wrap about-grid reveal" ref={ref}>
         <div className="about-copy">
           <p className="section-kicker">A casa</p>
@@ -33,6 +33,9 @@ export function About() {
             alt="Luana Benincá e Gabriela Ferreira na fachada verde e azul do casarão 1265"
           />
           <div className="about-badge">Filial 2025 · Luana Benincá</div>
+          <span className="about-house" aria-hidden="true">
+            1265
+          </span>
         </div>
       </div>
     </section>

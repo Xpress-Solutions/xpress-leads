@@ -1,15 +1,21 @@
 import { SITE } from "../data/site";
+import { Logo } from "./Logo";
 
 export function Hero() {
   return (
     <section className="hero" id="inicio">
       <div className="hero-bg" aria-hidden="true">
-        <img
-          src="/fotos/fachada.jpg"
-          alt=""
-        />
+        <img src="/fotos/fachada.jpg" alt="" />
       </div>
+      <div className="hero-wash" aria-hidden="true" />
+      <div className="hero-frame" aria-hidden="true" />
+      <p className="hero-number" aria-hidden="true">
+        1265
+      </p>
       <div className="wrap hero-content">
+        <div className="hero-plate">
+          <Logo variant="stack" />
+        </div>
         <p className="hero-kicker">Petrópolis · Porto Alegre</p>
         <h1>{SITE.headline}</h1>
         <p className="hero-script">{SITE.subheadline}</p>
@@ -26,6 +32,7 @@ export function Hero() {
           </a>
         </div>
       </div>
+      <div className="checker hero-stairs" aria-hidden="true" />
     </section>
   );
 }

@@ -24,15 +24,20 @@ export function Reviews() {
       <div className="wrap reveal" ref={ref}>
         <p className="section-kicker">O que se fala da casa</p>
         <h2 className="section-title">Comida que lembra domingo.</h2>
-        <div className="score-num">{SITE.rating}</div>
-        <p className="section-lead">
-          Avaliação destacada {SITE.reviewsCount} na unidade Petrópolis ·
-          Restaurant Guru.
-        </p>
+        <div className="score">
+          <div className="score-num">{SITE.rating}</div>
+          <p className="section-lead">
+            Avaliação destacada {SITE.reviewsCount} na unidade Petrópolis ·
+            Restaurant Guru.
+          </p>
+        </div>
         <div className="rev-grid">
           {QUOTES.map((quote) => (
             <article className="rev-card" key={quote.cite}>
-              <p>“{quote.text}”</p>
+              <span className="rev-mark" aria-hidden="true">
+                “
+              </span>
+              <p>{quote.text}</p>
               <cite>{quote.cite}</cite>
             </article>
           ))}
