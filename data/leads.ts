@@ -626,6 +626,43 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "giovanaz",
+    name: "Churrascaria Giovanaz",
+    category: "gastronomia",
+    neighborhood: "cidade-baixa",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 95,
+    address: "Avenida Venâncio Aires, 10 — Cidade Baixa",
+    mapsQuery: "Churrascaria Giovanaz Avenida Venâncio Aires 10 Porto Alegre",
+    phone: "(51) 3227-4217",
+    whatsapp: "555132274217",
+    googleRating: 4.6,
+    googleReviews: 7962,
+    identity:
+      "Espeto corrido clássico da Cidade Baixa, ao lado da Praça Garibaldi. Fila na porta, toalha de papel, maionese caseira e polenta frita. Dinheiro e PIX — sem cartão. Casa de almoço e jantar, segunda fechada.",
+    digitalGap:
+      "Quase 8 mil avaliações no Google e nenhuma página oficial. Quem pesquisa cai em guia de terceiro; horário, PIX e fila não estão numa URL da casa.",
+    conversionWhy:
+      "Volume de busca altíssimo + regra de pagamento que o turista erra + fila que pede horário certo. Site com rodízio, horário e PIX transforma a ficha do Google em visita.",
+    approach:
+      "Chegue pelo volume de avaliações e pelo PIX. Mostre que o Destino POA e o Guia ainda dizem 'só dinheiro' — a casa já aceita PIX e não controla essa frase.",
+    pitch:
+      "Quase 8 mil avaliações e quem pesquisa ainda não acha o horário certo nem que vocês aceitam PIX. Um site curto — rodízio, terça a domingo, dinheiro ou PIX — deixa o clique na Giovanaz, não no guia.",
+    hours:
+      "Ter–sex 11h15–14h30 / 19h–23h · sáb 11h15–15h / 19h–23h · dom 11h15–15h30 · seg fechado",
+    sources: [
+      {
+        label: "Guia Porto Alegre",
+        url: "https://guiaportoalegrers.com.br/cidade-baixa/churrascaria-giovanaz",
+      },
+      {
+        label: "Destino POA",
+        url: "https://destinopoa.com.br/lugar/churrascaria-giovanaz/",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
