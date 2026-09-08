@@ -10,7 +10,6 @@ export function Hero() {
         />
       </div>
       <div className="wrap hero-content">
-        <img className="hero-crest" src="/logo.jpg" alt="" />
         <p className="hero-script">{SITE.tagline}</p>
         <h1>{SITE.headline}</h1>
         <p>{SITE.subheadline}</p>
