@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { About } from "./components/About";
 import { FinalCta } from "./components/FinalCta";
 import { FloatingCta } from "./components/FloatingCta";
@@ -11,6 +12,25 @@ import { Navbar } from "./components/Navbar";
 import { QuickInfo } from "./components/QuickInfo";
 import { Reviews } from "./components/Reviews";
 
+function HashScroll() {
+  useEffect(() => {
+    const jump = () => {
+      const id = window.location.hash.slice(1);
+      if (!id) return;
+      document.getElementById(id)?.scrollIntoView({ behavior: "auto", block: "start" });
+    };
+
+    const timer = window.setTimeout(jump, 80);
+    window.addEventListener("hashchange", jump);
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener("hashchange", jump);
+    };
+  }, []);
+
+  return null;
+}
+
 export default function App() {
   return (
     <>
@@ -18,6 +38,7 @@ export default function App() {
         Ir para o conteúdo
       </a>
       <Navbar />
+      <HashScroll />
       <div id="conteudo">
         <main>
           <Hero />
