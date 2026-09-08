@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Anticuário">
+  <rect width="64" height="64" rx="6" fill="#120D09"/>
+  <rect x="4" y="4" width="56" height="56" fill="none" stroke="#C9A24A" stroke-width="1.4"/>
+  <text x="32" y="44" text-anchor="middle" fill="#C9A24A" font-family="Georgia, serif" font-size="36" font-style="italic">A</text>
+</svg>
