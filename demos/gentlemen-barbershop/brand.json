@@ -1,0 +1,83 @@
+{
+  "leadId": "gentlemen-barbershop",
+  "name": "Gentlemen's BarberShop",
+  "positioning": "Barbearia de público masculino na Floresta desde 2014: o Tiago na tesoura, chão xadrez, parede ardósia e cadeira preta — casa de um barbeiro, não clube navy/gold.",
+  "mood": "premium-casual",
+  "voice": [
+    "direto",
+    "dono na tesoura",
+    "masculino sem pose de clube inglês",
+    "de bairro",
+    "desde 2014"
+  ],
+  "avoid": [
+    "navy e gold de template gentlemen",
+    "luxo de clube britânico",
+    "ritual do homem moderno",
+    "roxo tech",
+    "Inter/Roboto como display",
+    "cards no hero"
+  ],
+  "colors": {
+    "background": "#0B0C0E",
+    "foreground": "#E4DFD6",
+    "brand": "#6E8490",
+    "accent": "#A07848",
+    "surface": "#171B1F",
+    "muted": "#7A8288"
+  },
+  "typography": {
+    "display": "Cinzel — serifada de placa, eco do GENTLEMEN'S do badge",
+    "body": "Source Sans 3 — grotesk humanista para serviços e horários",
+    "rationale": "O logo usa serifada bold no nome e sans estreita em BARBERSHOP. Cinzel carrega o badge sem virar script de café. Corpo limpo para preço e agenda. Evitar Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Estação do Tiago: parede ardósia, piso xadrez preto e branco, bancada de madeira escura, cadeira preta e geladeira Jack Daniel's",
+    "atmosphere": [
+      "parede azul-ardósia / teal empoeirado",
+      "piso xadrez clássico",
+      "madeira escura e tijolo aparente no arco",
+      "badge cinza com cartola e bigode sobre fundo preto",
+      "aro bronze envelhecido do logo",
+      "cape listrada preta e branca",
+      "luz fria na bancada e abajur quente no fundo"
+    ],
+    "references": [
+      {
+        "label": "Booksy — Gentlemen's BarberShop",
+        "url": "https://booksy.com/pt-br/102793_gentlemen-s-barbershop_barbearias_804125_porto-alegre"
+      },
+      {
+        "label": "Instagram @gentlemen.s_barbershop",
+        "url": "https://www.instagram.com/gentlemen.s_barbershop/"
+      },
+      {
+        "label": "Logo oficial no Booksy",
+        "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/br/102793/logo/a02394acd60943d88b06de01855193-gentlemen-s-barbershop-logo-aa9faa8b705d44bba1f962c6483533-booksy.jpeg"
+      },
+      {
+        "label": "Foto do interior / estação (Booksy)",
+        "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/br/102793/biz_photo/fb9493765e58443cb8d551058a9aac-gentlemen-s-barbershop-biz-photo-d9c64725208443f88a13fd8afddd3a-booksy.jpeg"
+      },
+      {
+        "label": "Locais do Brasil — Félix da Cunha",
+        "url": "https://www.locaisdobrasil.com.br/encontre/barbearia/porto-alegre-rs/gentlemens-barbershop/67783c26f3d421ccd39962e4"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial (Booksy): badge cinza-pérola com cartola e bigode, tipografia preta, aro bronze/marrom texturizado sobre fundo preto — não há dourado de joalheria nem navy de template.",
+    "Foto da estação (Booksy biz_photo): parede azul-ardósia, piso xadrez P&B, bancada de madeira escura, LEDs verticais no espelho, geladeira Jack Daniel's, cadeira preta cromada e arco com tijolo aparente.",
+    "Colagens de corte no Booksy (inspiration): mesma parede slate/teal, xadrez no chão, capa listrada preta e branca, bandeja amarela de máquinas — paleta fria + madeira, não navy/gold.",
+    "Instagram @gentlemen.s_barbershop confirma Félix da Cunha 657, Floresta, telefone 51 99691-1233 e o mesmo badge.",
+    "JSON-LD do Booksy: 'desde 2014', atendimento exclusivo do público masculino; único funcionário listado é Tiago B. Gonçalves.",
+    "Reviews (Booksy + Locais do Brasil): clientes chamam o Tiago pelo nome, falam de sonzera, café, cerveja gelada e lugar estiloso/aconchegante — voz de casa de um barbeiro, não de spa."
+  ],
+  "confidence": 0.82,
+  "researchedAt": "2026-09-08"
+}

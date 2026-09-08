@@ -246,6 +246,50 @@ export const leads: Lead[] = [
       "Não confundir com Barbearia O Barbeiro de Florianópolis (obarbeiro.com.br).",
   },
   {
+    id: "gentlemen-barbershop",
+    name: "Gentlemen's BarberShop",
+    category: "beleza",
+    neighborhood: "floresta",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 82,
+    address: "Rua Félix da Cunha, 657 — Floresta",
+    mapsQuery: "Gentlemen's BarberShop Rua Félix da Cunha 657 Porto Alegre",
+    phone: "(51) 99691-1233",
+    whatsapp: "5551996911233",
+    instagram: "gentlemen.s_barbershop",
+    googleRating: 5,
+    googleReviews: 47,
+    founded: "2014",
+    identity:
+      "Barbearia de público masculino na Floresta desde 2014. Uma cadeira, um barbeiro: Tiago B. Gonçalves. Logo com cartola e bigode, parede ardósia, piso xadrez. Clientes citam tesoura, sonzera, café e cerveja gelada. 5,0 no Booksy.",
+    digitalGap:
+      "Agenda no Booksy e Instagram @gentlemen.s_barbershop, sem site próprio. Quem pesquisa o nome cai em diretório ou no Booksy — a casa não controla a própria página.",
+    conversionWhy:
+      "Serviço recorrente com nota máxima e barbeiro citado pelo nome. Site com serviços, horários, o Tiago e WhatsApp/Booksy captura a busca da Félix da Cunha.",
+    approach:
+      "Mostre a página com o badge real e a estação do Tiago. A conversa é 'quem pesquisa Gentlemen's na Floresta ainda não cai na casa de vocês'.",
+    pitch:
+      "A Gentlemen's já tem 5,0 no Booksy e o Tiago no nome de cada avaliação. Falta a página da Félix da Cunha — horários, preços e o WhatsApp — para o clique não parar no agregador.",
+    hours: "Seg–sex 9h–21h · sáb 9h–13h · domingo fechado",
+    sources: [
+      {
+        label: "Booksy",
+        url: "https://booksy.com/pt-br/102793_gentlemen-s-barbershop_barbearias_804125_porto-alegre",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/gentlemen.s_barbershop/",
+      },
+      {
+        label: "Locais do Brasil",
+        url: "https://www.locaisdobrasil.com.br/encontre/barbearia/porto-alegre-rs/gentlemens-barbershop/67783c26f3d421ccd39962e4",
+      },
+    ],
+    notes:
+      "Não confundir com outras Gentlemen's (ex.: By Mike). Esta é a da Félix da Cunha 657, Floresta. O badge traz 'By Dolce Relax' — spa vizinho, não misturar o site.",
+  },
+  {
     id: "roda-de-carreta",
     name: "Churrascaria Roda de Carreta",
     category: "gastronomia",
