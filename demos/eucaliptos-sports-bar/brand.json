@@ -1,0 +1,84 @@
+{
+  "leadId": "eucaliptos-sports-bar",
+  "name": "Eucaliptos Sports Bar",
+  "positioning": "Sports bar do Menino Deus no ponto do antigo Estádio dos Eucaliptos: TVs, chope artesanal e petisco na Cerro Largo — sem lado de clube.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "de jogo",
+    "direto",
+    "de bairro",
+    "sem lado",
+    "chope na mesa",
+    "praça na frente"
+  ],
+  "avoid": [
+    "vermelho de Inter como cor de marca",
+    "azul de Grêmio",
+    "neon de boate",
+    "roxo tech",
+    "creme terracotta de IA",
+    "Inter/Roboto no display",
+    "cards no hero",
+    "stock genérico de sports bar"
+  ],
+  "colors": {
+    "background": "#0B0B0B",
+    "foreground": "#F3EDE4",
+    "brand": "#E3A01C",
+    "accent": "#E3A01C",
+    "surface": "#1A1612",
+    "muted": "#8B7D6A"
+  },
+  "typography": {
+    "display": "Alfa Slab One — faixa varsity do letreiro",
+    "body": "Barlow — grotesk atlética para placar, cardápio e horário",
+    "rationale": "O logo real escreve EUCALIPTOS em slab/varsity dentro de uma faixa; Alfa Slab One carrega essa placa. Barlow lê como tabela de jogo, não como landing de SaaS. Inter e Roboto ficam de fora do display."
+  },
+  "imagery": {
+    "heroSubject": "Fachada de vidro na Rua Barão do Cerro Largo: letreiro preto, mesas de madeira, bandeirinhas e o salão aberto para a praça",
+    "atmosphere": [
+      "letreiro preto com wordmark branco em faixa",
+      "mesas comunitárias de madeira e ferro",
+      "azulejo subway preto no balcão",
+      "chope âmbar em copo pint",
+      "cinco TVs e oito torneiras",
+      "Praça Memorial Eucaliptos em frente"
+    ],
+    "references": [
+      {
+        "label": "Instagram @eucaliptossportsbar",
+        "url": "https://www.instagram.com/eucaliptossportsbar/"
+      },
+      {
+        "label": "QuintoAndar / foto Anselmo Cunha (RBS) da fachada",
+        "url": "https://www.quintoandar.com.br/regioes-atendidas/porto-alegre-rs-brasil-jdj6u9g0k5/local/eucaliptos-sports-bar"
+      },
+      {
+        "label": "Jornal do Comércio — 5 anos no ponto do Eucaliptos",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2024/12/1185091-bar-que-fica-no-ponto-do-eucaliptos-antigo-estadio-do-inter-celebra-cinco-anos.html"
+      },
+      {
+        "label": "GZH — Copa, TVs, torneiras e hambúrgueres",
+        "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2022/11/hamburguer-tematico-e-horario-diferenciado-como-bares-se-preparam-para-receber-torcedores-durante-a-copa-clan0oir2006o0170aixmg2jv.html"
+      },
+      {
+        "label": "Comida di Buteco — petisco Mexicano",
+        "url": "https://comidadibuteco.com.br/buteco/eucaliptos-sports-bar/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto de Anselmo Cunha / RBS (fachada no QuintoAndar): vitrine de vidro, pilares de concreto, letreiro retangular preto com EUCALIPTOS em faixa branca, mesas longas de madeira e estrutura preta, luzes-bolinha e bandeirinhas — casa carvão + madeira, não landing clara.",
+    "Arte do Instagram republicada no QuintoAndar (Eucaliptos-Bar_Insta2): logo linear preto (caneca + bola + EUCALIPTOS em slab + SPORTS BAR + trigo) sobre chope âmbar no copo pint. O âmbar da cerveja vira brand/accent; o verde do nome ‘eucalipto’ não aparece no mark.",
+    "Foto Andressa Pufal / JC (dez/2024): camiseta preta com emblema branco ‘EUCALIPTOS SPORTS BAR · DESDE 2019’, parede de azulejo subway preto, prateleira de destilados e balcão de madeira com pint de chope — interior noturno de sports bar.",
+    "GZH: quatro sócios do quadro de arbitragem da FGF; ‘a gente tem clube, mas a gente não fala’. Cinco TVs, oito torneiras (três Coromberk Bier), hambúrgueres Artilheiro, Golaço e Canarinho. Paleta não pode ser colorada nem gremista.",
+    "JC 2024 + Comida di Buteco: Rua Barão do Cerro Largo 300, lojas 02 e 03, em frente à Praça Memorial Eucaliptos, no Grand Park erguido onde era o Estádio dos Eucaliptos. Todos os dias 17h–22h. Petisco Mexicano (croquete de costela com brie e chimichurri)."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-08"
+}
