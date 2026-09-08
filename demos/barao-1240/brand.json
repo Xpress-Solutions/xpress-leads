@@ -34,7 +34,7 @@
     "rationale": "O letreiro circular da casa trata BARÃO e 1240 em sans geométrica pesada; as placas de calçada usam o mesmo espírito condensado. Corpo limpo para horário, WhatsApp e o que tem hoje."
   },
   "imagery": {
-    "heroSubject": "Milanesa e fritas no prato branco sobre mesa de madeira — post oficial da casa, com o selo circular e o mascote do carton vermelho",
+    "heroSubject": "Foto real da calçada na Rua Barão do Amazonas, 1240: cavaletes A-frame com o selo oficial CAFETERIA · BARÃO 1240 · RESTAURANTE, à la minuta à parmegiana e macarronada",
     "atmosphere": [
       "prato feito / à la minuta na mesa de madeira",
       "selos circulares pretos CAFETERIA · BARÃO 1240 · RESTAURANTE",
@@ -63,6 +63,8 @@
     "heroStyle": "full-bleed"
   },
   "evidence": [
+    "Logo oficial do Instagram @barao1240 (foto de perfil t51.2885-19/106073566_…): selo circular marrom-café (#3F2C1A) com aro duplo branco, CAFETERIA no arco superior, BARÃO sobre 1240 e RESTAURANTE no arco inferior — o arquivo public/logo.png é esse selo, não uma reconstrução creme/dourada.",
+    "Foto real da casa na calçada (menu02.restaurantguru.com): dois cavaletes A-frame na Rua Barão do Amazonas, 1240, com o selo oficial, banner vermelho “À la minuta / à parmegiana” e “NOVIDADE MACARRONADA” — vira o hero full-bleed (composição completa do ponto, não crop de prato).",
     "Post oficial republicado no Restaurant Guru (r000-…-fries.jpg): milanesa + fritas no prato branco sobre madeira; selo circular branco/preto CAFETERIA · BARÃO 1240 · RESTAURANTE; mascote de smoking com carton vermelho de fritas — vermelho de ketchup/carton vira --brand; dourado das fritas vira --accent.",
     "Placa A-frame do cardápio impresso (menu02.restaurantguru.com): fundo tan/latte com padrão de palavras coffee/latte, faixas-cabeçalho vermelhas, títulos em amarelo vivo e texto branco. Isso define --background latte, --brand vermelho de banner e --accent amarelo de placa — não é terracotta genérico nem verde de armazém.",
     "Arte de expediente da casa (advertisement 2023-01-11): caixa marrom terrosa (#785942) com tipo branco e o mesmo selo circular preto; ao fundo, interior real com prateleira de madeira, balcão de vidro e mosaico geométrico preto-e-branco na parede.",
