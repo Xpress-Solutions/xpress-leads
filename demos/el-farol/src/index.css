@@ -395,7 +395,10 @@ button {
   font-size: 1.15rem;
   font-weight: 600;
   line-height: 1.2;
-  overflow-wrap: break-word;
+}
+
+.hours-range {
+  white-space: nowrap;
 }
 
 .strip span {
@@ -618,14 +621,13 @@ button {
 .hours-now {
   display: block;
   font-family: var(--display);
-  font-size: clamp(1.25rem, 5.8vw, 1.75rem);
+  font-size: clamp(1.25rem, 2.2vw + 0.8rem, 1.75rem);
   font-weight: 600;
   line-height: 1.15;
   letter-spacing: -0.02em;
   max-width: 100%;
   min-width: 0;
-  overflow-wrap: break-word;
-  text-wrap: balance;
+  overflow-wrap: normal;
 }
 
 .hours-list {
@@ -652,7 +654,6 @@ button {
 
 .hours-list li span:last-child {
   text-align: right;
-  overflow-wrap: break-word;
 }
 
 .hours-list li.is-qui {
@@ -809,10 +810,6 @@ button {
 @media (max-width: 375px) {
   .hours {
     padding: 18px 14px;
-  }
-
-  .hours-now {
-    font-size: clamp(1.2rem, 6.6vw, 1.5rem);
   }
 
   .hours-list li {
