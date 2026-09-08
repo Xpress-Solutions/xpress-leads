@@ -206,10 +206,11 @@ button {
   line-height: 1;
 }
 
-.logo-lockup img {
+.logo-pot {
   width: 38px;
   height: 34px;
-  object-fit: contain;
+  display: block;
+  flex: 0 0 auto;
 }
 
 .logo-word {
@@ -238,9 +239,25 @@ button {
   text-align: center;
 }
 
-.logo-lockup.is-stack img {
+.logo-lockup.is-stack .logo-pot {
   width: 56px;
   height: 50px;
+}
+
+.logo-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--brand);
+  color: #fff8ec;
+  display: grid;
+  place-items: center;
+  box-shadow: inset 0 0 0 3px var(--accent);
+}
+
+.logo-badge .logo-pot {
+  width: 30px;
+  height: 26px;
 }
 
 .logo-lockup.is-stack .logo-word {
@@ -288,10 +305,6 @@ button {
   color: #fff8ec;
 }
 
-.nav-logo img {
-  filter: invert(1) brightness(1.15);
-}
-
 .nav-links a {
   color: #fff8ec;
   font-size: 0.92rem;
@@ -320,10 +333,6 @@ button {
 .nav.is-scrolled .nav-logo,
 .nav.is-scrolled .nav-links a {
   color: var(--foreground);
-}
-
-.nav.is-scrolled .nav-logo img {
-  filter: none;
 }
 
 .nav.is-scrolled .nav-burger span {
@@ -442,9 +451,11 @@ button {
 
 .hero-frame {
   position: absolute;
-  inset: calc(var(--nav-h) + 14px) 14px 26px;
-  border: 10px solid var(--accent);
-  box-shadow: inset 0 0 0 6px var(--brand);
+  inset: calc(var(--nav-h) + 16px) 16px 28px;
+  border: 3px solid rgba(31, 79, 191, 0.9);
+  box-shadow:
+    inset 0 0 0 8px rgba(143, 191, 66, 0.42),
+    inset 0 0 0 11px rgba(31, 79, 191, 0.55);
   pointer-events: none;
 }
 
@@ -457,7 +468,7 @@ button {
   font-size: clamp(5rem, 16vw, 11rem);
   line-height: 0.8;
   letter-spacing: -0.06em;
-  color: rgba(255, 248, 236, 0.14);
+  color: rgba(255, 248, 236, 0.26);
   pointer-events: none;
 }
 
@@ -1000,8 +1011,8 @@ button {
   margin-bottom: 12px;
 }
 
-.foot-brand img {
-  filter: invert(1) brightness(1.15);
+.foot-brand .logo-pot {
+  color: #fff8ec;
 }
 
 .footer a:hover {
@@ -1048,6 +1059,25 @@ button {
 .fab svg {
   width: 28px;
   height: 28px;
+}
+
+@media (max-width: 767px) {
+  .hero-number {
+    display: none;
+  }
+
+  .hero-plate {
+    padding: 12px 16px 8px;
+    margin-bottom: 14px;
+  }
+
+  .logo-lockup.is-stack .logo-word {
+    font-size: 1.35rem;
+  }
+
+  .hero-frame {
+    inset: calc(var(--nav-h) + 10px) 10px 18px;
+  }
 }
 
 @media (min-width: 768px) {

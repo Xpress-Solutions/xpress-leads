@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Fogão Campeiro Petrópolis">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
   <rect width="80" height="80" rx="16" fill="#8FBF42"/>
   <rect x="6" y="6" width="68" height="68" rx="12" fill="none" stroke="#1F4FBF" stroke-width="5"/>
-  <g fill="#FFF8EC" transform="translate(0 6) scale(1)">
-    <ellipse cx="40" cy="16" rx="4.6" ry="3.8"/>
-    <ellipse cx="40" cy="26.5" rx="23" ry="6.4"/>
-    <path d="M20 27.4c-6.2 2.6-9.1 10.4-6 18.5 2.2 5.8 11.6 11.3 26 11.3s23.8-5.5 26-11.3c3.1-8.1.2-15.9-6-18.5v2.4c4.4 1.8 6.2 7.4 3.9 13.4-1.7 5-9.6 9-23.9 9s-22.2-4-23.9-9c-2.3-6-.5-11.6 3.9-13.4v-2.4z"/>
-    <path d="M17.4 33.6c-6 .4-9.6 5.2-8.4 10.8 1 4.7 5.3 7.2 10 5.9-2.1-1.8-3.4-4.4-3.9-7.5-.5-3.4.2-6.6 2.3-9.2z"/>
-    <path d="M62.6 33.6c6 .4 9.6 5.2 8.4 10.8-1 4.7-5.3 7.2-10 5.9 2.1-1.8 3.4-4.4 3.9-7.5.5-3.4-.2-6.6-2.3-9.2z"/>
+  <g fill="#FFF8EC" transform="translate(0 4)">
+    <ellipse cx="40" cy="14" rx="4.6" ry="3.8"/>
+    <ellipse cx="40" cy="25" rx="22" ry="6"/>
+    <path d="M22 26h36c2.4 0 6.5 5 6.5 13.5 0 8.5-8.5 15.5-24.5 15.5S15.5 48 15.5 39.5C15.5 31 19.6 26 22 26z"/>
+    <path d="M17 35c-6.5 0-8.2 6.5-6.5 11.5 1.6 4 6.5 5 10 2.4-2.4-1.6-4-5-3.5-10V35z"/>
+    <path d="M63 35c6.5 0 8.2 6.5 6.5 11.5-1.6 4-6.5 5-10 2.4 2.4-1.6 4-5 3.5-10V35z"/>
   </g>
 </svg>
