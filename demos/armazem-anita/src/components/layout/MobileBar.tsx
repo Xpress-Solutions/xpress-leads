@@ -1,5 +1,6 @@
-import { business } from "@/data/business";
 import Link from "next/link";
+import { business } from "@/data/business";
+import { MapPin, UtensilsCrossed } from "@/components/icons";
 
 export function MobileBar() {
   return (
@@ -9,7 +10,8 @@ export function MobileBar() {
           href="/cardapio"
           className="flex flex-1 items-center justify-center gap-2 rounded-full bg-anita-orange py-3 text-sm font-bold tracking-wide text-white uppercase transition-transform active:scale-95"
         >
-          <span>🍽</span> Cardápio
+          <UtensilsCrossed className="h-4 w-4" strokeWidth={2} aria-hidden />
+          Cardápio
         </Link>
         <a
           href={business.mapsUrl}
@@ -17,7 +19,8 @@ export function MobileBar() {
           rel="noopener noreferrer"
           className="flex flex-1 items-center justify-center gap-2 rounded-full bg-anita-black py-3 text-sm font-bold tracking-wide text-white uppercase transition-transform active:scale-95"
         >
-          <span>📍</span> Rotas
+          <MapPin className="h-4 w-4" strokeWidth={2} aria-hidden />
+          Rotas
         </a>
       </div>
     </div>
