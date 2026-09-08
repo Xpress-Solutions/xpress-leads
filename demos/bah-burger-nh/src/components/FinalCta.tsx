@@ -11,7 +11,7 @@ export function FinalCta() {
             Manda no zap.
           </h2>
           <p>{SITE.pitch}</p>
-          <div className="hero-actions" style={{ marginTop: 16 }}>
+          <div className="hero-actions final-actions">
             <a className="btn btn-brand" href={SITE.whatsapp} target="_blank" rel="noreferrer">
               Pedir no WhatsApp
             </a>

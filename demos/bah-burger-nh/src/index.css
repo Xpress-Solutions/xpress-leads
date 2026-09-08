@@ -1,3 +1,72 @@
+/* Fallback métrico: se Anton não carregar, Arial Narrow / Liberation
+   Narrow cobrem o grito condensado sem estourar o layout. */
+@font-face {
+  font-family: "Anton Fallback";
+  src: local("Arial Narrow"), local("Liberation Sans Narrow"), local("DejaVu Sans Condensed"),
+    local("Nimbus Sans Narrow");
+  font-weight: 400;
+  font-style: normal;
+  size-adjust: 86%;
+  ascent-override: 94%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("/fonts/anton-latin-ext.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,
+    U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("/fonts/anton-latin.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Fallback métrico do grotesk: Segoe / Helvetica / Arial / Liberation. */
+@font-face {
+  font-family: "Source Sans Fallback";
+  src: local("Segoe UI"), local("Helvetica Neue"), local("Arial"), local("Liberation Sans"),
+    local("Nimbus Sans");
+  font-weight: 400 700;
+  font-style: normal;
+  size-adjust: 99%;
+  ascent-override: 96%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("/fonts/source-sans-3-latin-ext.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,
+    U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("/fonts/source-sans-3-latin.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root {
   --background: #100e0a;
   --foreground: #f6efd8;
@@ -8,9 +77,23 @@
   --ink: #0a0806;
   --lenço: #c8102e;
   --nav-h: 72px;
-  --display: "Anton", "Arial Narrow", Impact, sans-serif;
-  --body: "Source Sans 3", "Segoe UI", sans-serif;
+  --display: "Anton", "Anton Fallback", "Arial Narrow", "Franklin Gothic Medium Condensed",
+    "Franklin Gothic Medium", Impact, Haettenschweiler, sans-serif;
+  --body: "Source Sans 3", "Source Sans Fallback", "Segoe UI", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   --radius: 6px;
+  --fs-hero: clamp(3.15rem, 15.5vw, 10rem);
+  --fs-title: clamp(2.15rem, 6.8vw, 4.6rem);
+  --fs-group: clamp(1.7rem, 5vw, 3.2rem);
+  --fs-card: clamp(1.12rem, 3.4vw, 1.45rem);
+  --fs-price: clamp(1.3rem, 3.8vw, 1.7rem);
+  --fs-hours: clamp(1.35rem, 4.8vw, 2rem);
+  --fs-score: clamp(3.6rem, 14vw, 8.5rem);
+  --fs-final: clamp(2.35rem, 9vw, 5.4rem);
+  --fs-nav: clamp(1.2rem, 4vw, 1.55rem);
+  --fs-lead: clamp(1rem, 2.2vw, 1.08rem);
+  --fs-body: 1.05rem;
+  --fs-small: 0.92rem;
 }
 
 * {
@@ -31,6 +114,8 @@ body {
   margin: 0;
   color: var(--foreground);
   font-family: var(--body);
+  font-weight: 400;
+  font-size: var(--fs-body);
   background: var(--background);
   line-height: 1.5;
   text-rendering: optimizeLegibility;
@@ -71,6 +156,7 @@ button {
   background: var(--brand);
   color: var(--ink);
   padding: 8px 12px;
+  font-family: var(--body);
   font-weight: 700;
 }
 
@@ -81,6 +167,7 @@ button {
 .wrap {
   width: min(1120px, calc(100% - 32px));
   margin-inline: auto;
+  min-width: 0;
 }
 
 .section {
@@ -88,11 +175,26 @@ button {
   scroll-margin-top: calc(var(--nav-h) + 8px);
 }
 
+/* Títulos de seção — Anton, caixa alta, um único clamp. */
+.display {
+  font-family: var(--display);
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: var(--fs-title);
+  letter-spacing: 0.02em;
+  line-height: 0.98;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+  margin: 0;
+}
+
 .kicker {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  max-width: 100%;
   color: var(--brand);
+  font-family: var(--body);
   letter-spacing: 0.22em;
   text-transform: uppercase;
   font-size: 0.72rem;
@@ -102,25 +204,19 @@ button {
 
 .kicker::before {
   content: "";
+  flex: 0 0 22px;
   width: 22px;
   height: 3px;
   background: var(--accent);
-}
-
-.display {
-  font-family: var(--display);
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  line-height: 0.88;
-  text-transform: uppercase;
-  margin: 0;
 }
 
 .lead {
   max-width: 38rem;
   color: var(--muted);
   margin: 12px 0 0;
-  font-size: 1.05rem;
+  font-family: var(--body);
+  font-size: var(--fs-lead);
+  line-height: 1.5;
 }
 
 .reveal {
@@ -144,6 +240,7 @@ button {
   min-height: 50px;
   padding: 0 22px;
   border-radius: 2px;
+  font-family: var(--body);
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -208,18 +305,21 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  gap: 12px;
+  min-width: 0;
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 0;
 }
 
 .nav-logo img {
   width: 46px;
   height: 46px;
+  flex: 0 0 auto;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--brand);
@@ -227,9 +327,15 @@ button {
 
 .nav-word {
   font-family: var(--display);
-  font-size: 1.55rem;
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: var(--fs-nav);
   letter-spacing: 0.04em;
   line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .nav-word em {
@@ -240,11 +346,14 @@ button {
 .nav-links {
   display: none;
   gap: 22px;
+  min-width: 0;
 }
 
 .nav-links a {
+  font-family: var(--body);
   font-size: 0.92rem;
   color: rgba(246, 239, 216, 0.78);
+  white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -255,6 +364,7 @@ button {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex: 0 0 auto;
 }
 
 .nav-wa {
@@ -303,6 +413,7 @@ button {
   gap: 10px;
   z-index: 39;
   pointer-events: none;
+  overflow: auto;
 }
 
 .nav-drawer.is-open {
@@ -312,8 +423,21 @@ button {
 
 .nav-drawer a {
   font-family: var(--display);
-  font-size: 2.6rem;
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: clamp(2rem, 10vw, 2.6rem);
   letter-spacing: 0.04em;
+  line-height: 1.05;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+.nav-drawer .btn {
+  font-family: var(--body);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  align-self: flex-start;
+  margin-top: 8px;
 }
 
 /* HERO */
@@ -352,23 +476,28 @@ button {
 .hero-content {
   position: relative;
   z-index: 1;
+  min-width: 0;
 }
 
 .hero-badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  max-width: 100%;
   margin-bottom: 14px;
+  font-family: var(--body);
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--brand);
+  overflow-wrap: anywhere;
 }
 
 .hero-badge i {
   width: 8px;
   height: 8px;
+  flex: 0 0 8px;
   border-radius: 50%;
   background: var(--accent);
   box-shadow: 0 0 0 4px rgba(200, 16, 46, 0.25);
@@ -376,11 +505,14 @@ button {
 
 .hero h1 {
   font-family: var(--display);
-  font-size: clamp(4.4rem, 18vw, 11rem);
-  line-height: 0.78;
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: var(--fs-hero);
+  line-height: 0.82;
   letter-spacing: 0.01em;
   margin: 0 0 8px;
   text-transform: uppercase;
+  overflow-wrap: anywhere;
 }
 
 .hero h1 span {
@@ -396,7 +528,9 @@ button {
 
 .hero-phrase {
   max-width: 28rem;
-  font-size: 1.2rem;
+  font-family: var(--body);
+  font-size: var(--fs-lead);
+  line-height: 1.45;
   margin: 0 0 22px;
   color: rgba(246, 239, 216, 0.88);
 }
@@ -408,17 +542,23 @@ button {
   margin-bottom: 18px;
 }
 
+.final-actions {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
 .hero-proof {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 18px;
   color: var(--brand);
+  font-family: var(--body);
   font-weight: 700;
 }
 
 .hero-proof span {
   color: var(--foreground);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* STRIP */
@@ -435,8 +575,11 @@ button {
   gap: 28px;
   white-space: nowrap;
   font-family: var(--display);
+  font-weight: 400;
+  font-synthesis: none;
   letter-spacing: 0.08em;
   font-size: 1.15rem;
+  text-transform: uppercase;
   animation: marquee 28s linear infinite;
 }
 
@@ -463,9 +606,15 @@ button {
 
 .menu-group h3 {
   font-family: var(--display);
-  font-size: clamp(2rem, 6vw, 3.2rem);
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: var(--fs-group);
+  line-height: 0.98;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   margin: 0 0 16px;
   color: var(--brand);
+  overflow-wrap: anywhere;
 }
 
 .menu-list {
@@ -475,17 +624,18 @@ button {
 
 .dish {
   display: grid;
-  grid-template-columns: 72px 1fr auto;
+  grid-template-columns: 72px minmax(0, 1fr) auto;
   gap: 14px;
   align-items: center;
   background: var(--surface);
   border: 1px solid rgba(255, 186, 0, 0.1);
   padding: 12px 14px;
   border-radius: var(--radius);
+  min-width: 0;
 }
 
 .dish:not(:has(img)) {
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto;
 }
 
 .dish img {
@@ -495,23 +645,46 @@ button {
   border-radius: 4px;
 }
 
-.dish h4 {
+.dish > div {
+  min-width: 0;
+}
+
+.dish h4,
+.card-title {
   margin: 0 0 4px;
   font-family: var(--display);
-  font-size: 1.45rem;
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: var(--fs-card);
   letter-spacing: 0.03em;
+  line-height: 1.08;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
 }
 
 .dish p {
   margin: 0;
+  font-family: var(--body);
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--fs-small);
+  line-height: 1.4;
 }
 
 .dish-price {
   font-family: var(--display);
-  font-size: 1.7rem;
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: var(--fs-price);
+  line-height: 1;
   color: var(--brand);
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+}
+
+.price-unit {
+  font-size: 0.7rem;
+  margin-left: 2px;
+  letter-spacing: 0.04em;
 }
 
 .tag {
@@ -519,13 +692,14 @@ button {
   margin-left: 8px;
   font-family: var(--body);
   font-size: 0.62rem;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink);
   background: var(--brand);
   padding: 2px 6px;
   vertical-align: middle;
+  white-space: nowrap;
 }
 
 .tag.is-red {
@@ -543,9 +717,15 @@ button {
   gap: 28px;
 }
 
+.about-copy {
+  min-width: 0;
+}
+
 .about-copy p {
+  font-family: var(--body);
   color: #d9cfb4;
-  font-size: 1.08rem;
+  font-size: var(--fs-lead);
+  line-height: 1.55;
 }
 
 .about-points {
@@ -560,6 +740,10 @@ button {
   padding: 12px 14px;
   background: rgba(16, 14, 10, 0.5);
   border-left: 4px solid var(--accent);
+  font-family: var(--body);
+  font-size: var(--fs-small);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .about-seal {
@@ -595,9 +779,17 @@ button {
 
 .score b {
   font-family: var(--display);
-  font-size: clamp(5rem, 16vw, 8.5rem);
-  line-height: 0.78;
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: var(--fs-score);
+  line-height: 0.86;
   color: var(--brand);
+}
+
+.score > div {
+  font-family: var(--body);
+  font-size: var(--fs-lead);
+  min-width: 0;
 }
 
 .rev-grid {
@@ -609,10 +801,26 @@ button {
   background: var(--surface);
   padding: 20px;
   border-top: 3px solid var(--brand);
+  min-width: 0;
 }
 
-.rev-card p {
+.rev-meta {
+  margin: 0;
+  font-family: var(--body);
+  font-size: var(--fs-small);
+  color: var(--muted);
+}
+
+.rev-meta .card-title {
+  margin: 0;
+  color: var(--foreground);
+}
+
+.rev-card p:not(.rev-meta) {
   margin: 8px 0 0;
+  font-family: var(--body);
+  font-size: var(--fs-small);
+  line-height: 1.45;
   color: #ddd4c0;
 }
 
@@ -640,31 +848,57 @@ button {
   background: var(--surface);
   padding: 22px;
   border: 1px solid rgba(255, 186, 0, 0.12);
+  min-width: 0;
 }
 
 .hours-now {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   padding-bottom: 14px;
   margin-bottom: 14px;
   border-bottom: 1px solid rgba(255, 186, 0, 0.1);
 }
 
+.hours-now > div {
+  min-width: 0;
+  flex: 1 1 10rem;
+}
+
 .hours-now strong {
   font-family: var(--display);
-  font-size: 2rem;
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: var(--fs-hours);
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   display: block;
+  overflow-wrap: anywhere;
+}
+
+.hours-detail {
+  display: block;
+  margin-top: 4px;
+  font-family: var(--body);
+  font-size: var(--fs-small);
+  font-weight: 400;
+  color: var(--muted);
+  line-height: 1.4;
 }
 
 .pill {
   border-radius: 999px;
   padding: 6px 10px;
+  font-family: var(--body);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .pill-on {
@@ -683,16 +917,32 @@ button {
   padding: 0;
   display: grid;
   gap: 8px;
+  font-family: var(--body);
+  font-size: var(--fs-small);
+  font-variant-numeric: tabular-nums;
 }
 
 .hours-list li {
   display: flex;
   justify-content: space-between;
+  gap: 12px;
   color: var(--muted);
+  min-width: 0;
+}
+
+.hours-list li span:first-child {
+  min-width: 0;
+}
+
+.hours-list li span:last-child {
+  flex: 0 0 auto;
+  text-align: right;
+  white-space: nowrap;
 }
 
 .hours-list li.is-today {
   color: var(--brand);
+  font-weight: 600;
 }
 
 .local-actions {
@@ -716,17 +966,30 @@ button {
   align-content: end;
   padding: 32px 24px;
   border-top: 4px solid var(--brand);
+  min-width: 0;
 }
 
 .final-box h2 {
   font-family: var(--display);
-  font-size: clamp(2.8rem, 10vw, 5.4rem);
-  line-height: 0.86;
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: var(--fs-final);
+  line-height: 0.95;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
   margin: 0 0 10px;
+  overflow-wrap: anywhere;
 }
 
 .final-box h2 span {
   color: var(--brand);
+}
+
+.final-box > p {
+  font-family: var(--body);
+  font-size: var(--fs-lead);
+  max-width: 38rem;
+  margin: 0;
 }
 
 /* FOOTER */
@@ -749,9 +1012,30 @@ button {
   border: 2px solid var(--brand);
 }
 
+.foot-brand strong,
+.foot-links > strong {
+  display: block;
+  font-family: var(--display);
+  font-weight: 400;
+  font-synthesis: none;
+  font-size: 1.45rem;
+  letter-spacing: 0.04em;
+  line-height: 1.05;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.foot-brand p,
+.foot-links a {
+  font-family: var(--body);
+  font-size: var(--fs-small);
+  line-height: 1.45;
+}
+
 .foot-links {
   display: grid;
   gap: 8px;
+  min-width: 0;
 }
 
 .footer a:hover {
@@ -761,6 +1045,7 @@ button {
 .foot-copy {
   margin-top: 24px;
   color: #6a604c;
+  font-family: var(--body);
   font-size: 0.82rem;
 }
 
@@ -787,6 +1072,59 @@ button {
   height: 28px;
 }
 
+/* 320–375: wordmark, cards e horários sem colidir. */
+@media (max-width: 375px) {
+  .wrap {
+    width: min(1120px, calc(100% - 24px));
+  }
+
+  .section {
+    padding: 56px 0;
+  }
+
+  .nav-logo img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .nav-inner {
+    gap: 8px;
+  }
+
+  .nav-logo {
+    gap: 8px;
+  }
+
+  .dish {
+    grid-template-columns: 64px minmax(0, 1fr) auto;
+    gap: 10px;
+    padding: 10px 12px;
+  }
+
+  .dish:not(:has(img)) {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .dish img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .hours {
+    padding: 16px;
+  }
+
+  .final-box {
+    padding: 24px 16px;
+  }
+}
+
+@media (max-width: 359px) {
+  .nav-word-rest {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .wrap {
     width: min(1120px, calc(100% - 48px));
@@ -798,17 +1136,17 @@ button {
   }
 
   .menu-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .about-grid,
   .local-grid,
   .foot-grid {
-    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
   }
 
   .rev-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .footer {
@@ -829,6 +1167,10 @@ button {
   .nav-burger,
   .nav-drawer {
     display: none;
+  }
+
+  .foot-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 

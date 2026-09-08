@@ -27,7 +27,7 @@ export function Navbar() {
           <a className="nav-logo" href="#inicio" aria-label={SITE.name}>
             <img src="/logo.jpeg" alt="" />
             <span className="nav-word">
-              <em>BAH!</em> BURGER
+              <em>BAH!</em> <span className="nav-word-rest">BURGER</span>
             </span>
           </a>
           <nav className="nav-links" aria-label="Principal">
