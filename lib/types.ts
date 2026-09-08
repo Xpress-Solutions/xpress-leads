@@ -20,6 +20,7 @@ export type Neighborhood =
   | "santana"
   | "azenha"
   | "cidade-baixa"
+  | "bom-fim"
   | "floresta"
   | "cristal"
   | "ipanema"

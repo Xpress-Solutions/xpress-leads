@@ -626,6 +626,47 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "lancheria-do-parque",
+    name: "Lancheria do Parque",
+    category: "gastronomia",
+    neighborhood: "bom-fim",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 94,
+    address: "Av. Osvaldo Aranha, 1086 — Bom Fim",
+    mapsQuery: "Lancheria do Parque Av. Osvaldo Aranha 1086 Porto Alegre",
+    phone: "(51) 3311-8321",
+    whatsapp: "555133118321",
+    instagram: "lancheriadoparqueoficial",
+    googleRating: 4.7,
+    founded: "maio de 1982",
+    identity:
+      "A Lanchera em frente à Redenção: suco na jarra, xis coração, à la minuta e patrimônio afetivo de Porto Alegre. Mesmo endereço desde 1982, toldo vermelho na Osvaldo Aranha, pedido no grito, cooperativa desde por volta de 2000.",
+    digitalGap:
+      "Sem site oficial. A casa vive em Wikipedia, guias e Google; o toldo, o suco e o xis não têm uma página da própria Lanchera.",
+    conversionWhy:
+      "Ponto turístico afetivo + busca de nome alta + cardápio clássico que o visitante do Brique pergunta no balcão. Um one-page com suco, xis, horário e o 1086 fecha o clique que hoje cai em terceiro.",
+    approach:
+      "Chegue pelo toldo e pelo apelido. Mostre a Osvaldo Aranha, 1086, e o suco na jarra — não um site de lanchonete genérica.",
+    pitch:
+      "Quem pesquisa Lancheria do Parque ainda cai na Wikipedia e no guia. Montei a página da Lanchera — suco na jarra, xis coração, horário e o ponto em frente à Redenção — para o clique ser de vocês.",
+    hours: "Seg–sáb 6h–23h45 · dom 6h–22h (listagens públicas; confirmar no Google)",
+    sources: [
+      {
+        label: "Wikipedia",
+        url: "https://pt.wikipedia.org/wiki/Lancheria_do_Parque",
+      },
+      {
+        label: "Destino POA",
+        url: "https://destinopoa.com.br/lugar/lancheria-do-parque/",
+      },
+      {
+        label: "QuintoAndar / Bom Fim",
+        url: "https://www.quintoandar.com.br/regioes-atendidas/porto-alegre-rs-brasil-jdj6u9g0k5/local/lancheria-do-parque",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
@@ -741,6 +782,7 @@ export const neighborhoodLabel: Record<Neighborhood, string> = {
   santana: "Santana",
   azenha: "Azenha",
   "cidade-baixa": "Cidade Baixa",
+  "bom-fim": "Bom Fim",
   floresta: "Floresta",
   cristal: "Cristal",
   ipanema: "Ipanema",
@@ -775,6 +817,7 @@ export const neighborhoodOrder: Neighborhood[] = [
   "santana",
   "azenha",
   "cidade-baixa",
+  "bom-fim",
   "floresta",
   "cristal",
   "ipanema",
@@ -809,6 +852,7 @@ export const neighborhoodCity: Record<Neighborhood, City> = {
   santana: "porto-alegre",
   azenha: "porto-alegre",
   "cidade-baixa": "porto-alegre",
+  "bom-fim": "porto-alegre",
   floresta: "porto-alegre",
   cristal: "porto-alegre",
   ipanema: "porto-alegre",

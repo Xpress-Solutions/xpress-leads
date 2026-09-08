@@ -1,0 +1,85 @@
+{
+  "leadId": "lancheria-do-parque",
+  "name": "Lancheria do Parque",
+  "positioning": "A Lanchera em frente à Redenção: suco na jarra, xis coração e à la minuta — patrimônio afetivo de Porto Alegre desde 1982.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "afetivo",
+    "porto-alegrense",
+    "sem frescura",
+    "de balcão",
+    "patrimônio"
+  ],
+  "avoid": [
+    "luxo",
+    "minimalismo frio",
+    "roxo tech",
+    "creme terracotta genérico",
+    "café hipster",
+    "night club",
+    "Inter/Roboto de display"
+  ],
+  "colors": {
+    "background": "#F3E8D2",
+    "foreground": "#1B1512",
+    "brand": "#C41E32",
+    "accent": "#E89412",
+    "surface": "#FFF8EE",
+    "muted": "#7A6550"
+  },
+  "typography": {
+    "display": "Oswald — letreiro condensado do toldo vermelho (branco sobre vermelho)",
+    "body": "Source Sans 3 / grotesk humanista para cardápio, horário e endereço",
+    "rationale": "O nome da casa vive no toldo em caixa-alta branca, sem serifa. Display condensado replica o letreiro; corpo limpo lê suco, xis e 1086. Evitar Inter/Roboto como face de marca."
+  },
+  "imagery": {
+    "heroSubject": "Toldo vermelho na Av. Osvaldo Aranha, 1086, com palmeiras da Redenção do outro lado da pista",
+    "atmosphere": [
+      "toldo vermelho vivo com letreiro branco",
+      "pastilhas da fachada e número 1086",
+      "suco de laranja na jarra do liquidificador",
+      "cadeiras de madeira curva e mesa de granito",
+      "palmeiras altas em frente ao parque",
+      "corredor de lancheria, luz fluorescente, pedido no grito"
+    ],
+    "references": [
+      {
+        "label": "Wikipedia — Lancheria do Parque",
+        "url": "https://pt.wikipedia.org/wiki/Lancheria_do_Parque"
+      },
+      {
+        "label": "Wikimedia — toldo na Osvaldo Aranha (Hedestad, CC BY-SA 4.0)",
+        "url": "https://commons.wikimedia.org/wiki/File:Toldo_da_Lancheria_do_Parque,_na_avenida_Osvaldo_Aranha,_Porto_Alegre.jpg"
+      },
+      {
+        "label": "Wikimedia — fachada (Hedestad, CC BY-SA 4.0)",
+        "url": "https://commons.wikimedia.org/wiki/File:Fachada_da_Lancheria_do_Parque_3.jpg"
+      },
+      {
+        "label": "QuintoAndar — toldo vermelho vivo",
+        "url": "https://www.quintoandar.com.br/regioes-atendidas/porto-alegre-rs-brasil-jdj6u9g0k5/local/lancheria-do-parque"
+      },
+      {
+        "label": "Destino POA",
+        "url": "https://destinopoa.com.br/lugar/lancheria-do-parque/"
+      },
+      {
+        "label": "Bom Gourmet / Gazeta — suco na jarra e toldo",
+        "url": "https://bomgourmet.com/bomgourmet/restaurantes/lanchera-ponto-turistico-porto-alegre-agrada-simplicidade-preco/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fotos Wikimedia do toldo e da fachada (Hedestad, 2021): faixa vermelha saturada com letreiro branco sem serifa e ícone branco — o vermelho é a marca, não um accent.",
+    "QuintoAndar, GZH e Bom Gourmet descrevem o ‘pequeno toldo em vermelho vivo’ no 1.086 da Osvaldo Aranha, em frente à Redenção; palmeiras do parque entram como apoio, não como eco-tech.",
+    "Suco servido na própria jarra do liquidificador (marca da casa) — o laranja da laranja/manga vira CTA. Interior: pastilha bege, cadeira de madeira curva, mesa de granito, luz de lancheria diurna.",
+    "Casa de 1982, cooperativa, pedido no grito, xis coração e à la minuta: densidade compacta e cantos retos de formica/pastilha, não boutique arredondada."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-08"
+}
