@@ -33,13 +33,13 @@ export function Location() {
 
           <aside className="hours">
             <div className="hours-now">
-              <div className="hours-now-copy">
-                <span className="hours-now-kicker">Hoje · {hours.label}</span>
+              <span className="hours-now-kicker">Hoje · {hours.label}</span>
+              <div className="hours-now-row">
                 <strong>{hours.open ? "Aberto" : "Fechado"}</strong>
+                <span className={hours.open ? "pill pill-on" : "pill pill-off"}>
+                  {hours.hours}
+                </span>
               </div>
-              <span className={hours.open ? "pill pill-on" : "pill pill-off"}>
-                {hours.hours}
-              </span>
             </div>
             <ul className="hours-list">
               {DAYS.map((day) => {
