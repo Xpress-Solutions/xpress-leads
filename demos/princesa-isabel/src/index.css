@@ -228,19 +228,15 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 0;
 }
 
-.nav-mark {
-  width: 42px;
-  height: 42px;
-  border: 2px solid var(--accent);
+.nav-logo img {
+  height: 44px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
   background: var(--tile);
-  color: var(--brand);
-  font-family: var(--display);
-  font-weight: 700;
-  display: grid;
-  place-items: center;
-  font-size: 1.35rem;
 }
 
 .nav-brand {
@@ -855,6 +851,13 @@ button {
   gap: 24px;
 }
 
+.foot-logo {
+  width: min(280px, 100%);
+  height: auto;
+  margin-bottom: 14px;
+  background: var(--tile);
+}
+
 .foot-brand strong {
   font-family: var(--display);
   font-size: 1.6rem;
@@ -900,6 +903,10 @@ button {
 @media (min-width: 768px) {
   .wrap {
     width: min(1120px, calc(100% - 48px));
+  }
+
+  .nav-logo img {
+    height: 52px;
   }
 
   .nav-brand {

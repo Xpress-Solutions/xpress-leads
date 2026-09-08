@@ -25,7 +25,7 @@ export function Navbar() {
       <header className={`nav ${scrolled || open ? "is-scrolled" : ""}`}>
         <div className="nav-inner">
           <a href="#inicio" className="nav-logo" aria-label={SITE.name}>
-            <span className="nav-mark">P</span>
+            <img src="/logo.png" alt="" width="1800" height="560" />
             <span className="nav-brand">{SITE.shortName}</span>
           </a>
 
