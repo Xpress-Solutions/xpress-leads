@@ -626,6 +626,48 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "buteco-petiscos",
+    name: "Buteco Petiscos",
+    category: "gastronomia",
+    neighborhood: "centro-historico",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 90,
+    address: "Rua Marechal Floriano Peixoto, 387 — Centro Histórico",
+    mapsQuery: "Buteco Petiscos Rua Marechal Floriano Peixoto 387 Porto Alegre",
+    phone: "(51) 3221-3989",
+    whatsapp: "555132213989",
+    instagram: "barchopppetiscos",
+    founded: "1996 (30 anos)",
+    identity:
+      "Boteco de almoço no Centro Histórico. Comida di Buteco 2026 (Bacalhau do Popeye com toque de Olívia). Campeão de Porto Alegre em 2019 com o Atrevido, depois de dois vices. Razão social Bar Chopp Petiscos Ltda (CNPJ 00.984.448/0001-97). Instagram @barchopppetiscos. O Blogspot antigo não é site.",
+    digitalGap:
+      "Blogspot de 2014 e fichas em guia (Comida di Buteco, Restaurant Guru). Sem site oficial. O petisco da edição e o almoço da Marechal Floriano vivem em página de terceiro.",
+    conversionWhy:
+      "30 anos no Centro + campeão 2019 + circuito 2026. Site com o Popeye, o horário de almoço e WhatsApp captura quem hoje cai no concurso ou no blog morto.",
+    approach:
+      "Chegue pelo Bacalhau do Popeye e pelo almoço da Floriano. Deixe claro que o Blogspot não conta como site.",
+    pitch:
+      "O Buteco Petiscos está no Comida di Buteco 2026 e quem busca o Bacalhau do Popeye cai no site do concurso. Um site curto — o petisco, o almoço do Centro e o WhatsApp — deixa o clique na casa.",
+    hours: "Seg–sex 11h–21h · sáb 11h–18h",
+    sources: [
+      {
+        label: "Comida di Buteco 2026",
+        url: "https://comidadibuteco.com.br/buteco/buteco-petiscos/",
+      },
+      {
+        label: "Sabores do Sul 2026",
+        url: "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/",
+      },
+      {
+        label: "G1 — campeão 2019",
+        url: "https://g1.globo.com/comida-di-buteco/2019/noticia/2019/07/17/comida-di-buteco-2019-conheca-os-campeoes-regionais-do-concurso.ghtml",
+      },
+    ],
+    notes:
+      "Também aparece como Bar Chopp Petiscos. Blogspot bardospetiscos.blogspot.com não é site oficial.",
+  },
   ...metroLeads,
 ];
 
