@@ -1,3 +1,4 @@
+import { PHOTOS } from "../data/photos";
 import { useReveal } from "../hooks/useReveal";
 
 export function About() {
@@ -25,16 +26,20 @@ export function About() {
             <li>Estacionamento na rua, vaga nas proximidades</li>
           </ul>
         </div>
-        <div className="about-door" aria-hidden="true">
-          <div>
+        <figure className="about-photo">
+          <img
+            src={PHOTOS.about}
+            alt="Portão de garagem aberto do Café de Garagem, com mesas na calçada e a coxinha na mesa de oficina"
+          />
+          <figcaption>
             <strong>
               Porta
               <br />
               aberta
             </strong>
             <span>Ten-Caten, 112</span>
-          </div>
-        </div>
+          </figcaption>
+        </figure>
       </div>
     </section>
   );

@@ -1,3 +1,4 @@
+import { PHOTOS } from "../data/photos";
 import { useReveal } from "../hooks/useReveal";
 
 const SCORES = [
@@ -28,15 +29,23 @@ export function Reviews() {
             </div>
           ))}
         </div>
-        <article className="rev-card">
-          <p>
-            “Um café dentro de uma garagem, na zona norte de Porto Alegre-RS. O
-            lugar é pequeno com mesas na parte interna e na calçada, com
-            ambientes sem controle do conforto térmico. Oferece cafés, lanches,
-            salgados e almoço com prato feito. O atendimento é muito querido.”
-          </p>
-          <span className="rev-src">iAvaliei · Café de Garagem — Porto Alegre</span>
-        </article>
+        <div className="rev-grid">
+          <figure className="rev-photo">
+            <img
+              src={PHOTOS.review}
+              alt="Foto da review iAvaliei de 15 de abril de 2026: mesa na calçada, coxinha do circuito e o portão da garagem"
+            />
+          </figure>
+          <article className="rev-card">
+            <p>
+              “Um café dentro de uma garagem, na zona norte de Porto Alegre-RS. O
+              lugar é pequeno com mesas na parte interna e na calçada, com
+              ambientes sem controle do conforto térmico. Oferece cafés, lanches,
+              salgados e almoço com prato feito. O atendimento é muito querido.”
+            </p>
+            <span className="rev-src">iAvaliei · Café de Garagem — Porto Alegre</span>
+          </article>
+        </div>
       </div>
     </section>
   );
