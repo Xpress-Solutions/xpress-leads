@@ -1,0 +1,77 @@
+{
+  "leadId": "larica-4-distrito",
+  "name": "Larica 4º Distrito",
+  "positioning": "Esquina da Santos Dumont que existe para matar a fome de verdade: xis na chapa, pastel de carne de panela e a última mesa do 4º Distrito.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "fome honesta",
+    "de esquina",
+    "sem pose",
+    "familiar",
+    "depois da festa"
+  ],
+  "avoid": [
+    "luxo",
+    "gastronomia de chef",
+    "roxo tech",
+    "creme terracotta genérico",
+    "boutique",
+    "dashboard"
+  ],
+  "colors": {
+    "background": "#141210",
+    "foreground": "#F3EEE6",
+    "brand": "#C56A38",
+    "accent": "#C6E04A",
+    "surface": "#221E1A",
+    "muted": "#8B7A68"
+  },
+  "typography": {
+    "display": "Oswald — geométrica condensada como o letreiro LARICA da placa",
+    "body": "Source Sans 3 — grotesk humana para cardápio e endereço",
+    "rationale": "A placa de metal enferrujado na esquina usa LARICA em sans geométrica pesada, com A angular. Display condensada carrega o letreiro; corpo limpo lê pastel, xis e horário no celular. Evitar Inter/Roboto e script de cafeteria."
+  },
+  "imagery": {
+    "heroSubject": "Fachada de esquina na Av. Santos Dumont, 710 — placa corten LARICA / 4º DISTRITO sobre o vão da porta",
+    "atmosphere": [
+      "placa de aço corten enferrujado com tipografia geométrica",
+      "parede de telha ondulada reaproveitada (Voluntários da Pátria)",
+      "cadeiras brancas Eames + madeira clara + ferro preto",
+      "neon verde no mezanino / tela de alambrado",
+      "camisas da seleção na parede de metal",
+      "xis e pastel no papel, maionese da avó na tigela"
+    ],
+    "references": [
+      {
+        "label": "Instagram @larica4distrito",
+        "url": "https://www.instagram.com/larica4distrito/"
+      },
+      {
+        "label": "Jornal do Comércio — abertura na Santos Dumont (fotos Ramiro Sanchez)",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2022/12/875564-operacao-focada-em-lanches-classicos-para-a-madrugada-abre-no-quarto-distrito.html"
+      },
+      {
+        "label": "Destemperados — guia do 4º Distrito",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/experiencias/porto-alegre/noticia/2023/01/dos-classicos-as-novidades-descubra-lugares-para-curtir-o-4a-distrito-em-todos-os-momentos-do-dia-clcv1ita1003r0181v34oc6to.html"
+      },
+      {
+        "label": "Comida di Buteco — Festa na chapa",
+        "url": "https://comidadibuteco.com.br/buteco/larica-4-distrito/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto da fachada (Ramiro Sanchez / JC, dez/2022): prédio de esquina em reboco cinza-claro, placa retangular de aço corten oxidado com LARICA em sans geométrica escura e 4º DISTRITO abaixo — rust #C56A38 vira cor de marca, não terracota de template.",
+    "Interior nas mesmas fotos: parede-destaque de telha ondulada oxidada (os irmãos Baldasso disseram ao JC que as telhas vieram do lixo na Voluntários da Pátria), piso claro, cadeiras brancas, bancos de madeira/ferro, lâmpadas nuas e um neon verde no fundo — o verde-limão entra como accent de CTA, não como ‘eco tech’.",
+    "Letreiro e tipografia da placa pedem display condensada geométrica (Oswald); o A do LARICA é angular. Inter/Roboto quebraria o letreiro da esquina.",
+    "Posicionamento público: ‘matar a larica’ depois da festa, xis/pastel/petisco, último a fechar no quarteirão — fundo asfalto/noite da Santos Dumont, não landing clara de SaaS nem cream+terracotta de IA.",
+    "Destemperados (2023) e Comida di Buteco (Festa na chapa) confirmam comida de chapa, pastel de carne de panela e vibe de ocupação do 4º Distrito — hero é a fachada real, não stock."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-08"
+}

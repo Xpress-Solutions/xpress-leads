@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-label="Larica 4º Distrito">
+  <defs>
+    <linearGradient id="corten" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8A3E22"/>
+      <stop offset="38%" stop-color="#C56A38"/>
+      <stop offset="72%" stop-color="#9A4A28"/>
+      <stop offset="100%" stop-color="#6E3018"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="120" fill="url(#corten)"/>
+  <rect x="6" y="6" width="228" height="108" fill="none" stroke="#2A1810" stroke-width="2" opacity="0.45"/>
+  <text x="120" y="68" text-anchor="middle" fill="#141210" font-family="Oswald, Arial Narrow, sans-serif" font-size="52" font-weight="700" letter-spacing="4">LARICA</text>
+  <text x="120" y="96" text-anchor="middle" fill="#1A120E" font-family="Oswald, Arial Narrow, sans-serif" font-size="16" font-weight="600" letter-spacing="6">4º DISTRITO</text>
+</svg>
