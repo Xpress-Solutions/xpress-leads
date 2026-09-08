@@ -5,7 +5,7 @@ export function Hero() {
     <section className="hero" id="inicio">
       <div className="hero-bg" aria-hidden="true">
         <img
-          src="/fotos/sala.jpg"
+          src="/fotos/picanha.jpg"
           alt=""
         />
       </div>
