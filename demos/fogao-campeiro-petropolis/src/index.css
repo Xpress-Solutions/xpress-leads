@@ -214,8 +214,25 @@ button {
   font-family: var(--font-script);
   font-size: 1.55rem;
   font-weight: 700;
-  color: var(--foreground);
+  color: #fff9f0;
   line-height: 1;
+}
+
+.nav-links a {
+  color: #fff9f0;
+}
+
+.nav-burger span {
+  background: #fff9f0;
+}
+
+.nav.is-scrolled .nav-logo,
+.nav.is-scrolled .nav-links a {
+  color: var(--foreground);
+}
+
+.nav.is-scrolled .nav-burger span {
+  background: var(--foreground);
 }
 
 .nav-logo img {
@@ -228,7 +245,8 @@ button {
   gap: 22px;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav.is-scrolled .nav-links a:hover {
   color: var(--brand);
 }
 
@@ -256,7 +274,6 @@ button {
   display: block;
   width: 18px;
   height: 2px;
-  background: var(--foreground);
 }
 
 .nav-drawer {
