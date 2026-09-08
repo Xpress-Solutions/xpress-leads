@@ -11,9 +11,7 @@ export function Location() {
       <div className="wrap">
         <div className="reveal" ref={ref}>
           <p className="kicker">Onde</p>
-          <h2 className="display" style={{ fontSize: "clamp(2.6rem, 7vw, 4.6rem)" }}>
-            Rua China, 14.
-          </h2>
+          <h2 className="display">Rua China, 14.</h2>
           <p className="lead">
             Novo Hamburgo · {SITE.address.neighborhood}. Entrega e retirada. Liga ou manda um
             WhatsApp no {SITE.phoneDisplay}.

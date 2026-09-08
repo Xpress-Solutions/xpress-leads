@@ -10,9 +10,7 @@ export function Menu() {
       <div className="wrap">
         <div className="menu-head reveal" ref={headRef}>
           <p className="kicker">Cardápio da casa</p>
-          <h2 className="display" style={{ fontSize: "clamp(2.8rem, 8vw, 5rem)" }}>
-            Laçador, Tá Loco, Bah!Tchê.
-          </h2>
+          <h2 className="display">Laçador, Tá Loco, Bah!Tchê.</h2>
           <p className="lead">
             Nomes gaúchos, carne na brasa e preço do Cardápio Web oficial. Pedido pelo WhatsApp{" "}
             {SITE.phoneDisplay} — ou no cardápio digital.
@@ -37,7 +35,7 @@ export function Menu() {
                   </div>
                   <div className="dish-price">
                     {item.price}
-                    <span style={{ fontSize: "0.7rem", marginLeft: 2 }}>R$</span>
+                    <span className="price-unit">R$</span>
                   </div>
                 </article>
               ))}

@@ -9,9 +9,7 @@ export function Reviews() {
       <div className="wrap">
         <div className="reveal" ref={ref}>
           <p className="kicker">Quem já comeu</p>
-          <h2 className="display" style={{ fontSize: "clamp(2.6rem, 7vw, 4.6rem)" }}>
-            A estrela é o hambúrguer.
-          </h2>
+          <h2 className="display">A estrela é o hambúrguer.</h2>
           <div className="score">
             <b>{SITE.rating}</b>
             <div>
@@ -24,7 +22,10 @@ export function Reviews() {
         <div className="rev-grid">
           {REVIEWS.map((review) => (
             <article className="rev-card" key={review.name}>
-              <strong>{review.name}</strong> · {review.source}
+              <p className="rev-meta">
+                <strong className="card-title">{review.name}</strong>
+                <span> · {review.source}</span>
+              </p>
               <p>“{review.text}”</p>
             </article>
           ))}

@@ -9,9 +9,7 @@ export function About() {
       <div className="wrap about-grid">
         <div className="about-copy reveal" ref={ref}>
           <p className="kicker">A casa</p>
-          <h2 className="display" style={{ fontSize: "clamp(2.6rem, 7vw, 4.4rem)" }}>
-            Premium de cidade industrial.
-          </h2>
+          <h2 className="display">Premium de cidade industrial.</h2>
           <p>{SITE.about}</p>
           <p>
             Não é franquia. É a BAH! da China 14: ambiente simples, mesa do lado de fora quando o
