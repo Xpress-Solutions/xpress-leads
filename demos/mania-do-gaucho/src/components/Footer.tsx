@@ -6,7 +6,7 @@ export function Footer() {
       <div className="flag-bar" aria-hidden="true" />
       <div className="wrap foot-grid">
         <div>
-          <img src="/logo.svg" alt="" width={56} height={56} />
+          <img className="foot-logo" src="/logo.png" alt={SITE.name} width={80} height={80} />
           <strong>{SITE.name}</strong>
           <p>
             {SITE.address.street}

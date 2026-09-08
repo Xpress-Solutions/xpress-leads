@@ -4,6 +4,7 @@ export function FinalCta() {
   return (
     <section className="final" id="encomenda">
       <div className="wrap">
+        <img className="final-mark" src="/logo.png" alt="" width={72} height={72} />
         <p className="script">Já pediu a tele de domingo?</p>
         <h2>Reserva o corte antes da fila do sábado.</h2>
         <p>
