@@ -328,7 +328,7 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 78% 42%;
+  object-position: 82% 38%;
 }
 
 .hero-bg::after {
@@ -338,19 +338,19 @@ button {
   background:
     linear-gradient(
       180deg,
-      rgba(12, 9, 8, 0.58) 0%,
-      rgba(12, 9, 8, 0.22) 28%,
-      rgba(12, 9, 8, 0.72) 68%,
-      rgba(12, 9, 8, 0.94) 100%
+      rgba(12, 9, 8, 0.28) 0%,
+      rgba(12, 9, 8, 0.08) 22%,
+      rgba(12, 9, 8, 0.58) 62%,
+      rgba(12, 9, 8, 0.9) 100%
     ),
     linear-gradient(
       90deg,
-      rgba(12, 9, 8, 0.88) 0%,
-      rgba(12, 9, 8, 0.62) 42%,
-      rgba(12, 9, 8, 0.18) 72%,
-      rgba(12, 9, 8, 0.08) 100%
+      rgba(12, 9, 8, 0.82) 0%,
+      rgba(12, 9, 8, 0.42) 46%,
+      rgba(12, 9, 8, 0.08) 78%,
+      transparent 100%
     ),
-    radial-gradient(ellipse at 18% 78%, rgba(139, 25, 25, 0.38), transparent 46%);
+    radial-gradient(ellipse at 14% 80%, rgba(139, 25, 25, 0.28), transparent 42%);
 }
 
 .hero-stage {
@@ -368,15 +368,15 @@ button {
 }
 
 .hero-seal {
-  width: 96px;
-  height: 96px;
+  width: 84px;
+  height: 84px;
   border-radius: 50%;
   background: var(--paper);
   box-shadow:
     0 0 0 2px var(--accent),
-    0 0 0 6px var(--brand),
-    0 16px 36px rgba(0, 0, 0, 0.42);
-  margin: 0 0 18px;
+    0 0 0 5px var(--brand),
+    0 14px 28px rgba(0, 0, 0, 0.4);
+  margin: 0 0 14px;
 }
 
 .hero-kicker {
@@ -409,8 +409,9 @@ button {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   font-weight: 700;
-  color: rgba(246, 239, 228, 0.78);
+  color: rgba(246, 239, 228, 0.9);
   margin-bottom: 8px;
+  text-shadow: 0 1px 10px rgba(12, 9, 8, 0.75);
 }
 
 .hero-banner {
@@ -442,9 +443,10 @@ button {
 .hero-lead {
   max-width: 34rem;
   margin: 0 0 22px;
-  color: rgba(246, 239, 228, 0.86);
+  color: rgba(246, 239, 228, 0.92);
   font-size: 1.02rem;
   line-height: 1.55;
+  text-shadow: 0 1px 12px rgba(12, 9, 8, 0.7);
 }
 
 .hero-actions {
@@ -500,8 +502,14 @@ button {
   text-transform: uppercase;
 }
 
+.hero-rail a:hover {
+  color: var(--accent);
+}
+
 .cloth-bar {
-  height: 14px;
+  height: 16px;
+  position: relative;
+  z-index: 1;
   background:
     repeating-linear-gradient(
       90deg,
@@ -514,10 +522,10 @@ button {
 
 /* QUICK */
 .quick {
-  margin-top: -22px;
+  margin-top: 0;
   position: relative;
   z-index: 2;
-  padding-bottom: 12px;
+  padding: 28px 0 12px;
 }
 
 .quick-grid {
@@ -1078,36 +1086,40 @@ button {
   }
 
   .hero-bg img {
-    object-position: 72% 40%;
+    object-position: 74% 36%;
   }
 
   .hero-bg::after {
     background:
       linear-gradient(
         90deg,
-        rgba(12, 9, 8, 0.92) 0%,
-        rgba(12, 9, 8, 0.72) 36%,
-        rgba(12, 9, 8, 0.22) 62%,
-        rgba(12, 9, 8, 0.1) 100%
+        rgba(12, 9, 8, 0.88) 0%,
+        rgba(12, 9, 8, 0.55) 34%,
+        rgba(12, 9, 8, 0.12) 60%,
+        transparent 100%
       ),
       linear-gradient(
         180deg,
-        rgba(12, 9, 8, 0.42) 0%,
-        transparent 24%,
-        rgba(12, 9, 8, 0.38) 100%
+        rgba(12, 9, 8, 0.28) 0%,
+        transparent 22%,
+        rgba(12, 9, 8, 0.22) 100%
       ),
-      radial-gradient(ellipse at 16% 70%, rgba(139, 25, 25, 0.32), transparent 48%);
+      radial-gradient(ellipse at 14% 72%, rgba(139, 25, 25, 0.22), transparent 46%);
   }
 
   .hero-stage {
     align-items: center;
-    padding: 36px 0 48px;
+    padding: 20px 0 28px;
   }
 
   .hero-seal {
-    width: 128px;
-    height: 128px;
-    margin-bottom: 22px;
+    width: 118px;
+    height: 118px;
+    margin-bottom: 18px;
+  }
+
+  .hero-banner {
+    font-size: clamp(3.4rem, 7vw, 6.4rem);
   }
 
   .hero-actions .btn {

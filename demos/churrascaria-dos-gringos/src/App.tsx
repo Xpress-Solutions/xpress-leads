@@ -20,7 +20,6 @@ export default function App() {
       <Navbar />
       <div id="conteudo">
         <Hero />
-        <div className="cloth-bar" aria-hidden="true" />
         <QuickInfo />
         <Rodizio />
         <Noite />

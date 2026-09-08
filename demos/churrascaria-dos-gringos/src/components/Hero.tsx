@@ -46,9 +46,12 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="hero-rail" aria-hidden="true">
+      <div className="cloth-bar" aria-hidden="true" />
+      <div className="hero-rail">
         <span>{SITE.address.street}</span>
-        <span>{SITE.instagramHandle}</span>
+        <a href={SITE.instagram} target="_blank" rel="noreferrer">
+          {SITE.instagramHandle}
+        </a>
       </div>
     </section>
   );
