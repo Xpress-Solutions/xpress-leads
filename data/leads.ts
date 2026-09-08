@@ -626,6 +626,48 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "confraria-barber-club",
+    name: "Confraria Barber Club",
+    category: "beleza",
+    neighborhood: "cidade-baixa",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 85,
+    address: "Rua José do Patrocínio, 378 — Cidade Baixa",
+    mapsQuery: "Confraria Barber Club Rua José do Patrocínio 378 Porto Alegre",
+    instagram: "confrariabarberclub",
+    googleRating: 5,
+    googleReviews: 199,
+    founded: "2013",
+    identity:
+      "Barbearia da Cidade Baixa, na Rua José do Patrocínio, 378. Empresa familiar de pai e filhos (Luis Eduardo, Lucas, Vinícius, Eduardo Martins). Logo clássico com bigode e 'desde 2013'. Booksy 5.0. Grade longa pensada para a CB: segunda só à tarde, terça a sexta até 21h, sábado até 18h.",
+    digitalGap:
+      "Agenda no Booksy e Instagram ativo, sem site próprio. Quem pesquisa o nome cai em agregador ou no Booksy — a casa não controla a narrativa da confraria nem o endereço da José do Patrocínio.",
+    conversionWhy:
+      "Nota 5.0, horário longo no bairro de maior circulação noturna e marca de família. Uma one-page com a fachada, a equipe, os planos Bruxos/Amigos e o botão de agenda captura a busca de 'barbearia Cidade Baixa' antes do concorrente da mesma rua.",
+    approach:
+      "Chegue pela confraria, não pelo 'você precisa de um site'. Mostre a placa, o toldo listrado e o fato de o clique hoje morrer no Booksy.",
+    pitch:
+      "A Confraria já é 5.0 na José do Patrocínio, mas quem pesquisa barbearia na Cidade Baixa ainda não cai numa página de vocês. Montei um site curto — a fachada, o pai e os filhos, os planos e o Booksy — para o clique ficar na casa.",
+    hours: "Seg 14h–21h · ter–sex 9h–21h · sáb 9h–18h · dom fechado",
+    sources: [
+      {
+        label: "Booksy",
+        url: "https://booksy.com/pt-br/140510_confraria-barber-club_barbearias_804125_porto-alegre",
+      },
+      {
+        label: "Guia Porto Alegre",
+        url: "https://guiaportoalegrers.com.br/cidade-baixa/confraria-barber-club",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/confrariabarberclub/",
+      },
+    ],
+    notes:
+      "Não confundir com a Confraria Barber Club de São Leopoldo (Av. Integração) nem com a rede Confraria da Barba.",
+  },
   ...metroLeads,
 ];
 

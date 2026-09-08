@@ -1,0 +1,78 @@
+{
+  "leadId": "confraria-barber-club",
+  "name": "Confraria Barber Club",
+  "positioning": "Barbearia de família na Cidade Baixa: pai e filhos na cadeira, corte e barba com ofício — clube de rua, não boutique dourada.",
+  "mood": "limpo-servico",
+  "voice": [
+    "familiar",
+    "direto",
+    "de confraria",
+    "Cidade Baixa",
+    "ofício sem pose"
+  ],
+  "avoid": [
+    "luxo dourado",
+    "gentlemen's club inglês forçado",
+    "neon",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto como display"
+  ],
+  "colors": {
+    "background": "#121212",
+    "foreground": "#F3F0E8",
+    "brand": "#F7F4EC",
+    "accent": "#C8102E",
+    "surface": "#1B1B1B",
+    "muted": "#8A8680"
+  },
+  "typography": {
+    "display": "Cinzel — serifada clássica de letreiro de barbearia",
+    "body": "Outfit / grotesk limpa para horários, preços e reviews",
+    "rationale": "O logo e a placa da parede empilham CONFRARIA / BARBER em serifada preta com bigode e faixa CLUB. O cartaz de planos da casa é carvão + branco + vermelho no preço. Cinzel carrega o letreiro; Outfit lê a grade longa da José do Patrocínio. Evitar Inter/Roboto no nome e dourado de barbearia genérica."
+  },
+  "imagery": {
+    "heroSubject": "Fachada na Rua José do Patrocínio, 378: toldo preto-e-branco em ondas, poste de barbeiro e a equipe na calçada",
+    "atmosphere": [
+      "toldo listrado preto e branco",
+      "poste clássico vermelho-branco-azul",
+      "parede de cimento queimado e piso xadrez cinza",
+      "salão branco com placas vintage e madeira das bancadas",
+      "uniforme preto da família",
+      "luz de LED e pendentes pretos"
+    ],
+    "references": [
+      {
+        "label": "Instagram @confrariabarberclub",
+        "url": "https://www.instagram.com/confrariabarberclub/"
+      },
+      {
+        "label": "Booksy — logo, fachada e serviços",
+        "url": "https://booksy.com/pt-br/140510_confraria-barber-club_barbearias_804125_porto-alegre"
+      },
+      {
+        "label": "Guia Porto Alegre — interior José do Patrocínio",
+        "url": "https://guiaportoalegrers.com.br/cidade-baixa/confraria-barber-club"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/confrariabarberclub"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial no Booksy: fundo prata com tesoura/navalha em marca d'água, CONFRARIA + BARBER em serifada preta, bigode central, faixa CLUB e 'desde 2013' — paleta preta/branca, não dourada.",
+    "Capa Booksy da fachada: toldo escama preto-e-branco, poste clássico vermelho-branco-azul, placa ABERTO verde e equipe de camiseta preta com o retângulo CONFRARIA BARBER CLUB no peito.",
+    "Interior no Guia Porto Alegre (José do Patrocínio): parede de cimento queimado cinza, piso xadrez em três cinzas, painéis de LED, cadeiras pretas e capas com o logo circular.",
+    "Fotos do salão no Booksy: parede branca com a placa CONFRARIA BARBER + postes laterais, bancada de madeira, pendentes pretos e placas de rua — clube de bairro, não spa.",
+    "Cartaz de planos da casa (Booksy/IG): fundo carvão, títulos BRUXOS DA CONFRARIA / AMIGOS DA CONFRARIA, ícones brancos e preço em vermelho vivo — o accent de CTA e valor vem daqui, do poste, não de um vermelho inventado.",
+    "Bio do Instagram e texto Booksy: 'Corte e barba com tradição familiar' e 'empresa familiar composta por pai e filhos' — voz de confraria, não de rede. Horário longo da CB no destaque: seg 14–21, ter–sex 9–21, sáb 9–18."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-08"
+}
