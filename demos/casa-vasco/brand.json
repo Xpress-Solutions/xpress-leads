@@ -1,0 +1,83 @@
+{
+  "leadId": "casa-vasco",
+  "name": "Casa Vasco",
+  "positioning": "Armazém de vinhos e cachaças num casarão de 1957 no Bom Fim — duas irmãs (destiladora + sommelier), não boteco de esquina.",
+  "mood": "artesanal",
+  "voice": [
+    "intimista",
+    "de casarão",
+    "curadoria sem pose",
+    "irmãs",
+    "descomplica o vinho e a cachaça"
+  ],
+  "avoid": [
+    "boteco",
+    "neon",
+    "chope e petisco de esquina",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Bebas / placa de armazém"
+  ],
+  "colors": {
+    "background": "#1A2832",
+    "foreground": "#F3EBE0",
+    "brand": "#7A3148",
+    "accent": "#D4B24A",
+    "surface": "#243844",
+    "muted": "#C4A4A8"
+  },
+  "typography": {
+    "display": "Cormorant Garamond — serifada de casarão / rótulo, não placa de boteco",
+    "body": "Source Sans 3 — grotesk limpa para horários, carta e WhatsApp",
+    "rationale": "O letreiro da fachada é branco e elegante sobre stucco ameixa; o interior é petrol com globos de latão. Serifada no nome carrega o casarão de 1957; corpo limpo para a bodega. Evitar Bebas (Anita) e Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Fachada ameixa da Vasco da Gama 207: toldo rosa recortado, esquadrias mostarda com grade em losango, vitrine de garrafas e o letreiro CASA VASCO",
+    "atmosphere": [
+      "casarão 1957 / stucco ameixa",
+      "esquadrias e grades mostarda em losango",
+      "toldo rosa em festão",
+      "prateleiras de madeira lotadas de vinhos e cachaças",
+      "paredes e teto petrol / azul-ardósia",
+      "globos brancos em haste de latão",
+      "barril na calçada e mesas de madeira",
+      "Larissa e Carolina atrás do balcão"
+    ],
+    "references": [
+      {
+        "label": "Instagram @casavasco207",
+        "url": "https://www.instagram.com/casavasco207/"
+      },
+      {
+        "label": "Gastronomia RS — cardápio e casa dos anos 50",
+        "url": "https://gastronomiars.com.br/casa-vasco-armazem-de-bebidas-e-gastrobar-no-bom-fim-apresenta-novidades-no-cardapio/"
+      },
+      {
+        "label": "Jornal do Comércio — fachada e irmãs (Thayná Weissbach)",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2024/05/1156619-em-casa-dos-anos-1950-no-bom-fim-bar-e-armazem-de-bebidas-destaca-rotulos-de-produtores-gauchos.html"
+      },
+      {
+        "label": "Revista Sabores do Sul — interior petrol e globos",
+        "url": "https://revistasaboresdosul.com.br/casa-vasco-armazem-de-bebidas-bar-cafe-e-gastronomia/"
+      },
+      {
+        "label": "Correio do Povo — lustre da avó e casarão 1957",
+        "url": "https://www.correiodopovo.com.br/bellamais/carreira/liderado-por-mulheres-espa%C3%A7o-gastron%C3%B4mico-no-bom-fim-desmistifica-o-vinho-e-a-cacha%C3%A7a-1.1531916"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto JC da fachada (Thayná Weissbach): stucco ameixa/bordeaux, toldo rosa em festão, esquadrias e grades em losango mostarda, letreiro branco CASA VASCO / ARMAZÉM DE BEBIDAS • BAR • CAFÉ, placa 207, barril e mesas na calçada.",
+    "Fotos JC e Sabores do Sul do interior: paredes e teto petrol/azul-ardósia, prateleiras de madeira escura lotadas de garrafas, balcão claro com frente canelada, três globos brancos em haste de latão, janela mostarda.",
+    "As irmãs Larissa (destiladora, Bitoca) e Carolina (sommelier) aparecem atrás do balcão com rótulos gaúchos e importados — o site precisa soar 'casinha das duas', não gastrobar genérico.",
+    "Gastronomia RS e Destino POA: sem carta de vinhos — o cliente escolhe na bodega; 120+ vinhos / ~70 cachaças; horário ter–sex 17h–0h.",
+    "Guardanapo da casa (Mari Lopes / Gastronomia RS) traz o casarão em linha e a palavra CACHAÇA no descanso de talher — marca de armazém, não de boteco."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}
