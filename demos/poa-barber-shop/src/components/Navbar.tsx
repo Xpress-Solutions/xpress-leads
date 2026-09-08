@@ -48,7 +48,7 @@ export function Navbar() {
               Agendar
             </a>
             <button
-              className="nav-burger"
+              className={`nav-burger${open ? " is-open" : ""}`}
               aria-label={open ? "Fechar menu" : "Abrir menu"}
               aria-expanded={open}
               onClick={() => setOpen((v) => !v)}
