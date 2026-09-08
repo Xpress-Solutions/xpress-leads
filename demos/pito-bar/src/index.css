@@ -316,6 +316,17 @@ button {
   overflow-wrap: anywhere;
 }
 
+.nav-drawer .btn {
+  font-family: var(--body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 12px;
+}
+
 /* HERO */
 .hero {
   min-height: 100svh;
@@ -357,7 +368,7 @@ button {
   font-family: var(--display);
   font-weight: 800;
   font-size: clamp(3.6rem, 22vw, 12rem);
-  line-height: 0.92;
+  line-height: 1;
   letter-spacing: -0.05em;
   text-transform: lowercase;
   margin: 0 0 12px;
@@ -752,6 +763,17 @@ button {
   height: 28px;
 }
 
+@media (max-width: 767px) {
+  .lead,
+  .hero-meta,
+  .petisco-grid > :last-child,
+  .casa-copy,
+  .hours,
+  .cta-box p {
+    padding-inline-end: 64px;
+  }
+}
+
 @media (max-width: 400px) {
   .section {
     padding: 56px 0;
@@ -789,6 +811,7 @@ button {
 
   .hours {
     padding: 16px 14px;
+    padding-inline-end: 64px;
   }
 
   .cta-box {
