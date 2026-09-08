@@ -626,6 +626,51 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "larica-4-distrito",
+    name: "Larica 4º Distrito",
+    category: "gastronomia",
+    neighborhood: "floresta",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 88,
+    address: "Av. Santos Dumont, 710 — Floresta (esquina com Álvaro Chaves)",
+    mapsQuery: "Larica 4 Distrito Av. Santos Dumont 710 Porto Alegre",
+    phone: "(51) 3015-8835",
+    whatsapp: "555130158835",
+    instagram: "larica4distrito",
+    founded: "2022",
+    identity:
+      "Restaurante/bar do 4º Distrito na esquina da Santos Dumont: comida de verdade, petiscos e vibe de ocupação criativa. Irmãos Eduardo e Paula Baldasso abriram em outubro de 2022 para matar a larica de quem sai das festas — xis na chapa, pastel de massa artesanal com carne de panela e a maionese da avó. Parede-destaque de telhas reaproveitadas. Participou do Comida di Buteco com o petisco Festa na chapa.",
+    digitalGap:
+      "Instagram @larica4distrito e fichas de concurso/guias. Sem site próprio: quem busca o endereço ou o petisco cai em matéria de 2022 ou no Comida di Buteco.",
+    conversionWhy:
+      "Casa de esquina com prato de concurso, cardápio de larica (xis, pastel, porção) e horário de noite. Site com a fachada, o que pedir e o WhatsApp converte o 4º Distrito e quem vem pelo buteco.",
+    approach:
+      "Chegue pela fome e pela esquina, não por ‘você precisa de um site’. Mostre a placa corten, o Festa na chapa e o telefone que hoje só aparece em guia de terceiro.",
+    pitch:
+      "A Larica já é o ponto da Santos Dumont 710 pra quem sai da festa com fome, mas o clique ainda cai no JC ou no Comida di Buteco. Montei uma página com a fachada, o pastel, o xis e o WhatsApp — pra o 4º Distrito achar a casa, não o guia.",
+    hours:
+      "Qua 17h30–22h · qui 17h30–0h · sex 14h–0h · sáb 17h30–0h · dom 17h30–22h · seg e ter fechado",
+    sources: [
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/larica4distrito/",
+      },
+      {
+        label: "Jornal do Comércio",
+        url: "https://www.jornaldocomercio.com/ge2/noticias/2022/12/875564-operacao-focada-em-lanches-classicos-para-a-madrugada-abre-no-quarto-distrito.html",
+      },
+      {
+        label: "Destemperados",
+        url: "https://gauchazh.clicrbs.com.br/destemperados/experiencias/porto-alegre/noticia/2023/01/dos-classicos-as-novidades-descubra-lugares-para-curtir-o-4a-distrito-em-todos-os-momentos-do-dia-clcv1ita1003r0181v34oc6to.html",
+      },
+      {
+        label: "Comida di Buteco",
+        url: "https://comidadibuteco.com.br/buteco/larica-4-distrito/",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
