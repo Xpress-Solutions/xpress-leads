@@ -626,6 +626,52 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "anticuario-resto-bar",
+    name: "Anticuário Restô Bar",
+    category: "gastronomia",
+    neighborhood: "cidade-baixa",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 90,
+    address: "Rua General Lima e Silva, 985 loja 2 — Cidade Baixa",
+    mapsQuery: "Anticuário Restô Bar Rua Lima e Silva 985 Porto Alegre",
+    phone: "(51) 3225-4020",
+    whatsapp: "555132254020",
+    instagram: "anticuariorestobar",
+    googleRating: 4.7,
+    googleReviews: 304,
+    founded: "abril de 2002 (Ricardo Meghdessian e Ana Maria Bedrosian)",
+    identity:
+      "Restô-bar uruguaio na Lima e Silva, Cidade Baixa. Chivito, pancho, empanada e pizza à xadrez. Decoração de anticuário — peças argentinas, uruguaias e americanas, telefone de disco, plaquinhas em espanhol. Casa de família: os donos atendem e respondem em espanhol. Música ao vivo no salão.",
+    digitalGap:
+      "Instagram e Facebook oficiais, sem site. Quem busca chivito na Cidade Baixa cai em guia (Restaurant Guru, hagah, GZH) e não numa página da casa com cardápio, horário e WhatsApp.",
+    conversionWhy:
+      "Identidade rara (Uruguai + anticuário) + 20+ anos no mesmo endereço + nota 4.7. Site com o chivito, a fachada 985 e o WhatsApp captura o clique que hoje fica no Maps.",
+    approach:
+      "Chegue pelo chivito e pelas peças, não pelo 'você precisa de um site'. Mostre a fachada e o salão — a casa já tem cara, falta o endereço digital.",
+    pitch:
+      "O Anticuário já é o pedaço do Uruguai na Lima e Silva, mas quem pesquisa chivito ainda cai em guia. Montei uma página com a casa de verdade — o letreiro, o salão e o WhatsApp — para o clique ficar com vocês.",
+    hours: "Qua–sex 18h–1h · sáb 19h–1h · dom 18h–0h · seg e ter fechado (listagem recente; fontes antigas citam diariamente 18h–2h)",
+    sources: [
+      {
+        label: "Restaurant Guru",
+        url: "https://www.restaurantguru.com.br/Anticuario-Resto-Bar-Porto-Alegre",
+      },
+      {
+        label: "Destemperados / GZH",
+        url: "https://gauchazh.clicrbs.com.br/destemperados/experiencias/porto-alegre/noticia/2021/09/a-diversidade-da-cidade-baixa-descubra-24-lugares-no-bairro-que-fez-historia-na-gastronomia-ckt2zl8l70034013ba4jpv96b.html",
+      },
+      {
+        label: "Guia da Semana",
+        url: "https://www.guiadasemana.com.br/porto-alegre/bares/estabelecimento/anticuario-resto-bar",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/anticuariorestobar/",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 

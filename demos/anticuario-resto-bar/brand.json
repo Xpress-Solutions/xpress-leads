@@ -1,0 +1,82 @@
+{
+  "leadId": "anticuario-resto-bar",
+  "name": "Anticuário Restô Bar",
+  "positioning": "Restô-bar uruguaio na Lima e Silva: chivito, pancho e peças de anticuário — um pedaço do Uruguai na Cidade Baixa, não bar de avenida.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "familiar",
+    "espanhol no meio da frase",
+    "de esquina",
+    "peça com história",
+    "bienvenidos"
+  ],
+  "avoid": [
+    "luxo",
+    "minimalismo frio",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto display",
+    "cards no hero",
+    "stock de restaurante"
+  ],
+  "colors": {
+    "background": "#120D09",
+    "foreground": "#F3E4C0",
+    "brand": "#C9A24A",
+    "accent": "#B31B2C",
+    "surface": "#231810",
+    "muted": "#8A6F4A"
+  },
+  "typography": {
+    "display": "Tangerine (script do letreiro ouro) + Cormorant Garamond nos títulos",
+    "body": "Source Sans 3 — grotesk humanista para cardápio e horário",
+    "rationale": "O letreiro da fachada escreve Anticuário em cursiva ouro sobre madeira escura; a serifada de livro segura seções sem virar café hipster. Evitar Inter/Roboto/Bebas — as duas demos ouro já usam Bebas, e esta casa pede letra de placa antiga."
+  },
+  "imagery": {
+    "heroSubject": "Fachada na Lima e Silva 985: placa de madeira, Anticuário em ouro cursivo, bandeiras do Uruguai e porta aberta para o salão âmbar",
+    "atmosphere": [
+      "madeira escura e pedra do 985",
+      "peças penduradas, telefone de disco, rolhas, mosaico Peñarol e plaquinhas",
+      "toalha xadrez vermelha",
+      "luz âmbar, lampião e neon baixo",
+      "chivito/pancho e pizza uruguaia",
+      "violão ao vivo no salão"
+    ],
+    "references": [
+      {
+        "label": "Instagram @anticuariorestobar",
+        "url": "https://www.instagram.com/anticuariorestobar/"
+      },
+      {
+        "label": "Restaurant Guru — 120 fotos (interior 2025, fachada, comida)",
+        "url": "https://www.restaurantguru.com.br/Anticuario-Resto-Bar-Porto-Alegre"
+      },
+      {
+        "label": "Facebook oficial",
+        "url": "https://www.facebook.com/anticuariorestobar/"
+      },
+      {
+        "label": "Destemperados / GZH — Joana Berwanger, 2021",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/experiencias/porto-alegre/noticia/2021/09/a-diversidade-da-cidade-baixa-descubra-24-lugares-no-bairro-que-fez-historia-na-gastronomia-ckt2zl8l70034013ba4jpv96b.html"
+      },
+      {
+        "label": "Guia da Semana — antiguidades AR/UY/US",
+        "url": "https://www.guiadasemana.com.br/porto-alegre/bares/estabelecimento/anticuario-resto-bar"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fotos da fachada (Google/Restaurant Guru, 2025): placa de madeira escura, 'Anticuário' em cursiva ouro, 'RESTO BAR' em caixa-alta ouro, duas bandeiras do Uruguai e o número 985 na pedra — ouro + nogueira viram brand e fundo.",
+    "Toalhas xadrez vermelho-creme nas mesas (panchos, pizza) e neon/placas vermelhas no salão — o vermelho do xadrez é o accent de CTA, não um terracotta de template.",
+    "Interior confirmado como anticuário: Ricardo Meghdessian (GZH 2021) diz que 'cada coisinha pendurada tem uma história'; reviews e fotos mostram telefone de disco, rolhas, vinil, plaquinhas em espanhol, mosaico amarelo-preto (Peñarol) com o script da casa e mesas de máquina de costura.",
+    "Luz de noite (abre ao entardecer): lampião, lâmpadas Edison, salão âmbar — site escuro, não landing diurna de armazém.",
+    "Cardápio público no quadro da porta: PANCHOS, EMPANADAS, PIZZAS, CERVEZA, VINOS; chivito citado em hagah, guias e no brief do lead."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}
