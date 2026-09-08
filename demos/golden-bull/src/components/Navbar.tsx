@@ -31,7 +31,7 @@ export function Navbar() {
       <header className={`nav ${on || open ? "is-on" : ""}`}>
         <div className="nav-inner">
           <a className="nav-logo" href="#inicio" aria-label={SITE.name}>
-            <img src="/logo.svg" alt="" />
+            <img src="/logo.png" alt="" width={40} height={40} />
             <span>Golden Bull</span>
           </a>
           <nav className="nav-links" aria-label="Principal">
