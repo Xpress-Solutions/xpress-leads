@@ -32,6 +32,7 @@ export type Neighborhood =
   | "restinga"
   | "vila-jardim"
   | "sao-joao"
+  | "santa-maria-goretti"
   | "vila-ipiranga"
   | "vila-joao-pessoa"
   | "santa-rosa-de-lima"
