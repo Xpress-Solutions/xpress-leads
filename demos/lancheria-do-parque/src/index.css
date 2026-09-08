@@ -376,17 +376,17 @@ button {
   align-items: center;
   gap: 10px 12px;
   flex-wrap: wrap;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 
 .hero-logo {
-  width: 72px;
-  height: 72px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   background: #fff8ee;
-  padding: 5px;
+  padding: 4px;
   flex: 0 0 auto;
-  box-shadow: 0 8px 20px rgba(27, 21, 18, 0.28);
+  box-shadow: 0 6px 16px rgba(27, 21, 18, 0.24);
 }
 
 .hero-awning {
@@ -410,12 +410,13 @@ button {
   flex-direction: column;
   align-items: flex-start;
   font-family: var(--display);
-  font-size: clamp(2.55rem, 10.4vw, 3.35rem);
-  line-height: 0.94;
+  font-size: clamp(2.45rem, 10vw, 3.2rem);
+  line-height: 1.04;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  margin: 0 0 10px;
+  margin: 0 0 14px;
   max-width: 100%;
+  gap: 0.06em;
 }
 
 .hero-title-a,
@@ -430,8 +431,8 @@ button {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
-  line-height: 1.2;
-  margin: 0 0 12px;
+  line-height: 1.25;
+  margin: 0 0 14px;
   max-width: 100%;
 }
 
@@ -443,25 +444,21 @@ button {
   margin: 0 0 20px;
 }
 
-@media (max-width: 479px) {
-  .hero-topline {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
 @media (max-width: 374px) {
   .hero-logo {
-    width: 64px;
-    height: 64px;
+    width: 52px;
+    height: 52px;
   }
 
   .hero-title {
-    font-size: 2.55rem;
+    font-size: 2.4rem;
+    line-height: 1.06;
+    margin-bottom: 16px;
   }
 
   .hero-legal {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
+    margin-bottom: 12px;
   }
 
   .hero-lead {
@@ -986,9 +983,9 @@ button {
   }
 
   .hero-logo {
-    width: 88px;
-    height: 88px;
-    padding: 6px;
+    width: 72px;
+    height: 72px;
+    padding: 5px;
   }
 
   .hero-awning {
@@ -1002,9 +999,9 @@ button {
     flex-wrap: nowrap;
     align-items: baseline;
     gap: 0.22em;
-    font-size: clamp(4.1rem, 8.4vw, 5.8rem);
-    line-height: 0.92;
-    margin-bottom: 12px;
+    font-size: clamp(4rem, 8vw, 5.6rem);
+    line-height: 1;
+    margin-bottom: 16px;
   }
 
   .hero-legal {
@@ -1080,13 +1077,13 @@ button {
   }
 
   .hero-logo {
-    width: 104px;
-    height: 104px;
+    width: 88px;
+    height: 88px;
   }
 
   .hero-title {
-    font-size: clamp(5.4rem, 7.6vw, 7.2rem);
-    line-height: 0.9;
+    font-size: clamp(5.2rem, 7.2vw, 6.8rem);
+    line-height: 1;
   }
 
   .hero-legal {
