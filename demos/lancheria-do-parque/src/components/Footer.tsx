@@ -5,6 +5,13 @@ export function Footer() {
     <footer className="footer">
       <div className="wrap foot-grid">
         <div className="foot-brand">
+          <img
+            className="foot-logo"
+            src="/logo.png"
+            width={1024}
+            height={1024}
+            alt=""
+          />
           <strong>{SITE.name}</strong>
           <p>
             {SITE.address.street}

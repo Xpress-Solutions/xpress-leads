@@ -225,6 +225,7 @@ button {
   width: 44px;
   height: 44px;
   flex: 0 0 auto;
+  box-shadow: 0 0 0 1px rgba(255, 248, 238, 0.18);
 }
 
 .nav-brand {
@@ -337,7 +338,7 @@ button {
   position: relative;
   display: grid;
   align-items: end;
-  padding: calc(var(--nav-h) + 28px) 0 48px;
+  padding: calc(var(--nav-h) + 20px) 0 40px;
   overflow: hidden;
   color: var(--surface);
 }
@@ -366,45 +367,106 @@ button {
 .hero-content {
   position: relative;
   z-index: 1;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.hero-topline {
+  display: flex;
+  align-items: center;
+  gap: 10px 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.hero-logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  background: #fff8ee;
+  padding: 5px;
+  flex: 0 0 auto;
+  box-shadow: 0 8px 20px rgba(27, 21, 18, 0.28);
 }
 
 .hero-awning {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   background: var(--brand);
   color: var(--surface);
-  padding: 8px 14px;
+  padding: 7px 12px;
   font-family: var(--display);
-  letter-spacing: 0.16em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  font-size: 0.78rem;
-  margin-bottom: 16px;
+  font-size: 0.68rem;
+  margin: 0;
+  max-width: 100%;
+  line-height: 1.2;
 }
 
-.hero h1 {
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   font-family: var(--display);
-  font-size: clamp(3.6rem, 14vw, 8.4rem);
-  line-height: 0.84;
+  font-size: clamp(2.55rem, 10.4vw, 3.35rem);
+  line-height: 0.94;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  margin: 0 0 8px;
-  max-width: 12ch;
+  margin: 0 0 10px;
+  max-width: 100%;
+}
+
+.hero-title-a,
+.hero-title-name {
+  display: block;
+  min-width: 0;
 }
 
 .hero-legal {
   font-family: var(--display);
-  font-size: clamp(1.1rem, 3vw, 1.7rem);
-  letter-spacing: 0.12em;
+  font-size: clamp(0.95rem, 3.4vw, 1.25rem);
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
-  margin: 0 0 16px;
+  line-height: 1.2;
+  margin: 0 0 12px;
+  max-width: 100%;
 }
 
-.hero p {
+.hero-lead {
   max-width: 34rem;
   color: rgba(255, 248, 238, 0.86);
-  font-size: 1.08rem;
-  margin: 0 0 22px;
+  font-size: 1rem;
+  line-height: 1.45;
+  margin: 0 0 20px;
+}
+
+@media (max-width: 479px) {
+  .hero-topline {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 374px) {
+  .hero-logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .hero-title {
+    font-size: 2.55rem;
+  }
+
+  .hero-legal {
+    font-size: 0.95rem;
+  }
+
+  .hero-lead {
+    font-size: 0.98rem;
+  }
 }
 
 .hero-actions {
@@ -858,6 +920,15 @@ button {
   gap: 24px;
 }
 
+.foot-logo {
+  width: 88px;
+  height: 88px;
+  object-fit: contain;
+  background: #fff8ee;
+  padding: 6px;
+  margin-bottom: 12px;
+}
+
 .foot-brand strong {
   font-family: var(--display);
   letter-spacing: 0.08em;
@@ -908,6 +979,43 @@ button {
 @media (min-width: 768px) {
   .wrap {
     width: min(1120px, calc(100% - 48px));
+  }
+
+  .hero {
+    padding: calc(var(--nav-h) + 28px) 0 56px;
+  }
+
+  .hero-logo {
+    width: 88px;
+    height: 88px;
+    padding: 6px;
+  }
+
+  .hero-awning {
+    font-size: 0.76rem;
+    letter-spacing: 0.14em;
+    padding: 8px 14px;
+  }
+
+  .hero-title {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    gap: 0.22em;
+    font-size: clamp(4.1rem, 8.4vw, 5.8rem);
+    line-height: 0.92;
+    margin-bottom: 12px;
+  }
+
+  .hero-legal {
+    font-size: clamp(1.15rem, 2.2vw, 1.55rem);
+    letter-spacing: 0.12em;
+    margin-bottom: 14px;
+  }
+
+  .hero-lead {
+    font-size: 1.08rem;
+    margin-bottom: 22px;
   }
 
   .quick-grid {
@@ -968,7 +1076,26 @@ button {
 
   .hero {
     align-items: center;
-    padding-bottom: 80px;
+    padding: calc(var(--nav-h) + 36px) 0 80px;
+  }
+
+  .hero-logo {
+    width: 104px;
+    height: 104px;
+  }
+
+  .hero-title {
+    font-size: clamp(5.4rem, 7.6vw, 7.2rem);
+    line-height: 0.9;
+  }
+
+  .hero-legal {
+    font-size: clamp(1.35rem, 1.8vw, 1.7rem);
+  }
+
+  .foot-logo {
+    width: 104px;
+    height: 104px;
   }
 }
 
