@@ -626,6 +626,46 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "barack-barber",
+    name: "Barack Barber House",
+    category: "beleza",
+    neighborhood: "passo-dareia",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 90,
+    address: "Av. dos Prazeres, 145 — Passo D'Areia (ao lado do Iguatemi)",
+    mapsQuery: "Barack Barber House Avenida dos Prazeres 145 Porto Alegre",
+    instagram: "barackbarber",
+    googleRating: 5,
+    googleReviews: 192,
+    founded: "2021",
+    identity:
+      "Barbearia da Zona Norte com Richard Chagas Ferreira — o Professor. Navalha, combo e hora marcada. Booksy 5.0. Ao lado do Iguatemi, Passo D'Areia. Logo navy e ouro, EST. MMXXI, Quality above all!",
+    digitalGap:
+      "Agenda no Booksy e bio do Richard no Wix (barackbarber.com). A casa não tem one-page própria com serviços, horários e a narrativa do Professor — o clique cai no agregador.",
+    conversionWhy:
+      "Ticket recorrente + 5.0 unânime + personagem (historiador/barbeiro). Site com combo, navalha, a casa e o Booksy captura quem busca 'barbearia Iguatemi' ou o nome Barack.",
+    approach:
+      "Chegue pelo Professor e pelo 5.0, não pelo 'você precisa de site'. Mostre que o Booksy fala pela casa e que o Wix é currículo, não conversão.",
+    pitch:
+      "O Barack já é 5.0 no Booksy e o Richard tem livro e escolas de fora. O que falta é a página da casa — combo, navalha, Prazeres 145 — para o clique não parar no agregador.",
+    hours: "Seg–sex 9h–12h e 13h–20h · sáb 9h–12h e 13h–17h40",
+    sources: [
+      {
+        label: "Booksy",
+        url: "https://booksy.com/pt-br/126144_barack-barber-house_barbearias_804125_porto-alegre",
+      },
+      {
+        label: "Site do Richard",
+        url: "https://www.barackbarber.com/",
+      },
+      {
+        label: "GZH — livro",
+        url: "https://gauchazh.clicrbs.com.br/colunistas/juliana-bublitz/noticia/2023/12/barbeiro-de-porto-alegre-lanca-livro-sobre-a-historia-da-profissao-clq2q86ln0038011wc6gat0o3.html",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 

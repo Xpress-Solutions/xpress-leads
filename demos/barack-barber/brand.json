@@ -1,0 +1,80 @@
+{
+  "leadId": "barack-barber",
+  "name": "Barack Barber House",
+  "positioning": "Barbearia clássica da Zona Norte: navalha, combo e hora marcada na casa do Richard — o Professor — ao lado do Iguatemi.",
+  "mood": "artesanal",
+  "voice": [
+    "clássico",
+    "professor",
+    "nobre arte",
+    "direto",
+    "zona norte",
+    "excelência sem pose"
+  ],
+  "avoid": [
+    "neon",
+    "fade factory genérico",
+    "roxo tech",
+    "creme terracotta de IA",
+    "Inter/Roboto de display",
+    "luxo de shopping"
+  ],
+  "colors": {
+    "background": "#08121F",
+    "foreground": "#F3EBD8",
+    "brand": "#C9A227",
+    "accent": "#D4AF37",
+    "surface": "#122033",
+    "muted": "#8A9BB0"
+  },
+  "typography": {
+    "display": "Cinzel — serifada heráldica, no espírito do letreiro BARACK BARBER HOUSE e da coroa",
+    "body": "Outfit / grotesk limpa para serviços, horários e reviews",
+    "rationale": "O logo oficial é serifada em arco + script em Quality above all!. Display precisa carregar coroa/brasão, não poster de boteco (Bebas) nem SaaS (Inter)."
+  },
+  "imagery": {
+    "heroSubject": "Fachada noturna na Av. dos Prazeres — parede navy texturizada, grade amarela, logo no vidro e interior terracota aceso",
+    "atmosphere": [
+      "coroa e escudo BB no logo",
+      "parede terracota com relevo em escama",
+      "poste clássico vermelho e branco",
+      "cadeira de couro e madeira escura",
+      "navalha, toalha quente e tigela de espuma",
+      "fotos P&B vintage nas paredes",
+      "jaleco branco com Barack em script"
+    ],
+    "references": [
+      {
+        "label": "Booksy — Barack Barber House",
+        "url": "https://booksy.com/pt-br/126144_barack-barber-house_barbearias_804125_porto-alegre"
+      },
+      {
+        "label": "Site do Richard — barackbarber.com",
+        "url": "https://www.barackbarber.com/"
+      },
+      {
+        "label": "Instagram @barackbarber",
+        "url": "https://www.instagram.com/barackbarber/"
+      },
+      {
+        "label": "GZH — livro da nobre arte",
+        "url": "https://gauchazh.clicrbs.com.br/colunistas/juliana-bublitz/noticia/2023/12/barbeiro-de-porto-alegre-lanca-livro-sobre-a-historia-da-profissao-clq2q86ln0038011wc6gat0o3.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial no Booksy: círculo navy, BARACK BARBER HOUSE em ouro serifado, coroa, escudo com BB sobrepostos em azul-céu e ardósia, EST. MMXXI e o script Quality above all!.",
+    "Foto da fachada (cliente Booksy): parede navy texturizada, grade amarela, logo no vidro, toldo escuro e interior laranja/terracota aceso — a casa é marinho por fora e terracota por dentro.",
+    "Fotos de interior no Booksy: parede terracota com relevo em escama, poste de barbeiro, cadeira de couro, madeira, pomadas e retratos P&B — old school, não studio cinza.",
+    "Still-life no Wix (barackbarber.com): navalha aberta, tigela de espuma e set cobre sobre madeira escura — o ofício da navalha é o herói visual.",
+    "Richard no jaleco branco com Barack bordado em script; bio própria: Professor, historiador, livro Barbearia — A Evolução da Nobre Arte, escolas Schorem / Figaro's / Bisb / Pazzone.",
+    "Serviço âncora no Booksy: Corte + Barbear a Navalha (R$ 80) com toalha aquecida e barba terapia; combo e navalha são a carta, não o fade genérico."
+  ],
+  "confidence": 0.88,
+  "researchedAt": "2026-09-08"
+}
