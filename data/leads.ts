@@ -112,6 +112,52 @@ export const leads: Lead[] = [
     ],
   },
   {
+    id: "bar-44-amarelinho",
+    name: "Bar 44 Amarelinho",
+    category: "gastronomia",
+    neighborhood: "santa-maria-goretti",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 87,
+    address: "Av. Assis Brasil, 171 — Santa Maria Goretti",
+    mapsQuery: "Bar 44 Amarelinho Av. Assis Brasil 171 Porto Alegre",
+    phone: "(51) 99444-2778",
+    whatsapp: "5551994442778",
+    instagram: "bar_amarelinho44oficial",
+    googleRating: 4.6,
+    googleReviews: 83,
+    identity:
+      "A fachada amarela é o nome. Boteco de almoço e jantar na Assis Brasil, zona norte. Participante do Comida di Buteco 2026 com os Charutinhos Jalapeños. Ambiente caseiro, quadro-negro na calçada e o 44 pintado na parede.",
+    digitalGap:
+      "Instagram oficial e listagens (Comida di Buteco, Restaurant Guru, Google 4.6). Sem site próprio — o clique do concurso cai em página de terceiro.",
+    conversionWhy:
+      "Temporada de concurso + almoço de corredor na Assis Brasil. Um one-page com o petisco da edição, o quadro do almoço, horário de dois turnos e WhatsApp captura quem hoje só acha a casa no Instagram ou no guia.",
+    approach:
+      "Chegue pela fachada e pelo petisco de 2026, não por 'você precisa de um site'. Mostre que o amarelo da casa já é marca — falta a página.",
+    pitch:
+      "O Amarelinho 44 já é a casa amarela da Assis Brasil e está no Comida di Buteco 2026. Montei um site curto com a fachada, os Charutinhos Jalapeños, o almoço do quadro e o WhatsApp — para o clique do concurso cair aqui.",
+    hours:
+      "Seg–qui 11h30–14h30 e 17h30–22h30 · sex 11h30–14h30 e 17h30–23h · sáb 11h30–14h e 17h30–23h · dom 17h30–22h",
+    sources: [
+      {
+        label: "Comida di Buteco — Porto Alegre",
+        url: "https://comidadibuteco.com.br/butecos/porto-alegre/",
+      },
+      {
+        label: "Sabores do Sul — edição 2026",
+        url: "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/bar_amarelinho44oficial/",
+      },
+      {
+        label: "Restaurant Guru",
+        url: "https://restaurantguru.com.br/Bar-Amarelinho-Porto-Alegre-RS-Porto-Alegre",
+      },
+    ],
+  },
+  {
     id: "niramaki-sushi",
     name: "Niramaki Sushi",
     category: "gastronomia",
@@ -753,6 +799,7 @@ export const neighborhoodLabel: Record<Neighborhood, string> = {
   restinga: "Restinga",
   "vila-jardim": "Vila Jardim",
   "sao-joao": "São João",
+  "santa-maria-goretti": "Santa Maria Goretti",
   "vila-ipiranga": "Vila Ipiranga",
   "vila-joao-pessoa": "Vila João Pessoa",
   "santa-rosa-de-lima": "Santa Rosa de Lima",
@@ -787,6 +834,7 @@ export const neighborhoodOrder: Neighborhood[] = [
   "restinga",
   "vila-jardim",
   "sao-joao",
+  "santa-maria-goretti",
   "vila-ipiranga",
   "vila-joao-pessoa",
   "santa-rosa-de-lima",
@@ -821,6 +869,7 @@ export const neighborhoodCity: Record<Neighborhood, City> = {
   restinga: "porto-alegre",
   "vila-jardim": "porto-alegre",
   "sao-joao": "porto-alegre",
+  "santa-maria-goretti": "porto-alegre",
   "vila-ipiranga": "porto-alegre",
   "vila-joao-pessoa": "porto-alegre",
   "santa-rosa-de-lima": "porto-alegre",

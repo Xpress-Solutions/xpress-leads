@@ -1,0 +1,69 @@
+{
+  "leadId": "bar-44-amarelinho",
+  "name": "Bar 44 Amarelinho",
+  "positioning": "A casa amarela da Assis Brasil: almoço de quadro-negro e jantar de boteco na zona norte — a fachada é o nome.",
+  "mood": "boteco-raiz",
+  "voice": ["direto", "de esquina", "zona norte", "orgulho da fachada", "almoço e jantar", "sem pose"],
+  "avoid": ["luxo", "minimalismo frio", "roxo tech", "creme terracotta genérico", "amarelo limão de IA", "Devassa como marca da casa"],
+  "colors": {
+    "background": "#F5DA64",
+    "foreground": "#1C1008",
+    "brand": "#6D2F0A",
+    "accent": "#A34512",
+    "surface": "#FFF6CC",
+    "muted": "#8C6428"
+  },
+  "typography": {
+    "display": "Oswald — condensada pesada de letreiro pintado",
+    "body": "Figtree / grotesk humana para cardápio e horário",
+    "rationale": "O letreiro da fachada é sans condensada em caixa alta sobre o amarelo da parede. Display precisa parecer placa de boteco, não script de café. Corpo limpo para o quadro do almoço e o petisco do concurso."
+  },
+  "imagery": {
+    "heroSubject": "Fachada amarela na Av. Assis Brasil, 171 — toldo, cadeiras amarelas na calçada e o letreiro BAR AMARELINHO",
+    "atmosphere": [
+      "parede e toldo amarelo ouro da fachada",
+      "número 44 pintado no vão da porta",
+      "cadeiras plásticas amarelas na calçada",
+      "quadro-negro do almoço (carreteiro, bife acebolado, costelinha)",
+      "tijolo amarelo e potes de infusão no balcão",
+      "prato do Comida di Buteco 2026: Charutinhos Jalapeños"
+    ],
+    "references": [
+      {
+        "label": "Instagram @bar_amarelinho44oficial",
+        "url": "https://www.instagram.com/bar_amarelinho44oficial/"
+      },
+      {
+        "label": "Comida di Buteco — Porto Alegre",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/"
+      },
+      {
+        "label": "Comida di Buteco — página da casa",
+        "url": "https://comidadibuteco.com.br/buteco/bar-44-amarelinho/"
+      },
+      {
+        "label": "Sabores do Sul — Charutinhos Jalapeños 2026",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Restaurant Guru — fotos da fachada e do salão",
+        "url": "https://restaurantguru.com.br/Bar-Amarelinho-Porto-Alegre-RS-Porto-Alegre"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "soft",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto diurna da fachada na Assis Brasil (Restaurant Guru / Exterior): parede, toldo e cadeiras no mesmo amarelo ouro. Mediana amostrada no letreiro: #F5DA64 (dominantes #F0D860 / #F8DD5A) — não é amarelo limão de estoque nem dourado genérico de boteco.",
+    "Letras do letreiro BAR AMARELINHO na fachada diurna: terracota queimada, não vermelho de CTA SaaS. Amostras #6D2F0A / #845014 / #875A1F — viram brand e accent.",
+    "Fachada noturna com o 44 pintado no vão e a placa BAR AMARELINHO 44 confirma o número como marca, não só endereço antigo.",
+    "Interior: tijolo pintado no mesmo amarelo, potes de infusão no balcão, madeira escura e placas — seções escuras do site vêm da madeira/ferro, não de tema nightclub.",
+    "Quadro-negro na calçada lista almoço de casa (carreteiro, bife acebolado, costelinha). A casa é almoço E jantar na zona norte — o site não pode parecer só bar noturno.",
+    "Comida di Buteco 2026 (Sabores do Sul / Israh Ramos): petisco Charutinhos Jalapeños na Av. Assis Brasil, 171. Edição anterior na página do concurso: Inconfidências Mineiras."
+  ],
+  "confidence": 0.82,
+  "researchedAt": "2026-09-08"
+}
