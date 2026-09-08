@@ -1,4 +1,5 @@
 import { features } from "@/data/business";
+import { BrandIcon } from "@/components/icons";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
 export function TudoUmPouco() {
@@ -16,7 +17,9 @@ export function TudoUmPouco() {
               key={feature.title}
               className="group rounded-2xl bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
             >
-              <span className="text-4xl">{feature.icon}</span>
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-anita-orange/10 text-anita-orange transition-colors duration-300 group-hover:bg-anita-orange group-hover:text-white">
+                <BrandIcon name={feature.icon} className="h-6 w-6" />
+              </div>
               <h3 className="mt-4 font-display text-2xl tracking-wide text-anita-black uppercase">
                 {feature.title}
               </h3>

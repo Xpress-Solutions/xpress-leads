@@ -8,6 +8,7 @@ import {
   menuItems,
 } from "@/data/menu";
 import { MenuCard } from "@/components/cardapio/MenuCard";
+import { Search } from "@/components/icons";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
@@ -50,9 +51,11 @@ export function CardapioSection({
         {showAll && (
           <div className="mb-6">
             <div className="relative">
-              <span className="absolute top-1/2 left-4 -translate-y-1/2 text-anita-gray">
-                🔎
-              </span>
+              <Search
+                className="pointer-events-none absolute top-1/2 left-4 h-4 w-4 -translate-y-1/2 text-anita-gray"
+                strokeWidth={2}
+                aria-hidden
+              />
               <input
                 type="search"
                 placeholder="Buscar café, chopp, comida..."

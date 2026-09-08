@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { business } from "@/data/business";
 import { images } from "@/data/images";
+import { StarRating } from "@/components/icons";
 import { Button } from "@/components/ui/Button";
 
 export function Hero() {
@@ -39,13 +40,7 @@ export function Hero() {
           </div>
 
           <div className="mt-8 flex items-center gap-4">
-            <div className="flex items-center gap-1 text-anita-orange">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <span key={i} className="text-lg">
-                  ★
-                </span>
-              ))}
-            </div>
+            <StarRating className="text-anita-orange" starClassName="h-[1.125rem] w-[1.125rem]" />
             <div className="text-sm text-white/70">
               <span className="font-bold text-white">
                 {business.googleRating}

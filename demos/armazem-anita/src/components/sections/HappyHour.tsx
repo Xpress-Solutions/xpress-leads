@@ -1,7 +1,16 @@
 import Image from "next/image";
 import { business } from "@/data/business";
+import { BrandIcon, type BrandIconName } from "@/components/icons";
 import { Button } from "@/components/ui/Button";
 import { SectionTitle } from "@/components/ui/SectionTitle";
+
+const happyHourItems: { icon: BrandIconName; label: string }[] = [
+  { icon: "beer", label: "Chope" },
+  { icon: "grill", label: "Churrasquinho" },
+  { icon: "soccer", label: "Futebol" },
+  { icon: "music", label: "Música" },
+  { icon: "food", label: "Petiscos" },
+];
 
 export function HappyHour() {
   return (
@@ -23,16 +32,15 @@ export function HappyHour() {
         />
 
         <div className="flex flex-wrap gap-3">
-          {["🍺 Chope", "🔥 Churrasquinho", "⚽ Futebol", "🎶 Música", "🍽 Petiscos"].map(
-            (item) => (
-              <span
-                key={item}
-                className="rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm"
-              >
-                {item}
-              </span>
-            ),
-          )}
+          {happyHourItems.map((item) => (
+            <span
+              key={item.label}
+              className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm"
+            >
+              <BrandIcon name={item.icon} className="h-4 w-4 text-anita-orange" />
+              {item.label}
+            </span>
+          ))}
         </div>
 
         <div className="mt-10 flex flex-wrap gap-4">

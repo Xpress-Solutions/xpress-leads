@@ -1,4 +1,5 @@
 import { business, reviewThemes } from "@/data/business";
+import { StarRating } from "@/components/icons";
 import { Button } from "@/components/ui/Button";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
@@ -17,11 +18,7 @@ export function Avaliacoes() {
             <p className="font-display text-6xl tracking-wide text-anita-orange">
               {business.googleRating}
             </p>
-            <div className="mt-1 flex justify-center gap-0.5 text-anita-orange">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <span key={i}>★</span>
-              ))}
-            </div>
+            <StarRating className="mt-1 justify-center text-anita-orange" />
           </div>
           <div className="h-px w-full bg-white/10 md:h-16 md:w-px" />
           <div>
@@ -48,11 +45,10 @@ export function Avaliacoes() {
               key={n}
               className="rounded-2xl border border-dashed border-white/20 bg-white/5 p-6"
             >
-              <div className="mb-3 flex gap-0.5 text-anita-orange text-sm">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <span key={i}>★</span>
-                ))}
-              </div>
+              <StarRating
+                className="mb-3 text-anita-orange"
+                starClassName="h-3.5 w-3.5"
+              />
               <p className="text-sm text-white/50 italic">
                 Avaliação real disponível no Google. Placeholder demonstrativo
                 #{n}.

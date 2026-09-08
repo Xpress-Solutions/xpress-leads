@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { business } from "@/data/business";
 import { images } from "@/data/images";
+import { Logo } from "@/components/layout/Logo";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
 export function Sobre() {
@@ -37,13 +38,7 @@ export function Sobre() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-anita-black/60 to-transparent" />
             <div className="absolute right-4 bottom-4 left-4">
-              <Image
-                src={images.logo}
-                alt="Logo Armazém Anita"
-                width={120}
-                height={48}
-                className="h-10 w-auto"
-              />
+              <Logo className="h-10 w-auto drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]" />
             </div>
           </div>
         </div>

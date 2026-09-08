@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { dayPhases } from "@/data/business";
+import { ArrowDown, BrandIcon } from "@/components/icons";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
 export function DiaTransformacao() {
@@ -20,15 +21,26 @@ export function DiaTransformacao() {
               </h3>
               <ul className="mt-4 space-y-3">
                 {dayPhases.morning.items.map((item) => (
-                  <li key={item} className="text-lg text-white/80">
-                    {item}
+                  <li
+                    key={item.label}
+                    className="flex items-center gap-3 text-lg text-white/80"
+                  >
+                    <BrandIcon
+                      name={item.icon}
+                      className="h-5 w-5 shrink-0 text-anita-orange"
+                    />
+                    {item.label}
                   </li>
                 ))}
               </ul>
             </div>
 
             <div className="flex justify-center">
-              <span className="text-4xl text-anita-orange">↓</span>
+              <ArrowDown
+                className="h-8 w-8 text-anita-orange"
+                strokeWidth={1.75}
+                aria-hidden
+              />
             </div>
 
             <div className="rounded-2xl border border-anita-orange/30 bg-anita-orange/10 p-6">
@@ -37,8 +49,15 @@ export function DiaTransformacao() {
               </h3>
               <ul className="mt-4 space-y-3">
                 {dayPhases.evening.items.map((item) => (
-                  <li key={item} className="text-lg text-white/80">
-                    {item}
+                  <li
+                    key={item.label}
+                    className="flex items-center gap-3 text-lg text-white/80"
+                  >
+                    <BrandIcon
+                      name={item.icon}
+                      className="h-5 w-5 shrink-0 text-anita-orange"
+                    />
+                    {item.label}
                   </li>
                 ))}
               </ul>
