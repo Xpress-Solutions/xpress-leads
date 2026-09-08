@@ -196,22 +196,23 @@ button {
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .nav-logo img {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--line);
 }
 
-.nav-brand {
+.nav-word {
   display: none;
   font-family: var(--display);
-  letter-spacing: 0.14em;
-  font-size: 0.92rem;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+  text-transform: uppercase;
 }
 
 .nav-links {
@@ -300,56 +301,60 @@ button {
   padding: 8px 0;
 }
 
-/* HERO */
+/* HERO — lockup do selo + post das camisetas ouro */
 .hero {
-  min-height: 100svh;
   position: relative;
+  min-height: 100svh;
   display: grid;
-  align-items: end;
-  padding: calc(var(--nav-h) + 28px) 0 48px;
+  align-items: center;
+  padding: calc(var(--nav-h) + 20px) 0 36px;
   overflow: hidden;
+  background: var(--background);
 }
 
-.hero-bg {
+.hero-atmosphere {
   position: absolute;
   inset: 0;
-}
-
-.hero-bg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 70% center;
-}
-
-.hero-bg::after {
-  content: "";
-  position: absolute;
-  inset: 0;
+  pointer-events: none;
   background:
-    linear-gradient(180deg, rgba(11, 11, 11, 0.42) 0%, rgba(11, 11, 11, 0.18) 36%, rgba(11, 11, 11, 0.92) 100%),
-    radial-gradient(circle at 18% 80%, rgba(227, 193, 90, 0.16), transparent 32%);
+    radial-gradient(ellipse 70% 55% at 78% 42%, rgba(227, 193, 90, 0.1), transparent 58%),
+    radial-gradient(ellipse 50% 40% at 12% 88%, rgba(227, 193, 90, 0.05), transparent 50%),
+    linear-gradient(180deg, rgba(11, 11, 11, 0.2) 0%, transparent 18%);
 }
 
-.hero-content {
+.hero-stage {
+  width: min(1180px, calc(100% - 32px));
+  margin-inline: auto;
   position: relative;
   z-index: 1;
+  display: grid;
+  gap: 28px;
+  align-items: center;
 }
 
-.hero-seal {
-  width: 88px;
-  height: 88px;
-  margin-bottom: 18px;
-  opacity: 0.95;
+.hero-copy {
+  max-width: 34rem;
 }
 
-.hero h1 {
+.hero-lockup {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.16em;
   font-family: var(--display);
-  font-size: clamp(3rem, 12vw, 7.4rem);
-  line-height: 0.92;
-  letter-spacing: 0.04em;
+  font-size: clamp(1.65rem, 7.4vw, 4.4rem);
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
   margin: 0 0 8px;
-  max-width: 12ch;
+}
+
+.hero-lockup-seal {
+  width: 0.78em;
+  height: 0.78em;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.45));
 }
 
 .hero-rule {
@@ -359,7 +364,7 @@ button {
   margin: 16px 0;
 }
 
-.hero p {
+.hero-copy > p:not(.kicker) {
   max-width: 34rem;
   color: rgba(242, 237, 227, 0.82);
   font-size: 1.08rem;
@@ -389,12 +394,116 @@ button {
   font-weight: 500;
 }
 
+.hero-post {
+  margin: 0;
+  justify-self: center;
+  width: min(100%, 560px);
+}
+
+.hero-post-plate {
+  position: relative;
+  padding: 8px;
+  background:
+    linear-gradient(180deg, #1a1a1a, #0e0e0e);
+  border: 1px solid rgba(227, 193, 90, 0.38);
+  box-shadow:
+    0 0 0 1px rgba(11, 11, 11, 0.8) inset,
+    0 22px 50px rgba(0, 0, 0, 0.42);
+}
+
+.hero-post-plate::before,
+.hero-post-plate::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+  z-index: 2;
+  border: solid var(--brand);
+}
+
+.hero-post-plate::before {
+  top: 6px;
+  left: 6px;
+  border-width: 1px 0 0 1px;
+}
+
+.hero-post-plate::after {
+  right: 6px;
+  bottom: 6px;
+  border-width: 0 1px 1px 0;
+}
+
+.hero-post-shots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  background: var(--brand);
+}
+
+.hero-post-shots img {
+  width: 100%;
+  aspect-ratio: 1;
+  height: auto;
+  object-fit: cover;
+  object-position: 54% 16%;
+  filter: contrast(1.06) saturate(1.08);
+}
+
+.hero-post-legend {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 6px;
+  min-height: 52px;
+  padding: 22px 6px 4px;
+  color: var(--brand);
+  font-family: var(--display);
+  font-size: clamp(0.56rem, 2.1vw, 0.76rem);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hero-post-legend span:last-of-type {
+  text-align: right;
+}
+
+.hero-post-legend i {
+  display: block;
+  width: clamp(64px, 16vw, 96px);
+  height: 1px;
+}
+
+.hero-post-stamp {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: clamp(64px, 16vw, 96px);
+  height: clamp(64px, 16vw, 96px);
+  transform: translate(-50%, -42%);
+  z-index: 3;
+  border-radius: 50%;
+  padding: 4px;
+  background:
+    radial-gradient(circle at 50% 50%, #0b0b0b 0 68%, #e3c15a 69% 72%, #0b0b0b 73% 100%);
+  box-shadow:
+    0 0 0 1px rgba(227, 193, 90, 0.35),
+    0 14px 32px rgba(0, 0, 0, 0.55);
+}
+
+.hero-post-stamp svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 /* QUICK */
 .quick {
-  margin-top: -28px;
+  margin-top: 0;
   position: relative;
   z-index: 2;
-  padding-bottom: 12px;
+  padding: 8px 0 12px;
 }
 
 .quick-grid {
@@ -881,8 +990,16 @@ button {
     width: min(1120px, calc(100% - 48px));
   }
 
-  .nav-brand {
+  .nav-word {
     display: block;
+  }
+
+  .hero-stage {
+    width: min(1180px, calc(100% - 48px));
+  }
+
+  .hero-post {
+    width: min(100%, 640px);
   }
 
   .quick-grid {
@@ -943,7 +1060,62 @@ button {
 
   .hero {
     align-items: center;
-    padding-bottom: 80px;
+    padding: calc(var(--nav-h) + 8px) 0 56px;
+  }
+
+  .hero-stage {
+    width: min(1180px, calc(100% - 48px));
+    grid-template-columns: minmax(280px, 0.92fr) minmax(360px, 1.08fr);
+    gap: 56px;
+    min-height: calc(100svh - var(--nav-h) - 64px);
+  }
+
+  .hero-copy {
+    max-width: none;
+  }
+
+  .hero-lockup {
+    font-size: clamp(2.4rem, 4.4vw, 4.2rem);
+  }
+
+  .hero-post {
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero-post-plate {
+    padding: 10px;
+  }
+
+  .hero-post-shots img {
+    object-position: 56% 14%;
+  }
+
+  .hero-post-legend {
+    padding: 28px 14px 6px;
+    letter-spacing: 0.22em;
+    font-size: 0.78rem;
+  }
+
+  .hero-post-legend i {
+    width: 108px;
+  }
+
+  .hero-post-stamp {
+    width: 108px;
+    height: 108px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-lockup {
+    letter-spacing: 0.05em;
+    gap: 0.08em;
+  }
+
+  .hero-post-legend {
+    letter-spacing: 0.1em;
+    font-size: 0.54rem;
   }
 }
 
