@@ -1,0 +1,79 @@
+{
+  "leadId": "giovanaz",
+  "name": "Churrascaria Giovanaz",
+  "positioning": "Espeto corrido clássico da Cidade Baixa: fila na porta, toalha de papel, dinheiro ou PIX — ao lado da Praça Garibaldi.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "direto",
+    "sem frescura",
+    "de fila",
+    "clássico de POA",
+    "toalha de papel"
+  ],
+  "avoid": [
+    "gourmet",
+    "premium steakhouse",
+    "experiência gastronômica",
+    "wine pairing",
+    "roxo tech",
+    "creme terracotta de IA",
+    "minimalismo frio"
+  ],
+  "colors": {
+    "background": "#16110E",
+    "foreground": "#F3EEE4",
+    "brand": "#C81018",
+    "accent": "#F0C400",
+    "surface": "#241814",
+    "muted": "#A08A72"
+  },
+  "typography": {
+    "display": "Anton — gótica condensada de letreiro",
+    "body": "Figtree — grotesk de leitura, sem Inter/Roboto",
+    "rationale": "O letreiro da Venâncio Aires 10 empilha CHURRASCARIA em preto e GIOVANAZ em vermelho sinal, caixa alta condensada. Anton reproduz essa placa. Corpo precisa ler horário e PIX sem virar SaaS."
+  },
+  "imagery": {
+    "heroSubject": "Brasa e espetos na churrasqueira da casa, ou a fachada com o letreiro branco CHURRASCARIA / GIOVANAZ vermelho",
+    "atmosphere": [
+      "letreiro branco com GIOVANAZ em vermelho sinal",
+      "poster amarelo ESPETO CORRIDO na calçada",
+      "fachada pêssego desbotado e portas de madeira escura",
+      "salão branco, toalha, cadeiras Thonet, forro de madeira",
+      "fila na porta ao lado da Praça Garibaldi",
+      "garçons de camisa branca com espeto na mão"
+    ],
+    "references": [
+      {
+        "label": "Fachada — Destino POA (Guilherme Fernandes)",
+        "url": "https://destinopoa.com.br/wp-content/uploads/2023/10/MG_7013_34_11zon.webp"
+      },
+      {
+        "label": "Brasa e espetos — Destino POA",
+        "url": "https://destinopoa.com.br/wp-content/uploads/2023/10/MG_7009-2.jpg"
+      },
+      {
+        "label": "Salão — Guia Porto Alegre",
+        "url": "https://guiaportoalegrers.com.br/imagens/churrascaria/cidade-baixa/churrascaria-giovanaz-1.jpg"
+      },
+      {
+        "label": "Destino POA — ficha da casa",
+        "url": "https://destinopoa.com.br/lugar/churrascaria-giovanaz/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto da fachada (Destino POA, out/2023): placa branca horizontal, CHURRASCARIA em preto condensado e GIOVANAZ em vermelho sinal; telefone 3227.4217 nas pontas. Vermelho vira --brand.",
+    "Na mesma fachada, poster amarelo de calçada com cabeçalho vermelho ESPETO CORRIDO e lista de cortes (salsichão, galeto, costela, lombo, maminha, vazio). Amarelo da placa vira --accent de CTA.",
+    "Paredes da frente em estuque pêssego desbotado e portas/caixilhos de madeira chocolate — superfície escura de madeira, não cream+terracotta de template.",
+    "Salão (Guia + Destino POA): paredes brancas, toalha clara, cadeiras de madeira curva, forro de tábuas escuras, piso cinza. Casa clara e funcional, não steakhouse de luz baixa.",
+    "Churrasqueira da casa: fogo de lenha, espetos de cabo de madeira, linguiça e galeto — hero de brasa, não stock de picanha genérica.",
+    "Reel PrefPOA / Destino POA: toalha de papel, maionese caseira, polenta frita, cebola em conserva, sem cartão e com PIX. Voz sem frescura, horário e forma de pagamento no hero."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-08"
+}
