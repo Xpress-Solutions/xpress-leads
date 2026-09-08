@@ -1,0 +1,63 @@
+{
+  "leadId": "poa-barber-shop",
+  "name": "Poa Barber Shop",
+  "positioning": "Barbearia de avenida no Partenon: o nome é a cidade, o ponto é a Bento — corte, barba, cor e streetwear no mesmo salão.",
+  "mood": "urbano-noturno",
+  "voice": ["de avenida", "direto", "cidade no nome", "sem pose de clube inglês", "equipe no primeiro nome"],
+  "avoid": ["gentlemen's club genérico", "ouro+preto de IA", "Inter/Roboto de display", "creme terracotta", "roxo tech", "luxo boutique"],
+  "colors": {
+    "background": "#0B0C0E",
+    "foreground": "#E8EAEC",
+    "brand": "#C5C9CE",
+    "accent": "#B33A2B",
+    "surface": "#17191D",
+    "muted": "#7C8188"
+  },
+  "typography": {
+    "display": "Oswald — sans condensada pesada, no espírito do POA do logo",
+    "body": "Barlow — grotesk industrial para serviços e horário",
+    "rationale": "O letreiro oficial escreve POA em caixa alta condensada sobre placa de metal escovado, com BARBER SHOP em tracking aberto. Display precisa parecer placa de avenida, não script de barbearia vintage. Corpo limpo para tabela de preço."
+  },
+  "imagery": {
+    "heroSubject": "Logo oficial (POA + tesoura sobre azulejo preto brilhante) ou interior de tijolo aparente + cadeira preta na Bento",
+    "atmosphere": [
+      "azulejo preto brilhante / malha de metal do logo",
+      "parede de tijolo aparente e azulejo branco",
+      "fade, platinado e cor urbana",
+      "equipe de camisa preta",
+      "rua e carros da Bento Gonçalves no fundo"
+    ],
+    "references": [
+      {
+        "label": "Booksy — perfil oficial",
+        "url": "https://booksy.com/pt-br/21012_poa-barber-shop_barbearias_804125_porto-alegre"
+      },
+      {
+        "label": "Logo Booksy",
+        "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/br/21012/logo/ebe57c736310468d98cef390d243a6-poa-barber-shop-logo-787c1f1fe3f442dfb9b0957b2e74ef-booksy.jpeg"
+      },
+      {
+        "label": "Instagram @poabarbershop",
+        "url": "https://www.instagram.com/poabarbershop/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/poabarbershop/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial no Booksy: POA em sans extra-bold preta sobre placa de metal escovado prata, tesoura cromada à direita, BARBER SHOP em tracking aberto — fundo de azulejos pretos brilhantes com vinheta. Paleta preta + cromo, sem dourado.",
+    "Fotos da casa e da equipe mostram parede de tijolo aparente (castanho/cinza) e azulejo branco com rejunte escuro — o vermelho-tijolo vira accent de CTA, não o ouro genérico de barbearia de template.",
+    "Capa e arquivos do Booksy usam o prefixo jacks-poa-barber-shop; a marca pública é Poa Barber Shop. Descrição oficial: barba, cabelo, sobrancelha, relaxamento, progressiva, platinado, ambiente climatizado, TV, Wi-fi e tatuagem.",
+    "Portfólio de cortes: fade com linha, platinado, mechas magenta/azul, corte infantil — barbearia urbana de avenida, não clube gentleman. Outdoor da equipe com carros estacionados combina com Av. Bento Gonçalves, 4135.",
+    "Booksy 5.0 (4,97) com 305 avaliações em set/2026; combo corte+barba R$ 80; horários seg–sex 9h–20h e sáb 9h–17h; equipe nomeada: Lucas Elias, Anderson Santos, Antônio Rodrigues, Vitor Trindade, Diego Antunes. Vendem streetwear La Poa no mesmo balcão."
+  ],
+  "confidence": 0.82,
+  "researchedAt": "2026-09-08"
+}
