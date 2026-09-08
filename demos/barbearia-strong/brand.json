@@ -1,0 +1,77 @@
+{
+  "leadId": "barbearia-strong",
+  "name": "Barbearia Strong",
+  "positioning": "Barbearia do centro de Porto Alegre: Anderson na cadeira, corte na régua e o nome Strong — sem pose de club.",
+  "mood": "limpo-servico",
+  "voice": [
+    "direto",
+    "de centro",
+    "dono na cadeira",
+    "rápido quando precisa",
+    "terapia quando sobra tempo",
+    "orgulhoso sem luxo"
+  ],
+  "avoid": [
+    "luxo dourado de franquia",
+    "preto e dourado genérico de barber shop",
+    "neon",
+    "roxo tech",
+    "minimalismo frio",
+    "cream terracotta de café de IA"
+  ],
+  "colors": {
+    "background": "#F6EFE6",
+    "foreground": "#161311",
+    "brand": "#111111",
+    "accent": "#C44E24",
+    "surface": "#FFFBF6",
+    "muted": "#8A7564"
+  },
+  "typography": {
+    "display": "Cinzel no arco BARBEARIA + Oswald condensada no STRONG",
+    "body": "Source Sans 3 para horário, serviços e WhatsApp",
+    "rationale": "O logo oficial é círculo preto, bigode branco, BARBEARIA em serifada arqueada e STRONG em sem-serifa pesada. Display precisa carregar esse contraste — não Inter, não script de boutique. O corpo fica limpo porque a casa abre às 8h para quem trabalha no Centro."
+  },
+  "imagery": {
+    "heroSubject": "Logo Strong na parede de tijolo da Dr. Flores + fade / barba na cadeira",
+    "atmosphere": [
+      "parede de tijolo terracota e cinza",
+      "logo circular com bigode branco",
+      "iluminação clara de loja de galeria",
+      "capa preta e fade na régua",
+      "máscara preta com o selo Strong",
+      "poste clássico vermelho-branco-azul ao fundo"
+    ],
+    "references": [
+      {
+        "label": "Instagram @barbeariastrongpoa",
+        "url": "https://www.instagram.com/barbeariastrongpoa/"
+      },
+      {
+        "label": "Guia Porto Alegre — foto da casa",
+        "url": "https://guiaportoalegrers.com.br/centro-historico/barbearia-strong"
+      },
+      {
+        "label": "Locais do Brasil — endereço, horário e reviews",
+        "url": "https://www.locaisdobrasil.com.br/encontre/barbearia/porto-alegre-rs/barbearia-strong/61e61eeb6c21e5033af2c386"
+      },
+      {
+        "label": "Avaliações Brasil — Galeria Universitário, Dr. Flores 327 loja 3",
+        "url": "https://avaliacoesbrasil.com/barbearia/porto-alegre/barbearia-strong/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto de perfil do @barbeariastrongpoa: selo circular preto, bigode branco estilo guidão, BARBEARIA arqueada em serifada e STRONG embaixo — identidade P&B, não dourada.",
+    "Posts e foto do Guia Porto Alegre mostram a loja da Dr. Flores com parede de tijolo laranja/terracota, iluminação clara, capa preta e o logo na máscara/parede. O tijolo vira accent; o fundo do site é o reboco claro da casa, não o club escuro.",
+    "Flyers de fidelidade no IG usam mostarda + marinho, mas a casa física e o logo são tijolo + preto e branco. O site segue a loja (e o nome Strong), não o template barber preto/dourado.",
+    "Bio oficial: 'A melhor experiência do centro de Porto Alegre' + WhatsApp wa.me/5551999551604. Dono Anderson (ex-atleta). Reviews citam ambiente simples, familiar e o Anderson pelo nome."
+  ],
+  "confidence": 0.81,
+  "researchedAt": "2026-09-08"
+}
