@@ -1,3 +1,5 @@
+import { MediaImg } from "./MediaImg.tsx";
+
 const SHOTS = [
   {
     src: "/fotos/esquina.jpg",
@@ -18,14 +20,14 @@ export function Galeria() {
     <section className="section galeria" id="galeria">
       <div className="wrap">
         <p className="kicker">A casa, de verdade</p>
-        <h2 className="display" style={{ fontSize: "clamp(2.8rem, 8vw, 5rem)" }}>
+        <h2 className="display">
           calçada e salão
         </h2>
         <p className="lead">Fotos da esquina — GZH / Agência RBS. Sem banco de imagem.</p>
         <div className="gal-grid">
           {SHOTS.map((shot) => (
             <figure key={shot.src}>
-              <img src={shot.src} alt={shot.alt} width={2000} height={1332} />
+              <MediaImg src={shot.src} alt={shot.alt} width={2000} height={1332} loading="lazy" decoding="async" />
             </figure>
           ))}
         </div>

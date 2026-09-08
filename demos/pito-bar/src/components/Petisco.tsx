@@ -1,11 +1,12 @@
 import { SITE } from "../data/site.ts";
+import { MediaImg } from "./MediaImg.tsx";
 
 export function Petisco() {
   return (
     <section className="section petisco" id="petisco">
       <div className="wrap">
         <p className="kicker">Comida di Buteco 2026</p>
-        <h2 className="display" style={{ fontSize: "clamp(2.8rem, 8vw, 5rem)" }}>
+        <h2 className="display">
           tábua campeira
         </h2>
         <p className="lead">
@@ -14,11 +15,13 @@ export function Petisco() {
         </p>
         <div className="petisco-grid">
           <div className="petisco-photo">
-            <img
+            <MediaImg
               src="/fotos/tabua.jpg"
               alt="Tábua Campeira do Pito Bar — pão tostado, linguiça, queijo e ervas. Foto Israh Ramos / Sabores do Sul"
               width={1021}
               height={682}
+              loading="lazy"
+              decoding="async"
             />
           </div>
           <div>

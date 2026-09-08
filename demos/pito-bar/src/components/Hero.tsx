@@ -1,14 +1,17 @@
 import { SITE } from "../data/site.ts";
+import { MediaImg } from "./MediaImg.tsx";
 
 export function Hero() {
   return (
     <section className="hero" id="inicio">
       <div className="hero-bg" aria-hidden="true">
-        <img
+        <MediaImg
           src="/fotos/hero.jpg"
           alt=""
           width={2000}
           height={1332}
+          fetchPriority="high"
+          decoding="async"
         />
       </div>
       <div className="wrap hero-content">

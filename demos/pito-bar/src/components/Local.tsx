@@ -5,11 +5,14 @@ export function Local() {
     <section className="section local" id="local">
       <div className="wrap">
         <p className="kicker">Onde cair</p>
-        <h2 className="display" style={{ fontSize: "clamp(2.8rem, 8vw, 5rem)" }}>
+        <h2 className="display">
           mariante, 587
         </h2>
         <div className="loc-grid">
           <div className="loc-map">
+            <a className="map-fallback" href={SITE.maps} target="_blank" rel="noreferrer">
+              Como chegar
+            </a>
             <iframe
               title="Mapa do Pito Bar na Rua Mariante"
               src={SITE.mapsEmbed}
@@ -18,7 +21,7 @@ export function Local() {
             />
           </div>
           <div className="hours">
-            <strong>horário</strong>
+            <strong className="hours-title">horário</strong>
             <p>{SITE.hours}</p>
             <p>{SITE.hoursDetail}</p>
             <ul className="hours-list">

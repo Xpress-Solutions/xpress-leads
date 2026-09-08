@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Syne Fallback";
+  src: local("Arial Narrow"), local("Arial");
+  size-adjust: 106%;
+  ascent-override: 90%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Figtree Fallback";
+  src: local("Helvetica Neue"), local("Arial");
+  size-adjust: 100%;
+  ascent-override: 94%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+}
+
 :root {
   --background: #111111;
   --foreground: #f4f0e8;
@@ -5,8 +23,8 @@
   --accent: #e8333c;
   --surface: #1c1a19;
   --muted: #8a8278;
-  --display: "Syne", "Arial Narrow", sans-serif;
-  --body: "Figtree", "Helvetica Neue", sans-serif;
+  --display: "Syne", "Syne Fallback", "Arial Narrow", sans-serif;
+  --body: "Figtree", "Figtree Fallback", "Helvetica Neue", system-ui, sans-serif;
   --nav-h: 72px;
 }
 
@@ -16,6 +34,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 html,
@@ -31,6 +50,7 @@ body {
   font-family: var(--body);
   line-height: 1.5;
   text-rendering: optimizeLegibility;
+  overflow-x: clip;
 }
 
 body::before {
@@ -46,6 +66,15 @@ body::before {
 img {
   max-width: 100%;
   display: block;
+}
+
+img.is-pending {
+  opacity: 0;
+}
+
+img.is-ready {
+  opacity: 1;
+  transition: opacity 0.35s ease;
 }
 
 a {
@@ -90,18 +119,24 @@ button {
   color: var(--brand);
   letter-spacing: 0.18em;
   text-transform: uppercase;
+  font-family: var(--body);
   font-size: 0.72rem;
   font-weight: 700;
   margin-bottom: 10px;
+  overflow-wrap: anywhere;
 }
 
 .display {
   font-family: var(--display);
   font-weight: 800;
-  letter-spacing: -0.04em;
-  line-height: 0.88;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
   text-transform: lowercase;
   margin: 0;
+  font-size: clamp(2.15rem, 9vw, 5rem);
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  max-width: 100%;
 }
 
 .lead {
@@ -109,6 +144,7 @@ button {
   color: var(--muted);
   margin: 12px 0 0;
   font-size: 1.05rem;
+  overflow-wrap: anywhere;
 }
 
 .btn {
@@ -117,11 +153,18 @@ button {
   justify-content: center;
   gap: 8px;
   min-height: 48px;
-  padding: 0 20px;
+  padding: 12px 16px;
+  font-family: var(--body);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-size: 0.78rem;
+  line-height: 1.2;
+  text-align: center;
+  white-space: normal;
+  text-wrap: balance;
+  max-width: 100%;
+  min-width: 0;
   border: 1.5px solid transparent;
   transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease;
 }
@@ -172,15 +215,21 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  gap: 10px;
+  min-width: 0;
 }
 
 .nav-logo {
   font-family: var(--display);
   font-weight: 800;
-  font-size: 1.7rem;
+  font-size: clamp(1.25rem, 6vw, 1.7rem);
   letter-spacing: -0.05em;
+  line-height: 1;
   color: var(--foreground);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .nav-logo span {
@@ -200,6 +249,7 @@ button {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-shrink: 0;
 }
 
 .nav-wa {
@@ -259,9 +309,11 @@ button {
 
 .nav-drawer a {
   font-family: var(--display);
-  font-size: 2.4rem;
+  font-size: clamp(1.7rem, 8vw, 2.4rem);
   font-weight: 800;
+  line-height: 1.1;
   text-transform: lowercase;
+  overflow-wrap: anywhere;
 }
 
 /* HERO */
@@ -277,6 +329,7 @@ button {
 .hero-bg {
   position: absolute;
   inset: 0;
+  background: #0a0a0a;
 }
 
 .hero-bg img {
@@ -303,11 +356,13 @@ button {
 .hero h1 {
   font-family: var(--display);
   font-weight: 800;
-  font-size: clamp(5.2rem, 22vw, 12rem);
-  line-height: 0.78;
-  letter-spacing: -0.06em;
+  font-size: clamp(3.6rem, 22vw, 12rem);
+  line-height: 0.92;
+  letter-spacing: -0.05em;
   text-transform: lowercase;
   margin: 0 0 12px;
+  overflow-wrap: anywhere;
+  max-width: 100%;
 }
 
 .hero p {
@@ -315,6 +370,7 @@ button {
   margin: 0 0 22px;
   font-size: 1.2rem;
   color: rgba(244, 240, 232, 0.88);
+  overflow-wrap: anywhere;
 }
 
 .hero-actions {
@@ -341,10 +397,12 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 28px;
+  font-family: var(--body);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-size: 0.78rem;
+  overflow-wrap: anywhere;
 }
 
 /* PETISCO */
@@ -359,10 +417,15 @@ button {
   align-items: center;
 }
 
+.petisco-grid > * {
+  min-width: 0;
+}
+
 .petisco-photo {
   overflow: hidden;
-  min-height: 280px;
-  background: #0a0a0a;
+  min-height: 220px;
+  aspect-ratio: 1021 / 682;
+  background: #161210;
 }
 
 .petisco-photo img {
@@ -374,16 +437,20 @@ button {
 
 .petisco h3 {
   font-family: var(--display);
-  font-size: clamp(2.4rem, 7vw, 4rem);
+  font-size: clamp(1.7rem, 7vw, 4rem);
   font-weight: 800;
+  line-height: 1.08;
   text-transform: lowercase;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
   margin: 0 0 12px;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
 }
 
 .petisco p {
   color: var(--muted);
   margin: 0 0 14px;
+  overflow-wrap: anywhere;
 }
 
 .stamp {
@@ -391,11 +458,15 @@ button {
   border: 1.5px solid var(--brand);
   color: var(--brand);
   padding: 6px 10px;
+  font-family: var(--body);
   font-size: 0.72rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
   text-transform: uppercase;
   margin-bottom: 14px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 /* CASA */
@@ -409,9 +480,15 @@ button {
   margin-top: 28px;
 }
 
+.casa-grid > * {
+  min-width: 0;
+}
+
 .casa-photo {
-  min-height: 320px;
+  min-height: 220px;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
+  background: #161210;
 }
 
 .casa-photo img {
@@ -424,6 +501,7 @@ button {
 .casa-copy p {
   color: var(--muted);
   font-size: 1.05rem;
+  overflow-wrap: anywhere;
 }
 
 .casa-copy ul {
@@ -438,6 +516,9 @@ button {
   border-left: 3px solid var(--brand);
   padding: 10px 12px;
   background: var(--surface);
+  font-family: var(--body);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 /* GALERIA */
@@ -452,9 +533,12 @@ button {
 }
 
 .gal-grid figure {
+  position: relative;
   margin: 0;
   overflow: hidden;
   min-height: 220px;
+  aspect-ratio: 3 / 2;
+  background: #161210;
 }
 
 .gal-grid img {
@@ -487,39 +571,69 @@ button {
   margin-top: 24px;
 }
 
+.loc-grid > * {
+  min-width: 0;
+}
+
 .loc-map {
-  min-height: 320px;
+  position: relative;
+  min-height: 280px;
   overflow: hidden;
   border: 1px solid rgba(244, 240, 232, 0.08);
+  background: #161210;
+}
+
+.map-fallback {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--body);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: var(--foreground);
 }
 
 .loc-map iframe {
+  position: relative;
+  z-index: 1;
   width: 100%;
   height: 100%;
-  min-height: 320px;
+  min-height: 280px;
   border: 0;
+  background: var(--surface);
   filter: grayscale(0.35) contrast(1.05);
 }
 
 .hours {
   background: var(--surface);
-  padding: 22px;
+  padding: 20px 16px;
   border-top: 3px solid var(--brand);
+  min-width: 0;
 }
 
+.hours-title,
 .hours strong {
   display: block;
   font-family: var(--display);
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 6vw, 2rem);
   font-weight: 800;
+  line-height: 1.1;
   text-transform: lowercase;
   letter-spacing: -0.03em;
   margin-bottom: 8px;
+  overflow-wrap: anywhere;
 }
 
 .hours p {
+  font-family: var(--body);
   color: var(--muted);
   margin: 0 0 12px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .hours-list {
@@ -529,7 +643,14 @@ button {
   display: grid;
   gap: 6px;
   color: var(--muted);
+  font-family: var(--body);
   font-size: 0.92rem;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+}
+
+.hours-list li {
+  overflow-wrap: anywhere;
 }
 
 .loc-actions {
@@ -547,20 +668,26 @@ button {
   min-height: 340px;
   background:
     linear-gradient(180deg, rgba(17, 17, 17, 0.15), rgba(17, 17, 17, 0.82)),
-    url("/fotos/calcada.jpg") center/cover;
+    #161210 url("/fotos/calcada.jpg") center/cover;
   display: grid;
   align-content: end;
-  padding: 32px 24px;
+  padding: 32px 20px;
 }
 
 .cta-box h2 {
   font-family: var(--display);
   font-weight: 800;
-  font-size: clamp(2.8rem, 10vw, 5.4rem);
-  line-height: 0.86;
+  font-size: clamp(2rem, 10vw, 5.4rem);
+  line-height: 1.05;
   text-transform: lowercase;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
   margin: 0 0 10px;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+.cta-box p {
+  overflow-wrap: anywhere;
 }
 
 .cta-actions {
@@ -582,12 +709,18 @@ button {
   gap: 22px;
 }
 
+.foot-grid > * {
+  min-width: 0;
+}
+
 .foot-word {
   font-family: var(--display);
   font-weight: 800;
-  font-size: 2.6rem;
+  font-size: clamp(2rem, 9vw, 2.6rem);
   letter-spacing: -0.05em;
+  line-height: 1.05;
   text-transform: lowercase;
+  overflow-wrap: anywhere;
 }
 
 .footer a:hover {
@@ -619,6 +752,56 @@ button {
   height: 28px;
 }
 
+@media (max-width: 400px) {
+  .section {
+    padding: 56px 0;
+  }
+
+  .wrap {
+    width: min(1120px, calc(100% - 24px));
+  }
+
+  .hero-actions,
+  .loc-actions,
+  .cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .btn,
+  .loc-actions .btn,
+  .cta-actions .btn,
+  .petisco .btn {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
+    padding: 12px 14px;
+  }
+
+  .hero p,
+  .lead,
+  .casa-copy p {
+    font-size: 1rem;
+  }
+
+  .hours {
+    padding: 16px 14px;
+  }
+
+  .cta-box {
+    padding: 24px 16px;
+    min-height: 280px;
+  }
+
+  .nav-drawer .btn {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
+
 @media (min-width: 768px) {
   .wrap {
     width: min(1120px, calc(100% - 48px));
@@ -634,6 +817,12 @@ button {
   .gal-grid {
     grid-template-columns: 1.3fr 1fr;
     grid-template-rows: 240px 240px;
+  }
+
+  .gal-grid figure {
+    aspect-ratio: auto;
+    min-height: 0;
+    height: 100%;
   }
 
   .gal-grid figure:first-child {
@@ -652,6 +841,10 @@ button {
   .hero {
     align-items: center;
     padding-bottom: 72px;
+  }
+
+  .hours {
+    padding: 22px;
   }
 }
 
@@ -674,7 +867,8 @@ button {
 
   .btn,
   .gal-grid img,
-  .nav-drawer {
+  .nav-drawer,
+  img.is-ready {
     transition: none;
   }
 }
