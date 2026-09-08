@@ -293,7 +293,7 @@ button {
 .nav-drawer {
   position: fixed;
   inset: var(--nav-h) 0 0;
-  background: rgba(16, 18, 12, 0.97);
+  background: #10120c;
   transform: translateX(100%);
   transition: transform 0.35s ease;
   padding: 28px 22px 120px;

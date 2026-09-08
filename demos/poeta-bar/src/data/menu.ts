@@ -61,7 +61,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "Massa larga com molho de queijo, toque de shoyu e iscas de carne — prato que o Google já elogia.",
     price: "R$ 23,90",
     category: "pratos",
-    tags: ["Salao"],
+    tags: ["Salão"],
     official: true,
   },
   {
