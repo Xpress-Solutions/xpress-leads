@@ -301,8 +301,8 @@ button {
   min-height: 100svh;
   position: relative;
   display: grid;
-  align-items: end;
-  padding: calc(var(--nav-h) + 28px) 0 0;
+  align-items: center;
+  padding: calc(var(--nav-h) + 20px) 0 36px;
   overflow: hidden;
 }
 
@@ -323,49 +323,22 @@ button {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(22, 17, 14, 0.28) 0%, rgba(22, 17, 14, 0.18) 32%, rgba(22, 17, 14, 0.92) 100%),
-    radial-gradient(circle at 12% 80%, rgba(200, 16, 24, 0.28), transparent 36%);
+    linear-gradient(180deg, rgba(22, 17, 14, 0.42) 0%, rgba(22, 17, 14, 0.5) 42%, rgba(22, 17, 14, 0.88) 100%),
+    radial-gradient(circle at 12% 72%, rgba(200, 16, 24, 0.28), transparent 36%);
 }
 
 .hero-content {
   position: relative;
   z-index: 1;
-  padding-bottom: 28px;
-}
-
-.hero-sign {
-  display: inline-block;
-  background: #f4f1ea;
-  color: var(--ink);
-  padding: 10px 16px 8px;
-  margin-bottom: 18px;
-  border: 3px solid var(--ink);
-}
-
-.hero-sign span {
-  display: block;
-  font-family: var(--display);
-  letter-spacing: 0.22em;
-  font-size: clamp(0.72rem, 2.4vw, 1rem);
-  line-height: 1;
-}
-
-.hero-sign strong {
-  display: block;
-  font-family: var(--display);
-  color: var(--brand);
-  font-size: clamp(1.6rem, 6vw, 2.6rem);
-  letter-spacing: 0.1em;
-  line-height: 0.92;
-  margin-top: 4px;
+  width: 100%;
 }
 
 .hero h1 {
   font-family: var(--display);
-  font-size: clamp(4.2rem, 16vw, 9.5rem);
+  font-size: clamp(3.4rem, 15vw, 9.5rem);
   line-height: 0.82;
   letter-spacing: 0.02em;
-  margin: 0 0 14px;
+  margin: 0 0 16px;
   text-transform: uppercase;
   max-width: 10ch;
 }
@@ -933,7 +906,32 @@ button {
 
   .hero {
     align-items: center;
-    padding-bottom: 48px;
+    padding: calc(var(--nav-h) + 32px) 0 56px;
+  }
+
+  .hero h1 {
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    align-items: center;
+    padding: calc(var(--nav-h) + 12px) 0 28px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    margin: 0 0 18px;
+  }
+
+  .hero-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
   }
 }
 
