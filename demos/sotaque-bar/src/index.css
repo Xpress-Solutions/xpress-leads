@@ -297,7 +297,7 @@ button {
   position: relative;
   display: grid;
   align-items: end;
-  padding: calc(var(--nav-h) + 28px) 0 48px;
+  padding: calc(var(--nav-h) + 36px) 0 64px;
   overflow: hidden;
 }
 
@@ -318,8 +318,8 @@ button {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(19, 24, 17, 0.28) 0%, rgba(19, 24, 17, 0.12) 36%, rgba(19, 24, 17, 0.92) 100%),
-    linear-gradient(90deg, rgba(19, 24, 17, 0.45), transparent 55%);
+    linear-gradient(180deg, rgba(19, 24, 17, 0.18) 0%, rgba(19, 24, 17, 0.06) 38%, rgba(19, 24, 17, 0.72) 74%, rgba(19, 24, 17, 0.94) 100%),
+    linear-gradient(90deg, rgba(19, 24, 17, 0.32), transparent 62%);
 }
 
 .hero-grid {
@@ -348,37 +348,25 @@ button {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   padding: 6px 10px;
-  margin-bottom: 16px;
+  margin: 0 0 18px;
 }
 
 .hero h1 {
   font-family: var(--display);
   font-weight: 800;
-  font-size: clamp(4.2rem, 16vw, 10rem);
-  line-height: 0.8;
-  letter-spacing: -0.04em;
-  margin: 0 0 8px;
-}
-
-.hero-sign {
-  display: inline-block;
-  background: var(--white);
-  color: var(--steel);
-  padding: 0.08em 0.16em 0.02em;
-}
-
-.hero p {
-  max-width: 34rem;
-  color: rgba(243, 238, 228, 0.86);
-  font-size: 1.15rem;
-  margin: 18px 0 26px;
+  font-size: clamp(1.9rem, 5vw, 3.35rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  margin: 0 0 28px;
+  max-width: 18em;
+  color: var(--white);
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .hero-proof {
@@ -961,8 +949,11 @@ button {
   }
 
   .hero {
-    align-items: center;
-    padding-bottom: 88px;
+    padding-bottom: 80px;
+  }
+
+  .hero h1 {
+    max-width: 14em;
   }
 }
 

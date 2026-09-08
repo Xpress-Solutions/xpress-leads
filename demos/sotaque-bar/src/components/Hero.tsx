@@ -12,10 +12,7 @@ export function Hero() {
       <div className="hero-grid" aria-hidden="true" />
       <div className="wrap hero-content">
         <p className="hero-kicker">Rio Branco · Porto Alegre</p>
-        <h1>
-          <span className="hero-sign">{SITE.headline}</span>
-        </h1>
-        <p>{SITE.subheadline}</p>
+        <h1>{SITE.subheadline}</h1>
         <div className="hero-actions">
           <a className="btn btn-primary" href="#cardapio">
             Ver o bolinho
