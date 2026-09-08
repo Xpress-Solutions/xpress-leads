@@ -626,6 +626,49 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "bar-do-nito",
+    name: "Bar do Nito",
+    category: "gastronomia",
+    neighborhood: "auxiliadora",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 90,
+    address: "Av. Cel. Lucas de Oliveira, 105 — Auxiliadora",
+    mapsQuery: "Bar do Nito Av. Cel. Lucas de Oliveira 105 Porto Alegre",
+    phone: "(51) 3333-6221",
+    whatsapp: "5551997174066",
+    instagram: "bar_do_nito",
+    googleRating: 4.6,
+    googleReviews: 1030,
+    founded: "1992 (34 anos)",
+    identity:
+      "Reduto de MPB, samba e choro no sobrado da Auxiliadora. Fundado em 1992 por Nerci Padilha, o Nito — sempre no banquinho com o violão. Hoje com Fernando Waschburger, que manteve o clima, a decoração e o palco. A casa se apresenta como a esquina da música brasileira: só abre com artista no palco. Aos sábados, Feijoada com Samba. Desde 2017 também recebe teatro (Porto Verão Alegre), saraus e exposições.",
+    digitalGap:
+      "Sem site oficial. Instagram @bar_do_nito e matérias (GZH, QuintoAndar) falam pela casa. Reserva no WhatsApp, mas quem pesquisa a esquina da música ou a feijoada cai em guia de terceiro.",
+    conversionWhy:
+      "Casa cultural com agenda (feijoada, samba, teatro) e 30+ anos de nome. Uma one-page com palco, reserva WhatsApp e a história do sobrado captura o clique que hoje vai para QuintoAndar e GZH.",
+    approach:
+      "Chegue pela esquina da música e pela feijoada de sábado — não por 'você precisa de um site'. Mostre que a narrativa da casa está em matéria de jornal.",
+    pitch:
+      "O Nito é a esquina da música brasileira há mais de 30 anos, mas quem pesquisa a casa cai no QuintoAndar e no GZH. Montei uma página com a agenda, a feijoada e o WhatsApp de reserva — o clique fica no sobrado.",
+    hours:
+      "Ter–sex 18h–00h · sáb 11h–16h e 18h–00h · dom 11h–16h · seg fechado (listagens públicas; confirmar)",
+    sources: [
+      {
+        label: "QuintoAndar — Bar do Nito",
+        url: "https://www.quintoandar.com.br/regioes-atendidas/porto-alegre-rs-brasil-jdj6u9g0k5/local/bar-do-nito",
+      },
+      {
+        label: "GZH — 30 anos",
+        url: "https://gauchazh.clicrbs.com.br/cultura-e-lazer/musica/noticia/2022/07/como-o-tradicional-bar-do-nito-em-porto-alegre-se-reinventou-para-chegar-aos-30-anos-cl5mqpkt1007l014sf22xyfs4.html",
+      },
+      {
+        label: "Instagram @bar_do_nito",
+        url: "https://www.instagram.com/bar_do_nito/",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
@@ -745,6 +788,7 @@ export const neighborhoodLabel: Record<Neighborhood, string> = {
   cristal: "Cristal",
   ipanema: "Ipanema",
   "centro-historico": "Centro Histórico",
+  auxiliadora: "Auxiliadora",
   "jardim-itu": "Jardim Itu",
   tristeza: "Tristeza",
   "boa-vista": "Boa Vista",
@@ -779,6 +823,7 @@ export const neighborhoodOrder: Neighborhood[] = [
   "cristal",
   "ipanema",
   "centro-historico",
+  "auxiliadora",
   "jardim-itu",
   "tristeza",
   "boa-vista",
@@ -813,6 +858,7 @@ export const neighborhoodCity: Record<Neighborhood, City> = {
   cristal: "porto-alegre",
   ipanema: "porto-alegre",
   "centro-historico": "porto-alegre",
+  auxiliadora: "porto-alegre",
   "jardim-itu": "porto-alegre",
   tristeza: "porto-alegre",
   "boa-vista": "porto-alegre",

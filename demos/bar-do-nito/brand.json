@@ -1,0 +1,84 @@
+{
+  "leadId": "bar-do-nito",
+  "name": "Bar do Nito",
+  "positioning": "Sobrado boêmio da Auxiliadora: a esquina da música brasileira — MPB, samba e choro no palco, feijoada no sábado, teatro na mesa.",
+  "mood": "casa-cultural",
+  "voice": [
+    "boêmio",
+    "songbook",
+    "sobrado com história",
+    "palco sempre aceso",
+    "intimista",
+    "sem pose de casa noturna"
+  ],
+  "avoid": [
+    "neon",
+    "boate",
+    "sports bar",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Bebas / placa de boteco",
+    "dashboard"
+  ],
+  "colors": {
+    "background": "#16110D",
+    "foreground": "#F4E8D0",
+    "brand": "#C9A15B",
+    "accent": "#7C2433",
+    "surface": "#241A14",
+    "muted": "#8C7358"
+  },
+  "typography": {
+    "display": "Fraunces — serifa de cancioneiro / capa de disco",
+    "body": "Source Sans 3 — grotesk humanista para agenda e endereço",
+    "rationale": "O Nito é casa de MPB, não boteco de placa. Serifa literária no nome evoca songbook e palco; corpo limpo para reserva e horário. Evitar Bebas (Vitória/Anita) e Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Sobrado de dois pisos na esquina Lucas de Oliveira × Felipe Neri à noite: janelas âmbar, palco no térreo, violão, mesas na calçada",
+    "atmosphere": [
+      "sobrado boêmio de esquina",
+      "palco com violão e banquinho",
+      "paredes com caricaturas, pinturas e letras de MPB",
+      "mesas na calçada mesmo no frio",
+      "luz âmbar de lâmpada e palco",
+      "cortina de vinho do teatro na mesa",
+      "exposição Retratos da MPB (Daniel Marenco)"
+    ],
+    "references": [
+      {
+        "label": "Instagram @bar_do_nito",
+        "url": "https://www.instagram.com/bar_do_nito/"
+      },
+      {
+        "label": "GZH — 30 anos do Bar do Nito",
+        "url": "https://gauchazh.clicrbs.com.br/cultura-e-lazer/musica/noticia/2022/07/como-o-tradicional-bar-do-nito-em-porto-alegre-se-reinventou-para-chegar-aos-30-anos-cl5mqpkt1007l014sf22xyfs4.html"
+      },
+      {
+        "label": "QuintoAndar — a esquina da música brasileira",
+        "url": "https://www.quintoandar.com.br/regioes-atendidas/porto-alegre-rs-brasil-jdj6u9g0k5/local/bar-do-nito"
+      },
+      {
+        "label": "Detalhes Mágicos — paredes com caricaturas e mesas na calçada",
+        "url": "https://detalhesmagicos.com.br/bar-do-nito/"
+      },
+      {
+        "label": "Sul21 — Porto Verão Alegre no Nito",
+        "url": "https://sul21.com.br/noticias/cultura/2023/01/porto-verao-alegre-tera-atracoes-tambem-no-bar-do-nito/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Bio do Instagram @bar_do_nito: 'A Esquina da Música Brasileira' + Samba, Bossa e MPB + reserva WhatsApp (51) 99717-4066 — o slogan vira o H1 e o CTA.",
+    "GZH (2022): Nerci Padilha, o Nito, fundou o sobrado em 1992 na Av. Cel. Lucas de Oliveira, 105; em 2011 passou o ponto ao ator Fernando Waschburger; Nito segue no palco com voz e violão. Paleta noturna de madeira/tabaco, não landing clara.",
+    "QuintoAndar e Waschburger: 'o Bar do Nito só abre com artistas no palco'; Feijoada com Samba aos sábados; teatro desde 2017 (Porto Verão Alegre). Accent vinho = cortina de palco + feijoada, não o vermelho-hot do Vitória.",
+    "Detalhes Mágicos: paredes com caricaturas, pinturas, rostos e letras; mesas na calçada até no frio. Superfície cream/papel nas seções de história — parede do sobrado, não creme-SaaS.",
+    "GZH: exposição permanente Ô, Sorte! – Retratos da MPB (Daniel Marenco). Casa cultural, não sports bar. Latão envelhecido no brand = violão/cavaquinho, não ouro de chopp do Vitória."
+  ],
+  "confidence": 0.74,
+  "researchedAt": "2026-09-08"
+}

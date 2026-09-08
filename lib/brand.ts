@@ -5,7 +5,8 @@ export type BrandMood =
   | "artesanal"
   | "urbano-noturno"
   | "tradicional-gaucho"
-  | "limpo-servico";
+  | "limpo-servico"
+  | "casa-cultural";
 
 export type BrandIdentity = {
   /** Mesmo id do lead em data/leads.ts */
