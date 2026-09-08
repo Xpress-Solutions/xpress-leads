@@ -23,7 +23,7 @@ export function Navbar() {
       <header className={scrolled ? "nav is-scrolled" : "nav"}>
         <div className="nav-inner">
           <a className="nav-logo" href="#inicio">
-            {SITE.shortName}
+            <span className="nav-wordmark">{SITE.shortName}</span>
             <small>Azenha · 1044</small>
           </a>
           <nav className="nav-links" aria-label="Seções">
@@ -33,20 +33,22 @@ export function Navbar() {
               </a>
             ))}
           </nav>
-          <a className="btn btn-accent nav-cta" href={`tel:${SITE.phoneTel}`}>
-            Ligar
-          </a>
-          <button
-            type="button"
-            className="nav-burger"
-            aria-label={open ? "Fechar menu" : "Abrir menu"}
-            aria-expanded={open}
-            onClick={() => setOpen((v) => !v)}
-          >
-            <span />
-            <span />
-            <span />
-          </button>
+          <div className="nav-end">
+            <a className="btn btn-accent nav-cta" href={`tel:${SITE.phoneTel}`}>
+              Ligar
+            </a>
+            <button
+              type="button"
+              className="nav-burger"
+              aria-label={open ? "Fechar menu" : "Abrir menu"}
+              aria-expanded={open}
+              onClick={() => setOpen((v) => !v)}
+            >
+              <span />
+              <span />
+              <span />
+            </button>
+          </div>
         </div>
       </header>
       <div className={open ? "nav-drawer is-open" : "nav-drawer"}>
