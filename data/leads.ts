@@ -626,6 +626,49 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "cafe-de-garagem",
+    name: "Café de Garagem",
+    category: "gastronomia",
+    neighborhood: "santa-rosa-de-lima",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 86,
+    address: "Rua Paulo Henrique Ten-Caten, 112 — Santa Rosa de Lima",
+    mapsQuery: "Café de Garagem Rua Paulo Henrique Ten-Caten 112 Porto Alegre",
+    phone: "(51) 99437-3741",
+    whatsapp: "5551994373741",
+    instagram: "cafe_de_garagem",
+    identity:
+      "Café-boteco numa garagem, na Santa Rosa de Lima (zona norte). Espaço pequeno, mesas internas e na calçada, sem conforto térmico. Cafés, lanches, salgados e almoço de prato feito. Atendimento elogiado. Participante do Comida di Buteco 2026 com a Coxinha de Buteco.",
+    digitalGap:
+      "Instagram @cafe_de_garagem, sem site. Quem busca a Coxinha de Buteco 2026 cai em guia (Sabores do Sul, Comida di Buteco, iAvaliei) e a casa não captura o clique.",
+    conversionWhy:
+      "Identidade rara (garagem + café + PF + concurso nacional) fora do circuito da Cidade Baixa. Site com o petisco, o endereço da Ten-Caten e WhatsApp transforma o fluxo do concurso em visita na zona norte.",
+    approach:
+      "Chegue pela garagem e pela coxinha, não pelo 'você precisa de um site'. Mostre que o Comida di Buteco 2026 está narrando a casa em páginas de terceiro.",
+    pitch:
+      "Vi o Café de Garagem no Comida di Buteco 2026 e a Coxinha de Buteco só aparece em guia. Montei uma página da garagem — o petisco, o PF, a calçada da Ten-Caten e o WhatsApp — para o clique cair na casa.",
+    hours: "Seg–dom, horários variados (confirmar no Instagram/WhatsApp)",
+    sources: [
+      {
+        label: "iAvaliei",
+        url: "https://iavaliei.com.br/cafe-de-garagem-porto-alegre/",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/cafe_de_garagem/",
+      },
+      {
+        label: "Sabores do Sul 2026",
+        url: "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/",
+      },
+      {
+        label: "Comida di Buteco",
+        url: "https://comidadibuteco.com.br/butecos/porto-alegre/",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
