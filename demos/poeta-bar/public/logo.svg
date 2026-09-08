@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Poeta Bar</title>
+  <path fill="#3A4520" d="M0 0h720v142c-90 32-210 20-360 8S90 164 0 132V0z"/>
+  <path fill="#8E1D22" d="M0 108c100 36 220 12 360 0s260 24 360 10v186c-100-28-220-8-360 6S90 276 0 304V108z"/>
+  <path fill="#C9A227" d="M0 276c100-24 220 6 360 14s260-22 360-4v114H0V276z"/>
+  <g fill="#F3EBD8">
+    <path d="M118 168c-32 0-52 20-52 52 0 30 18 52 52 52h10v-22h-10c-18 0-30-14-30-30s12-30 30-30h26v-22h-26z"/>
+    <path d="M98 192c0-3 1-6 3-6 9 7 16 9 24 9v20c-12 0-20-4-27-11v-12z"/>
+    <circle cx="104" cy="186" r="13"/>
+    <path fill="#8E1D22" d="M104 186c0-8 6-12 10-9-2 4-2 8 0 12-5 2-10-1-10-3z"/>
+  </g>
+  <text x="200" y="248" fill="#F3EBD8" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-style="italic" font-weight="600" letter-spacing="2">Poeta</text>
+  <text x="478" y="188" fill="#F3EBD8" font-family="Georgia, 'Times New Roman', serif" font-size="54">”</text>
+</svg>

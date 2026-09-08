@@ -626,6 +626,47 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "poeta-bar",
+    name: "Poeta Bar",
+    category: "gastronomia",
+    neighborhood: "centro-historico",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 90,
+    address: "Rua dos Andradas, 777 (loja 783) — Centro Histórico",
+    mapsQuery: "Poeta Bar Rua dos Andradas 777 Porto Alegre",
+    phone: "(51) 98902-5645",
+    whatsapp: "5551989025645",
+    instagram: "poetabarbr",
+    googleRating: 4.6,
+    googleReviews: 155,
+    identity:
+      "Bar na Rua da Praia, Centro Histórico. Chope, xis e vanguarda num casarão da Andradas. Participante do Comida di Buteco 2026 com o Cocó Crispy (frango panko, crispy de alho-poró e molhos da casa). Aberto todos os dias, 11h–22h30.",
+    digitalGap:
+      "Instagram ativo (@poetabarbr) e Linktree. Sem site próprio. O Cocó Crispy e o horário estão no concurso e em guias de terceiro.",
+    conversionWhy:
+      "Petisco de concurso + ponto no Centro Histórico + expediente diário. Um site com o Cocó, o xis, o mapa da Andradas e WhatsApp captura o clique que hoje cai no Restaurant Guru.",
+    approach:
+      "Chegue pelo Cocó Crispy e pela Rua da Praia. Mostre que o concurso e o Google falam pela casa.",
+    pitch:
+      "O Poeta está no Comida di Buteco 2026 e quem busca o Cocó Crispy ainda cai em página de terceiro. Montei um site curto — o petisco, o xis, o horário e o WhatsApp — para o clique da Andradas cair na casa.",
+    hours: "Todos os dias 11h–22h30",
+    sources: [
+      {
+        label: "Comida di Buteco",
+        url: "https://comidadibuteco.com.br/buteco/poeta-bar/",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/poetabarbr/",
+      },
+      {
+        label: "Revista Sabores do Sul",
+        url: "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
