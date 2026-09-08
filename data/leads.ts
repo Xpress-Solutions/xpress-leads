@@ -246,6 +246,50 @@ export const leads: Lead[] = [
       "Não confundir com Barbearia O Barbeiro de Florianópolis (obarbeiro.com.br).",
   },
   {
+    id: "bonanno-barbearia",
+    name: "Bonanno Barbearia & Confraria",
+    category: "beleza",
+    neighborhood: "jardim-itu",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 90,
+    address: "Av. Bispo Scalabrini, 380 loja 1 — Jardim Itu",
+    mapsQuery: "Bonanno Barbearia Av. Bispo Scalabrini 380 Porto Alegre",
+    phone: "(51) 98919-2838",
+    whatsapp: "5551989192838",
+    instagram: "bonannobarbearia",
+    googleRating: 5,
+    googleReviews: 390,
+    founded: "2018 (20/08/2018)",
+    identity:
+      "Barbearia-confraria de Bruno Galante Rodrigues no Jardim Itu. Logo noir (fedora + charuto) no vidro, combo corte+barba como serviço-estrela, equipe citada pelo nome no Booksy. Casa desde 2018 — não é franquia Confraria da Barba nem Confraria Barber Club.",
+    digitalGap:
+      "Agenda e reputação vivem no Booksy (5.0 / 390). Instagram @bonannobarbearia. Sem site próprio: quem busca o nome cai em agregador, não na casa.",
+    conversionWhy:
+      "Serviço recorrente e ticket previsível (combo R$ 90). Site com equipe, preços, horário da Bispo Scalabrini e WhatsApp captura a busca local antes do clique ir só para o Booksy.",
+    approach:
+      "Chegue pelo 5.0 e pela confraria — mostre a página da casa (logo, cadeira, combo) e o WhatsApp de dúvidas, sem atacar o Booksy.",
+    pitch:
+      "Vocês já têm 390 avaliações 5.0 no Booksy e uma marca que o Jardim Itu reconhece. O que falta é a página da Bonanno — o combo, a equipe do Bruno e o WhatsApp — para quem pesquisa no Google cair na casa, não numa lista.",
+    hours: "Seg 14h–20h15 · ter–sex 10h–20h15 · sáb 9h–17h15 · dom fechado",
+    sources: [
+      {
+        label: "Booksy",
+        url: "https://booksy.com/pt-br/21076_bonanno-barbearia-confraria_barbearias_804125_porto-alegre",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/bonannobarbearia",
+      },
+      {
+        label: "Cadastro empresarial",
+        url: "https://barbeariaspertodemim.com/e/bonanno-barbearia-e-confraria-bnekle/",
+      },
+    ],
+    notes:
+      "Não confundir com Confraria Barber Club (José do Patrocínio) nem com a franquia Confraria da Barba.",
+  },
+  {
     id: "roda-de-carreta",
     name: "Churrascaria Roda de Carreta",
     category: "gastronomia",
