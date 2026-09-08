@@ -1,0 +1,79 @@
+{
+  "leadId": "pepeu-barber",
+  "name": "Pepeu Barber",
+  "positioning": "Barbearia de bairro com o nome do barbeiro: Vitor Hugo Pepeu na Rua Umbu, 715 loja 2 — autenticidade e estilo, não clube preto-e-dourado.",
+  "mood": "artesanal",
+  "voice": [
+    "de bairro",
+    "nome próprio",
+    "autêntico",
+    "na régua",
+    "galera massa"
+  ],
+  "avoid": [
+    "preto e dourado genérico",
+    "barber club",
+    "whiskey lounge",
+    "neon de franquia",
+    "roxo tech",
+    "creme terracotta de IA",
+    "Inter/Roboto display",
+    "gentleman victorian"
+  ],
+  "colors": {
+    "background": "#F3EFE0",
+    "foreground": "#2A2418",
+    "brand": "#547854",
+    "accent": "#7A4520",
+    "surface": "#FFFDF4",
+    "muted": "#8A7D68"
+  },
+  "typography": {
+    "display": "Norican (script do letreiro) + Calistoga nos títulos de seção",
+    "body": "Nunito Sans — humanista de leitura, sem Inter/Roboto",
+    "rationale": "O logo oficial escreve Pepeu Barber em script grosso verde-sálvia com bigode marrom e arco ‘BARBA, CABELO & BIGODE’. Norican carrega o nome da casa; Calistoga faz o peso de placa SINCE 2020. Fundo papel-creme do letreiro, não tinta preta de club."
+  },
+  "imagery": {
+    "heroSubject": "Fachada da Rua Umbu 715 loja 2: faixa creme com script verde, bigode marrom, vasos na porta e o salão claro atrás do vidro",
+    "atmosphere": [
+      "parede creme e recorte verde-sálvia",
+      "sofá Chesterfield de couro marrom",
+      "quadro pop do leão e camisa do Grêmio",
+      "skates na parede (Santa Cruz + shape Pepeu)",
+      "luz de dia, vitrine, piso de madeira clara",
+      "Pepeu de streetwear e tesoura na mão"
+    ],
+    "references": [
+      {
+        "label": "Booksy — Pepeu Barber",
+        "url": "https://booksy.com/pt-br/276079_pepeu-barber_barbearias_804125_porto-alegre"
+      },
+      {
+        "label": "Instagram @pepeubarber",
+        "url": "https://www.instagram.com/pepeubarber/"
+      },
+      {
+        "label": "Booksy curto / Instagram",
+        "url": "https://pepeubarber82.booksy.com/ig/"
+      },
+      {
+        "label": "Google Maps — Rua Umbu 715",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pepeu+Barber+Rua+Umbu+715+Porto+Alegre"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "soft",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo Booksy/letreiro da fachada: script verde-sálvia (#547854 dominante no JPEG), bigode marrom (#6c3c18 / média #76411f), fundo creme (#f0f0e4) e arco BARBA, CABELO & BIGODE + SINCE 2020. Não é preto/dourado.",
+    "Foto de negócio e inspirações Booksy + stories do @pepeubarber: salão claro, parede sálvia, sofá de couro, skate na parede, leão pop e camisa do Grêmio — barbearia de bairro com cara do Pepeu.",
+    "Bio do Instagram @pepeubarber (850 seguidores): ‘Sua imagem com AUTENTICIDADE e ESTILO · RUA: UMBU, 715 · Fundador: @pepeuvhr’. Equipe Booksy: Vitor Hugo PEPEU e Nicollas Martins CÔCO (@coquinho.barbe).",
+    "Booksy 5,0 (129 avaliações): horários diurnos (seg 10–19, ter–qua 9h30–19, qui–sex 9h30–20, sáb 10–17), serviços com preço (cabelo R$45, combo R$80, barboterapia R$100) e WhatsApp 51 93798-4496.",
+    "Reviews reais: ‘jedi das tesouras’, ‘sempre deixando na régua’, ‘ambiente top, galera massa’. Tom de rua, não de club."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}
