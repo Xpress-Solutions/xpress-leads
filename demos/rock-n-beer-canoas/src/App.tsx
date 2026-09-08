@@ -1,3 +1,5 @@
+import { Hero } from "./components/Hero";
+import { Logo } from "./components/Logo";
 import { Navbar } from "./components/Navbar";
 import { WhatsAppIcon } from "./components/WhatsAppIcon";
 import { MENU, PETISCO } from "./data/menu";
@@ -11,31 +13,7 @@ export function App() {
       </a>
       <Navbar />
       <div id="conteudo">
-        <section className="hero" id="inicio">
-          <div className="hero-bg" aria-hidden="true">
-            <img
-              src="/fotos/hero.jpg"
-              alt=""
-            />
-          </div>
-          <div className="wrap hero-content">
-            <h1>
-              Rock<span>'n</span> Beer
-            </h1>
-            <p>{SITE.tagline}</p>
-            <div className="hero-actions">
-              <a className="btn btn-brand" href={SITE.whatsapp} target="_blank" rel="noreferrer">
-                WhatsApp
-              </a>
-              <a className="btn btn-ghost" href={`tel:${SITE.phoneTel}`}>
-                Ligar {SITE.phoneDisplay}
-              </a>
-            </div>
-            <p className="hero-meta">
-              Palco · pizza · burger · Sezefredo, Canoas
-            </p>
-          </div>
-        </section>
+        <Hero />
 
         <section className="strip" aria-label="Informações rápidas">
           <div className="wrap strip-grid">
@@ -250,6 +228,7 @@ export function App() {
       <footer className="footer">
         <div className="wrap foot-grid">
           <div className="foot-brand">
+            <Logo variant="mark" className="foot-mark" />
             <strong>{SITE.name}</strong>
             <p>{SITE.tagline}</p>
             <p>{SITE.address.full}</p>
