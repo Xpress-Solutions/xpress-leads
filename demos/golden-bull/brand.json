@@ -1,0 +1,71 @@
+{
+  "leadId": "golden-bull",
+  "name": "Golden Bull",
+  "positioning": "Bar de noite no Passo D’Areia: petisco autoral e nome de placa — a Bruscheta Golden na Cipó, sem pose de churrascaria de avenida.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "noturno",
+    "de esquina da Zona Norte",
+    "orgulhoso do petisco",
+    "direto",
+    "placa de ouro sem luxo importado"
+  ],
+  "avoid": [
+    "churrascaria de Niterói",
+    "steakhouse internacional",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto de display",
+    "landing diurna de armazém"
+  ],
+  "colors": {
+    "background": "#0E0B08",
+    "foreground": "#F6EBD4",
+    "brand": "#D4A017",
+    "accent": "#E8B423",
+    "surface": "#1C140E",
+    "muted": "#9A7B52"
+  },
+  "typography": {
+    "display": "Cinzel",
+    "body": "Figtree",
+    "rationale": "Cinzel carrega placa de touro / letreiro dourado do nome Golden Bull — inscricional, não boteco-Bebas nem café-serif. Figtree lê horário e endereço sem virar Inter/Roboto. Fundo metal-noite; ouro do molho e do nome, não vermelho de tapete (Vitória) nem verde de armazém (Anita)."
+  },
+  "imagery": {
+    "heroSubject": "Bruscheta Golden no tabuleiro de metal oxidado — pães abertos, carne desfiada, molho mostarda-dourado e alecrim (foto oficial do Comida di Buteco 2026).",
+    "atmosphere": [
+      "bandeja de metal escuro",
+      "molho dourado no ramekin",
+      "carne espresso e pão tostado",
+      "alecrim do tema verduras 2026",
+      "luz quente de noite, não vitrine diurna"
+    ],
+    "references": [
+      {
+        "label": "Revista Sabores do Sul — Bruscheta Golden (foto Israh Ramos)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Foto do petisco (arquivo da matéria)",
+        "url": "https://revistasaboresdosul.com.br/wp-content/uploads/2026/04/goldenbull.jpg"
+      },
+      {
+        "label": "Comida di Buteco — ficha Porto Alegre",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto oficial da Bruscheta Golden (Israh Ramos / Sabores do Sul, abr/2026): bandeja de metal oxidado, carne desfiada espresso, ramekin de molho mostarda-dourado, serapilheira e alecrim. Paleta lida da imagem — fundo/sombra #0E0B08, superfície da bandeja #1C140E, ouro do molho e do nome #D4A017 / #E8B423 — não de um tema SaaS.",
+    "O nome da casa é Golden Bull: ouro de placa + touro. Isso afasta o vermelho-tapete do Vitória e o verde/brasa claro do Anita. Accent é mostarda do petisco, não terracotta de template.",
+    "Horário público segunda a sábado, 18h à meia-noite (Sabores do Sul e Comida di Buteco): bar de noite de bairro. O site fica escuro/metálico; cream de armazém diurno mentiria a casa.",
+    "Circuito 2026 com tema verduras e petisco a R$ 40; endereço Rua Cipó, 1264 — Passo D’Areia. Sem fachada, logo oficial ou telefone público no lead — Instagram não confirmado. Confiança 0.66, acima de 0.55, sem chute roxo."
+  ],
+  "confidence": 0.66,
+  "researchedAt": "2026-09-02"
+}
