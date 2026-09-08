@@ -71,18 +71,15 @@ export function Facade() {
         <ellipse cx="660" cy="560" rx="12" ry="16" />
       </g>
 
-      <g transform="translate(980 280)" fill="none" stroke="#F3EDE3" strokeWidth="12" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M210 40c40 8 70 46 64 92-8 62-70 78-118 70" />
-        <path d="M150 90c-8 40 6 88 48 104" />
-        <path d="M198 196c-40 18-48 70-18 96" />
-        <path d="M86 292c-10-40 18-70 54-66 22 40 8 86-28 104" />
-        <path d="M250 250c36-8 58 22 46 58-28 18-62 8-78-10" />
-        <path d="M200 248c22-4 38 10 34 28-16 10-34 4-42-8" />
+      <g transform="translate(1000 300)" fill="none" stroke="#F3EDE3" strokeWidth="13" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="168" cy="78" r="46" />
+        <path d="M168 124v86" />
+        <path d="M128 210c8 70 80 70 88 0" />
+        <path d="M216 248c38-6 62 20 48 58" />
+        <path d="M252 268c22 8 18 40-8 48" />
+        <path d="M120 268h70l-6 52c-2 16-14 26-26 26s-24-10-26-26l-6-52z" />
       </g>
-      <path
-        d="M1188 430h92c-4 28-22 46-46 46s-42-18-46-46z"
-        fill="#B4292C"
-      />
+      <path d="M1126 568h58c-3 18-14 30-29 30s-26-12-29-30z" fill="#B4292C" />
     </svg>
   );
 }
