@@ -626,6 +626,48 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "barbearia-strong",
+    name: "Barbearia Strong",
+    category: "beleza",
+    neighborhood: "centro-historico",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 84,
+    address: "Rua Dr. Flores, 327 loja 3 — Centro Histórico (Galeria Universitário)",
+    mapsQuery: "Barbearia Strong Rua Dr. Flores 327 Porto Alegre",
+    phone: "(51) 99955-1604",
+    whatsapp: "5551999551604",
+    instagram: "barbeariastrongpoa",
+    googleReviews: 87,
+    identity:
+      "Barbearia do centro, nome Strong. Anderson (ex-atleta) é o dono e o barbeiro que as reviews citam. Selo preto com bigode branco, parede de tijolo na Dr. Flores, abre cedo para o expediente do Centro. Ambiente simples, familiar, sem pose de club.",
+    digitalGap:
+      "Instagram oficial ativo (@barbeariastrongpoa, 2,6 mil seguidores) e WhatsApp na bio. Sem site. Quem pesquisa cai em guia de terceiro.",
+    conversionWhy:
+      "Serviço recorrente no Centro Histórico, horário longo (8h–20h) e agenda só no WhatsApp. Uma página com o selo, a loja, os serviços e o botão de horário captura a busca de nome.",
+    approach:
+      "Chegue pelo nome Strong e pela Dr. Flores, não por 'você precisa de um site'. Mostre a página com o logo do bigode e o tijolo da loja — a casa já tem cara, falta o endereço próprio.",
+    pitch:
+      "Montei um site curto da Strong: o selo, a loja da Dr. Flores, corte/barba e o WhatsApp que já está na bio. Quem pesquisa Barbearia Strong no Centro cai na casa, não no guia.",
+    hours: "Seg/qua–sex 8h–20h · ter 9h–20h · sáb 8h–18h · dom fechado",
+    sources: [
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/barbeariastrongpoa/",
+      },
+      {
+        label: "Guia Porto Alegre",
+        url: "https://guiaportoalegrers.com.br/centro-historico/barbearia-strong",
+      },
+      {
+        label: "Locais do Brasil",
+        url: "https://www.locaisdobrasil.com.br/encontre/barbearia/porto-alegre-rs/barbearia-strong/61e61eeb6c21e5033af2c386",
+      },
+    ],
+    notes:
+      "Listagens também citam Dr. Flores 330 / sala 47. Endereço canônico desta demo: 327 loja 3, Galeria Universitário. WhatsApp da bio do IG: 51 99955-1604; flyers antigos trazem 51 99872-7851.",
+  },
   ...metroLeads,
 ];
 
