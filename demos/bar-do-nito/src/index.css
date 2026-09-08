@@ -217,8 +217,20 @@ button {
 
 .nav-logo {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
+.nav-wordmark {
+  display: none;
+  flex-direction: column;
+  line-height: 1.05;
 }
 
 .nav-logo strong {
@@ -227,11 +239,10 @@ button {
   font-weight: 600;
 }
 
-.nav-logo span {
+.nav-since {
   font-family: var(--script);
   color: var(--brand);
   font-size: 1.15rem;
-  display: none;
 }
 
 .nav-links {
@@ -885,6 +896,13 @@ button {
   gap: 24px;
 }
 
+.foot-brand img {
+  height: 58px;
+  width: auto;
+  display: block;
+  margin-bottom: 12px;
+}
+
 .foot-brand strong {
   font-family: var(--display);
   font-size: 1.6rem;
@@ -938,8 +956,12 @@ button {
     width: min(1120px, calc(100% - 48px));
   }
 
-  .nav-logo span {
-    display: inline;
+  .nav-wordmark {
+    display: flex;
+  }
+
+  .nav-logo img {
+    height: 48px;
   }
 
   .quick-grid {

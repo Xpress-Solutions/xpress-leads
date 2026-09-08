@@ -27,8 +27,11 @@ export function Navbar() {
       <header className={`nav ${scrolled || open ? "is-scrolled" : ""}`}>
         <div className="nav-inner">
           <a className="nav-logo" href="#inicio" aria-label={SITE.name} onClick={close}>
-            <strong>Bar do Nito</strong>
-            <span>desde 1992</span>
+            <img src={SITE.logo} alt="" width={128} height={66} />
+            <span className="nav-wordmark">
+              <strong>Bar do Nito</strong>
+              <span className="nav-since">desde 1992</span>
+            </span>
           </a>
           <nav className="nav-links" aria-label="Principal">
             {NAV_LINKS.map((link) => (
