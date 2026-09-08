@@ -246,6 +246,41 @@ export const leads: Lead[] = [
       "Não confundir com Barbearia O Barbeiro de Florianópolis (obarbeiro.com.br).",
   },
   {
+    id: "poa-barber-shop",
+    name: "Poa Barber Shop",
+    category: "beleza",
+    neighborhood: "partenon",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 88,
+    address: "Av. Bento Gonçalves, 4135 — Partenon",
+    mapsQuery: "Poa Barber Shop Avenida Bento Gonçalves 4135 Porto Alegre",
+    instagram: "poabarbershop",
+    googleRating: 5,
+    googleReviews: 305,
+    identity:
+      "Barbearia de avenida no Partenon. O nome é a cidade (POA), o ponto é a Bento. Corte, barba, platinado, progressiva e streetwear La Poa no mesmo salão. Booksy 5.0, equipe citada pelo nome, combo corte+barba R$ 80.",
+    digitalGap:
+      "Agenda e vitrine só no Booksy e no Instagram @poabarbershop. Sem site próprio. Quem pesquisa o nome da casa cai no agregador, não numa página da Bento.",
+    conversionWhy:
+      "Serviço recorrente + 300 avaliações 5.0 + ponto de avenida. Uma página com preços, equipe, fotos do salão e botão de Booksy captura a busca 'barbearia Partenon / Bento' antes do clique ir para a lista genérica.",
+    approach:
+      "Chegue pelo nome da cidade e pelo 5.0. Mostre que o Booksy já fala pela casa e que falta o endereço digital próprio com a Bento no hero.",
+    pitch:
+      "A Poa Barber já é 5.0 na Bento e quem pesquisa o nome ainda cai no Booksy. Montei uma página da casa — logo, interior, combo de R$ 80 e agendamento — para o clique ser de vocês.",
+    hours: "Seg–sex 9h–20h · sáb 9h–17h · domingo fechado",
+    sources: [
+      {
+        label: "Booksy",
+        url: "https://booksy.com/pt-br/21012_poa-barber-shop_barbearias_804125_porto-alegre",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/poabarbershop/",
+      },
+    ],
+  },
+  {
     id: "roda-de-carreta",
     name: "Churrascaria Roda de Carreta",
     category: "gastronomia",
