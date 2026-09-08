@@ -1,0 +1,91 @@
+{
+  "leadId": "olivos-657",
+  "name": "Olivos 657",
+  "positioning": "Gastrobar intimista na Rua da República: porta discreta, luz baixa, coquetelaria de autor e vinhos de bodegas pequenas do RS — inspirado nos bares de Buenos Aires, não no boteco de calçada da Cidade Baixa.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "intimista",
+    "reservado",
+    "preciso",
+    "portenho sem pastiche",
+    "luz baixa",
+    "mesa para dois ou quatro"
+  ],
+  "avoid": [
+    "boteco raiz",
+    "chope e churrasquinho",
+    "turma grande",
+    "neon",
+    "luxo frio",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Bebas / placa de armazém",
+    "melhor do bairro"
+  ],
+  "colors": {
+    "background": "#10140F",
+    "foreground": "#F3EDE3",
+    "brand": "#C4B07A",
+    "accent": "#B83A2E",
+    "surface": "#1A2118",
+    "muted": "#8A8064"
+  },
+  "typography": {
+    "display": "Cormorant Garamond — serifada editorial, quase rótulo de vinho / placa de porta",
+    "body": "Outfit — grotesk humana para carta, horários e endereço",
+    "rationale": "O nome Olivos e o número 657 pedem face de placa discreta, não condensed de boteco. Serifada no display carrega o clima portenho e a carta de vinhos; corpo limpo para ler drink e prato no celular. Evitar Inter/Roboto e Bebas Neue."
+  },
+  "imagery": {
+    "heroSubject": "Porta discreta da República 657 à noite, ou o balcão de sete lugares sob luz baixa — sem fachada de bar de rua",
+    "atmosphere": [
+      "portinha despretensiosa e só duas mesas na calçada",
+      "três salões vintage com objetos do acervo dos sócios",
+      "parede de entrada com páginas ilustradas por Javier Mariscal",
+      "luz baixa / iluminação controlada, ambiente fechado",
+      "balcão de sete lugares (olho no olho com a Jey)",
+      "Negroni, azeitonas e azeite da casa",
+      "objetos de garimpo nas paredes"
+    ],
+    "references": [
+      {
+        "label": "Instagram @olivos657",
+        "url": "https://www.instagram.com/olivos657/"
+      },
+      {
+        "label": "Bom Gourmet / Prêmio 2025",
+        "url": "https://bomgourmet.com/premiobomgourmet/restaurantes/Variado/olivos-657/"
+      },
+      {
+        "label": "BOABreja",
+        "url": "https://www.boabreja.com.br/estabelecimentos/rs/porto-alegre/olivos-657"
+      },
+      {
+        "label": "Mixology News",
+        "url": "https://mixologynews.com.br/bares/olivos-657-coquetelaria-porto-alegre/"
+      },
+      {
+        "label": "VEJA Comer & Beber",
+        "url": "https://veja.abril.com.br/cultura/olivos-657-melhor-cozinha-de-bar-em-porto-alegre/"
+      },
+      {
+        "label": "Destemperados / GaúchaZH",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/experiencias/porto-alegre/noticia/2022/12/com-espaco-descontraido-bar-com-drinks-classicos-e-pratos-para-compartilhar-e-uma-aposta-para-o-verao-clbnr4mwx003d013crlnzl7x2.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Nome Olivos + azeite de oliva da casa (região de Porto Alegre) + azeitonas recheadas ('Olivas') sustentam o verde-oliva no fundo e nas superfícies — não é verde 'eco tech'.",
+    "Matérias (Mixology, Destemperados, BOABreja) repetem: porta discreta, duas mesas na calçada, sofisticação que não se anuncia na fachada, inspiração nos bares de Buenos Aires e luz baixa. Hero escuro e tipográfico, sem card de SaaS.",
+    "Carta marcada por amargos e clássicos: Negroni da casa envelhecido em barril de bálsamo (VEJA), Cajueiro (Bom Gourmet), Campari em vários autorais — o accent é vermelho-Campari, não o vermelho de tapete de boteco.",
+    "Três salões com decoração nostálgica/vintage do acervo de Marina Tosin, Maurício Cupini e Frederico Müller; parede com livro ilustrado por Javier Mariscal. Personalidade de objeto, não minimalismo frio.",
+    "Balcão de sete lugares e capacidade ~70–80: casa para casal ou grupo pequeno. Densidade airy, voz reservada — o contrário do boteco de esquina cheio.",
+    "Vencedor Bar e Boteco e indicado Carta de Drinks no Prêmio Bom Gourmet RS 2025; 14 anos em 2026 (aberto em 2012). O número 657 e o latão da placa entram como marca, não como decoração genérica."
+  ],
+  "confidence": 0.76,
+  "researchedAt": "2026-09-08"
+}
