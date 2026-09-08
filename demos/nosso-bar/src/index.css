@@ -369,7 +369,16 @@ button {
 
 .hero-meta {
   color: rgba(246, 237, 224, 0.72);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  margin: 0;
+  max-width: 42rem;
+}
+
+.hero-meta-sep {
+  font-weight: 500;
 }
 
 /* PETISCO */
@@ -578,22 +587,60 @@ button {
 .hours {
   background: var(--surface);
   border: 1px solid var(--line);
-  padding: 20px;
+  padding: 22px 20px;
+  text-align: left;
+}
+
+.hours-lead {
+  display: block;
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(1.28rem, 5.6vw, 1.85rem);
+  line-height: 1.16;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  text-wrap: pretty;
 }
 
 .hours-list {
   list-style: none;
-  margin: 16px 0;
+  margin: 16px 0 14px;
   padding: 0;
 }
 
 .hours-list li {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
-  padding: 8px 0;
+  align-items: baseline;
+  gap: 16px;
+  padding: 7px 0;
   border-bottom: 1px solid rgba(201, 162, 39, 0.12);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  line-height: 1.25;
+}
+
+.hours-day {
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.hours-slot {
+  font-weight: 600;
+  color: var(--foreground);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  text-align: right;
+  letter-spacing: 0.01em;
+}
+
+.hours-note {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 36rem;
 }
 
 .loc-actions {
@@ -605,6 +652,58 @@ button {
 @media (min-width: 860px) {
   .loc-grid {
     grid-template-columns: 1.15fr 0.85fr;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    line-height: 1.35;
+    max-width: 28rem;
+  }
+
+  .hero-meta-sep {
+    display: none;
+  }
+
+  .hours {
+    padding: 16px 14px;
+  }
+
+  .hours-lead {
+    font-size: 1.22rem;
+    font-weight: 600;
+    line-height: 1.18;
+  }
+
+  .hours-list {
+    margin: 12px 0 12px;
+  }
+
+  .hours-list li {
+    font-size: 0.82rem;
+    line-height: 1.2;
+    padding: 6px 0;
+    gap: 10px;
+  }
+
+  .hours-day {
+    font-weight: 500;
+  }
+
+  .hours-slot {
+    font-weight: 600;
+  }
+
+  .hours-note {
+    font-size: 0.74rem;
+    line-height: 1.4;
+    margin-bottom: 14px;
   }
 }
 

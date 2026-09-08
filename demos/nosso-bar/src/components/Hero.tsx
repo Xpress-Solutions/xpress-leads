@@ -21,7 +21,13 @@ export function Hero() {
             Ligar {SITE.phoneDisplay}
           </a>
         </div>
-        <p className="hero-meta">{SITE.hoursShort} · Av. Bento Gonçalves, 1979</p>
+        <p className="hero-meta">
+          <span>{SITE.hoursShort}</span>
+          <span className="hero-meta-sep" aria-hidden="true">
+            {" · "}
+          </span>
+          <span>Av. Bento Gonçalves, 1979</span>
+        </p>
       </div>
     </section>
   );
