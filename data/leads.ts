@@ -626,6 +626,44 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "nova-brescia",
+    name: "Lanches Nova Bréscia",
+    category: "gastronomia",
+    neighborhood: "sao-geraldo",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 94,
+    address: "Av. São Pedro, 1359 — São Geraldo",
+    mapsQuery: "Lanches Nova Bréscia Avenida São Pedro 1359 Porto Alegre",
+    phone: "(51) 3343-7489",
+    whatsapp: "555133437489",
+    instagram: "lanchesnovabrescia",
+    googleRating: 4.6,
+    googleReviews: 3913,
+    founded: "1987",
+    identity:
+      "Xis de esquina. Sérgio Sbardelotto saiu de Nova Bréscia em 1987 e abriu na Av. São Pedro com a Av. Ceará. Dez sabores, sem delivery, só débito/PIX/dinheiro. Google 4.6 com 3913 avaliações. Finalista Bom Gourmet 2025 de Melhor Xis.",
+    digitalGap:
+      "Instagram oficial e fichas em guias (Restaurant Guru, QuintoAndar, GZH). Sem site próprio: quem busca ‘xis São Geraldo’ cai em matéria de terceiro.",
+    conversionWhy:
+      "Casa de fila, sem tele-entrega: o clique precisa virar visita. Site com cardápio, horário, o 1359 no mapa e o telefone da esquina captura quem hoje só acha o Instagram.",
+    approach:
+      "Chegue pelo xis de 1 kg e pela esquina, não por ‘você precisa de um site’. Mostre que a história da casa está na GZH e na TVS Play, e que o Google não entrega o cardápio.",
+    pitch:
+      "A Nova Bréscia já é o xis da São Pedro — 4,6 no Google e quase 40 anos na mesma esquina. Montei uma página com os 10 sabores, o horário e o ‘como chegar’, para quem pesquisa xis em Porto Alegre cair na casa e não no guia.",
+    hours: "Ter–sáb 11h–23h · dom 18h–23h · seg fechado",
+    sources: [
+      {
+        label: "TVS Play",
+        url: "https://tvsplay.com.br/2026/02/25/lanches-nova-brescia-tradicao-e-sabor-um-dos-melhores-xis-do-rio-grande-do-sul-esta-em-porto-alegre/",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/lanchesnovabrescia/",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
@@ -742,6 +780,7 @@ export const neighborhoodLabel: Record<Neighborhood, string> = {
   azenha: "Azenha",
   "cidade-baixa": "Cidade Baixa",
   floresta: "Floresta",
+  "sao-geraldo": "São Geraldo",
   cristal: "Cristal",
   ipanema: "Ipanema",
   "centro-historico": "Centro Histórico",
@@ -776,6 +815,7 @@ export const neighborhoodOrder: Neighborhood[] = [
   "azenha",
   "cidade-baixa",
   "floresta",
+  "sao-geraldo",
   "cristal",
   "ipanema",
   "centro-historico",
@@ -810,6 +850,7 @@ export const neighborhoodCity: Record<Neighborhood, City> = {
   azenha: "porto-alegre",
   "cidade-baixa": "porto-alegre",
   floresta: "porto-alegre",
+  "sao-geraldo": "porto-alegre",
   cristal: "porto-alegre",
   ipanema: "porto-alegre",
   "centro-historico": "porto-alegre",
