@@ -9,7 +9,7 @@ export function Location() {
   const hours = useHours();
 
   return (
-    <section className="section" id="localizacao">
+    <section className="section location" id="localizacao">
       <div className="wrap reveal" ref={ref}>
         <p className="section-kicker">Onde almoçar</p>
         <h2 className="section-title">Av. Lageado, 1265.</h2>

@@ -1,12 +1,15 @@
 import { SITE } from "../data/site";
+import { Logo } from "./Logo";
 
 export function Footer() {
   return (
     <footer className="footer">
       <div className="checker" aria-hidden="true" />
-      <div className="wrap foot-grid" style={{ paddingTop: 28 }}>
+      <div className="wrap foot-grid">
         <div className="foot-brand">
-          <strong>{SITE.shortName}</strong>
+          <a href="#inicio" aria-label={SITE.name}>
+            <Logo />
+          </a>
           <p>
             {SITE.address.street}
             <br />

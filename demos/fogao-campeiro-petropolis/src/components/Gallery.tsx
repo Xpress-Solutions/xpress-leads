@@ -27,7 +27,7 @@ export function Gallery() {
   const ref = useReveal();
 
   return (
-    <section className="section" id="galeria">
+    <section className="section gallery" id="galeria">
       <div className="wrap reveal" ref={ref}>
         <p className="section-kicker">A casa em foto</p>
         <h2 className="section-title">Lageado, por dentro.</h2>

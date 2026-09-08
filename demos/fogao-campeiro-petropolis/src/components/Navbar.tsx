@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { NAV_LINKS, SITE } from "../data/site";
+import { Logo } from "./Logo";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,8 +26,7 @@ export function Navbar() {
         <div className="nav-bar">
           <div className="nav-inner">
             <a className="nav-logo" href="#inicio" aria-label={SITE.name}>
-              <img src="/logo.svg" alt="" />
-              Fogão Campeiro
+              <Logo />
             </a>
             <nav className="nav-links" aria-label="Principal">
               {NAV_LINKS.map((link) => (
@@ -40,7 +40,7 @@ export function Navbar() {
                 WhatsApp
               </a>
               <button
-                className="nav-burger"
+                className={`nav-burger ${open ? "is-open" : ""}`}
                 aria-label={open ? "Fechar menu" : "Abrir menu"}
                 aria-expanded={open}
                 onClick={() => setOpen((v) => !v)}

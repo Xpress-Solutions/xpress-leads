@@ -21,17 +21,17 @@
     "stock de churrascaria"
   ],
   "colors": {
-    "background": "#F2EBE0",
-    "foreground": "#1B1612",
-    "brand": "#3F8B2E",
-    "accent": "#1E4D9C",
-    "surface": "#FFF9F0",
-    "muted": "#8B7355"
+    "background": "#F3EBDA",
+    "foreground": "#1A1510",
+    "brand": "#8FBF42",
+    "accent": "#1F4FBF",
+    "surface": "#FFF8EC",
+    "muted": "#746555"
   },
   "typography": {
-    "display": "Fraunces — serifada quente de casarão",
+    "display": "Newsreader — serifada de placa de casarão 1950",
     "body": "Source Sans 3 — grotesk humanista para horário e preço",
-    "rationale": "O letreiro da fachada é cursivo rústico (Fogão Campeiro + panela); a lousa interna é giz de mão. Display serifada de casa antiga + script Caveat na frase da lousa. Corpo limpo para almoço (horário 11h–14h45, preços). Evitar Inter/Roboto como face principal."
+    "rationale": "O letreiro oficial da fachada é panela de ferro + 'fogão campeiro' em cursivo rústico (Homemade Apple no wordmark). A lousa interna é giz de mão (Kalam). Display serifada de casa antiga, não Fraunces genérica. Corpo limpo para almoço (horário 11h–14h45, preços). Evitar Inter/Roboto e caricatura de CTG."
   },
   "imagery": {
     "heroSubject": "Fachada do casarão verde-limão com friso azul e número 1265 na Av. Lageado",
@@ -63,7 +63,8 @@
     "heroStyle": "full-bleed"
   },
   "evidence": [
-    "Foto JC (Nathan Lemos, abr/2025) da fachada no 1265: casarão pintado de verde-limão, esquadrias e porta em azul-real, letreiro preto cursivo com ícone de panela, cerca branca e piso xadrez preto-e-branco no acesso — verde vira brand, azul vira accent de CTA, xadrez vira faixa (não toalha vermelha: não há evidência de gingham).",
+    "Letreiro oficial na fachada JC (Nathan Lemos, abr/2025): placa branca com panela de ferro preta + wordmark cursivo 'fogão campeiro', 'RESTAURANTE' em versal e @fogaocampeiropetropolis — essa marca entra no nav/hero/favicon, sem ícone inventado.",
+    "Foto JC da fachada no 1265: casarão pintado de verde-limão (mais claro que oliva de template), esquadrias e porta em azul-real, número 1265, cerca branca e piso/escada em xadrez preto-e-branco — verde vira brand #8FBF42, azul vira accent #1F4FBF de CTA, xadrez vira faixa da escada (não toalha vermelha: não há evidência de gingham).",
     "Interior JC: lousa preta sob moldura de gesso do casarão com a frase 'A MELHOR COMIDA CAMPEIRA E CASEIRA!' em giz branco e amarelo-creme — seção de buffet no site é quadro-negro, não card de SaaS.",
     "Buffet JC: panelas de ferro e travessas sobre piso parquet em xadrez/losango; paredes ovo; cadeiras pretas. Fundo diurno creme-ovo (#F2EBE0), não landing escura de boteco.",
     "Bio do IG @fogaocampeiropetropolis: 'Comida campeira e caseira', 11h–14h45 seg–sáb, Av. Lageado 1265, filial do @fogaocampeiro_. JC: Luana Benincá (2ª geração) toca a filial de março/2025; feijoada e carne de panela todos os dias; lasanha de abacaxi às sextas.",
