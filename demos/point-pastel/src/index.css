@@ -555,19 +555,96 @@ button {
   background: var(--surface);
   padding: 22px;
   border: 1px solid color-mix(in srgb, var(--brand) 12%, transparent);
+  container-type: inline-size;
+  container-name: hours;
+}
+
+.hours-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px 12px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand) 14%, transparent);
+}
+
+.hours-now-copy {
+  min-width: 0;
+  display: grid;
+  align-content: center;
+  gap: 4px;
+}
+
+.hours-now-kicker {
+  display: block;
+  color: var(--brand);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0;
+  white-space: nowrap;
 }
 
 .hours-now strong {
   display: block;
   font-family: var(--display);
-  font-size: 2rem;
+  font-weight: 600;
+  font-size: clamp(1.4rem, 7.2vw, 2rem);
+  line-height: 1;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  white-space: nowrap;
+  font-synthesis: none;
+}
+
+.hours-now .pill {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  line-height: 1.15;
+  align-self: center;
+}
+
+@container hours (max-width: 420px) {
+  .hours-now-kicker {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+  }
+
+  .hours-now strong {
+    font-size: clamp(1.35rem, 9.2cqi, 1.7rem);
+  }
+
+  .hours-now .pill {
+    font-size: 0.66rem;
+    padding: 5px 8px;
+    letter-spacing: 0.06em;
+  }
+}
+
+@container hours (min-width: 421px) {
+  .hours-now-kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+  }
+
+  .hours-now strong {
+    font-size: clamp(1.55rem, 7.4cqi, 2rem);
+  }
+}
+
+@container hours (max-width: 250px) {
+  .hours-now {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .hours-list {
   list-style: none;
-  margin: 16px 0 12px;
+  margin: 0 0 12px;
   padding: 0;
   display: grid;
   gap: 8px;

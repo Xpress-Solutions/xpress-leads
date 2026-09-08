@@ -32,9 +32,11 @@ export function Location() {
           </div>
 
           <aside className="hours">
-            <div>
-              <span className="section-kicker">Hoje · {hours.label}</span>
-              <strong>{hours.open ? "Aberto" : "Fechado"}</strong>
+            <div className="hours-now">
+              <div className="hours-now-copy">
+                <span className="hours-now-kicker">Hoje · {hours.label}</span>
+                <strong>{hours.open ? "Aberto" : "Fechado"}</strong>
+              </div>
               <span className={hours.open ? "pill pill-on" : "pill pill-off"}>
                 {hours.hours}
               </span>
