@@ -27,8 +27,11 @@ export function Navbar() {
       <header className={`nav ${on || open ? "is-on" : ""}`}>
         <div className="nav-inner">
           <a href="#inicio" className="nav-logo" aria-label={SITE.name}>
-            <b>{SITE.shortName}</b>
-            <span>Espetinho Bar</span>
+            <img src="/logo.svg" alt="" width={48} height={48} />
+            <span className="nav-brand">
+              <b>{SITE.shortName}</b>
+              <span>Espetinho Bar</span>
+            </span>
           </a>
 
           <nav className="nav-links" aria-label="Principal">

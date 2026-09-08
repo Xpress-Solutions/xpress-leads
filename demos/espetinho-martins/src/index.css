@@ -5,8 +5,14 @@
   --accent: #c73a12;
   --surface: #1c140e;
   --muted: #a07a4a;
-  --display: "Anton", "Arial Narrow", sans-serif;
-  --body: "Barlow", "Avenir Next", system-ui, sans-serif;
+  --display: "Anton", "Arial Narrow", "Impact", sans-serif;
+  --body: "Barlow", "Avenir Next Condensed", "Segoe UI", system-ui, sans-serif;
+  --display-weight: 400;
+  --display-lh: 1.04;
+  --display-track: 0.03em;
+  --ui-weight: 700;
+  --ui-lh: 1.2;
+  --ui-track: 0.08em;
   --nav-h: 72px;
   --radius: 2px;
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
@@ -30,8 +36,10 @@ body {
   margin: 0;
   color: var(--foreground);
   font-family: var(--body);
+  font-weight: 400;
   background: var(--background);
   line-height: 1.5;
+  letter-spacing: 0;
   text-rendering: optimizeLegibility;
 }
 
@@ -77,8 +85,9 @@ button {
 }
 
 .wrap {
-  width: min(1120px, calc(100% - 32px));
+  width: min(1120px, calc(100% - 24px));
   margin-inline: auto;
+  container-type: inline-size;
 }
 
 .section {
@@ -89,13 +98,18 @@ button {
 .kicker {
   display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
   color: var(--brand);
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  font-family: var(--body);
+  font-weight: var(--ui-weight);
   font-size: 0.72rem;
-  font-weight: 700;
+  line-height: var(--ui-lh);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   margin-bottom: 10px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .kicker::before {
@@ -107,10 +121,15 @@ button {
 
 .title {
   font-family: var(--display);
-  font-size: clamp(2.4rem, 7vw, 4.6rem);
-  line-height: 0.92;
-  letter-spacing: 0.02em;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  font-size: clamp(2rem, 10cqi, 4.6rem);
+  line-height: var(--display-lh);
+  letter-spacing: var(--display-track);
   text-transform: uppercase;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  max-width: 100%;
   margin: 0 0 14px;
 }
 
@@ -118,7 +137,10 @@ button {
   max-width: 38rem;
   color: var(--muted);
   margin: 0;
+  font-family: var(--body);
   font-size: 1.05rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 
 .reveal {
@@ -138,12 +160,19 @@ button {
   justify-content: center;
   gap: 8px;
   min-height: 50px;
-  padding: 0 22px;
+  max-width: 100%;
+  padding: 12px 22px;
   border-radius: var(--radius);
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-family: var(--body);
+  font-weight: var(--ui-weight);
   font-size: 0.78rem;
+  line-height: var(--ui-lh);
+  letter-spacing: var(--ui-track);
+  text-transform: uppercase;
+  text-align: center;
+  text-wrap: balance;
+  white-space: normal;
+  overflow-wrap: anywhere;
   transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
 }
 
@@ -204,24 +233,47 @@ button {
 
 .nav-logo {
   display: flex;
-  flex-direction: column;
-  line-height: 0.9;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
 }
 
-.nav-logo b {
+.nav-logo img {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #110c08;
+}
+
+.nav-brand {
+  display: none;
+  flex-direction: column;
+  min-width: 0;
+  line-height: 0.95;
+}
+
+.nav-brand b {
   font-family: var(--display);
-  font-size: 1.85rem;
-  letter-spacing: 0.08em;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  font-size: 1.55rem;
+  line-height: var(--display-lh);
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--foreground);
+  overflow-wrap: anywhere;
 }
 
-.nav-logo span {
+.nav-brand span {
+  font-family: var(--body);
   font-size: 0.62rem;
-  letter-spacing: 0.22em;
+  line-height: var(--ui-lh);
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--brand);
-  font-weight: 700;
+  font-weight: var(--ui-weight);
+  overflow-wrap: anywhere;
 }
 
 .nav-links {
@@ -231,7 +283,9 @@ button {
 }
 
 .nav-links a {
+  font-family: var(--body);
   font-size: 0.9rem;
+  line-height: var(--ui-lh);
   color: rgba(243, 230, 208, 0.78);
 }
 
@@ -301,12 +355,21 @@ button {
   pointer-events: auto;
 }
 
-.nav-drawer a {
+.nav-drawer a:not(.btn) {
   font-family: var(--display);
-  font-size: 2.2rem;
-  letter-spacing: 0.04em;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  font-size: clamp(1.7rem, 9vw, 2.2rem);
+  line-height: var(--display-lh);
+  letter-spacing: var(--display-track);
   text-transform: uppercase;
   padding: 6px 0;
+  overflow-wrap: anywhere;
+}
+
+.nav-drawer .btn {
+  margin-top: 12px;
+  align-self: flex-start;
 }
 
 .hero {
@@ -347,26 +410,39 @@ button {
 
 .hero h1 {
   font-family: var(--display);
-  font-size: clamp(4.4rem, 18vw, 10rem);
-  line-height: 0.8;
-  letter-spacing: 0.02em;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  font-size: clamp(3.15rem, 22cqi, 10rem);
+  line-height: 0.92;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
+  overflow-wrap: anywhere;
+  max-width: 100%;
   margin: 0 0 10px;
 }
 
 .hero-sub {
   font-family: var(--display);
-  font-size: clamp(0.95rem, 2.4vw, 1.25rem);
-  letter-spacing: 0.28em;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  font-size: clamp(0.95rem, 3.6cqi, 1.25rem);
+  line-height: 1.25;
+  letter-spacing: clamp(0.08em, 2.4cqi, 0.22em);
   text-transform: uppercase;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
   color: var(--brand);
+  max-width: 100%;
   margin: 0 0 6px;
 }
 
 .hero p {
   max-width: 28rem;
   color: rgba(243, 230, 208, 0.86);
+  font-family: var(--body);
   font-size: 1.12rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
   margin: 0 0 22px;
 }
 
@@ -374,6 +450,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  max-width: 100%;
 }
 
 .strip {
@@ -400,14 +477,20 @@ button {
 .strip-item b {
   display: block;
   font-family: var(--display);
-  letter-spacing: 0.06em;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  letter-spacing: 0.05em;
+  line-height: var(--display-lh);
   text-transform: uppercase;
   font-size: 1.15rem;
+  overflow-wrap: anywhere;
 }
 
 .strip-item span {
+  font-family: var(--body);
   color: var(--muted);
   font-size: 0.82rem;
+  line-height: 1.35;
 }
 
 .petisco {
@@ -440,11 +523,17 @@ button {
   position: absolute;
   left: 12px;
   bottom: 12px;
+  max-width: calc(100% - 24px);
   background: var(--accent);
   color: #fff4e8;
   font-family: var(--display);
-  letter-spacing: 0.08em;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  letter-spacing: 0.06em;
+  line-height: var(--display-lh);
   text-transform: uppercase;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
   padding: 8px 12px;
   font-size: 0.9rem;
 }
@@ -462,13 +551,16 @@ button {
 }
 
 .chip {
+  font-family: var(--body);
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: var(--ui-weight);
+  line-height: var(--ui-lh);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding: 6px 10px;
   border: 1px solid rgba(217, 164, 65, 0.4);
   color: var(--brand);
+  overflow-wrap: anywhere;
 }
 
 .dishes {
@@ -494,26 +586,35 @@ button {
 .board-row strong {
   display: block;
   font-family: var(--display);
+  font-weight: var(--display-weight);
+  font-synthesis: none;
   font-size: 1.55rem;
-  letter-spacing: 0.04em;
+  line-height: var(--display-lh);
+  letter-spacing: var(--display-track);
   text-transform: uppercase;
+  overflow-wrap: anywhere;
 }
 
 .board-row span {
   display: block;
+  font-family: var(--body);
   color: var(--muted);
   font-size: 0.9rem;
+  line-height: 1.4;
   margin-top: 2px;
 }
 
 .board-row em {
   font-style: normal;
   font-family: var(--display);
-  letter-spacing: 0.04em;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  letter-spacing: var(--display-track);
+  line-height: var(--display-lh);
   text-transform: uppercase;
   color: var(--brand);
   font-size: 1.05rem;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 .board-row.is-official {
@@ -598,31 +699,46 @@ button {
 .hours-now {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
   padding-bottom: 16px;
   margin-bottom: 16px;
   border-bottom: 1px solid rgba(243, 230, 208, 0.08);
 }
 
+.hours-now > div {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
 .hours-now strong {
   display: block;
   font-family: var(--display);
-  font-size: 2rem;
-  letter-spacing: 0.04em;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  font-size: clamp(1.55rem, 8cqi, 2rem);
+  line-height: var(--display-lh);
+  letter-spacing: var(--display-track);
   text-transform: uppercase;
+  overflow-wrap: anywhere;
+  max-width: 100%;
 }
 
 .hours-detail {
   display: block;
+  font-family: var(--body);
   color: var(--muted);
+  line-height: 1.4;
 }
 
 .pill {
+  flex-shrink: 0;
   padding: 6px 10px;
+  font-family: var(--body);
   font-size: 0.72rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  line-height: var(--ui-lh);
+  letter-spacing: var(--ui-track);
   text-transform: uppercase;
 }
 
@@ -647,8 +763,21 @@ button {
 .hours-list li {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
   color: var(--muted);
+  font-family: var(--body);
   font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.hours-list li span:first-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.hours-list li span:last-child {
+  flex-shrink: 0;
 }
 
 .hours-list li.is-today {
@@ -679,15 +808,24 @@ button {
 
 .final-box h2 {
   font-family: var(--display);
-  font-size: clamp(2.6rem, 8vw, 4.8rem);
-  line-height: 0.9;
+  font-weight: var(--display-weight);
+  font-synthesis: none;
+  font-size: clamp(2rem, 10cqi, 4.8rem);
+  line-height: var(--display-lh);
+  letter-spacing: var(--display-track);
   text-transform: uppercase;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  max-width: 100%;
   margin: 0 0 10px;
 }
 
 .final-box p {
   max-width: 32rem;
   color: rgba(243, 230, 208, 0.86);
+  font-family: var(--body);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
   margin: 0;
 }
 
@@ -709,20 +847,34 @@ button {
   gap: 24px;
 }
 
+.foot-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  background: #110c08;
+}
+
 .foot-brand b {
   display: block;
   font-family: var(--display);
+  font-weight: var(--display-weight);
+  font-synthesis: none;
   font-size: 2rem;
-  letter-spacing: 0.08em;
+  line-height: var(--display-lh);
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+  overflow-wrap: anywhere;
 }
 
 .foot-brand span {
   display: block;
+  font-family: var(--body);
   color: var(--brand);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.16em;
+  line-height: var(--ui-lh);
   font-size: 0.68rem;
-  font-weight: 700;
+  font-weight: var(--ui-weight);
   text-transform: uppercase;
   margin-bottom: 4px;
 }
@@ -765,9 +917,49 @@ button {
   height: 28px;
 }
 
+@media (max-width: 419px) {
+  .hours-now {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .board-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .strip-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .strip-item {
+    border-right: 0;
+    border-bottom: 1px solid rgba(243, 230, 208, 0.06);
+  }
+
+  .strip-item:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media (min-width: 360px) {
+  .nav-brand {
+    display: flex;
+  }
+}
+
 @media (min-width: 768px) {
   .wrap {
     width: min(1120px, calc(100% - 48px));
+  }
+
+  .nav-logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nav-brand b {
+    font-size: 1.7rem;
   }
 
   .strip-grid {
