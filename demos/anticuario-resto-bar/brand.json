@@ -1,0 +1,79 @@
+{
+  "leadId": "anticuario-resto-bar",
+  "name": "Anticuário Restô Bar",
+  "positioning": "Restô-bar uruguaio na Lima e Silva: chivito, pizza em quadradinhos, cerveza gelada e um salão que parece antiquário — Cidade Baixa, sem pose.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "uruguaio sem folclore forçado",
+    "familiar",
+    "noite de Cidade Baixa",
+    "bodegón",
+    "español no atendimento"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto display",
+    "cards no hero",
+    "boteco campeão genérico",
+    "tema Gaúcho de cartão-postal"
+  ],
+  "colors": {
+    "background": "#110E0A",
+    "foreground": "#F3E6C9",
+    "brand": "#E6B422",
+    "accent": "#C41E3A",
+    "surface": "#221910",
+    "muted": "#8F7848"
+  },
+  "typography": {
+    "display": "Great Vibes (script do letreiro) + Cormorant Garamond nos títulos",
+    "body": "Figtree — grotesk quente para cardápio e horário",
+    "rationale": "O nome na fachada e no mosaico interno é script dourado/branco, não bloco esportivo. Corpo limpo para ler chivito e horário no celular. Evitar Inter/Roboto e Bebas (pele do Vitória)."
+  },
+  "imagery": {
+    "heroSubject": "Letreiro preto com ‘Anticuário’ em script dourado, bandeiras uruguaias e o salão de antiguidades na Lima e Silva, 985",
+    "atmosphere": [
+      "letreiro preto + script dourado + bandeiras do Uruguai",
+      "mosaico amarelo e preto (listras Peñarol) com o nome em cursiva",
+      "paredes de quadros, discos, placas e peças de antiquário",
+      "toalhas de renda no salão e xadrez vermelho-branco nas mesas da rua",
+      "pizza uruguaia cortada em quadradinhos e balde Patricia",
+      "luz âmbar de noite, violão, salão miúdo"
+    ],
+    "references": [
+      {
+        "label": "Instagram @anticuariorestobar",
+        "url": "https://www.instagram.com/anticuariorestobar/"
+      },
+      {
+        "label": "Restaurant Guru — 120 fotos (fachada, interior, pratos)",
+        "url": "https://restaurantguru.com.br/Anticuario-Resto-Bar-Porto-Alegre"
+      },
+      {
+        "label": "Hagah — cardápio, chivito, decoração de antiguidades",
+        "url": "https://www.hagah.com.br/anticuario-resto-bar-general-lima-e-silva-985"
+      },
+      {
+        "label": "Guia da Semana — Patricia, Norteña, peças argentinas/uruguaias/americanas",
+        "url": "https://www.guiadasemana.com.br/porto-alegre/bares/estabelecimento/anticuario-resto-bar"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fachada na Lima e Silva 985: placa preta com ‘Anticuário’ em script amarelo-ouro, ‘Restô Bar’ em caixa alta e bandeiras uruguaias dos dois lados — dourado vira brand, preto vira fundo.",
+    "Mosaico interno do nome em listras amarelo e preto (Peñarol) com script branco e bandeira — confirma a paleta amarelo-preto além do letreiro.",
+    "Hagah e Guia da Semana descrevem decoração com peças de antiguidades argentinas, uruguaias e americanas; fotos do Restaurant Guru mostram paredes de quadros, LPs, latas, Gardel e prateleira de madeira.",
+    "Mesas da casa: renda crochet no salão (marfim) e toalha xadrez vermelho-branco/vermelho-amarelo na calçada — vermelho do xadrez vira accent de CTA, não o vermelho-hot de boteco genérico.",
+    "Cardápio no quadro-negro da porta: panchos, empanadas, pizzas, cerveza, vinos. Reviews e Hagah confirmam chivito, pizza de pesto em quadradinhos, Patricia/Norteña. Donos uruguaios respondem ‘Muchas gracias’.",
+    "Casa noturna (qua–dom a partir das 18h), salão miúdo, música ao vivo e toldo na rua — densidade compacta, hero full-bleed escuro, não landing diurna de armazém."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}
