@@ -1,0 +1,74 @@
+{
+  "leadId": "fogao-campeiro-petropolis",
+  "name": "Fogão Campeiro Petrópolis",
+  "positioning": "Buffet de almoço campeiro e caseiro num casarão de 1950 na Lageado — comida de avó, segunda geração Benincá, filial 2025 do Teresópolis.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "caseira",
+    "de avó",
+    "almoço de família",
+    "casarão",
+    "memória afetiva",
+    "campeira sem fantasia"
+  ],
+  "avoid": [
+    "noite/boate",
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto de display",
+    "xadrez vermelho inventado",
+    "stock de churrascaria"
+  ],
+  "colors": {
+    "background": "#F2EBE0",
+    "foreground": "#1B1612",
+    "brand": "#3F8B2E",
+    "accent": "#1E4D9C",
+    "surface": "#FFF9F0",
+    "muted": "#8B7355"
+  },
+  "typography": {
+    "display": "Fraunces — serifada quente de casarão",
+    "body": "Source Sans 3 — grotesk humanista para horário e preço",
+    "rationale": "O letreiro da fachada é cursivo rústico (Fogão Campeiro + panela); a lousa interna é giz de mão. Display serifada de casa antiga + script Caveat na frase da lousa. Corpo limpo para almoço (horário 11h–14h45, preços). Evitar Inter/Roboto como face principal."
+  },
+  "imagery": {
+    "heroSubject": "Fachada do casarão verde-limão com friso azul e número 1265 na Av. Lageado",
+    "atmosphere": [
+      "casarão de 1950 verde-limão e azul",
+      "calçada xadrez preto-e-branco até a escada",
+      "lousa 'A melhor comida campeira e caseira'",
+      "buffet em panelas de ferro sobre parquet geométrico",
+      "luz de almoço, paredes ovo, moldura de gesso"
+    ],
+    "references": [
+      {
+        "label": "Instagram @fogaocampeiropetropolis",
+        "url": "https://www.instagram.com/fogaocampeiropetropolis/"
+      },
+      {
+        "label": "Jornal do Comércio / Nathan Lemos — filial no casarão",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2025/04/1199875-classico-restaurante-de-comida-campeira-da-zona-sul-abre-nova-unidade-em-casarao-do-bairro-petropolis.html"
+      },
+      {
+        "label": "TVS Play — comida da vovó",
+        "url": "https://tvsplay.com.br/2026/06/23/fogao-campeiro-petropolis-o-sabor-da-comida-da-vovo-que-conquistou-porto-alegre/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto JC (Nathan Lemos, abr/2025) da fachada no 1265: casarão pintado de verde-limão, esquadrias e porta em azul-real, letreiro preto cursivo com ícone de panela, cerca branca e piso xadrez preto-e-branco no acesso — verde vira brand, azul vira accent de CTA, xadrez vira faixa (não toalha vermelha: não há evidência de gingham).",
+    "Interior JC: lousa preta sob moldura de gesso do casarão com a frase 'A MELHOR COMIDA CAMPEIRA E CASEIRA!' em giz branco e amarelo-creme — seção de buffet no site é quadro-negro, não card de SaaS.",
+    "Buffet JC: panelas de ferro e travessas sobre piso parquet em xadrez/losango; paredes ovo; cadeiras pretas. Fundo diurno creme-ovo (#F2EBE0), não landing escura de boteco.",
+    "Bio do IG @fogaocampeiropetropolis: 'Comida campeira e caseira', 11h–14h45 seg–sáb, Av. Lageado 1265, filial do @fogaocampeiro_. JC: Luana Benincá (2ª geração) toca a filial de março/2025; feijoada e carne de panela todos os dias; lasanha de abacaxi às sextas.",
+    "Mood tradicional-gaúcho sustentado pelo ofício (carreteiro, feijoada, comida campeira) e pelo casarão — sem fantasia de CTG nem xadrez vermelho inventado."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}
