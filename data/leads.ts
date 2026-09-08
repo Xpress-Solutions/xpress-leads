@@ -246,6 +246,45 @@ export const leads: Lead[] = [
       "Não confundir com Barbearia O Barbeiro de Florianópolis (obarbeiro.com.br).",
   },
   {
+    id: "office-barber",
+    name: "Office Barber",
+    category: "beleza",
+    neighborhood: "jardim-botanico",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 82,
+    address: "Rua Barão do Amazonas, 1173, loja térreo — Jardim Botânico",
+    mapsQuery: "Office Barber Rua Barão do Amazonas 1173 Porto Alegre",
+    phone: "(51) 3232-4031",
+    whatsapp: "555132324031",
+    googleRating: 4.8,
+    googleReviews: 18,
+    founded: "selo EST. MMXXI (cadastro Office Hair Barber em 2017)",
+    identity:
+      "Barbearia com nome office na Barão do Amazonas, 1173 — loja térreo, Jardim Botânico. Selo preto CUT AND SHAVE, camiseta preta com ouro, interior de bloco cinza e vitrine de rua. Equipe no Booksy: Maillon Proença e Kauan Perez. Clientes citam ambiente organizado e café no capricho.",
+    digitalGap:
+      "Agenda no Booksy, sem site próprio. Instagram oficial da unidade de Porto Alegre não aparece com handle verificável. Quem pesquisa o nome cai no agregador, não na casa.",
+    conversionWhy:
+      "Serviço recorrente com preço público e equipe nomeada. Uma página com tabela, barbeiros, horário (seg–sáb 9h–20h) e WhatsApp tira o clique do Booksy e fecha o agendamento na casa.",
+    approach:
+      "Chegue pelo nome office e pela Barão — não trate como barbearia genérica. Mostre o selo e a vitrine: a casa já tem cara, falta o endereço digital.",
+    pitch:
+      "A Office Barber já tem selo, equipe e nota 4,8 no Booksy. O que falta é uma página da casa na Barão do Amazonas — serviços, Maillon e Kauan, horário e WhatsApp — para quem pesquisa no Google não ficar só no aplicativo.",
+    hours: "Seg–sáb 9h–20h · domingo e feriado fechado",
+    sources: [
+      {
+        label: "Booksy officebarber",
+        url: "https://booksy.com/pt-br/232615_officebarber_barbearias_804125_porto-alegre",
+      },
+      {
+        label: "Office Hair Barber — cadastro",
+        url: "https://barbeariaspertodemim.com/e/office-hair-barber-anocyg/",
+      },
+    ],
+    notes:
+      "CEP 90670-004; cadastro oficial usa Petrópolis. A rua é a via comercial do Jardim Botânico — identidade do lead é Jardim Botânico.",
+  },
+  {
     id: "roda-de-carreta",
     name: "Churrascaria Roda de Carreta",
     category: "gastronomia",

@@ -1,0 +1,64 @@
+{
+  "leadId": "office-barber",
+  "name": "Office Barber",
+  "positioning": "Barbearia de escritório na Barão do Amazonas: corte e barba no horário, ambiente claro de vitrine, sem pose de clube.",
+  "mood": "premium-casual",
+  "voice": ["preciso", "profissional", "de rua comercial", "direto", "sem pose"],
+  "avoid": [
+    "pole vermelho-branco de franquia",
+    "luxo de bunker",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto como display",
+    "stock de barbearia que não é a casa"
+  ],
+  "colors": {
+    "background": "#0B0B0B",
+    "foreground": "#F2EDE3",
+    "brand": "#E3C15A",
+    "accent": "#E3C15A",
+    "surface": "#161616",
+    "muted": "#8B8678"
+  },
+  "typography": {
+    "display": "Cinzel — serifada de selo/letterhead, a mesma família do emblema circular",
+    "body": "IBM Plex Sans — grotesk de escritório, lê serviço e horário sem virar SaaS",
+    "rationale": "O logo oficial é um selo preto com OFFICE BARBER + CUT AND SHAVE em serifada clássica e monograma OB. As camisetas da equipe estampam o mesmo nome em ouro sobre preto. Display serifado carrega o selo; corpo Plex soa ‘office’, não boteco nem dashboard."
+  },
+  "imagery": {
+    "heroSubject": "Interior da loja térrea na Barão do Amazonas: cadeira preta, piso de lajota clara, vitrine de rua e fade na tesoura",
+    "atmosphere": [
+      "parede de bloco cinza claro",
+      "lajota bege / cerâmica grande",
+      "cadeiras pretas e cromo",
+      "vitrine de piso a teto para a calçada",
+      "espelho com fita de LED fria",
+      "camiseta preta com selo dourado",
+      "café na espera"
+    ],
+    "references": [
+      {
+        "label": "Booksy officebarber — logo, fotos e agenda",
+        "url": "https://booksy.com/pt-br/232615_officebarber_barbearias_804125_porto-alegre"
+      },
+      {
+        "label": "Cadastro Office Hair Barber — Barão do Amazonas 1173",
+        "url": "https://barbeariaspertodemim.com/e/office-hair-barber-anocyg/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial no Booksy: selo circular preto, filete branco, monograma OB, arco OFFICE BARBER / CUT AND SHAVE, EST. MMXXI — paleta âncora é preto + branco, não vermelho de barbearia genérica.",
+    "Wordmark horizontal no mesmo perfil: OFFICE [selo] BARBER em serifada branca no preto; o ouro (#E3C15A) entra pelas camisetas pretas de Maillon Proença e Kauan Perez, com o selo bordado em amarelo-ouro no peito.",
+    "Fotos de interior no Booksy: parede de bloco cinza, lajota clara, cadeira preta, vitrine para a Barão do Amazonas, LED fria no espelho — shop diurno e organizado, não bunker escuro.",
+    "Clientes no Booksy (4,8 / 18) citam ambiente organizado, profissionais pelo nome e ‘café no capricho’. A casa responde: seg–sáb 9h–20h, domingo e feriado fechado.",
+    "Instagram oficial da unidade de Porto Alegre não apareceu com handle verificável; a fonte visual primária é o Booksy (logo, interior, equipe), não um feed inventado."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-08"
+}
