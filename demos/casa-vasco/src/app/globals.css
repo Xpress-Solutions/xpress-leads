@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --background: #1a2832;
+  --foreground: #f3ebe0;
+  --brand: #7a3148;
+  --accent: #d4b24a;
+  --surface: #243844;
+  --muted: #c4a4a8;
+  --plum-deep: #4a1e2c;
+  --petrol: #152028;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--brand);
+  --color-accent: var(--accent);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-plum-deep: var(--plum-deep);
+  --color-petrol: var(--petrol);
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-source);
+}
+
+.font-display {
+  font-family: var(--font-cormorant), "Times New Roman", serif;
+}
+
+.font-body {
+  font-family: var(--font-source), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-source), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--brand);
+  color: var(--foreground);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out forwards;
+}
+
+/* Grade em losango das esquadrias mostarda da fachada */
+.lattice {
+  background-image:
+    linear-gradient(45deg, rgb(212 178 74 / 0.14) 1px, transparent 1px),
+    linear-gradient(-45deg, rgb(212 178 74 / 0.14) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+.awning-edge {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 78%,
+    96% 100%,
+    92% 78%,
+    88% 100%,
+    84% 78%,
+    80% 100%,
+    76% 78%,
+    72% 100%,
+    68% 78%,
+    64% 100%,
+    60% 78%,
+    56% 100%,
+    52% 78%,
+    48% 100%,
+    44% 78%,
+    40% 100%,
+    36% 78%,
+    32% 100%,
+    28% 78%,
+    24% 100%,
+    20% 78%,
+    16% 100%,
+    12% 78%,
+    8% 100%,
+    4% 78%,
+    0 100%
+  );
+}

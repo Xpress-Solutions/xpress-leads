@@ -626,6 +626,46 @@ export const leads: Lead[] = [
     notes:
       "O concurso lista Partenon; um guia local cita Glória. Confirmar o ponto antes da visita.",
   },
+  {
+    id: "casa-vasco",
+    name: "Casa Vasco",
+    category: "gastronomia",
+    neighborhood: "bom-fim",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 90,
+    address: "Rua Vasco da Gama, 207 — Bom Fim",
+    mapsQuery: "Casa Vasco Rua Vasco da Gama 207 Porto Alegre",
+    phone: "(51) 99261-1006",
+    whatsapp: "5551992611006",
+    instagram: "casavasco207",
+    founded: "setembro de 2023",
+    identity:
+      "Armazém de vinhos e cachaças num casarão de 1957 no Bom Fim. Duas irmãs: Larissa (mestre destiladora) e Carolina (sommelier). Mais de 120 rótulos de vinho e cerca de 70 cachaças artesanais, com ênfase em pequenos produtores gaúchos. Gastrobar — não é boteco.",
+    digitalGap:
+      "Instagram @casavasco207 ativo e matérias em guias; sem site oficial. Quem pesquisa a casa cai em terceiro (Gastronomia RS, JC, Destino POA) e não numa página com horários, bodega e WhatsApp da casa.",
+    conversionWhy:
+      "Curadoria forte + casarão reconhecível + ticket de vinho/cachaça. Site com a bodega, as irmãs, o cardápio e o WhatsApp captura quem busca 'vinho Bom Fim' ou o endereço da Vasco da Gama.",
+    approach:
+      "Chegue pelo casarão e pelas irmãs, não por 'você precisa de um site'. Mostre que as matérias já falam pela casa e o clique não cai nelas.",
+    pitch:
+      "A Casa Vasco já é o armazém do Bom Fim — casarão, garrafas, vocês duas — mas quem pesquisa no Google ainda lê a casa nos guias. Montei uma página com a bodega, o horário e o WhatsApp para o clique cair aqui.",
+    hours: "Ter–sex 17h–0h · sáb 11h–0h · dom 11h–22h",
+    sources: [
+      {
+        label: "Gastronomia RS",
+        url: "https://gastronomiars.com.br/casa-vasco-armazem-de-bebidas-e-gastrobar-no-bom-fim-apresenta-novidades-no-cardapio/",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/casavasco207/",
+      },
+      {
+        label: "Jornal do Comércio",
+        url: "https://www.jornaldocomercio.com/ge2/noticias/2024/05/1156619-em-casa-dos-anos-1950-no-bom-fim-bar-e-armazem-de-bebidas-destaca-rotulos-de-produtores-gauchos.html",
+      },
+    ],
+  },
   ...metroLeads,
 ];
 
@@ -748,6 +788,7 @@ export const neighborhoodLabel: Record<Neighborhood, string> = {
   "jardim-itu": "Jardim Itu",
   tristeza: "Tristeza",
   "boa-vista": "Boa Vista",
+  "bom-fim": "Bom Fim",
   "passo-dareia": "Passo D'Areia",
   "rubem-berta": "Rubem Berta",
   restinga: "Restinga",
@@ -782,6 +823,7 @@ export const neighborhoodOrder: Neighborhood[] = [
   "jardim-itu",
   "tristeza",
   "boa-vista",
+  "bom-fim",
   "passo-dareia",
   "rubem-berta",
   "restinga",
@@ -816,6 +858,7 @@ export const neighborhoodCity: Record<Neighborhood, City> = {
   "jardim-itu": "porto-alegre",
   tristeza: "porto-alegre",
   "boa-vista": "porto-alegre",
+  "bom-fim": "porto-alegre",
   "passo-dareia": "porto-alegre",
   "rubem-berta": "porto-alegre",
   restinga: "porto-alegre",

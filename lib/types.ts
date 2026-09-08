@@ -27,6 +27,7 @@ export type Neighborhood =
   | "jardim-itu"
   | "tristeza"
   | "boa-vista"
+  | "bom-fim"
   | "passo-dareia"
   | "rubem-berta"
   | "restinga"
