@@ -377,7 +377,7 @@ button {
   position: relative;
   display: grid;
   align-items: end;
-  padding: calc(var(--nav-h) + 28px) 0 40px;
+  padding: calc(var(--nav-h) + 28px) 0 92px;
   overflow: hidden;
 }
 
@@ -436,7 +436,7 @@ button {
   margin: 0 0 6px;
 }
 
-.hero p {
+.hero p:not(.hero-sub) {
   max-width: 28rem;
   color: rgba(243, 230, 208, 0.86);
   font-family: var(--body);
@@ -446,11 +446,21 @@ button {
   margin: 0 0 22px;
 }
 
-.hero-actions {
+.hero-actions,
+.final-actions,
+.loc-actions,
+.menu-foot {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   max-width: 100%;
+}
+
+.hero-actions .btn,
+.final-actions .btn,
+.loc-actions .btn,
+.menu-foot .btn {
+  flex: 1 1 12rem;
 }
 
 .strip {
