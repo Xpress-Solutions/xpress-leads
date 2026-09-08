@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { NAV_LINKS, SITE } from "../data/site";
+import { Logo } from "./Logo";
 import { WhatsAppIcon } from "./WhatsAppIcon";
 
 export function Navbar() {
@@ -24,7 +25,7 @@ export function Navbar() {
       <header className={scrolled ? "nav is-scrolled" : "nav"}>
         <div className="nav-inner">
           <a className="nav-logo" href="#inicio">
-            <img src="/logo.svg" alt="" />
+            <Logo variant="mark" className="nav-mark" />
             {SITE.shortName}
           </a>
           <nav className="nav-links" aria-label="Seções">
