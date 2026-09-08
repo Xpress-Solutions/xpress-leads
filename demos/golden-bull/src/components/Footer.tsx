@@ -6,6 +6,7 @@ export function Footer() {
     <>
       <footer className="foot">
         <div className="wrap">
+          <img className="foot-logo" src="/logo.png" alt="" width={48} height={48} />
           <p>
             <strong>GOLDEN BULL</strong>
           </p>

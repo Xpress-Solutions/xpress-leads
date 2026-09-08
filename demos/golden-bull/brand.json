@@ -52,6 +52,10 @@
       {
         "label": "Comida di Buteco — ficha Porto Alegre",
         "url": "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/"
+      },
+      {
+        "label": "Comida di Buteco — ficha Golden Bull (Brusqueta Golden)",
+        "url": "https://comidadibuteco.com.br/buteco/golden-bull/"
       }
     ]
   },
@@ -64,8 +68,9 @@
     "Foto oficial da Bruscheta Golden (Israh Ramos / Sabores do Sul, abr/2026): bandeja de metal oxidado, carne desfiada espresso, ramekin de molho mostarda-dourado, serapilheira e alecrim. Paleta lida da imagem — fundo/sombra #0E0B08, superfície da bandeja #1C140E, ouro do molho e do nome #D4A017 / #E8B423 — não de um tema SaaS.",
     "O nome da casa é Golden Bull: ouro de placa + touro. Isso afasta o vermelho-tapete do Vitória e o verde/brasa claro do Anita. Accent é mostarda do petisco, não terracotta de template.",
     "Horário público segunda a sábado, 18h à meia-noite (Sabores do Sul e Comida di Buteco): bar de noite de bairro. O site fica escuro/metálico; cream de armazém diurno mentiria a casa.",
-    "Circuito 2026 com tema verduras e petisco a R$ 40; endereço Rua Cipó, 1264 — Passo D’Areia. Sem fachada, logo oficial ou telefone público no lead — Instagram não confirmado. Confiança 0.66, acima de 0.55, sem chute roxo."
+    "Circuito 2026 com tema verduras e petisco a R$ 40; endereço Rua Cipó, 1264 — Passo D’Areia. Ficha oficial do Comida di Buteco confirma a casa e a Brusqueta Golden. Instagram e fachada com marca ainda sem fonte pública — sem arquivo digital de logo oficial.",
+    "Ícone da demo: placa de touro reconstruída do nome Golden Bull + ouro #D4A017 da foto oficial da Bruscheta Golden (Israh Ramos / Sabores do Sul e Comida di Buteco). Não é o logo da churrascaria Golden Bull de Niterói nem o touro-caricatura genérico anterior."
   ],
   "confidence": 0.66,
-  "researchedAt": "2026-09-02"
+  "researchedAt": "2026-09-08"
 }
