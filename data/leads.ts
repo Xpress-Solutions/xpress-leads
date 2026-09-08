@@ -568,6 +568,47 @@ export const leads: Lead[] = [
     ],
   },
   {
+    id: "sotaque-bar",
+    name: "Sotaque Bar",
+    category: "gastronomia",
+    neighborhood: "rio-branco",
+    city: "porto-alegre",
+    priority: "alta",
+    score: 88,
+    address: "Av. Protásio Alves, 699 — Rio Branco",
+    mapsQuery: "Sotaque Bar Av. Protásio Alves 699 Porto Alegre",
+    phone: "(51) 3061-3646",
+    whatsapp: "555130613646",
+    instagram: "sotaquebar",
+    googleRating: 4.5,
+    founded: "2022",
+    identity:
+      "Bar plural na esquina da Protásio Alves com a João Guimarães. Pé-direito alto, janelões, chef na cozinha, bolinho Abel Ferreira e buraco quente. Projeto da Butiá Arquitetura (2022). ~16 mil no @sotaquebar. Dois sócios — paulista e garibaldense — reconstruíram o casarão.",
+    digitalGap:
+      "Instagram oficial forte, sem site próprio. A narrativa da esquina, do bolinho e dos horários vive em matéria de terceiro e na bio do IG.",
+    conversionWhy:
+      "Casa com identidade arquitetônica publicada, petisco de concurso e público de bairro que pesquisa antes de sair. Site com cardápio, horários e WhatsApp tira o clique do Restaurant Guru e do Destemperados.",
+    approach:
+      "Chegue pela esquina e pelo bolinho, não por 'presença digital'. Mostre a página com os janelões e o Abel Ferreira — a casa já tem cara, só não tem endereço próprio na busca.",
+    pitch:
+      "O Sotaque já é a esquina da Protásio — janelões, chef e o bolinho Abel Ferreira. Montei um site curto com a casa, o cardápio e o WhatsApp para quem pesquisa no Google cair aqui, não no guia.",
+    hours: "Ter–sex 18h–23h30 · sáb 11h30–23h30 · dom 11h30–17h",
+    sources: [
+      {
+        label: "Instagram @sotaquebar",
+        url: "https://www.instagram.com/sotaquebar/",
+      },
+      {
+        label: "ArchDaily — projeto Butiá",
+        url: "https://www.archdaily.com.br/br/1010866/sotaque-bar-butia-arquitetura",
+      },
+      {
+        label: "Destemperados",
+        url: "https://gauchazh.clicrbs.com.br/destemperados/noticia/2025/08/bar-na-protasio-alves-valoriza-brasilidade-com-drinks-e-petiscos-cmeu1vn6s01230167nczk0r4e.html",
+      },
+    ],
+  },
+  {
     id: "jacinto-pane",
     name: "Jacinto Pane & Cucina",
     category: "gastronomia",
