@@ -1,0 +1,80 @@
+{
+  "leadId": "nova-brescia",
+  "name": "Lanches Nova Bréscia",
+  "positioning": "Xis de esquina no São Geraldo: Sérgio Sbardelotto saiu de Nova Bréscia em 1987 e ainda manda o lanche de 1 kg na Av. São Pedro, 1359 — sem delivery.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "de esquina",
+    "direto",
+    "orgulhoso",
+    "familiar",
+    "raiz",
+    "sem firula"
+  ],
+  "avoid": [
+    "delivery app",
+    "gourmet",
+    "luxo",
+    "minimalismo frio",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto display",
+    "stock de hambúrguer"
+  ],
+  "colors": {
+    "background": "#E6D9C4",
+    "foreground": "#1C1412",
+    "brand": "#C8102E",
+    "accent": "#1F4E38",
+    "surface": "#F4EDE0",
+    "muted": "#8C7358"
+  },
+  "typography": {
+    "display": "Anton — letreiro de caixa-alta, o mesmo espírito do ‘NOVA BRÉSCIA’ no toldo",
+    "body": "Source Sans 3 — grotesk humanista para cardápio, horário e endereço",
+    "rationale": "A fachada grita o nome em sans condensada branca no vermelho. Display de bloco, não script de café. Corpo limpo para ler 10 sabores no celular. Evitar Inter/Roboto como face principal."
+  },
+  "imagery": {
+    "heroSubject": "Fachada da esquina à noite: toldo vermelho, letreiro branco, varal de lâmpadas, mesas plásticas vermelhas e o 1359 no pilar de azulejo",
+    "atmosphere": [
+      "toldo e cadeiras vermelhos de lancheria",
+      "azulejo bege com faixa xadrez marrom",
+      "filete verde emoldurando o letreiro",
+      "xis de 1 kg cortado na chapa",
+      "maionese caseira no potinho",
+      "fila na calçada da São Pedro"
+    ],
+    "references": [
+      {
+        "label": "Instagram @lanchesnovabrescia",
+        "url": "https://www.instagram.com/lanchesnovabrescia/"
+      },
+      {
+        "label": "TVS Play — visita e fotos da casa (fev/2026)",
+        "url": "https://tvsplay.com.br/2026/02/25/lanches-nova-brescia-tradicao-e-sabor-um-dos-melhores-xis-do-rio-grande-do-sul-esta-em-porto-alegre/"
+      },
+      {
+        "label": "QuintoAndar / foto TripAdvisor da fachada",
+        "url": "https://www.quintoandar.com.br/regioes-atendidas/porto-alegre-rs-brasil-jdj6u9g0k5/local/lanches-nova-brescia"
+      },
+      {
+        "label": "GZH — Sérgio, Pity e o xis de 1 kg",
+        "url": "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2026/06/gringolandia-da-a-la-minuta-e-do-xis-o-toque-caseiro-a-abundancia-e-o-futuro-de-restaurantes-iconicos-de-porto-alegre-cmqjpnir401il012adpbsbt2b.html"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto da fachada na matéria da TVS Play (2026): toldo contínuo vermelho, letreiro ‘NOVA BRÉSCIA / LANCHES’ em caixa-alta branca, filete verde estreito, fotos do xis no próprio letreiro.",
+    "Mesas e cadeiras plásticas vermelhas na calçada (logo de cerveja no encosto) + varal de lâmpadas sob o toldo — vermelho é a cor da casa, não um accent de CTA genérico.",
+    "Paredes de azulejo bege/off-white com faixa xadrez marrom-bege nos pilares e o número 1359 em preto: fundo do site = azulejo, não cream+terracotta de IA.",
+    "Instagram oficial e bio: ter–sáb 11h–23h, dom 18h–23h, seg fechado; sem tele-entrega; só débito, PIX ou dinheiro — a voz do site é ‘vem na esquina’, não app de delivery.",
+    "Cardápio público: 10 sabores de xis (salada, coração, frango, califórnia com figo, completo, calabresa, filé, bacon), bauru, dog, torrada, batata e maionese caseira no potinho."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-08"
+}

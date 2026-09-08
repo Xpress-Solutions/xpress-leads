@@ -21,6 +21,7 @@ export type Neighborhood =
   | "azenha"
   | "cidade-baixa"
   | "floresta"
+  | "sao-geraldo"
   | "cristal"
   | "ipanema"
   | "centro-historico"
