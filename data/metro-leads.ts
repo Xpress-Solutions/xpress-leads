@@ -930,4 +930,42 @@ export const metroLeads: Lead[] = [
       },
     ],
   },
+  {
+    id: "pepeu-barber",
+    name: "Pepeu Barber",
+    category: "beleza",
+    city: "porto-alegre",
+    neighborhood: "vila-ipiranga",
+    priority: "alta",
+    score: 88,
+    address: "Rua Umbu, 715 loja 2 — Vila Ipiranga, Porto Alegre",
+    mapsQuery: "Pepeu Barber Rua Umbu 715 Porto Alegre",
+    phone: "(51) 93798-4496",
+    whatsapp: "5551937984496",
+    instagram: "pepeubarber",
+    googleRating: 5,
+    googleReviews: 128,
+    founded: "2020",
+    identity:
+      "Barbearia de bairro com o nome próprio do barbeiro. Vitor Hugo Pepeu e Nicollas Côco na Rua Umbu, 715 loja 2. Booksy 5,0 com 128+ avaliações. Letreiro verde-sálvia, bigode no logo, salão claro com skate e sofá de couro — não franquia, não clube preto-e-dourado.",
+    digitalGap:
+      "Agenda no Booksy e Instagram @pepeubarber. Sem site. Quem pesquisa Pepeu Barber cai na plataforma de terceiro, não numa página da casa com a cara do Pepeu.",
+    conversionWhy:
+      "Serviço recorrente, nota máxima e nome próprio. Site com equipe, preços, fotos do salão e WhatsApp/Booksy captura a busca do bairro antes do clique sumir no agregador.",
+    approach:
+      "Chegue pelo nome do Pepeu e pela nota 5,0. Mostre que o Booksy fala pela casa e que a página oficial segura o cliente da Vila Ipiranga.",
+    pitch:
+      "O Pepeu já tem 5,0 no Booksy e o letreiro na Umbu 715, mas quem pesquisa o nome ainda não cai num site da casa. Montei uma página com o Pepeu, o Côco, os preços e o WhatsApp — a cara de vocês, não um tema de barbearia genérico.",
+    hours: "Seg 10h–19h · ter–qua 9h30–19h · qui–sex 9h30–20h · sáb 10h–17h · dom fechado",
+    sources: [
+      {
+        label: "Booksy",
+        url: "https://booksy.com/pt-br/276079_pepeu-barber_barbearias_804125_porto-alegre",
+      },
+      {
+        label: "Instagram",
+        url: "https://www.instagram.com/pepeubarber/",
+      },
+    ],
+  },
 ];
