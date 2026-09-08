@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Eucaliptos Sports Bar">
+  <rect width="240" height="240" fill="#0B0B0B"/>
+  <g fill="none" stroke="#F3EDE4" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 52h18v28h-10c0 10-8 16-16 16-10 0-16-8-16-16 0-14 12-20 24-28z"/>
+    <path d="M86 48c4-2 8-2 12 0"/>
+    <circle cx="148" cy="68" r="20"/>
+    <path d="M136 56c8 6 16 10 24 8M136 80c8-6 16-8 24-6M148 48v40M128 68h40"/>
+  </g>
+  <path d="M28 118c36-22 148-22 184 0v28c-36 22-148 22-184 0z" fill="#0B0B0B" stroke="#F3EDE4" stroke-width="3"/>
+  <text x="120" y="140" text-anchor="middle" fill="#F3EDE4" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" letter-spacing="1.2">EUCALIPTOS</text>
+  <text x="120" y="172" text-anchor="middle" fill="#E3A01C" font-family="Arial Narrow, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3.2">SPORTS BAR</text>
+  <path d="M88 196c8-10 16-10 24 0 8-10 16-10 24 0" fill="none" stroke="#F3EDE4" stroke-width="2.4"/>
+  <text x="120" y="218" text-anchor="middle" fill="#8B7D6A" font-family="Arial Narrow, Arial, sans-serif" font-size="10" letter-spacing="2.4">DESDE 2019</text>
+</svg>
