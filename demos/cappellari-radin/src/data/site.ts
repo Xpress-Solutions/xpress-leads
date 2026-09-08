@@ -9,6 +9,8 @@ export const SITE = {
   phoneTel: "+555132253535",
   whatsapp:
     "https://wa.me/555132253535?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Cappellari%20%26%20Radin%20e%20quero%20or%C3%A7amento%20de%20pedra.",
+  instagram: "https://www.instagram.com/cappellari_e_radin/",
+  instagramHandle: "@cappellari_e_radin",
   maps: "https://www.google.com/maps/search/?api=1&query=Marmoraria+Cappellari+e+Radin+Avenida+Ipiranga+8621+Porto+Alegre",
   mapsEmbed:
     "https://maps.google.com/maps?q=Avenida%20Ipiranga%208621%2C%20Jardim%20Bot%C3%A2nico%2C%20Porto%20Alegre&t=&z=16&ie=UTF8&iwloc=&output=embed",

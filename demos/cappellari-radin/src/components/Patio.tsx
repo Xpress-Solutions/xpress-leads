@@ -1,3 +1,4 @@
+import { InstagramLink } from "./InstagramLink.tsx";
 import { SITE } from "../data/site.ts";
 
 export function Patio() {
@@ -34,6 +35,7 @@ export function Patio() {
               <a className="btn btn-ghost" href={`tel:${SITE.phoneTel}`}>
                 Ligar
               </a>
+              <InstagramLink className="btn btn-ghost" label={SITE.instagramHandle} />
             </div>
           </div>
           <div className="map-frame">

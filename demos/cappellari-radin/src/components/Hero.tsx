@@ -1,3 +1,4 @@
+import { InstagramLink } from "./InstagramLink.tsx";
 import { SITE } from "../data/site.ts";
 
 export function Hero() {
@@ -22,6 +23,7 @@ export function Hero() {
           <span>Av. Ipiranga, 8621</span>
           <span>Desde {SITE.founded}</span>
           <span>{SITE.tradeName}</span>
+          <InstagramLink className="ig-link" />
         </div>
       </div>
     </section>

@@ -146,6 +146,12 @@ button {
   color: var(--ink);
 }
 
+.btn svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
 /* NAV */
 .nav {
   position: fixed;
@@ -264,35 +270,21 @@ button {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(1200px 700px at 18% 20%, rgba(201, 190, 154, 0.12), transparent 55%),
-    radial-gradient(900px 600px at 80% 70%, rgba(61, 107, 90, 0.2), transparent 50%),
-    linear-gradient(165deg, #1a1e1c 0%, #101312 42%, #0c0e0d 100%);
-}
-
-.hero-slab::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  opacity: 0.55;
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='800' height='500' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
-  mix-blend-mode: overlay;
+    url("/marble.svg") center / cover no-repeat,
+    #e8e0d3;
 }
 
 .hero-vein {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background:
-    linear-gradient(118deg, transparent 0 38%, rgba(232, 230, 225, 0.07) 39%, transparent 41%),
-    linear-gradient(152deg, transparent 0 58%, rgba(201, 190, 154, 0.14) 60%, transparent 63%),
-    linear-gradient(98deg, transparent 0 22%, rgba(122, 130, 120, 0.18) 24%, transparent 28%);
 }
 
 .hero-shade {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(12, 14, 13, 0.25) 0%, rgba(12, 14, 13, 0.35) 40%, rgba(12, 14, 13, 0.88) 100%);
+  background:
+    linear-gradient(180deg, rgba(12, 14, 13, 0.58) 0%, rgba(12, 14, 13, 0.2) 26%, rgba(12, 14, 13, 0.4) 56%, rgba(12, 14, 13, 0.92) 100%);
 }
 
 .hero-content {
@@ -351,6 +343,14 @@ button {
   background: var(--background);
 }
 
+.stones::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 8px;
+  background: url("/marble.svg") 40% 55% / cover no-repeat;
+}
+
 .stone-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -376,16 +376,8 @@ button {
 
 .stone-face.marble {
   background:
-    linear-gradient(125deg, #d9d6cf 0%, #b8b4aa 28%, #eceae4 46%, #9c9890 70%, #cfcbc2 100%);
-}
-
-.stone-face.marble::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(108deg, transparent 40%, rgba(70, 68, 64, 0.35) 42%, transparent 44%),
-    linear-gradient(150deg, transparent 55%, rgba(90, 86, 80, 0.28) 58%, transparent 61%);
+    url("/marble.svg") 40% 30% / 220% auto no-repeat,
+    #e8e0d3;
 }
 
 .stone-face.granite {
@@ -457,6 +449,14 @@ button {
   background: var(--surface);
 }
 
+.works::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 8px;
+  background: url("/marble.svg") 50% 42% / cover no-repeat;
+}
+
 .work-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -488,6 +488,22 @@ button {
   background: var(--background);
 }
 
+.facts {
+  position: relative;
+  padding: 28px 24px;
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.facts::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/marble.svg") 60% 20% / cover no-repeat;
+  opacity: 0.14;
+  pointer-events: none;
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -500,10 +516,12 @@ button {
   font-size: 1.08rem;
 }
 
-.facts {
+.facts-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
+  position: relative;
+  z-index: 1;
 }
 
 .fact {
@@ -540,8 +558,18 @@ button {
 
 .patio-card {
   border: 1px solid var(--line);
-  padding: 28px;
+  padding: 28px 28px 28px 34px;
   background: var(--surface);
+  position: relative;
+  overflow: hidden;
+}
+
+.patio-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 6px;
+  background: url("/marble.svg") 10% 50% / 800px auto no-repeat;
 }
 
 .patio-card address {
@@ -571,10 +599,23 @@ button {
 
 /* FINAL CTA */
 .final {
-  background:
-    radial-gradient(800px 400px at 80% 20%, rgba(61, 107, 90, 0.22), transparent 60%),
-    var(--background);
+  position: relative;
+  overflow: hidden;
   text-align: left;
+}
+
+.final::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/marble.svg") 70% 60% / cover no-repeat;
+  opacity: 0.16;
+  pointer-events: none;
+}
+
+.final .wrap {
+  position: relative;
+  z-index: 1;
 }
 
 .final-actions {
@@ -597,6 +638,7 @@ button {
   justify-content: space-between;
   gap: 16px;
   flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .footer strong {
@@ -604,6 +646,51 @@ button {
   font-family: var(--display);
   letter-spacing: 0.1em;
   font-weight: 600;
+}
+
+.ig-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--brand);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.ig-link:hover {
+  color: var(--foreground);
+}
+
+.ig-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.nav-ig {
+  color: var(--foreground);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.nav-ig:hover {
+  color: var(--brand);
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.hero-meta a {
+  color: var(--brand);
+}
+
+.hero-meta a:hover {
+  color: var(--foreground);
 }
 
 .float-wa {
@@ -623,8 +710,12 @@ button {
   .work-grid,
   .about-grid,
   .patio-grid,
-  .facts {
+  .facts-grid {
     grid-template-columns: 1fr;
+  }
+
+  .footer-social {
+    align-items: flex-start;
   }
 
   .nav-links {

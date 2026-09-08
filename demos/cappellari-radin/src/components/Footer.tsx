@@ -1,3 +1,4 @@
+import { InstagramLink } from "./InstagramLink.tsx";
 import { SITE } from "../data/site.ts";
 
 export function Footer() {
@@ -10,7 +11,10 @@ export function Footer() {
             {SITE.address.street} · {SITE.address.neighborhood}
           </p>
         </div>
-        <p>Marmoraria de avenida · Porto Alegre/RS · desde {SITE.founded}</p>
+        <div className="footer-social">
+          <InstagramLink />
+          <p>Marmoraria de avenida · Porto Alegre/RS · desde {SITE.founded}</p>
+        </div>
       </div>
     </footer>
   );
