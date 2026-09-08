@@ -2,6 +2,7 @@ export const SITE = {
   name: "Bar do Nito",
   shortName: "Nito",
   tagline: "A esquina da música brasileira",
+  logo: "/logo.png",
   headline: "Bar do Nito",
   subheadline:
     "Sobrado na Auxiliadora onde o palco não apaga: MPB, samba e choro desde 1992 — e feijoada com samba no sábado.",
