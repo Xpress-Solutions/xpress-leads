@@ -301,8 +301,8 @@ button {
   min-height: 100svh;
   position: relative;
   display: grid;
-  align-items: center;
-  padding: calc(var(--nav-h) + 20px) 0 36px;
+  align-items: end;
+  padding: calc(var(--nav-h) + 16px) 0 28px;
   overflow: hidden;
 }
 
@@ -323,7 +323,7 @@ button {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(22, 17, 14, 0.42) 0%, rgba(22, 17, 14, 0.5) 42%, rgba(22, 17, 14, 0.88) 100%),
+    linear-gradient(180deg, rgba(22, 17, 14, 0.32) 0%, rgba(22, 17, 14, 0.4) 40%, rgba(22, 17, 14, 0.92) 100%),
     radial-gradient(circle at 12% 72%, rgba(200, 16, 24, 0.28), transparent 36%);
 }
 
@@ -879,6 +879,11 @@ button {
   .fab {
     display: none;
   }
+
+  .hero {
+    align-items: center;
+    padding: calc(var(--nav-h) + 28px) 0 48px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -916,13 +921,13 @@ button {
 
 @media (max-width: 400px) {
   .hero {
-    align-items: center;
-    padding: calc(var(--nav-h) + 12px) 0 28px;
+    align-items: end;
+    padding: calc(var(--nav-h) + 10px) 0 22px;
   }
 
   .hero p {
     font-size: 1rem;
-    margin: 0 0 18px;
+    margin: 0 0 16px;
   }
 
   .hero-actions {
