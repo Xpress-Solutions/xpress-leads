@@ -1,19 +1,7 @@
 const SHOTS = [
   {
-    src: "/fotos/hero.jpg",
-    alt: "Pilar mostarda da Pinhos com letreiro gótico, estrela e guitarras no salão.",
-  },
-  {
-    src: "/fotos/deliciaporo.jpg",
-    alt: "Deliciaporo 2026 — petisco da Pinhos no Comida di Buteco. Foto Israh Ramos.",
-  },
-  {
     src: "/fotos/triobom.jpg",
     alt: "Trio Bom, petisco da Pinhos no Comida di Buteco 2024. Foto Israh Ramos / G1.",
-  },
-  {
-    src: "/fotos/salao.jpg",
-    alt: "Salão da Botecaria em Canoas, com o dono Carlos Alberto Pinho.",
   },
 ] as const;
 

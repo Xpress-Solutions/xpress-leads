@@ -610,6 +610,11 @@ button {
   min-height: 220px;
 }
 
+.shot:only-child {
+  grid-column: 1 / -1;
+  min-height: 360px;
+}
+
 /* REVIEWS */
 .reviews {
   background: var(--surface);
@@ -748,8 +753,8 @@ button {
 .final-box {
   min-height: 340px;
   background:
-    linear-gradient(180deg, rgba(11, 10, 8, 0.25), rgba(11, 10, 8, 0.88)),
-    url("/fotos/hero.jpg") 62% 28% / cover;
+    radial-gradient(circle at 82% 18%, rgba(212, 160, 23, 0.2), transparent 42%),
+    linear-gradient(180deg, #1a140e, #0b0a08);
   display: grid;
   align-content: end;
   padding: 32px 24px;
