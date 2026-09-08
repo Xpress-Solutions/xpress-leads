@@ -10,10 +10,6 @@ export function Hero() {
         />
       </div>
       <div className="wrap hero-content">
-        <div className="hero-sign" aria-hidden="true">
-          <span>Churrascaria</span>
-          <strong>Giovanaz</strong>
-        </div>
         <h1>
           Gio<em>vanaz</em>
         </h1>
