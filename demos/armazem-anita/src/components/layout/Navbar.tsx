@@ -46,7 +46,12 @@ export function Navbar() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 md:px-6">
           <Link href="#inicio" className="flex items-center gap-2">
-            <Logo priority className="drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]" />
+            <Logo
+              priority
+              className={cn(
+                !scrolled && "drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]",
+              )}
+            />
           </Link>
 
           <nav className="hidden items-center gap-6 lg:flex">

@@ -12,10 +12,11 @@ export function Logo({ className, priority = false }: LogoProps) {
     <Image
       src={images.logo}
       alt="Armazém Anita — o primeiro armazém e bar do Brasil"
-      width={420}
+      width={428}
       height={240}
       className={cn("h-11 w-auto md:h-14", className)}
       priority={priority}
+      unoptimized
     />
   );
 }
