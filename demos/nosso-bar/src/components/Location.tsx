@@ -22,18 +22,16 @@ export function Location() {
           </div>
           <aside className="hours">
             <p className="section-kicker">Horário</p>
-            <strong>Abre às 17h. Fecha quando a avenida esvazia.</strong>
+            <p className="hours-lead">Abre às 17h. Fecha quando a avenida esvazia.</p>
             <ul className="hours-list">
               {HOURS.map((row) => (
                 <li key={row.day}>
-                  <span>{row.day}</span>
-                  <span>{row.slot}</span>
+                  <span className="hours-day">{row.day}</span>
+                  <span className="hours-slot">{row.slot}</span>
                 </li>
               ))}
             </ul>
-            <p className="section-lead" style={{ fontSize: "0.85rem" }}>
-              {SITE.hoursNote}
-            </p>
+            <p className="hours-note">{SITE.hoursNote}</p>
             <div className="loc-actions">
               <a className="btn btn-accent" href={SITE.maps} target="_blank" rel="noreferrer">
                 Abrir no Maps
