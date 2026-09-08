@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Churrascaria & Pizzaria dos Gringos">
+  <circle cx="120" cy="120" r="118" fill="#F6EFE4"/>
+  <circle cx="120" cy="120" r="118" fill="none" stroke="#8B1919" stroke-width="4"/>
+  <g fill="#3A2014">
+    <rect x="38" y="38" width="4" height="36" rx="1"/>
+    <ellipse cx="40" cy="36" rx="7" ry="5" fill="#8B1919"/>
+    <rect x="198" y="38" width="4" height="36" rx="1"/>
+    <ellipse cx="200" cy="36" rx="7" ry="5" fill="#8B1919"/>
+  </g>
+  <text x="120" y="58" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#3A2014">Churrascaria &amp; Pizzaria</text>
+  <text x="120" y="76" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#3A2014">dos</text>
+  <rect x="14" y="92" width="212" height="48" fill="#8B1919"/>
+  <text x="120" y="128" text-anchor="middle" font-family="'Alfa Slab One', Impact, serif" font-size="32" fill="#F6EFE4" letter-spacing="2">GRINGOS</text>
+  <circle cx="120" cy="182" r="46" fill="#E8C36A"/>
+  <circle cx="120" cy="182" r="40" fill="#D4A017"/>
+  <circle cx="104" cy="170" r="6" fill="#8B1919"/>
+  <circle cx="132" cy="168" r="5" fill="#8B1919"/>
+  <circle cx="118" cy="188" r="6" fill="#8B1919"/>
+  <circle cx="140" cy="192" r="5" fill="#8B1919"/>
+  <circle cx="108" cy="200" r="5" fill="#8B1919"/>
+</svg>

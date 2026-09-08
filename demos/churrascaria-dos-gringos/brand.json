@@ -1,0 +1,76 @@
+{
+  "leadId": "churrascaria-dos-gringos",
+  "name": "Churrascaria dos Gringos",
+  "positioning": "Rodízio clássico familiar da Azenha: espeto corrido sem pose, nome bem-humorado e pizza à noite — a casa que o Destemperados ainda chama de clássico de Porto Alegre.",
+  "mood": "tradicional-gaucho",
+  "voice": [
+    "bem-humorado sem palhaçada",
+    "familiar",
+    "raiz",
+    "mesa sem pressa",
+    "clássico da Bento"
+  ],
+  "avoid": [
+    "luxo de churrascaria de shopping",
+    "neon",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto de display",
+    "tom de steakhouses premium"
+  ],
+  "colors": {
+    "background": "#140F0E",
+    "foreground": "#F6EFE4",
+    "brand": "#8B1919",
+    "accent": "#D4A017",
+    "surface": "#261616",
+    "muted": "#A89272"
+  },
+  "typography": {
+    "display": "Alfa Slab One — a laje do letreiro GRINGOS no logo circular",
+    "body": "Source Sans 3 para horário, endereço e cardápio",
+    "rationale": "O selo oficial escreve GRINGOS em caixa alta sobre faixa vermelha; a peça pede slab, não script de café nem Bebas de boteco. Corpo limpo para o serviço (almoço/jantar, fila no domingo)."
+  },
+  "imagery": {
+    "heroSubject": "Garçom fatiando picanha no espeto sobre toalha azul-clara do salão da Bento Gonçalves — ou close do corte com crosta dourada",
+    "atmosphere": [
+      "toalhas azul-claras sobre madeira",
+      "travessa de inox e espeto vertical",
+      "salão simples, parede creme, cadeira de madeira",
+      "luz de almoço, não de boate",
+      "pizza à noite no mesmo rodízio"
+    ],
+    "references": [
+      {
+        "label": "Instagram @churrascaria.dosgringos",
+        "url": "https://www.instagram.com/churrascaria.dosgringos/"
+      },
+      {
+        "label": "Destemperados / GaúchaZH",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/noticia/2026/06/churrascaria-classica-de-porto-alegre-conheca-o-restaurante-dos-gringos-cmpvp4tet00b0016dsrmjaox9.html"
+      },
+      {
+        "label": "Restaurant Guru",
+        "url": "https://restaurantguru.com.br/Churrascaria-dos-Gringos-Porto-Alegre"
+      },
+      {
+        "label": "Guia Porto Alegre",
+        "url": "https://guiaportoalegrers.com.br/azenha/churrascaria-dos-gringos"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo circular no feed oficial: metade branca com ‘Churrascaria & Pizzaria dos’ e dois espetos; faixa vermelho-vinho com GRINGOS em branco; base ilustrada de pizza. Vermelho #8B1919 vira a cor de marca, não o vermelho vivo de boteco.",
+    "Peças gráficas oficiais (aviso de fechamento, ‘O sabor que conquista’, ‘Tradição, sabor e qualidade’) repetem fundo carvão, títulos em ouro #D4A017 e barras vermelhas — a pele digital da casa é escura com ouro de letreiro, não cream+terracotta.",
+    "Fotos reais do salão no Instagram: toalha azul-clara, cadeira de madeira, travessa de inox, garçom de camisa clara fatiando no espeto. O azul da toalha é assinatura do ambiente e entra como faixa/motivo, não como azul-tech.",
+    "Destemperados (jun/2026, fotos Patrick Hartwig) descreve salão de rodízio clássico, maionese caseira primeiro, depois galeto/salsichão/costela/coraçãozinho/vazio/maminha/lombinho — hero de carne no espeto, não stock genérico.",
+    "Bio do IG: ‘Rodízio de carnes e a noite com pizza junto’. Dualidade churrasco+pizza está no próprio selo e no nome comercial Churrascaria & Pizzaria dos Gringos."
+  ],
+  "confidence": 0.82,
+  "researchedAt": "2026-09-08"
+}
