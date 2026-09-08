@@ -1,3 +1,8 @@
+Logo oficial — toldo vermelho + wordmark “Lancheria do Parque / Bom Fim”
+Recriação em alta do pictograma do toldo (Osvaldo Aranha, 1086) e do
+avatar do Instagram oficial @lancheriadoparqueoficial (perfil da casa).
+Arquivos: public/logo.png (fundo transparente), public/logo.svg, public/mark.svg.
+
 Fotos da casa — Wikimedia Commons, licença CC BY-SA 4.0
 Autor: Hedestad (exceto a histórica, também Commons)
 
