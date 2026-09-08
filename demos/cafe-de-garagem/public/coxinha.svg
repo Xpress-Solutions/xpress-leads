@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320">
+  <rect width="400" height="320" fill="#3A2418"/>
+  <ellipse cx="200" cy="250" rx="120" ry="18" fill="#2a1810" opacity=".5"/>
+  <path d="M200 46c28 8 92 92 86 168-4 48-40 72-86 72s-82-24-86-72C108 138 172 54 200 46z" fill="#C9A227"/>
+  <path d="M200 62c22 8 70 80 66 148-3 38-30 56-66 56s-63-18-66-56C130 142 178 70 200 62z" fill="#E0B84A"/>
+  <path d="M200 46c-6 18-8 36 0 52 10-14 10-34 0-52z" fill="#8A4A28"/>
+  <g fill="#2C1810" opacity=".18">
+    <circle cx="168" cy="150" r="4"/>
+    <circle cx="230" cy="168" r="3"/>
+    <circle cx="190" cy="200" r="3.5"/>
+    <circle cx="214" cy="130" r="3"/>
+  </g>
+  <rect x="86" y="268" width="228" height="10" fill="#C9A227"/>
+  <text x="200" y="304" text-anchor="middle" fill="#EBE6DB" font-family="IBM Plex Sans, sans-serif" font-size="14" letter-spacing="3">COXINHA DE BUTECO</text>
+</svg>

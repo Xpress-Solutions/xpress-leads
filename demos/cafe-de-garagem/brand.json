@@ -1,0 +1,77 @@
+{
+  "leadId": "cafe-de-garagem",
+  "name": "Café de Garagem",
+  "positioning": "Café-boteco numa garagem de verdade, na Santa Rosa de Lima: mesa na calçada, PF, lanche e a Coxinha de Buteco do circuito 2026.",
+  "mood": "artesanal",
+  "voice": [
+    "de vizinho",
+    "sem frescura",
+    "mesa na calçada",
+    "orgulhoso da garagem",
+    "atendimento quente"
+  ],
+  "avoid": [
+    "cafeteria boutique",
+    "especialidade hipster",
+    "neon",
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "boteco noturno de tapete vermelho"
+  ],
+  "colors": {
+    "background": "#D4CFC4",
+    "foreground": "#1F1A14",
+    "brand": "#2C1810",
+    "accent": "#C9A227",
+    "surface": "#EBE6DB",
+    "muted": "#6E6658"
+  },
+  "typography": {
+    "display": "Anton — letreiro de porta de garagem, stencil de oficina",
+    "body": "IBM Plex Sans — grotesk de oficina, leitura de cardápio e horário",
+    "rationale": "O nome é a casa: uma garagem que virou café. Display condensado e pesado imita tinta esmalte no portão; corpo técnico evita Inter/Roboto e o script de cafeteria hipster. Não é Bebas de boteco noturno nem placa de armazém."
+  },
+  "imagery": {
+    "heroSubject": "Portão de garagem aberto para a calçada da Paulo Henrique Ten-Caten — mesas lá fora, café e coxinha na mesa de oficina",
+    "atmosphere": [
+      "garagem convertida, sem ar-condicionado",
+      "mesas internas e na calçada",
+      "concreto ao sol da zona norte",
+      "esmalte amarelo de oficina no letreiro",
+      "coxinha dourada do Comida di Buteco 2026",
+      "PF e xícara de café no balcão"
+    ],
+    "references": [
+      {
+        "label": "Instagram @cafe_de_garagem",
+        "url": "https://www.instagram.com/cafe_de_garagem/"
+      },
+      {
+        "label": "iAvaliei — review 15 abr 2026",
+        "url": "https://iavaliei.com.br/cafe-de-garagem-porto-alegre/"
+      },
+      {
+        "label": "Sabores do Sul — Coxinha de Buteco, foto Israh Ramos",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Comida di Buteco — circuito Porto Alegre",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "iAvaliei (15/04/2026) descreve a casa como café dentro de uma garagem na zona norte: espaço pequeno, mesas internas e na calçada, sem controle de conforto térmico. Isso trava concreto ao sol + portão, não lounge escuro nem cream boutique.",
+    "A mesma review dá 9.0 no atendimento e 5.0 em ambiente/infra: a pele do site é humilde e quente — tinta de oficina, não mármore. Comida 8.5 (cafés, lanches, salgados, PF).",
+    "Comida di Buteco 2026 lista o Café de Garagem com o petisco Coxinha de Buteco (foto Israh Ramos, Sabores do Sul). Tema nacional 2026: verduras. Preço do circuito: R$ 40. O dourado frito vira accent de esmalte, não o ouro de boteco noturno.",
+    "Horário público: segunda a domingo, horários variados. IG oficial @cafe_de_garagem. Paleta não veio de logo vetorizado (IG loginwall); veio da matéria da casa: garagem + calçada + café + coxinha. Confiança abaixo de 0.7 por falta de extração de cor do letreiro."
+  ],
+  "confidence": 0.64,
+  "researchedAt": "2026-09-08"
+}
