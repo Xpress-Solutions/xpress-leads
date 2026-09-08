@@ -252,9 +252,7 @@ export default function App() {
               </div>
               <div className="hours">
                 <p className="kicker">Horários</p>
-                <strong style={{ fontFamily: "var(--display)", fontSize: "2rem" }}>
-                  {SITE.hours.split(" · ")[0]}
-                </strong>
+                <strong className="hours-now">{SITE.hours.split(" · ")[0]}</strong>
                 <ul className="hours-list">
                   {HOURS.map((row) => (
                     <li key={row.day} className={row.day === "Quinta" ? "is-qui" : undefined}>
