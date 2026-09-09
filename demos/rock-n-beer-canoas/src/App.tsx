@@ -19,8 +19,8 @@ export function App() {
             />
           </div>
           <div className="wrap hero-content">
-            <h1>
-              Rock<span>'n</span> Beer
+            <h1 className="hero-logo">
+              <img src="/logo-official-transparent.png" alt="Rock'n Beer Pub" />
             </h1>
             <p>{SITE.tagline}</p>
             <div className="hero-actions">

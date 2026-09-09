@@ -24,8 +24,7 @@ export function Navbar() {
       <header className={scrolled ? "nav is-scrolled" : "nav"}>
         <div className="nav-inner">
           <a className="nav-logo" href="#inicio">
-            <img src="/logo.svg" alt="" />
-            {SITE.shortName}
+            <img src="/logo-official-transparent.png" alt={SITE.name} />
           </a>
           <nav className="nav-links" aria-label="Seções">
             {NAV_LINKS.map((link) => (
