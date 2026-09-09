@@ -1,0 +1,82 @@
+{
+  "leadId": "piko-bar",
+  "name": "Piko Bar e Cozinha",
+  "positioning": "Bar e cozinha de bairro na Pedro Boticário: petisco autoral de concurso, xis e noite curta — não é bar de avenida.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "nome curto",
+    "cozinha na mesa",
+    "petisco com apelido",
+    "de esquina",
+    "sem pose"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "dashboard",
+    "boteco de avenida",
+    "Inter como display"
+  ],
+  "colors": {
+    "background": "#0C0C0C",
+    "foreground": "#F3EFE6",
+    "brand": "#EDE9E1",
+    "accent": "#C89A4A",
+    "surface": "#1A1916",
+    "muted": "#8C8880"
+  },
+  "typography": {
+    "display": "Oswald — caps condensada, tracking largo, no espírito do letreiro PIKO",
+    "body": "Figtree — grotesk humanista para cardápio, horário e endereço",
+    "rationale": "O logo gravado na tábua e o cardápio impresso usam PIKO em sans geométrica caixa-alta com respiro. Display condensada carrega o pico da marca; corpo limpo lê xis, horário e mapa. Inter/Roboto ficam de fora do nome."
+  },
+  "imagery": {
+    "heroSubject": "Sala da casa: teto preto, pendentes pretos, mesas de madeira clara e balcão de concreto — ou o Popeyeroll na tábua",
+    "atmosphere": [
+      "teto preto e pendente industrial",
+      "madeira clara nas mesas e cadeiras",
+      "balcão cinza com fita de luz",
+      "petisco na tábua com logo PIKO gravado",
+      "xis e fritas em frigideira de alumínio",
+      "noite na Pedro Boticário"
+    ],
+    "references": [
+      {
+        "label": "Instagram @piko.bar",
+        "url": "https://www.instagram.com/piko.bar/"
+      },
+      {
+        "label": "Restaurant Guru / fotos Google",
+        "url": "https://restaurantguru.com.br/PIKO-Bar-e-Cozinha-Porto-Alegre"
+      },
+      {
+        "label": "Sabores do Sul — Popeyeroll 2026",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "G1 — Pãoliça 2024",
+        "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/04/13/comida-di-buteco-conheca-as-receitas-participantes-do-concurso-em-porto-alegre.ghtml"
+      },
+      {
+        "label": "Comida di Buteco — listagem",
+        "url": "https://comidadibuteco.com.br/butecos/porto-alegre/page/2/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Cardápio impresso e tábua de servir: logo de dois picos dentro de um círculo + PIKO em sans caixa-alta — identidade de montanha/pico, não de boteco vermelho.",
+    "Foto do interior (Google/Restaurant Guru): teto preto fosco, pendentes pretos, mesas e cadeiras de madeira clara, balcão de concreto. Casa industrial-quente, não cream+terracotta nem SaaS.",
+    "Popeyeroll (Israh Ramos / Sabores do Sul 2026): pão dourado, verde de folha, tábua escura — o petisco do concurso é o cartaz da noite.",
+    "Pãoliça (G1 2024): a mesma tábua com PIKO gravado, pães de calabresa e pimenta — ouro de crosta e pimenta, não tapete vermelho.",
+    "Menu da casa é preto e branco, com WhatsApp (51) 98500-6921 e @piko.bar. Reviews Google 4,7 falam de xis, hambúrguer e fritas.",
+    "Horário público de noite (ter–sáb 18h–23h30) + almoço de semana no Google. Rua Pedro Boticário, 560 — concurso lista Partenon, guias listam Glória."
+  ],
+  "confidence": 0.82,
+  "researchedAt": "2026-09-02"
+}
