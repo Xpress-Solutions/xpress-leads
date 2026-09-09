@@ -230,7 +230,10 @@ export default function App() {
         <section className="section reviews" id="avaliacoes">
           <div className="wrap">
             <p className="kicker">Google</p>
-            <p className="score">{SITE.rating}</p>
+            <div className="score-row" aria-label={`${SITE.rating} de 5 no Google`}>
+              <p className="score">{SITE.rating}</p>
+              <p className="score-context">/ 5 no Google</p>
+            </div>
             <p className="lead">
               {SITE.reviewsCount} avaliações públicas. Casa calma, comida de bar, preço na faixa{" "}
               {SITE.priceRange}.

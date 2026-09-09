@@ -78,13 +78,14 @@ export const DISHES = [
 export const REVIEWS = [
   {
     name: "Julia Cassol",
-    quote: "Xis bem grande, tamanho perfeito e saboroso. Hambúrguer nota 10.",
+    quote:
+      "Xis bem grande, tamanho perfeito e saboroso! Hambúrguer nota 10! Entrega rápida e cuidadosa com o lanche.",
     source: "Google",
   },
   {
     name: "Paula Battisti",
     quote:
-      "Hambúrguer e fritas muito saborosos. Comida bem feita, ingredientes de qualidade e valor justíssimo.",
+      "Pedi na tele e gostei muito mesmo! Tanto do hambúrguer como das fritas. Tudo muito saboroso e percebe-se ser comida bem feita, ingredientes de qualidade e com cuidado no preparo. Valor justíssimo! Quero ir presencialmente no bar conhecer!",
     source: "Google",
   },
 ] as const;

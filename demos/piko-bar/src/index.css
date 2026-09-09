@@ -475,7 +475,24 @@ button {
   font-size: clamp(4.4rem, 14vw, 7.5rem);
   line-height: 0.8;
   color: var(--accent);
+  margin: 0;
+}
+
+.score-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 14px;
   margin: 18px 0 6px;
+}
+
+.score-context {
+  margin: 0;
+  color: var(--foreground);
+  font-size: clamp(0.95rem, 2.8vw, 1.2rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .rev-grid {
@@ -488,11 +505,15 @@ button {
   border: 1px solid var(--line);
   padding: 22px;
   background: #141310;
+  margin: 0;
+  min-width: 0;
 }
 
 .rev p {
   margin: 10px 0 0;
-  font-size: 1.05rem;
+  font-size: clamp(0.95rem, 1.6vw, 1.05rem);
+  line-height: 1.6;
+  overflow-wrap: anywhere;
 }
 
 /* LOC */
