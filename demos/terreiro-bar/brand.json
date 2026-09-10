@@ -1,0 +1,88 @@
+{
+  "leadId": "terreiro-bar",
+  "name": "Terreiro Bar",
+  "positioning": "Bar ancestral na Luiz Afonso: ceva, samba e axé — território de cultura afro-brasileira, não boteco genérico da Cidade Baixa.",
+  "mood": "artesanal",
+  "voice": [
+    "pé no chão",
+    "axé",
+    "encontro",
+    "ancestral sem pose",
+    "respeito",
+    "saravá"
+  ],
+  "avoid": [
+    "modernizar a marca",
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico de IA",
+    "exótico",
+    "místico de stock",
+    "dashboard"
+  ],
+  "colors": {
+    "background": "#052910",
+    "foreground": "#FFDCA9",
+    "brand": "#F6AE45",
+    "accent": "#F6AE45",
+    "surface": "#0D2416",
+    "muted": "#AB9C50"
+  },
+  "typography": {
+    "display": "Cormorant Garamond — serifada de alto contraste, no peso do letreiro TerreiroBar",
+    "body": "Syne — grotesk da casa no site oficial; leitura de manifesto e horário",
+    "rationale": "O logo junta serifa elegante com círculo verde de pincel; o WordPress usa Syncopate/Syne e títulos tipo ManifEstO. Display serifado carrega ‘ancestral’; corpo Syne evita Inter/Roboto. Fundo noite-floresta + ouro de Oxum, não landing clara."
+  },
+  "imagery": {
+    "heroSubject": "Interior com atabaques, cadeiras vermelhas e o logo no painel de madeira — ou fachada com mural, fitas do Bonfim e o letreiro na Luiz Afonso",
+    "atmosphere": [
+      "mural afro-brasileiro na fachada",
+      "fitas do Senhor do Bonfim no portão",
+      "atabaques e roda de samba",
+      "torneiras Cabocla com copo ceva & axé",
+      "acarajé e Porção de Axé",
+      "luz âmbar de noite na Cidade Baixa"
+    ],
+    "references": [
+      {
+        "label": "Site oficial / manifesto",
+        "url": "https://caboclacervejas.com.br/inicio-terreiro/"
+      },
+      {
+        "label": "Instagram @terreiro.bar",
+        "url": "https://www.instagram.com/terreiro.bar/"
+      },
+      {
+        "label": "GZH — abertura 2023",
+        "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2023/04/bar-inspirado-em-religioes-africanas-clg0nq0z50006013ctsiq770g.html"
+      },
+      {
+        "label": "Brasil de Fato — expansão 2026",
+        "url": "https://www.brasildefato.com.br/2026/01/07/terreiro-bar-ancestral-amplia-espaco-e-reforca-territorio-de-cultura-afro-brasileira-em-porto-alegre/"
+      },
+      {
+        "label": "GZH — OktoBRASILfest / Oxum",
+        "url": "https://gauchazh.clicrbs.com.br/colunistas/juliana-bublitz/noticia/2024/10/bar-na-cidade-baixa-tera-oktoberfest-diferente-na-rua-e-celebrando-oxum-cm237wsbm011g0106z3caswy1.html"
+      },
+      {
+        "label": "Comida di Buteco 2026 — Porção de Axé",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "CSS Elementor do site oficial (caboclacervejas.com.br) usa #F6AE45 / #F2B040 (ouro), #3A5721 (verde-floresta dos botões), #052910 (noite-mata) e #FFDCA9 / #AB9C50 — paleta extraída da casa, não inventada.",
+    "Logo oficial: serifa TerreiroBar + ANCESTRAL + círculo verde texturizado de pincel; ícone e búzios no WordPress; letreiro igual na fachada (mural, madeira, fitas do Bonfim).",
+    "Helena e Roger pediram amarelo na OktoBRASILfest em homenagem a Oxum — o ouro vira brand/CTA, não accent de SaaS.",
+    "Manifesto público: ‘pé no chão, sagrado e mundano, copo cheio com conversa fiada’; slogan Meu axé brinda o seu axé / ceva & axé / Eu não ando só; torneiras exclusivas da Cabocla.",
+    "Fotos da casa (fachada, atabaques, samba, acarajé, copos ceva & axé) no acervo oficial — hero e galeria saem daí, sem stock.",
+    "Diferente de Vitória (preto + vermelho + ouro de boteco) e de Anita (creme diurno + verde + brasa): aqui é noite-floresta + ouro de Oxum + verde Cabocla."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-02"
+}
