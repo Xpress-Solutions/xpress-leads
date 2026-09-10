@@ -356,22 +356,26 @@ button {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(26, 18, 12, 0.38) 0%, rgba(26, 18, 12, 0.16) 36%, rgba(26, 18, 12, 0.88) 100%),
-    radial-gradient(circle at 80% 14%, rgba(200, 16, 46, 0.16), transparent 32%);
+    linear-gradient(90deg, rgba(20, 13, 8, 0.9) 0%, rgba(20, 13, 8, 0.72) 42%, rgba(20, 13, 8, 0.16) 78%),
+    linear-gradient(180deg, rgba(20, 13, 8, 0.26) 0%, rgba(20, 13, 8, 0.1) 38%, rgba(20, 13, 8, 0.9) 100%);
 }
 
 .hero-content {
   position: relative;
   z-index: 1;
   color: #fff;
+  max-width: 44rem;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.48);
 }
 
 .hero-kicker {
   font-family: var(--display);
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: #ffd21f;
   font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.4;
   margin: 0 0 12px;
 }
 
@@ -382,6 +386,7 @@ button {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   margin: 0 0 8px;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
 }
 
 .hero h1 em {
@@ -389,14 +394,16 @@ button {
   font-style: normal;
   font-size: 0.38em;
   letter-spacing: 0.18em;
-  color: var(--accent);
+  color: #ffd21f;
   margin-bottom: 4px;
 }
 
 .hero-line {
   max-width: 28rem;
-  color: rgba(255, 246, 228, 0.88);
+  color: #fff;
   font-size: 1.18rem;
+  font-weight: 500;
+  line-height: 1.45;
   margin: 10px 0 24px;
 }
 
@@ -894,6 +901,33 @@ button {
       var(--espresso) 28px 42px,
       var(--background) 42px 56px
     );
+}
+
+@media (max-width: 719px) {
+  .hero {
+    align-items: center;
+    padding: calc(var(--nav-h) + 28px) 0 32px;
+  }
+
+  .hero-bg img {
+    object-position: 62% center;
+  }
+
+  .hero-bg::after {
+    background:
+      linear-gradient(90deg, rgba(20, 13, 8, 0.92) 0%, rgba(20, 13, 8, 0.7) 64%, rgba(20, 13, 8, 0.32) 100%),
+      linear-gradient(180deg, rgba(20, 13, 8, 0.32) 0%, rgba(20, 13, 8, 0.12) 45%, rgba(20, 13, 8, 0.86) 100%);
+  }
+
+  .hero h1 {
+    font-size: clamp(4rem, 15vw, 6.4rem);
+    line-height: 0.84;
+  }
+
+  .hero-line {
+    max-width: 25rem;
+    font-size: 1.08rem;
+  }
 }
 
 @media (min-width: 720px) {
