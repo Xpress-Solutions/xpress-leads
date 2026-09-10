@@ -42,6 +42,10 @@ export default function App() {
   }, [open]);
 
   const close = () => setOpen(false);
+  const hoursLead = SITE.hours.split(" · ")[0];
+  const hoursLeadBreak = hoursLead.lastIndexOf(" ");
+  const hoursLeadDays = hoursLead.slice(0, hoursLeadBreak);
+  const hoursLeadRange = hoursLead.slice(hoursLeadBreak + 1);
 
   return (
     <>
@@ -122,7 +126,10 @@ export default function App() {
         <section className="strip" aria-label="Informações rápidas">
           <div className="wrap strip-grid">
             <div>
-              <b>{SITE.hours.split(" · ")[0]}</b>
+              <b className="strip-hours">
+                <span className="hours-days">{hoursLeadDays}</span>
+                <span className="hours-range">{hoursLeadRange}</span>
+              </b>
               <span>Segunda fechado</span>
             </div>
             <div>
@@ -252,14 +259,15 @@ export default function App() {
               </div>
               <div className="hours">
                 <p className="kicker">Horários</p>
-                <strong style={{ fontFamily: "var(--display)", fontSize: "2rem" }}>
-                  {SITE.hours.split(" · ")[0]}
+                <strong className="hours-now">
+                  <span className="hours-days">{hoursLeadDays}</span>
+                  <span className="hours-range">{hoursLeadRange}</span>
                 </strong>
                 <ul className="hours-list">
                   {HOURS.map((row) => (
                     <li key={row.day} className={row.day === "Quinta" ? "is-qui" : undefined}>
                       <span>{row.day}</span>
-                      <span>{row.time}</span>
+                      <span className="hours-range">{row.time}</span>
                     </li>
                   ))}
                 </ul>
