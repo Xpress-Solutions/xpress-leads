@@ -24,7 +24,7 @@ export function Navbar() {
       <header className={`nav${scrolled || open ? " is-scrolled" : ""}`}>
         <div className="nav-inner">
           <a className="nav-logo" href="#inicio">
-            <img src="/logo.svg" alt="" />
+            <img src="/logo.png" alt="Barão 1240" />
             <strong>
               Barão 1240
               <span>Cafeteria · Restaurante</span>

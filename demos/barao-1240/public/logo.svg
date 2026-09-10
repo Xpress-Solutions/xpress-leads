@@ -1,10 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Barão 1240">
-  <circle cx="100" cy="100" r="99" fill="#FFF6E4"/>
-  <circle cx="100" cy="100" r="93" fill="#1A120C"/>
-  <circle cx="100" cy="100" r="86" fill="none" stroke="#FFF6E4" stroke-width="2.2"/>
-  <circle cx="100" cy="100" r="68" fill="none" stroke="#E3B10F" stroke-width="1.2"/>
-  <text x="100" y="48" text-anchor="middle" fill="#FFF6E4" font-family="Arial Narrow, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="3.4">CAFETERIA</text>
-  <text x="100" y="90" text-anchor="middle" fill="#FFF6E4" font-family="Arial Narrow, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="5">BARÃO</text>
-  <text x="100" y="128" text-anchor="middle" fill="#FFF6E4" font-family="Arial Narrow, Arial, sans-serif" font-size="40" font-weight="700">1240</text>
-  <text x="100" y="168" text-anchor="middle" fill="#FFF6E4" font-family="Arial Narrow, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2.4">RESTAURANTE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Barão 1240">
+  <circle cx="256" cy="256" r="256" fill="#3F2C1A"/>
+  <circle cx="256" cy="256" r="242" fill="none" stroke="#fff" stroke-width="3"/>
+  <circle cx="256" cy="256" r="228" fill="none" stroke="#fff" stroke-width="2.2"/>
+  <defs>
+    <path id="barao-arc-top" d="M 108,262 A 148,148 0 0 1 404,262"/>
+    <path id="barao-arc-bot" d="M 100,250 A 156,156 0 0 0 412,250"/>
+  </defs>
+  <text fill="#fff" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="5.5">
+    <textPath href="#barao-arc-top" startOffset="50%" text-anchor="middle">CAFETERIA</textPath>
+  </text>
+  <path d="M 188,176 A 78,26 0 0 1 324,176" fill="none" stroke="#fff" stroke-width="2.4"/>
+  <text x="256" y="214" text-anchor="middle" fill="#fff" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="7">BARÃO</text>
+  <text x="256" y="312" text-anchor="middle" fill="#fff" font-family="Arial Black, Arial Narrow, Arial, sans-serif" font-size="96" font-weight="700">1240</text>
+  <path d="M 178,328 A 88,28 0 0 0 334,328" fill="none" stroke="#fff" stroke-width="2.4"/>
+  <text fill="#fff" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="3.2">
+    <textPath href="#barao-arc-bot" startOffset="50%" text-anchor="middle">RESTAURANTE</textPath>
+  </text>
 </svg>
