@@ -1,0 +1,14 @@
+---
+description: Abrir demos/projetos no Simple Browser do Cursor rodando local
+alwaysApply: true
+---
+
+# Abrir projetos no browser local do Cursor
+
+Quando o usuário pedir para **abrir**, **ver** ou **rodar** um projeto/demo:
+
+1. Suba o servidor de desenvolvimento **localmente** (`npm run dev` / equivalente na pasta do projeto).
+2. Abra a URL `http://localhost:<porta>/` no **Simple Browser / browser tab do Cursor**, não só no navegador externo.
+3. Comando preferido: `cursor --reuse-window --open-url "vscode://vscode.simple-browser/show?url=http://localhost:<porta>/"`.
+4. Se a porta já estiver em uso com o app certo, reutilize; se não, inicie o server e espere o ready antes de abrir.
+5. Não substitua isso por preview Vercel/remoto, a menos que o usuário peça explicitamente o deploy/URL publicada.

@@ -1,0 +1,80 @@
+{
+  "leadId": "a-virgem",
+  "name": "A Virgem Bar",
+  "positioning": "Bar-tattoo-arte na Olavo Bilac: pizzas autorais, drinks e mesas na calçada — casa de grafite e plantas, não boteco de template.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "irreverente",
+    "visual",
+    "de rua",
+    "sem filtro",
+    "artístico sem pose"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "boteco de stock",
+    "Inter/Roboto",
+    "cards no hero"
+  ],
+  "colors": {
+    "background": "#0A0C0A",
+    "foreground": "#F2F0E8",
+    "brand": "#C4E24A",
+    "accent": "#C81E5C",
+    "surface": "#161412",
+    "muted": "#7A8470"
+  },
+  "typography": {
+    "display": "Oswald — condensada de cartaz, eco do carimbo A VIRGEM e do letreiro de parede",
+    "body": "Figtree — grotesk humanista para cardápio e horários",
+    "rationale": "O logo oficial é P&B, circular, com AVIRGEM em sans vertical e traço de linha. O nome também aparece carimbado em caixa-alta nas tábuas e em verde-limão neon na parede da casa. Display condensada carrega esse cartaz; corpo limpo para pizza e reserva. Evitar Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Sala noturna com plantas, grafite, público na madeira e o letreiro VIRGEM em verde-limão — ou o pátio-selva da Olavo Bilac",
+    "atmosphere": [
+      "selva urbana / plantas pendentes e buganvília",
+      "grafite e colagem no teto",
+      "madeira escura e luz âmbar",
+      "estúdio de tattoo no mesmo espaço",
+      "mesas na calçada da Olavo Bilac",
+      "logo circular P&B com figura de linha"
+    ],
+    "references": [
+      {
+        "label": "Instagram @avirgembar",
+        "url": "https://www.instagram.com/avirgembar/"
+      },
+      {
+        "label": "BOABreja — fachada/pátio e logo",
+        "url": "https://www.boabreja.com.br/estabelecimentos/rs/porto-alegre/a-virgem"
+      },
+      {
+        "label": "Destemperados / GZH — visual da casa",
+        "url": "https://gauchazh.clicrbs.com.br/destemperados/experiencias/noticia/2015/09/a-virgem-bar-impressiona-no-visual-e-na-comida-ckbqs7htl00436xsl7guu4h44.html"
+      },
+      {
+        "label": "Comida di Buteco 2026 — Bella Virgem",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "QuintoAndar — bar, galeria e tattoo",
+        "url": "https://www.quintoandar.com.br/regioes-atendidas/porto-alegre-rs-brasil-jdj6u9g0k5/local/a-virgem-bar"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial no BOABreja: círculo partido P&B, figura de linha à esquerda, AVIRGEM em sans branca vertical à direita — identidade de casa de arte, não de boteco vermelho-ouro.",
+    "Foto do pátio (BOABreja): madeira escura, selva de plantas, buganvília magenta, lanternas âmbar e parede com arte. O disco roxo é placa da cerveja Babilônia, não da marca — por isso o accent é a flor da casa, não roxo de cerveja/SaaS.",
+    "Fotos Destemperados/GZH: mural, máscara/escultura, colagem no teto com adesivo A VIRGEM, letreiro VIRGEM em verde-limão neon na sala cheia. Verde-limão vira brand; magenta da buganvília vira CTA.",
+    "Matérias (QuintoAndar, VEJA, Wanderlog) e o lead: bar + galeria + estúdio de tattoo, pizzas autorais, calçada da Olavo Bilac, petisco Bella Virgem 2026 (espinafre e três queijos)."
+  ],
+  "confidence": 0.84,
+  "researchedAt": "2026-09-02"
+}

@@ -1,0 +1,82 @@
+{
+  "leadId": "barbearia-jardim-botanico",
+  "name": "Barbearia Jardim Botânico",
+  "positioning": "Barbearia de bairro na Felizardo: corte com tesoura, hora marcada no WhatsApp e clientela de anos — o próprio nome já é o Jardim Botânico.",
+  "mood": "limpo-servico",
+  "voice": [
+    "personalizado",
+    "de bairro",
+    "tesoura",
+    "fiel",
+    "sem pose de clube"
+  ],
+  "avoid": [
+    "barber club",
+    "neon",
+    "whiskey lounge",
+    "franquia",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto display"
+  ],
+  "colors": {
+    "background": "#101612",
+    "foreground": "#E6EDE4",
+    "brand": "#C9A84B",
+    "accent": "#3A7A4A",
+    "surface": "#1A2420",
+    "muted": "#7A8A76"
+  },
+  "typography": {
+    "display": "Fraunces",
+    "body": "Figtree",
+    "rationale": "Fraunces carrega placa de jardim e ofício de tesoura — serifada com peso, não script de boutique. Figtree lê horário e endereço sem virar Inter/Roboto. Verde-floresta do dossel do Jardim Botânico de POA + latão da bancada reformada; fundo tinta, não creme."
+  },
+  "imagery": {
+    "heroSubject": "Sala reformada: parede verde-floresta, cadeira de couro, tesoura na bancada de madeira e dossel do jardim na janela",
+    "atmosphere": [
+      "dossel e trilha do Jardim Botânico de Porto Alegre",
+      "sala 02 compacta após reforma",
+      "luz da manhã (abre 8h30)",
+      "tesoura e pente na madeira",
+      "latão / espelho / planta na janela",
+      "rua Felizardo, não avenida"
+    ],
+    "references": [
+      {
+        "label": "Listagem Rua Felizardo / bio da casa",
+        "url": "https://www.locaisdobrasil.com.br/endereco/rua-felizardo/porto-alegre-rs"
+      },
+      {
+        "label": "CNPJ Lucas dos Santos Melo — Felizardo 579 conj. 02",
+        "url": "https://guiapj.com.br/consulta-cnpj/48958833000196"
+      },
+      {
+        "label": "Jardim Botânico de Porto Alegre (Commons)",
+        "url": "https://commons.wikimedia.org/wiki/Category:Jardim_Bot%C3%A2nico_de_Porto_Alegre"
+      },
+      {
+        "label": "Pórtico do Jardim Botânico — letreiro verde",
+        "url": "https://commons.wikimedia.org/wiki/File:P%C3%B3rtico_jardim_bot%C3%A2nico_porto_alegre.JPG"
+      },
+      {
+        "label": "Agregador de avaliações",
+        "url": "https://avaliacoesbrasil.com/barbearia/porto-alegre/barbearia-jardim-botanico/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "O nome da casa É o bairro e o jardim ao lado (Rua Dr. Salvador França). Fotos CC do Jardim Botânico de POA mostram dossel, monstera, palmeira e pedra cinza — verde-floresta e linho frio, não creme+terracotta.",
+    "O pórtico público do jardim escreve JARDIM BOTÂNICO em verde-floresta sobre branco. A casa herda essa leitura geográfica; o laranja do pórtico é do parque, não da barbearia (e colidiria com Anita).",
+    "Listagem na Felizardo 579 sala 02: 'Atendimento Personalizado', Seg–sex 8h30–19h, sáb 8h30–18h, WhatsApp (51) 98535-7339. Abre de manhã — shop de bairro, não clube noturno.",
+    "CNPJ 48.958.833/0001-96 (Lucas dos Santos Melo, ativo desde 22/12/2022) no mesmo endereço CONJ 02 confirma o ponto. Lead e agregadores descrevem clientela de 7 anos, corte com tesoura e reforma recente: parede tinta, madeira, metal — latão #C9A84B no nome, folha viva #3A7A4A no CTA.",
+    "Análise pública das avaliações: serviço, atendimento e atmosfera acolhedora. 143 reviews no Google (pesquisa do lead). Tom fiel e sem pose — densidade compacta de sala 02, radius sharp de ferramenta."
+  ],
+  "confidence": 0.71,
+  "researchedAt": "2026-09-02"
+}
