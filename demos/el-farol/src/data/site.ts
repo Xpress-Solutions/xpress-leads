@@ -42,7 +42,7 @@ export const HOURS = [
   { day: "Segunda", time: "Fechado" },
   { day: "Terça", time: "18h30 – 0h" },
   { day: "Quarta", time: "18h30 – 0h" },
-  { day: "Quinta", time: "18h30 – 0h · milonga" },
+  { day: "Quinta", time: "noite de milonga · 18h30 – 0h" },
   { day: "Sexta", time: "18h30 – 0h" },
   { day: "Sábado", time: "18h30 – 0h" },
   { day: "Domingo", time: "18h30 – 0h" },

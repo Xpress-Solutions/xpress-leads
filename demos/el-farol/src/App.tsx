@@ -126,8 +126,9 @@ export default function App() {
         <section className="strip" aria-label="Informações rápidas">
           <div className="wrap strip-grid">
             <div>
-              <b>
-                {hoursLeadDays} <span className="hours-range">{hoursLeadRange}</span>
+              <b className="strip-hours">
+                <span className="hours-days">{hoursLeadDays}</span>
+                <span className="hours-range">{hoursLeadRange}</span>
               </b>
               <span>Segunda fechado</span>
             </div>
@@ -259,7 +260,8 @@ export default function App() {
               <div className="hours">
                 <p className="kicker">Horários</p>
                 <strong className="hours-now">
-                  {hoursLeadDays} <span className="hours-range">{hoursLeadRange}</span>
+                  <span className="hours-days">{hoursLeadDays}</span>
+                  <span className="hours-range">{hoursLeadRange}</span>
                 </strong>
                 <ul className="hours-list">
                   {HOURS.map((row) => (
