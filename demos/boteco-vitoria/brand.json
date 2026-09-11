@@ -19,7 +19,7 @@
     "rationale": "Serifada no nome carrega ‘casa com história’; corpo limpo para petiscos e horário. Evitar Inter/Roboto como face principal."
   },
   "imagery": {
-    "heroSubject": "Fachada/esquina na Felizardo ou mesa de petiscos + caldereta de chopp gelado",
+    "heroSubject": "Salão interno na Felizardo 445: placas, logo da casa, camisa do atendimento e bufê de sábado",
     "atmosphere": [
       "mesas na calçada",
       "dois pisos / sacada do samba",
@@ -37,8 +37,16 @@
         "url": "https://www.boabreja.com.br/estabelecimentos/rs/porto-alegre/boteco-vitoria"
       },
       {
-        "label": "Destemperados / feijoada",
+        "label": "Destemperados / feijoada — hero e ambiente (Joana Berwanger)",
         "url": "https://gauchazh.clicrbs.com.br/destemperados/experiencias/porto-alegre/noticia/2023/08/classico-brasileiro-boteco-serve-feijoada-todos-os-sabados-em-porto-alegre-cll1c8doy00e7015t63ndl52c.html"
+      },
+      {
+        "label": "Comida di Buteco 2026 — petisco (Israh Ramos / Sabores do Sul)",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      },
+      {
+        "label": "Comida di Buteco 2024 — Varal d’Praia (Israh Ramos / G1)",
+        "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/04/13/comida-di-buteco-conheca-as-receitas-participantes-do-concurso-em-porto-alegre.ghtml"
       }
     ]
   },
@@ -48,7 +56,7 @@
     "heroStyle": "full-bleed"
   },
   "evidence": [
-    "Reviews descrevem tapete vermelho na entrada/saída e trono para aniversariante — vermelho vira accent de CTA.",
+    "Hero: foto real do salão na Felizardo 445 (Destemperados / Joana Berwanger, 2023) — logo da casa, placas, camisa do atendimento e bufê. Sem stock.",
     "Decoração com placas, objetos e dois pisos: atmosfera escura/âmbar de boteco noturno, não landing clara de SaaS.",
     "Posicionamento público: campeão Comida di Buteco 2022, comida de boteco sem pretensão — tipografia com caráter, não boutique."
   ],

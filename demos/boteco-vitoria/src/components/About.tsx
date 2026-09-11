@@ -25,7 +25,7 @@ export function About() {
           </ul>
         </div>
         <div className="about-photo">
-          <img src="/fotos/ambiente.jpg" alt="Ambiente de boteco com mesas e iluminação baixa" />
+          <img src="/fotos/cachaca.jpg" alt="Escada, placas e cachaça no salão do Boteco Vitória" />
           <div className="about-badge">1º lugar Comida di Buteco 2022 · POA</div>
         </div>
       </div>

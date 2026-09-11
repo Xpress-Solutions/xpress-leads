@@ -2,15 +2,12 @@ import { SITE } from "../data/site";
 import { useReveal } from "../hooks/useReveal";
 
 const PHOTOS = [
-  { src: "/fotos/chopp.jpg", alt: "Chope gelado em copos de vidro", tall: true },
-  { src: "/fotos/petiscos.jpg", alt: "Mesa com petiscos e comida de boteco" },
-  { src: "/fotos/tijolada.jpg", alt: "Prato em destaque da casa" },
-  { src: "/fotos/ambiente.jpg", alt: "Salão interno do boteco", tall: true },
-  { src: "/fotos/feijoada.jpg", alt: "Feijoada servida em tigela" },
-  { src: "/fotos/drinks.jpg", alt: "Drinks e coquetéis do bar" },
-  { src: "/fotos/externo.jpg", alt: "Mesas em área externa" },
-  { src: "/fotos/amigos.jpg", alt: "Pessoas reunidas à mesa" },
-  { src: "/fotos/karaoke.jpg", alt: "Noite de karaokê" },
+  { src: "/fotos/ambiente.jpg", alt: "Salão interno do Boteco Vitória, com placas e bufê" },
+  { src: "/fotos/bufe.jpg", alt: "Bufê de feijoada do Boteco Vitória" },
+  { src: "/fotos/feijoada.jpg", alt: "Prato de feijoada servido no Vitória" },
+  { src: "/fotos/cachaca.jpg", alt: "Cachaça 51 e placas na parede do boteco" },
+  { src: "/fotos/petisco-cdb.jpg", alt: "Petisco do Boteco Vitória no Comida di Buteco" },
+  { src: "/fotos/varal.jpg", alt: "Varal d’Praia, petisco do Comida di Buteco 2024" },
 ];
 
 export function Gallery() {
