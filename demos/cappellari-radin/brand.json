@@ -1,0 +1,79 @@
+{
+  "leadId": "cappellari-radin",
+  "name": "Marmoraria Cappellari & Radin",
+  "positioning": "Marmoraria de avenida no Jardim Botânico: pátio de pedra na Ipiranga 8621, família no nome, catálogo nacional e importado para obra e arquiteto.",
+  "mood": "limpo-servico",
+  "voice": [
+    "sério",
+    "de oficina",
+    "direto",
+    "família no sobrenome",
+    "pedra na mesa",
+    "orçamento sem floreio"
+  ],
+  "avoid": [
+    "luxo boutique",
+    "roxo tech",
+    "creme terracotta genérico",
+    "SaaS",
+    "soluções inteligentes",
+    "Inter/Roboto no letreiro",
+    "cards no hero",
+    "stock de cozinha genérica"
+  ],
+  "colors": {
+    "background": "#131614",
+    "foreground": "#E8E6E1",
+    "brand": "#C9BE9A",
+    "accent": "#3D6B5A",
+    "surface": "#1E2320",
+    "muted": "#7A8278"
+  },
+  "typography": {
+    "display": "Cinzel",
+    "body": "Source Sans 3",
+    "rationale": "Cinzel carrega letra inscrita em lápide/mármore — combina com os sobrenomes italianos Cappellari e Radin. Source Sans 3 lê orçamento e endereço sem virar Inter/Roboto de template. Nada de Bebas de boteco nem serifada de armazém."
+  },
+  "imagery": {
+    "heroSubject": "Chapa de basalto/mármore em full-bleed — pátio de pedra, não fachada de bar nem bancada stock",
+    "atmosphere": [
+      "pátio de chapas na Ipiranga",
+      "basalto serrado e ardósia fosca",
+      "veio de mármore frio",
+      "oficina de corte, não showroom boutique",
+      "luz de galpão no térreo"
+    ],
+    "references": [
+      {
+        "label": "All.biz — ficha e catálogo público da casa",
+        "url": "https://20027-br.all.biz/"
+      },
+      {
+        "label": "Receita / GuiaPJ — ART PEDRAS RADIN LTDA, Ipiranga 8621",
+        "url": "https://guiapj.com.br/consulta-cnpj/06270798000178"
+      },
+      {
+        "label": "Infoisinfo — Art Pedras Marmoraria Cappellari e Radin",
+        "url": "https://porto-alegre.infoisinfo-br.com/busca/marmoraria/b/jardim-botanico"
+      },
+      {
+        "label": "LinkedIn — sede Av Ipiranga 8621 e domínio morto",
+        "url": "https://www.linkedin.com/company/cappellari-e-radin"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "A própria ficha em all.biz lista o catálogo: mármores e granitos nacionais e importados, tear, basalto, Caxambu, ardósia e pedras decorativas — a paleta sai dessas rochas, não de um tema SaaS. Fundo basalto (#131614), texto mármore honed (#E8E6E1), apoio ardósia cinza-verde (#7A8278).",
+    "Accent verde-ardósia (#3D6B5A) e brand mica/latão de granito (#C9BE9A) vêm do corte molhado da ardósia mineira e do brilho de mica no granito — não do vermelho de boteco nem do laranja de brasa do Armazém Anita.",
+    "Sem Instagram oficial, sem logo fotografado, sem Google Fotos da fachada. Nome fantasia na Receita é Art Pedra Material de Construção; razão social ART PEDRAS RADIN LTDA (CNPJ 06.270.798/0001-78); sócio Sadi Radin; Arthur Cappellari foi administrativo até 2024. O letreiro do site é o sobrenome inscrito, não um logotipo inventado.",
+    "Fachada pública: térreo na Avenida Ipiranga, 8621, Jardim Botânico, CEP 91530-001 — uma das maiores avenidas da cidade, como o texto da casa insiste. Telefone cadastral (51) 3225-3535. O domínio marmorariacappellarieradin.com.br citado no LinkedIn não responde (503): confirma a lacuna digital do lead.",
+    "Aplicações anunciadas no all.biz (escadas, mesas, lareiras, banheiras) + CNAE de aparelhamento de placas pedem UI afiada (radius sharp), densidade de showroom (airy) e hero de chapa inteira — oficina de pedra, não card de landing."
+  ],
+  "confidence": 0.62,
+  "researchedAt": "2026-09-02"
+}
