@@ -1,15 +1,13 @@
 import Image from "next/image";
 import { events } from "@/data/events";
+import { eventIcons } from "@/components/icons";
 import { DemoBadge } from "@/components/ui/Badge";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
-const typeIcons: Record<string, string> = {
-  futebol: "⚽",
-  musica: "🎶",
-  "happy-hour": "🍺",
-  especial: "✨",
-  promocao: "🏷",
-};
+function EventTypeIcon({ type }: { type: keyof typeof eventIcons }) {
+  const Icon = eventIcons[type];
+  return <Icon className="h-3.5 w-3.5" strokeWidth={2} aria-hidden />;
+}
 
 export function Eventos() {
   return (
@@ -44,8 +42,9 @@ export function Eventos() {
               </div>
 
               <div className="p-5">
-                <p className="text-xs font-bold tracking-widest text-anita-orange uppercase">
-                  {typeIcons[event.type]} {event.day}
+                <p className="flex items-center gap-1.5 text-xs font-bold tracking-widest text-anita-orange uppercase">
+                  <EventTypeIcon type={event.type} />
+                  {event.day}
                 </p>
                 <h3 className="mt-1 font-display text-2xl tracking-wide text-anita-black uppercase">
                   {event.title}

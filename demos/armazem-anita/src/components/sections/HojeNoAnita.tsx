@@ -1,4 +1,5 @@
 import { todayHighlight } from "@/data/events";
+import { Trophy } from "@/components/icons";
 import { DemoBadge } from "@/components/ui/Badge";
 
 export function HojeNoAnita() {
@@ -12,8 +13,9 @@ export function HojeNoAnita() {
           <DemoBadge className="!border-white/30 !bg-white/20 !text-white" />
         </div>
         <div className="flex flex-col items-center gap-2 sm:flex-row sm:gap-4">
-          <p className="text-center text-sm font-semibold text-white sm:text-base">
-            ⚽ {todayHighlight.title}
+          <p className="flex items-center gap-2 text-center text-sm font-semibold text-white sm:text-base">
+            <Trophy className="h-4 w-4 shrink-0" strokeWidth={2} aria-hidden />
+            {todayHighlight.title}
           </p>
           <a
             href="#eventos"

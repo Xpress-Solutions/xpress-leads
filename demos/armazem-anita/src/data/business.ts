@@ -26,32 +26,32 @@ export const business = {
 
 export const features = [
   {
-    icon: "☕",
+    icon: "coffee",
     title: "Café",
     description: "Comece o dia com um café no Anita.",
   },
   {
-    icon: "🥖",
+    icon: "bakery",
     title: "Padaria",
     description: "Itens para aquele café da manhã ou lanche.",
   },
   {
-    icon: "🛒",
+    icon: "market",
     title: "Mercadinho",
     description: "As compras rápidas que salvam o dia.",
   },
   {
-    icon: "🍽",
+    icon: "food",
     title: "Comida",
     description: "Para quando bate aquela fome.",
   },
   {
-    icon: "🍺",
+    icon: "beer",
     title: "Chope",
     description: "Porque o final do dia merece.",
   },
   {
-    icon: "🔥",
+    icon: "grill",
     title: "Churrasquinho",
     description: "Comida simples, direta e com cara de boteco.",
   },
@@ -60,11 +60,21 @@ export const features = [
 export const dayPhases = {
   morning: {
     title: "De manhã...",
-    items: ["☕ Café", "🥖 Padaria", "🛒 Compras rápidas"],
+    items: [
+      { icon: "coffee", label: "Café" },
+      { icon: "bakery", label: "Padaria" },
+      { icon: "market", label: "Compras rápidas" },
+    ],
   },
   evening: {
     title: "No fim do dia...",
-    items: ["🍺 Chope", "🔥 Churrasquinho", "⚽ Futebol", "🎶 Música", "🍽 Comida"],
+    items: [
+      { icon: "beer", label: "Chope" },
+      { icon: "grill", label: "Churrasquinho" },
+      { icon: "soccer", label: "Futebol" },
+      { icon: "music", label: "Música" },
+      { icon: "food", label: "Comida" },
+    ],
   },
 } as const;
 

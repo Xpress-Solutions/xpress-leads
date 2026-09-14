@@ -1,10 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { business } from "@/data/business";
-import { images } from "@/data/images";
+import { Logo } from "@/components/layout/Logo";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
@@ -47,13 +46,11 @@ export function Navbar() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 md:px-6">
           <Link href="#inicio" className="flex items-center gap-2">
-            <Image
-              src={images.logo}
-              alt="Armazém Anita — logo"
-              width={120}
-              height={48}
-              className="h-10 w-auto md:h-12"
+            <Logo
               priority
+              className={cn(
+                !scrolled && "drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]",
+              )}
             />
           </Link>
 

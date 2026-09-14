@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
-import { images } from "@/data/images";
 import { CardapioSection } from "@/components/sections/CardapioSection";
+import { Logo } from "@/components/layout/Logo";
 import { MobileBar } from "@/components/layout/MobileBar";
 
 export const metadata: Metadata = {
@@ -17,13 +16,7 @@ export default function CardapioPage() {
       <header className="bg-anita-black">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 md:px-6">
           <Link href="/">
-            <Image
-              src={images.logo}
-              alt="Armazém Anita"
-              width={100}
-              height={40}
-              className="h-10 w-auto"
-            />
+            <Logo className="h-10 w-auto" />
           </Link>
           <Link
             href="/"

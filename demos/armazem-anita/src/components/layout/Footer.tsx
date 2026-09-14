@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { business } from "@/data/business";
-import { images } from "@/data/images";
+import { Logo } from "@/components/layout/Logo";
 
 const footerLinks = [
   { href: "#inicio", label: "Início" },
@@ -18,13 +17,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="flex flex-col items-center gap-8 md:flex-row md:items-start md:justify-between">
           <div className="text-center md:text-left">
-            <Image
-              src={images.logo}
-              alt="Armazém Anita"
-              width={140}
-              height={56}
-              className="mx-auto h-14 w-auto md:mx-0"
-            />
+            <Logo className="mx-auto h-14 w-auto md:mx-0" />
             <p className="mt-4 text-sm text-white/60">
               {business.address.street}
               <br />
