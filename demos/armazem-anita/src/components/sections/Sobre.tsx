@@ -29,10 +29,10 @@ export function Sobre() {
 
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-lg">
             <Image
-              src={images.fachada}
-              alt="Fachada do Armazém Anita na Rua Buenos Aires, Jardim Botânico"
+              src="/images/instagram/ig-09-Dcb0rGzD9_J.jpg"
+              alt="Interior do Armazém Anita — padaria, salgados e prateleiras"
               fill
-              className="object-cover"
+              className="object-cover object-center"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-anita-black/60 to-transparent" />
@@ -41,8 +41,8 @@ export function Sobre() {
                 src={images.logo}
                 alt="Logo Armazém Anita"
                 width={120}
-                height={48}
-                className="h-10 w-auto"
+                height={120}
+                className="h-14 w-14 rounded-full object-cover"
               />
             </div>
           </div>

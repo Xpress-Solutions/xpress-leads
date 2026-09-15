@@ -49,8 +49,8 @@ export function DiaTransformacao() {
             <div className="grid grid-cols-2 gap-3">
               <div className="relative aspect-[3/4] overflow-hidden rounded-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=80"
-                  alt="Café da manhã no Anita — demonstrativo"
+                  src="/images/manha-padaria.jpg"
+                  alt="Padaria fresca no Anita — pães e itens feitos na hora"
                   fill
                   className="object-cover"
                   sizes="50vw"
@@ -89,7 +89,7 @@ export function CafeManha() {
           <div className="relative h-64 w-full md:h-80 md:w-1/2">
             <Image
               src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
-              alt="Café com leite e padaria — demonstrativo"
+              alt="Padaria fresca no Armazém Anita — pães e itens feitos na hora"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -100,15 +100,18 @@ export function CafeManha() {
               Bom dia, Jardim Botânico.
             </p>
             <h3 className="mt-2 font-display text-4xl tracking-wide text-anita-black uppercase">
-              Café com Leite
+              Café da manhã no Anita
             </h3>
             <p className="mt-4 text-anita-gray">
-              O clássico para começar o dia no Anita. Padaria, mercadinho e
-              aquele café quentinho no balcão.
+              No armazém tem o que você precisa pra montar o café da manhã:
+              padaria feita na hora, pães quentinhos, frios, mercadinho e o
+              essencial do dia a dia — tudo no mesmo lugar.
             </p>
-            <p className="mt-4 font-display text-2xl text-anita-orange uppercase">
-              R$ --,--
-            </p>
+            <ul className="mt-5 space-y-2 text-sm text-anita-black/80">
+              <li>• Itens de padaria frescos, feitos na hora</li>
+              <li>• Pães, salgados e o básico do café</li>
+              <li>• Mercadinho para completar a mesa</li>
+            </ul>
           </div>
         </div>
       </div>

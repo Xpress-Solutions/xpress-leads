@@ -33,7 +33,7 @@ export const events: Event[] = [
     date: "Data demonstrativa",
     day: "—",
     time: "Horário demonstrativo",
-    image: images.evento,
+    image: "/images/musica-ao-vivo.jpg",
     type: "musica",
     isPlaceholder: true,
   },
@@ -44,8 +44,7 @@ export const events: Event[] = [
     date: "Data demonstrativa",
     day: "—",
     time: "Horário demonstrativo",
-    image:
-      "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+    image: "/images/instagram/ig-07-Dcgx5i4OChQ.jpg",
     type: "happy-hour",
     isPlaceholder: true,
   },

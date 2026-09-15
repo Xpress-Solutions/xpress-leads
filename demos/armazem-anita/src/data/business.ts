@@ -60,7 +60,7 @@ export const features = [
 export const dayPhases = {
   morning: {
     title: "De manhã...",
-    items: ["☕ Café", "🥖 Padaria", "🛒 Compras rápidas"],
+    items: ["🥖 Padaria na hora", "🛒 Mercadinho", "☕ Café da manhã completo"],
   },
   evening: {
     title: "No fim do dia...",
@@ -68,15 +68,21 @@ export const dayPhases = {
   },
 } as const;
 
-export const hoursPlaceholder = [
-  { day: "Segunda", hours: "--:-- às --:--" },
-  { day: "Terça", hours: "--:-- às --:--" },
-  { day: "Quarta", hours: "--:-- às --:--" },
-  { day: "Quinta", hours: "--:-- às --:--" },
-  { day: "Sexta", hours: "--:-- às --:--" },
-  { day: "Sábado", hours: "--:-- às --:--" },
-  { day: "Domingo", hours: "--:-- às --:--" },
+export const openingHoursNote =
+  "Horário de sexta e sábado pode variar conforme a programação de eventos.";
+
+export const openingHours = [
+  { day: "Segunda", hours: "08:00 às 20:30" },
+  { day: "Terça", hours: "08:00 às 20:30" },
+  { day: "Quarta", hours: "08:00 às 20:30" },
+  { day: "Quinta", hours: "08:00 às 20:30" },
+  { day: "Sexta", hours: "08:00 às 20:30*" },
+  { day: "Sábado", hours: "08:00 às 20:30*" },
+  { day: "Domingo", hours: "Fechado" },
 ] as const;
+
+/** @deprecated use openingHours */
+export const hoursPlaceholder = openingHours;
 
 export const reviewThemes = [
   "Padaria",

@@ -6,6 +6,7 @@ import {
   MenuItem,
   menuCategories,
   menuItems,
+  sortMenuItems,
 } from "@/data/menu";
 import { MenuCard } from "@/components/cardapio/MenuCard";
 import { SectionTitle } from "@/components/ui/SectionTitle";
@@ -24,22 +25,27 @@ export function CardapioSection({
   const [activeCategory, setActiveCategory] = useState<MenuCategory>("todos");
   const [search, setSearch] = useState("");
 
-  const filtered = menuItems.filter((item) => {
-    const matchesCategory =
-      activeCategory === "todos" || item.category === activeCategory;
-    const matchesSearch =
-      search === "" ||
-      item.name.toLowerCase().includes(search.toLowerCase()) ||
-      item.description.toLowerCase().includes(search.toLowerCase());
-    return matchesCategory && matchesSearch;
-  });
+  const filtered = sortMenuItems(
+    menuItems.filter((item) => {
+      const matchesCategory =
+        activeCategory === "todos" || item.category === activeCategory;
+      const matchesSearch =
+        search === "" ||
+        item.name.toLowerCase().includes(search.toLowerCase()) ||
+        item.description.toLowerCase().includes(search.toLowerCase());
+      return matchesCategory && matchesSearch;
+    }),
+  );
 
   const displayItems = showAll ? filtered : filtered.slice(0, limit);
 
   return (
     <section
       id="cardapio"
-      className="bg-white py-20 md:py-28"
+      className={cn(
+        "bg-white",
+        showAll ? "pt-8 pb-20 md:pt-10 md:pb-28" : "py-20 md:py-28",
+      )}
     >
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <SectionTitle

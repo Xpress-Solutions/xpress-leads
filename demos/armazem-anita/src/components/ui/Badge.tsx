@@ -7,6 +7,7 @@ const tagStyles: Record<MenuTag, string> = {
   "para-compartilhar": "bg-anita-cream-dark text-anita-black",
   novidade: "bg-green-800 text-white",
   "happy-hour": "bg-amber-500 text-anita-black",
+  "sem-alcool": "bg-sky-700 text-white",
 };
 
 export function Badge({

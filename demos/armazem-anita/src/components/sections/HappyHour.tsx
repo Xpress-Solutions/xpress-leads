@@ -7,11 +7,12 @@ export function HappyHour() {
   return (
     <section className="relative overflow-hidden py-20 md:py-28">
       <Image
-        src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=1920&q=80"
+        src="/images/happy-hour-ig.jpg"
         alt="Happy hour no Anita — chope e petiscos"
         fill
-        className="object-cover"
+        className="object-cover object-center"
         sizes="100vw"
+        priority={false}
       />
       <div className="absolute inset-0 bg-anita-black/75" />
 

@@ -50,9 +50,9 @@ export function Navbar() {
             <Image
               src={images.logo}
               alt="Armazém Anita — logo"
-              width={120}
-              height={48}
-              className="h-10 w-auto md:h-12"
+              width={96}
+              height={96}
+              className="h-16 w-16 rounded-full object-cover md:h-20 md:w-20"
               priority
             />
           </Link>
