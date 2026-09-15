@@ -2,7 +2,6 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { MobileBar } from "@/components/layout/MobileBar";
 import { Hero } from "@/components/sections/Hero";
-import { HojeNoAnita } from "@/components/sections/HojeNoAnita";
 import { TudoUmPouco } from "@/components/sections/TudoUmPouco";
 import { CardapioSection } from "@/components/sections/CardapioSection";
 import { Destaques } from "@/components/sections/Destaques";
@@ -21,7 +20,6 @@ export default function HomePage() {
       <Navbar />
       <main>
         <Hero />
-        <HojeNoAnita />
         <TudoUmPouco />
         <CardapioSection limit={4} />
         <Destaques />
