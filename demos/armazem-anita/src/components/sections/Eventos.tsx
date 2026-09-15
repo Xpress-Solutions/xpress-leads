@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { business } from "@/data/business";
 import { events } from "@/data/events";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
@@ -58,12 +57,6 @@ export function Eventos() {
                 {event.time ? (
                   <p className="mt-3 text-xs text-anita-gray-light">{event.time}</p>
                 ) : null}
-                <a
-                  href={business.phoneLink}
-                  className="mt-auto pt-4 text-sm font-bold tracking-wide text-anita-orange uppercase transition-colors hover:text-anita-orange-dark"
-                >
-                  Mais Informações →
-                </a>
               </div>
             </article>
           ))}
