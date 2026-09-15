@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { MenuItem } from "@/data/menu";
-import { Badge, DemoBadge } from "@/components/ui/Badge";
+import { Badge } from "@/components/ui/Badge";
 import { cn } from "@/lib/utils";
 
 interface MenuCardProps {
@@ -30,11 +30,6 @@ export function MenuCard({ item, compact = false }: MenuCardProps) {
           sizes={compact ? "96px" : "(max-width: 768px) 100vw, 33vw"}
           loading="lazy"
         />
-        {item.isPlaceholder && (
-          <div className="absolute top-2 left-2">
-            <DemoBadge />
-          </div>
-        )}
       </div>
 
       <div className={cn("p-4", compact && "flex flex-1 flex-col justify-center !p-0")}>

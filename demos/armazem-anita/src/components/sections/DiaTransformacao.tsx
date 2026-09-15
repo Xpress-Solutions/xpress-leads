@@ -63,7 +63,7 @@ export function DiaTransformacao() {
               <div className="relative mt-8 aspect-[3/4] overflow-hidden rounded-2xl">
                 <Image
                   src="https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&q=80"
-                  alt="Chope no happy hour — demonstrativo"
+                  alt="Chope no happy hour"
                   fill
                   className="object-cover"
                   sizes="50vw"

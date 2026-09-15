@@ -1,5 +1,4 @@
 import { todayHighlight } from "@/data/events";
-import { DemoBadge } from "@/components/ui/Badge";
 
 export function HojeNoAnita() {
   return (
@@ -9,7 +8,6 @@ export function HojeNoAnita() {
           <span className="rounded bg-anita-black px-2 py-0.5 text-xs font-bold tracking-widest text-white uppercase">
             Hoje no Anita
           </span>
-          <DemoBadge className="!border-white/30 !bg-white/20 !text-white" />
         </div>
         <div className="flex flex-col items-center gap-2 sm:flex-row sm:gap-4">
           <p className="text-center text-sm font-semibold text-white sm:text-base">

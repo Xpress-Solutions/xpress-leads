@@ -54,8 +54,7 @@ export function Avaliacoes() {
                 ))}
               </div>
               <p className="text-sm text-white/50 italic">
-                Avaliação real disponível no Google. Placeholder demonstrativo
-                #{n}.
+                Confira as avaliações reais no Google — tema #{n}.
               </p>
               <p className="mt-4 text-xs text-white/30">— Cliente Google</p>
             </div>

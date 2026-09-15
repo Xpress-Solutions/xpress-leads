@@ -29,16 +29,3 @@ export function Badge({
     </span>
   );
 }
-
-export function DemoBadge({ className }: { className?: string }) {
-  return (
-    <span
-      className={cn(
-        "rounded-full border border-dashed border-anita-gray/40 bg-white/80 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-anita-gray",
-        className,
-      )}
-    >
-      Demonstrativo
-    </span>
-  );
-}
