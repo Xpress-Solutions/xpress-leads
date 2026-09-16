@@ -1,0 +1,78 @@
+{
+  "leadId": "arvo-bar",
+  "name": "Arvo Bar",
+  "positioning": "Bar e parrilla no Centro Histórico: sanduba de concurso, fogo à vista e a noite da Fernando Machado — a vida acontece na calçada.",
+  "mood": "urbano-noturno",
+  "voice": [
+    "de rua",
+    "parrilleiro",
+    "direto",
+    "orgulhoso do sanduba",
+    "noite de centro"
+  ],
+  "avoid": [
+    "luxo",
+    "roxo tech",
+    "creme terracotta genérico",
+    "boteco de madeira de estoque",
+    "eco-verde de arvoredo"
+  ],
+  "colors": {
+    "background": "#0C0D10",
+    "foreground": "#F2EFE6",
+    "brand": "#FF2D2D",
+    "accent": "#F3E200",
+    "surface": "#1A1C20",
+    "muted": "#8B8374"
+  },
+  "typography": {
+    "display": "Oswald — geométrica condensada, no peso do letreiro neon ARVO",
+    "body": "Manrope — grotesk humanista para cardápio, horário e endereço",
+    "rationale": "O nome na fachada é neon vermelho em caixa-alta geométrica; Oswald carrega o letreiro sem virar Inter/Roboto. O amarelo dos tubos e do zigue-zague interno vira accent de CTA. Fundo carvão de noite, não creme de armazém."
+  },
+  "imagery": {
+    "heroSubject": "Fachada noturna na Fernando Machado: letreiro neon ARVO vermelho, tubos amarelos no vão e mesas na calçada",
+    "atmosphere": [
+      "neon vermelho do nome + triângulo",
+      "tubos amarelos e zigue-zague atrás do balcão",
+      "parrilla a lenha e tijolo aparente",
+      "mesas de madeira na calçada",
+      "samba de domingo e tela de jogo"
+    ],
+    "references": [
+      {
+        "label": "Instagram @arvobar",
+        "url": "https://www.instagram.com/arvobar/"
+      },
+      {
+        "label": "Jornal do Comércio / Tânia Meinerz — inauguração e parrilla",
+        "url": "https://www.jornaldocomercio.com/ge2/noticias/2023/11/1130011-comandada-por-padrasto-e-enteado-nova-operacao-une-bar-e-parrilla-na-antiga-rua-do-arvoredo.html"
+      },
+      {
+        "label": "GZH / Renan Mattos — fachada neon e a rua",
+        "url": "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2025/04/de-futebol-a-tatuagem-bares-tematicos-agitam-a-noite-em-regiao-do-centro-historico-em-porto-alegre-cm9vg3y3o0080013kz1487zw6.html"
+      },
+      {
+        "label": "Comida di Buteco 2026 — O Melhor Sanduba do Mundo",
+        "url": "https://comidadibuteco.com.br/buteco/arvo-bar/"
+      },
+      {
+        "label": "Restaurant Guru / Google 4,7",
+        "url": "https://restaurantguru.com.br/ARVO-BAR-Porto-Alegre"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "sharp",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Foto da GZH (Renan Mattos) da fachada à noite: letreiro neon vermelho ARVO em caixa-alta geométrica, triângulo vermelho abaixo do nome e tubos amarelo-ouro emoldurando o vão — brand vermelho elétrico e accent amarelo neon vêm daí, não de paleta SaaS.",
+    "Fotos do JC (Tânia Meinerz): interior de tijolo, grelha a lenha com chama laranja, balcão de concreto com tela de metal preta e neon amarelo em zigue-zague; sanduíche de baguete grelhada com o mesmo neon ao fundo.",
+    "Nome homenageia a antiga rua do Arvoredo (Fernando Machado) sem o crime: casa de designer, parrilla à vista, mesas na calçada, samba de domingo e tela de jogo — mood urbano-noturno, denso, cantos vivos.",
+    "Petisco público do Comida di Buteco 2026 é O Melhor Sanduba do Mundo (baguete, entrecôte, coalho, rúcula); Google 4,7 e telefone 51 98010-1187 batem nas listagens."
+  ],
+  "confidence": 0.82,
+  "researchedAt": "2026-09-02"
+}
