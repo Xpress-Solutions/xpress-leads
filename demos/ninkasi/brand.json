@@ -1,0 +1,90 @@
+{
+  "leadId": "ninkasi",
+  "name": "Ninkasi Bar",
+  "positioning": "Bar de cerveja artesanal na João Alfredo: deusa suméria na fachada, nove torneiras de Sapatista e DaLuz, casa gerida por mulheres.",
+  "mood": "artesanal",
+  "voice": [
+    "manifesto curto",
+    "ofício",
+    "deusa sem misticismo vazio",
+    "causa sem panfleto",
+    "acolhedor e direto"
+  ],
+  "avoid": [
+    "luxo",
+    "minimalismo frio",
+    "roxo tech",
+    "creme terracotta genérico",
+    "boteco genérico de template",
+    "Inter/Roboto como display"
+  ],
+  "colors": {
+    "background": "#10140F",
+    "foreground": "#F2E8D0",
+    "brand": "#D4922A",
+    "accent": "#AC2A17",
+    "surface": "#1A2218",
+    "muted": "#6A7D52"
+  },
+  "typography": {
+    "display": "Cinzel — serifada lapidar, peso de inscrição",
+    "body": "Figtree — grotesk humanista para cardápio e horários",
+    "rationale": "O nome é deusa suméria: Cinzel carrega pedra e hino, não placa de boteco (Bebas) nem armazém. Figtree lê chope e endereço sem cair em Inter/Roboto."
+  },
+  "imagery": {
+    "heroSubject": "Fachada no 557: mural de Ana Scarcelli com a deusa, lúpulo, cereal, gato preto, caldeirão e vassoura sobre parede carvão",
+    "atmosphere": [
+      "mural noturno na João Alfredo",
+      "lúpulo verde e cevada dourada",
+      "gato preto e caldeirão da história das cervejeiras",
+      "uniforme preto com selo Ninkasi Bar · birras & comidas",
+      "torneiras Sapatista/DaLuz",
+      "sinuca e pingue-pongue no fundo"
+    ],
+    "references": [
+      {
+        "label": "Instagram @ninkasi_bar_poa",
+        "url": "https://www.instagram.com/ninkasi_bar_poa/"
+      },
+      {
+        "label": "Jornal do Comércio — fachada e Roberta Pierry (Andressa Pufal)",
+        "url": "https://www.jornaldocomercio.com/_conteudo/ge2/noticias/2021/11/818450-cervejarias-comandadas-por-mulheres-abrem-bar-na-cidade-baixa.html"
+      },
+      {
+        "label": "Rua da Margem — mural da deusa (Ana Scarcelli)",
+        "url": "https://www.ruadamargem.com/lugares/cerveja-coisa-de-mulher-sim"
+      },
+      {
+        "label": "Revista da Cerveja — inauguração e WhatsApp",
+        "url": "https://revistadacerveja.com.br/2021/11/04/ninkasi-bar-mulheres-cervejeiras-honram-a-origem-da-cerveja-e-abrem-bar-gerido-so-por-mulheres/"
+      },
+      {
+        "label": "Sapatista — cor de marca #AC2A17 e endereço João Alfredo 557",
+        "url": "https://sapatista.com.br/"
+      },
+      {
+        "label": "QuintoAndar / Ninkasi",
+        "url": "https://www.quintoandar.com.br/regioes-atendidas/cidade-baixa-porto-alegre-rs-brasil-9p6wtn17dr/local/ninkasi-bar"
+      },
+      {
+        "label": "Comida di Buteco 2026 — Peppa Mafiosa",
+        "url": "https://revistasaboresdosul.com.br/comida-di-buteco-2026-reune-31-bares-em-porto-alegre-e-canoas/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Fotos da fachada (Jornal do Comércio / Rua da Margem / Revista da Cerveja): parede carvão, sol e cevada âmbar-ouro, lúpulo verde, cabelo/líquido vermelho, gato preto, caldeirão e vassoura — Ana Scarcelli com Leandro Alves.",
+    "Site da Sapatista usa #AC2A17 (vermelho-tijolo) no símbolo triangular e nos CTAs; o triângulo vermelho reaparece nas camisetas e nos rótulos. Vira accent de WhatsApp/ligar, não o vermelho-sangue de boteco genérico.",
+    "Roberta descreve a fachada ao JC: Ninkasi + lúpulo e cereais + gato, caldeirão e vassoura da caça às bruxas — a paleta vem dessa pintura, não de um tema SaaS.",
+    "Casa noturna na João Alfredo até 2h (lead 2026: ter–sáb): fundo escuro com verde de lúpulo, oposto ao papel-algodão diurno do Anita e ao ouro/vermelho de esquina do Vitória.",
+    "Uniforme da equipe: camiseta preta com selo branco NINKASI BAR · BIRRAS & COMIDAS; chef com botões e bandana vermelhos — reforça carvão + vermelho-tijolo.",
+    "Sapatista se apresenta como 'cerveja feita por mulher' / 'cerveja revolucionária'; DaLuz entra como sócia na produção. O site é manifesto curto, não landing de delivery."
+  ],
+  "confidence": 0.82,
+  "researchedAt": "2026-09-02"
+}
