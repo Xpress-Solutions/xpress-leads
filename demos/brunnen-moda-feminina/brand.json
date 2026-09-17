@@ -1,0 +1,67 @@
+{
+  "leadId": "brunnen-moda-feminina",
+  "name": "Brunnen Moda Feminina",
+  "positioning": "Boutiques de Moinhos: vestir, sentir, viver — moda contemporânea para a mulher atual, real e consciente.",
+  "mood": "premium-casual",
+  "voice": [
+    "contemporânea",
+    "elegante",
+    "consciente",
+    "leve",
+    "versátil",
+    "sem pose"
+  ],
+  "avoid": [
+    "fast fashion barato",
+    "roxo tech",
+    "creme terracotta genérico",
+    "Inter/Roboto no display",
+    "cards no hero",
+    "stock de shopping genérico"
+  ],
+  "colors": {
+    "background": "#F6F1EA",
+    "foreground": "#1C1916",
+    "brand": "#1F3D63",
+    "accent": "#C4A574",
+    "surface": "#FFFBF6",
+    "muted": "#8B8176"
+  },
+  "typography": {
+    "display": "Cormorant Garamond — serifada editorial de lookbook",
+    "body": "Outfit — grotesk fina de boutique, não Inter",
+    "rationale": "O Instagram e o Facebook falam de leveza, elegância e caimento fluido. Cormorant carrega o nome da casa como revista de moda; Outfit lê endereço, horário e WhatsApp no celular."
+  },
+  "imagery": {
+    "heroSubject": "Mulher contemporânea em conjunto azul fluido, a peça da semana no Facebook da casa",
+    "atmosphere": [
+      "caimento fluido e versátil",
+      "navy, marfim e dourado quieto",
+      "loja clara de Moinhos",
+      "composição fácil de adaptar"
+    ],
+    "references": [
+      {
+        "label": "Instagram @brunnenmodafeminina",
+        "url": "https://www.instagram.com/brunnenmodafeminina/"
+      },
+      {
+        "label": "Facebook Brunnen Moda Feminina",
+        "url": "https://www.facebook.com/brunnenmodafeminina/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "soft",
+    "density": "airy",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Bio do Instagram: 'Vestir, sentir, viver. Rua Padre Chagas, 242 Moinhos de Vento. Compre pelo Whatsapp.'",
+    "Facebook: 'Atual, real e consciente; assim é a cliente Brunnen.' Loja de roupas femininas, e-mail brunnenmoinhos@gmail.com.",
+    "Post 16/09/2026: conjunto azul de caimento fluido, leveza e elegância, peças juntas ou separadas — define --brand navy e a voz da coleção.",
+    "Horário público: seg–sex 10h–19h, sáb 10h–18h, domingo fechado. WhatsApp (51) 98189-1335; loja (51) 3019-3335."
+  ],
+  "confidence": 0.78,
+  "researchedAt": "2026-09-17"
+}
