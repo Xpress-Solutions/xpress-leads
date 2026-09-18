@@ -1,0 +1,67 @@
+{
+  "leadId": "estetica-automotiva-mlp",
+  "name": "Estética Automotiva MLP",
+  "positioning": "Chapeação, pintura e estética automotiva na Rua Guilherme Alves, 299 — oficina de bairro com acabamento de carroceria.",
+  "mood": "limpo-servico",
+  "voice": [
+    "direta",
+    "técnica",
+    "confiante",
+    "sem enrolação",
+    "oficina de verdade"
+  ],
+  "avoid": [
+    "roxo tech",
+    "Inter/Roboto no display",
+    "cards no hero",
+    "concessionária genérica",
+    "lorem de funilaria"
+  ],
+  "colors": {
+    "background": "#0C0C0E",
+    "foreground": "#F3EEEA",
+    "brand": "#97000E",
+    "accent": "#C4121F",
+    "surface": "#161618",
+    "muted": "#8A8580"
+  },
+  "typography": {
+    "display": "Barlow Condensed — o MLP do logo é largo, pesado e de oficina",
+    "body": "Manrope — a mesma família do site atual em Elementor",
+    "rationale": "O logotipo usa MLP vinho sobre branco com um R8 vermelho. O CSS do site marca hover em #97000E e fundos pretos. Manrope já está no Elementor; Barlow Condensed carrega o nome como letreiro de funilaria, não como SaaS."
+  },
+  "imagery": {
+    "heroSubject": "Cabine de pintura: pistola na carroceria preta brilhante",
+    "atmosphere": [
+      "vinho do logo e preto da oficina",
+      "brilho de verniz e farol",
+      "trabalhos reais da casa (WhatsApp da galeria)",
+      "Rua Guilherme Alves, Jardim Botânico"
+    ],
+    "references": [
+      {
+        "label": "Site atual Busca Hoje Brasil",
+        "url": "https://buscahojebrasil.com.br/site/estetica-automotiva-mlp-chapeacao-e-pintura-porto-alegre/"
+      },
+      {
+        "label": "Instagram @esteticaautomotivamlp",
+        "url": "https://www.instagram.com/esteticaautomotivamlp/"
+      }
+    ]
+  },
+  "ui": {
+    "radius": "mixed",
+    "density": "compact",
+    "heroStyle": "full-bleed"
+  },
+  "evidence": [
+    "Logo oficial: ‘Estética Automotiva MLP’ em vinho #97000E sobre branco, com Audi R8 vermelho/cinza.",
+    "Elementor do site: fundo #000, hover de menu #97000E, fontes DM Sans e Manrope.",
+    "Serviços no site: martelinho de ouro, espelhamento, recuperação de para-choque, pintura, polimento.",
+    "Contatos: WhatsApp (51) 99182-7797; loja (51) 3023-6445 e 3023-6425. Rua Guilherme Alves, 299 — Jardim Botânico / Petrópolis, Porto Alegre.",
+    "Galeria do site: fotos reais de WhatsApp (jun/2025) de batidas, pintura e Mercedes na oficina.",
+    "CNPJ 04.699.028/0001-10, ativa desde 2001, CNAE de lanternagem/funilaria e pintura."
+  ],
+  "confidence": 0.86,
+  "researchedAt": "2026-09-18"
+}
