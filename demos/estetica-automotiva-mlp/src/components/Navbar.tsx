@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { NAV, SITE, type NavHref } from "@/data/site";
 
 export function Navbar() {
@@ -8,6 +8,51 @@ export function Navbar() {
   const [hidden, setHidden] = useState(false);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<NavHref | "#inicio">("#inicio");
+  const titleRef = useRef<HTMLSpanElement>(null);
+  const mlpRef = useRef<HTMLSpanElement>(null);
+
+  useLayoutEffect(() => {
+    const title = titleRef.current;
+    const mlp = mlpRef.current;
+    if (!title || !mlp) return;
+
+    const fitTitleWidth = () => {
+      const target = mlp.getBoundingClientRect().width;
+      if (target <= 0) return;
+
+      let low = 6;
+      let high = 64;
+      title.style.letterSpacing = "normal";
+      title.style.whiteSpace = "nowrap";
+      title.style.display = "block";
+
+      for (let i = 0; i < 24; i++) {
+        const mid = (low + high) / 2;
+        title.style.fontSize = `${mid}px`;
+        const width = title.getBoundingClientRect().width;
+        if (width < target) low = mid;
+        else high = mid;
+      }
+
+      title.style.fontSize = `${high}px`;
+    };
+
+    const run = () => {
+      fitTitleWidth();
+      requestAnimationFrame(fitTitleWidth);
+    };
+
+    run();
+    void document.fonts.ready.then(run);
+
+    const observer = new ResizeObserver(run);
+    observer.observe(mlp);
+    window.addEventListener("resize", run);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("resize", run);
+    };
+  }, []);
 
   useEffect(() => {
     let last = window.scrollY;
@@ -57,9 +102,33 @@ export function Navbar() {
           hidden ? "-translate-y-full" : "translate-y-0"
         } ${scrolled || open ? "bg-[#0c0c0e]/90 shadow-[0_16px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl" : "bg-transparent"}`}
       >
-        <div className="page-pad flex h-[4.5rem] items-center justify-between md:h-[5rem]">
-          <a href="#inicio" className="flex items-center" onClick={() => setOpen(false)}>
-            <img src="/fotos/logo.png" alt="Estética Automotiva MLP" className="h-9 w-auto md:h-11" />
+        <div className="page-pad flex h-[5.1rem] items-center justify-between md:h-[5.9rem]">
+          <a
+            href="#inicio"
+            className="flex items-center gap-2.5 md:gap-3"
+            onClick={() => setOpen(false)}
+            aria-label="Estética Automotiva MLP"
+          >
+            <span className="inline-flex flex-col items-start leading-none">
+              <span
+                ref={titleRef}
+                className="block whitespace-nowrap text-white italic"
+              >
+                Estética Automotiva
+              </span>
+              <span
+                ref={mlpRef}
+                className="font-display block text-[2.65rem] leading-[0.8] font-extrabold tracking-[-0.045em] text-[#c4121f] italic md:text-[3.2rem]"
+              >
+                MLP
+              </span>
+            </span>
+            <img
+              src="/fotos/logo-car.png"
+              alt=""
+              className="h-11 w-auto object-contain md:h-[3.7rem]"
+              aria-hidden="true"
+            />
           </a>
           <nav className="hidden items-center gap-8 lg:flex" aria-label="Principal">
             {NAV.map((item) => (
